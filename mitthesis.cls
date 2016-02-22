@@ -220,8 +220,8 @@
 %	into 1in margin.
 %  Draft mode brings the header back down.
 
-\setlength{\oddsidemargin}{0.25in}	% 1.25in left margin 
-\setlength{\evensidemargin}{0.25in}	% 1.25in left margin (even pages)
+\setlength{\oddsidemargin}{0.0in}	% 1.25in left margin 
+\setlength{\evensidemargin}{0.0in}	% 1.25in left margin (even pages)
 \setlength{\topmargin}{0.0in}		% 1in top margin
 \setlength{\textwidth}{6.0in}		% 6.0in text - 1.25in rt margin
 \setlength{\textheight}{9in}		% Body ht for 1in margins
@@ -343,7 +343,7 @@
    \@afterindentfalse		% Suppresses indent in first paragraph.  Change
    \secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
 \else
-\def\chapter{\cleardoublepage	% Starts new page.
+\def\chapter{\clearpage %\cleardoublepage	% Starts new page.
    \thispagestyle{plain}	% Page style of chapter page is 'plain'
    \global\@topnum\z@		% Prevents figures from going at top of page.
    \@afterindentfalse		% Suppresses indent in first paragraph.  Change
@@ -369,6 +369,8 @@
 \def\@prevdegrees{}
 
 \def\department#1{\gdef\@department{#1}}
+\def\school#1{\gdef\@school{#1}} % e.g., School of Architecture and Planning
+
 
 % If you are getting two degrees, use \and between the names.
 \def\degree#1{\setbox0\hbox{#1}	 %for side effect of setting \@degreeword
@@ -455,7 +457,8 @@ by\par
 \par
 \@prevdegrees
 \par
-\choosecase{Submitted to the} \choosecase{\@department} \\
+\choosecase{Submitted to the} \choosecase{\@department}, \\
+\choosecase{\@school} \\
 \choosecase{in partial fulfillment of the requirements for the}
 \choosecase{\@degreeword} 
 \choosecase{of}
@@ -532,4 +535,33 @@ requirements for the \@degreeword\ of \\
 
 \def\abstract{\subsection*{Abstract}\small\def\baselinestretch{1}\@normalsize}
 \def\endabstract{\par}
+
+% Add reader signatures for Media Lab thesis
+
+%% [AYB]
+%% Add a page for reader signature
+% Usage: \reader{name}{title}{dept}
+% since there is almost more than one reader,
+% we build the appropriate boxes for the readerpage
+% as the user makes multiple calls to \reader
+\newbox\@readers
+
+\def\reader#1#2#3{\setbox\@readers\vbox
+  {\unvbox\@readers \vskip 50pt  %% plus 1fil minus 1fil
+  \def\baselinestretch{1}\large
+  \signature{Thesis Reader}{#1 \\ #2 \\ #3}}
+}
+
+\def\readerpage{\newpage
+\begin{center}{\large{\bf \@title} \\
+by \\
+\@author \\[\baselineskip]}\end{center}
+\par\noindent
+The following people served as readers for this thesis:\\
+\par
+\unvbox\@readers
+\par
+\newpage
+}
+
 
