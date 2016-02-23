@@ -551,17 +551,6 @@ requirements for the \@degreeword\ of \\
   \def\baselinestretch{1}\large
   \signature{Thesis Reader}{#1 \\ #2 \\ #3}}
 }
-
-\def\readerpage{\newpage
-\begin{center}{\large{\bf \@title} \\
-by \\
-\@author \\[\baselineskip]}\end{center}
-\par\noindent
-The following people served as readers for this thesis:\\
-\par
-\unvbox\@readers
-\par
-\newpage
-}
+ 
 
 
