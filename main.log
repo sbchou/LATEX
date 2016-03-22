@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAR 2016 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main.
 (./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -152,76 +152,76 @@ LaTeX Warning: Citation `Pew-bias-2012' on page 11 undefined on input line 10.
 
 [11]
 
-LaTeX Warning: Citation `patterson:risc' on page 12 undefined on input line 31.
+LaTeX Warning: Citation `patterson:risc' on page 12 undefined on input line 28.
 
 
 
-LaTeX Warning: Citation `rad83' on page 12 undefined on input line 31.
+LaTeX Warning: Citation `rad83' on page 12 undefined on input line 28.
 
 
-LaTeX Warning: Citation `ellis:bulldog' on page 12 undefined on input line 39.
+LaTeX Warning: Citation `ellis:bulldog' on page 12 undefined on input line 36.
 
 
-LaTeX Warning: Citation `pet87' on page 12 undefined on input line 39.
+LaTeX Warning: Citation `pet87' on page 12 undefined on input line 36.
 
 
 LaTeX Warning: Citation `coutant:precision-compilers' on page 12 undefined on i
-nput line 39.
+nput line 36.
 
 
-LaTeX Warning: Citation `gib86' on page 12 undefined on input line 43.
+LaTeX Warning: Citation `gib86' on page 12 undefined on input line 40.
 
 [12]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <5> on input line 72.
 
 
 LaTeX Warning: Reference `exponent-format' on page 13 undefined on input line 7
-5.
+2.
 
 
 LaTeX Warning: Reference `mantissa-format' on page 13 undefined on input line 7
-5.
+2.
 
 
-LaTeX Warning: Reference `unnorm-math' on page 13 undefined on input line 76.
+LaTeX Warning: Reference `unnorm-math' on page 13 undefined on input line 73.
 
 
-LaTeX Warning: Citation `thornton:cdc6600' on page 13 undefined on input line 9
-1.
+LaTeX Warning: Citation `thornton:cdc6600' on page 13 undefined on input line 8
+8.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 91.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 88.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [13]
 
-LaTeX Warning: Reference `opt:be' on page 14 undefined on input line 130.
+LaTeX Warning: Reference `opt:be' on page 14 undefined on input line 127.
 
 [14]
 
 LaTeX Warning: Reference `range-tracking' on page 15 undefined on input line 15
-9.
+6.
 
 [15]
 
 LaTeX Warning: Citation `magenheimer:precision' on page 16 undefined on input l
-ine 203.
+ine 200.
 
 
-LaTeX Warning: Citation `byte:i860' on page 16 undefined on input line 213.
+LaTeX Warning: Citation `byte:i860' on page 16 undefined on input line 210.
 
 [16]
 
-LaTeX Warning: Citation `ellis:bulldog' on page 17 undefined on input line 226.
+LaTeX Warning: Citation `ellis:bulldog' on page 17 undefined on input line 223.
 
 
 
-LaTeX Warning: Citation `colwell:vliw' on page 17 undefined on input line 226.
+LaTeX Warning: Citation `colwell:vliw' on page 17 undefined on input line 223.
 
 
-LaTeX Warning: Citation `gib86' on page 17 undefined on input line 247.
+LaTeX Warning: Citation `gib86' on page 17 undefined on input line 244.
 
 [17]) [18]
 \openout2 = `chap2.aux'.
@@ -268,13 +268,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 876 strings out of 493089
- 9581 string characters out of 6134842
+ 877 strings out of 493089
+ 9582 string characters out of 6134842
  61190 words of memory out of 5000000
  4285 multiletter control sequences out of 15000+600000
  17644 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,23p,1315b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,23p,1312b,249s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
@@ -297,7 +297,7 @@ st/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (23 pages, 295373 bytes).
+Output written on main.pdf (23 pages, 295548 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams
