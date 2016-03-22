@@ -1,13 +1,25 @@
 \contentsline {chapter}{\numberline {1}Introduction}{11}
-\contentsline {section}{\numberline {1.1}Motivations for micro-optimization}{12}
-\contentsline {section}{\numberline {1.2}Description of micro-optimization}{13}
-\contentsline {subsection}{\numberline {1.2.1}Post Multiply Normalization}{13}
-\contentsline {subsection}{\numberline {1.2.2}Block Exponent}{14}
-\contentsline {section}{\numberline {1.3}Integer optimizations}{15}
-\contentsline {subsection}{\numberline {1.3.1}Conversion to fixed point}{15}
-\contentsline {subsection}{\numberline {1.3.2}Small Constant Multiplications}{15}
-\contentsline {section}{\numberline {1.4}Other optimizations}{17}
-\contentsline {subsection}{\numberline {1.4.1}Low-level parallelism}{17}
-\contentsline {subsection}{\numberline {1.4.2}Pipeline optimizations}{17}
-\contentsline {chapter}{\numberline {A}Tables}{19}
-\contentsline {chapter}{\numberline {B}Figures}{21}
+\contentsline {chapter}{\numberline {2}Experimental Setup}{13}
+\contentsline {section}{\numberline {2.1}Data Collection}{13}
+\contentsline {subsection}{\numberline {2.1.1}The Electome}{13}
+\contentsline {subsection}{\numberline {2.1.2}Story Collection}{13}
+\contentsline {subsection}{\numberline {2.1.3}Article Classification}{13}
+\contentsline {section}{\numberline {2.2}Survey Design}{13}
+\contentsline {subsection}{\numberline {2.2.1}Crowdflower}{13}
+\contentsline {subsection}{\numberline {2.2.2}Demographic Collection}{13}
+\contentsline {subsection}{\numberline {2.2.3}Political Affiliation}{13}
+\contentsline {chapter}{\numberline {3}Reading Level}{15}
+\contentsline {section}{\numberline {3.1}Language and Politics}{15}
+\contentsline {section}{\numberline {3.2}The Seductive Allure [... of Simple] Language}{15}
+\contentsline {section}{\numberline {3.3}Flesch-Kincaid Readability Tests}{15}
+\contentsline {subsection}{\numberline {3.3.1}Presurvey Analysis}{16}
+\contentsline {subsection}{\numberline {3.3.2}Comparisons to other Reading Level Tests}{16}
+\contentsline {chapter}{\numberline {4}Study}{17}
+\contentsline {section}{\numberline {4.1}Demographics of Readers}{17}
+\contentsline {section}{\numberline {4.2}Overall Bias Reportings}{17}
+\contentsline {chapter}{\numberline {5}Analysis}{19}
+\contentsline {section}{\numberline {5.1}Effects of Media Brands}{19}
+\contentsline {section}{\numberline {5.2}Effects of Reading Level}{19}
+\contentsline {section}{\numberline {5.3}Other Linguistic Ques}{19}
+\contentsline {chapter}{\numberline {A}Tables}{21}
+\contentsline {chapter}{\numberline {B}Figures}{23}
