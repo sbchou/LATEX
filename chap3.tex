@@ -1,64 +1,27 @@
-\chapter{Reading Level}
+\chapter{Data Collection}
 
-
-\section{Language and Politics}
-
-\section{The Seductive Allure [... of Simple] Language}
-
+\section{The Electome}
+\section{Story Collection}
+\section{Article Topic Classification}
 \section{Flesch-Kincaid Readability Tests}
-
-The idea of micro-optimization is motivated by the recent trends in computer
-architecture towards low-level parallelism and small, pipelineable
-instruction sets \cite{patterson:risc,rad83}.  By getting rid of more
-complex instructions and concentrating on optimizing frequently used
-instructions, substantial increases in performance were realized.
-
-Another important motivation was the trend towards placing more of the
-burden of performance on the compiler.  Many of the new architectures depend
-on an intelligent, optimizing compiler in order to realize anywhere near
-their peak performance
-\cite{ellis:bulldog,pet87,coutant:precision-compilers}.  In these cases, the
-compiler not only is responsible for faithfully generating native code to
-match the source language, but also must be aware of instruction latencies,
-delayed branches, pipeline stages, and a multitude of other factors in order
-to generate fast code \cite{gib86}.
-
-Taking these ideas one step further, it seems that the floating point
-operations that are normally single, large instructions can be further broken
-down into smaller, simpler, faster instructions, with more control in the
-compiler and less in the hardware.  This is the idea behind a
-micro-optimizing FPU; break the floating point instructions down into their
-basic components and use a small, fast implementation, with a large part of
-the burden of hardware allocation and optimization shifted towards
-compile-time.
-
-Along with the hardware speedups possible by using a $\mu$FPU, there are
-also optimizations that the compiler can perform on the code that is
-generated.  In a normal sequence of floating point operations, there are
-many hidden redundancies that can be eliminated by allowing the compiler to
-control the floating point operations down to their lowest level.  These
-optimizations are described in detail in section~\ref{ch1:opts}.
-
-
-\subsection{Presurvey Analysis}
-
-\subsection{Comparisons to other Reading Level Tests}
-
-When more than two multiplications are performed in a row, the intermediate
-normalization of the results between multiplications can be eliminated.
-This is because with each multiplication, the mantissa can become
-denormalized by at most one bit.  If there are guard bits on the mantissas
-to prevent bits from ``falling off'' the end during multiplications, the
-normalization can be postponed until after a sequence of several
-multiplies\footnote{Using unnormalized numbers for math is not a new idea; a
-good example of it is the Control Data CDC 6600, designed by Seymour Cray.
-\cite{thornton:cdc6600} The CDC 6600 had all of its instructions performing
-unnormalized arithmetic, with a separate {\tt NORMALIZE} instruction.}.
-
-% This is an example of how you would use tgrind to include an example
-% of source code; it is commented out in this template since the code
-% example file does not exist.  To use it, you need to remove the '%' on the
-% beginning of the line, and insert your own information in the call.
-%
-%\tagrind[htbp]{code/pmn.s.tex}{Post Multiply Normalization}{opt:pmn}
+ \cite{patterson:risc,rad83}.  B 
+\cite{ellis:bulldog,pet87,coutant:precision-compilers}.    
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
