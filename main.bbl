@@ -1,5 +1,25 @@
 \newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{PoliticalPolarization}
+Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina~Eva Matsa.
+\newblock Political polarization \& media habits.
+\newblock
+  \url{http://www.journalism.org/2014/10/21/political-polarization-media-habits/},
+  oct 2014.
+\newblock (Accessed on 04/02/2016).
+
+\bibitem{vallone1985hostile}
+Robert~P Vallone, Lee Ross, and Mark~R Lepper.
+\newblock The hostile media phenomenon: biased perception and perceptions of
+  media bias in coverage of the beirut massacre.
+\newblock {\em Journal of personality and social psychology}, 49(3):577, 1985.
+
+\bibitem{vvr_electome2016}
+Prashanth Vijayaraghavan, Soroush Vosoughi, and Deb Roy.
+\newblock Automatic detection and categorization of election-related tweets.
+\newblock In {\em 10th International AAAI Conference on Web and Social Media},
+  2016.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 MAR 2016 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 APR 2016 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -165,89 +165,77 @@ Chapter 2.
 
  (./chap3.tex
 Chapter 3.
-
-LaTeX Warning: Citation `patterson:risc' on page 15 undefined on input line 7.
-
-
-LaTeX Warning: Citation `rad83' on page 15 undefined on input line 7.
-
-
-LaTeX Warning: Citation `ellis:bulldog' on page 15 undefined on input line 8.
-
-
-LaTeX Warning: Citation `pet87' on page 15 undefined on input line 8.
-
-
-LaTeX Warning: Citation `coutant:precision-compilers' on page 15 undefined on i
-nput line 8.
-
-) [15
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+[15
 
 
 
-]
+] [16] [17]) [18]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [16
+ (./chap4.tex
+Chapter 4.
+) [19
 
 
 
 ]
-Chapter 4.
-) [17]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [18
+ (./chap5.tex [20
 
 
 
 ]
 Chapter 5.
-) [19]
+) [21]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [20
+ (./chap6.tex [22
 
 
 
 ]
 Chapter 6.
-) [21]
+) [23]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [22
+ (./chap7.tex [24
 
 
 
 ]
 Chapter 7.
-) [23]
+) [25]
 \openout2 = `appa.aux'.
 
- (./appa.tex [24
+ (./appa.tex [26
 
 
 
 ]
 Appendix A.
-[25])
+[27])
 \openout2 = `appb.aux'.
 
- (./appb.tex [26
+ (./appb.tex [28
 
 
 
 
 ]
 Appendix B.
-[27] [28])
+[29] [30])
 \openout2 = `biblio.aux'.
 
  (./biblio.tex (./main.bbl
+! Undefined control sequence.
+l.9   \url
+          {http://www.journalism.org/2014/10/21/political-polarization-media...
 
-LaTeX Warning: Empty `thebibliography' environment on input line 5.
-
-)) [29
+? 
+)) [31
 
 
 
@@ -261,13 +249,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 858 strings out of 493089
- 8784 string characters out of 6134842
- 62504 words of memory out of 5000000
- 4257 multiletter control sequences out of 15000+600000
- 13576 words of font info for 33 fonts, out of 8000000 for 9000
+ 862 strings out of 493089
+ 8852 string characters out of 6134842
+ 63513 words of memory out of 5000000
+ 4258 multiletter control sequences out of 15000+600000
+ 14260 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,23p,1315b,251s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,7n,21p,1315b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
@@ -276,11 +264,12 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on main.pdf (29 pages, 157051 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (31 pages, 185637 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,64 +2,60 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: signature.aux
 A level-1 auxiliary file: contents.aux
 A level-1 auxiliary file: chap1.aux
 A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: chap5.aux
+A level-1 auxiliary file: chap6.aux
+A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
 Warning--I didn't find a database entry for "Pew-bias-2012"
-Warning--I didn't find a database entry for "patterson:risc"
-Warning--I didn't find a database entry for "rad83"
-Warning--I didn't find a database entry for "ellis:bulldog"
-Warning--I didn't find a database entry for "pet87"
-Warning--I didn't find a database entry for "coutant:precision-compilers"
-Warning--I didn't find a database entry for "gib86"
-Warning--I didn't find a database entry for "thornton:cdc6600"
-Warning--I didn't find a database entry for "magenheimer:precision"
-Warning--I didn't find a database entry for "byte:i860"
-Warning--I didn't find a database entry for "colwell:vliw"
-You've used 0 entries,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            522 strings with 4444 characters,
-and the built_in function-call counts, 20 in all, are:
-= -- 0
-> -- 0
+            538 strings with 5112 characters,
+and the built_in function-call counts, 959 in all, are:
+= -- 83
+> -- 59
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 24
+- -- 20
+* -- 67
+:= -- 171
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 3
+duplicate$ -- 32
+empty$ -- 74
+format.name$ -- 20
+if$ -- 193
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 4
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 20
+num.names$ -- 6
+pop$ -- 25
 preamble$ -- 2
-purify$ -- 0
+purify$ -- 16
 quote$ -- 0
-skip$ -- 0
+skip$ -- 19
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 25
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 12
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 3
-(There were 11 warnings)
+while$ -- 7
+width$ -- 4
+write$ -- 36
+(There was 1 warning)

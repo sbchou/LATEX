@@ -1,13 +1,85 @@
 \chapter{Data Collection}
 
 \section{The Electome}
+
+The Electome is a large, collaborative, and ongoing effort in the Laboratory for Social Machines that seeks to analyze the ``competition of ideas'' in the upcoming 2016 elections. It does so by using techniques in natural language processing, machine learning, and network analysis to make sense of ``big data'' collected from two main sources: traditional media (online versions of news publications) and social media (Twitter) \cite{vvr_electome2016}. 
+
+The foundations of this thesis, which emerged from the Electome, are grounded in the former dataset, although only a portion of the data collected is analyzed in this study.
+
 \section{Story Collection}
+(this part is mine)
+
+News articles from 14 different news publications were systematically collected every hour from RSS feeds beginning from January 2015. The outlets tracked are:
+ 
+\begin{itemize}
+  \item CNN
+  \item Fox News
+  \item The Wall Street Journal
+  \item ProPublica
+  \item Politico
+  \item McClatchy
+  \item The Washington Post
+  \item Buzzfeed News
+  \item NPR
+  \item The Huffington Post
+  \item The Associated Press
+  \item Reuters
+  \item The New York Times
+  \item The Los Angeles Times
+\end{itemize}
+
+\cite{PoliticalPolarization}TEST
+
+Talk about structure:
+- crawler
+- structural parser
+- 
+
+In this study:
+
+
+\begin{itemize}
+  \item CNN
+  \item Fox News  
+  \item The New York Times
+  \item The Wall Street Journal
+  \item The Associated Press 
+\end{itemize}
+
+
+On an hourly basis, news articles from 14 different media outlets are ingested through their RSS feeds. These out- lets are: CNN, Fox News, The Wall Street Journal (WSJ), ProPublica, Politico, The McClatchy, The Washington Post (WashPo), BuzzFeed, National Public Radio (NPR), The Huffington Post, Associated Press (AP), Reuters, The New York Times (NYT) and The L.A. Times. These outlets were selected to represent a balanced collection of outlets: po- litically (i.e., liberal and conservative), new and old (e.g., Buzzfeed and NYT), public and private (e.g., NPR and Fox News), for-profit and non-profit (e.g., CNN and ProPub- lica), wire services 2 (e.g., Reuters and AP), and to include some smaller but influential outlets (e.g., The McClatchy). As with the Twitter pipeline, we started capturing articles from February 2015.
+The HTML Document Object Model (DOM) is extracted from the feeds and passed to a structural parser. The parser uses Beautiful Soup 3, which is a python package for pars- ing HTML to extract the headline, body, date-of-publication, and authors of each article and stores it in a database. At this stage, data deduplication is performed to ensure that only one copy of an article is in the database. This is necessary since articles from wire services like the AP and Reuters sometimes end up in the feeds of other news outlets. On av- erage 2,000 articles are ingested daily from the 14 media outlets. Next, all unique articles are passed to the election classifier.
+
 \section{Article Topic Classification}
-\section{Flesch-Kincaid Readability Tests}
- \cite{patterson:risc,rad83}.  B 
-\cite{ellis:bulldog,pet87,coutant:precision-compilers}.    
+(This part is prashanths-- so cite)
+\begin{itemize}
+  \item Income Inequality
+  \item Environment/Energy
+  \item Jobs/Employment
+  \item Guns
+  \item Racial Issues
+  \item Foreign Policy/National Security
+  \item LGBT Issues
+  \item Ethics
+  \item Education
+  \item Financial Regulation
+  \item Budget/Taxation
+  \item Veterans
+  \item Campaign Finance
+  \item Surveillance/Privacy
+  \item Drugs
+  \item Justice
+  \item Abortion
+  \item Immigration
+  \item Trade
+  \item Health Care
+  \item Economy
+  \item Other 
+\end{itemize}
  
 
+
+\section{Flesch-Kincaid Readability Tests} 
 
 
 
