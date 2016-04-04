@@ -11,24 +11,25 @@
 \contentsline {chapter}{\numberline {3}Data Collection}{15}
 \contentsline {section}{\numberline {3.1}The Electome}{15}
 \contentsline {section}{\numberline {3.2}Story Collection}{15}
-\contentsline {section}{\numberline {3.3}Article Topic Classification}{17}
-\contentsline {section}{\numberline {3.4}Flesch-Kincaid Readability Tests}{18}
-\contentsline {chapter}{\numberline {4}Experimental Design}{19}
-\contentsline {section}{\numberline {4.1}Data Selection}{19}
-\contentsline {section}{\numberline {4.2}CrowdFlower}{19}
-\contentsline {section}{\numberline {4.3}Demographic Survey}{19}
-\contentsline {section}{\numberline {4.4}Political Affiliation Survey}{19}
-\contentsline {section}{\numberline {4.5}Quality Assurance}{19}
-\contentsline {chapter}{\numberline {5}Pre-Survey Analysis}{21}
-\contentsline {section}{\numberline {5.1}Topic Analysis}{21}
-\contentsline {section}{\numberline {5.2}Flesch-Kincaid Analysis}{21}
-\contentsline {subsection}{\numberline {5.2.1}Comparisons to other Reading Level Tests}{21}
-\contentsline {chapter}{\numberline {6}Study}{23}
-\contentsline {section}{\numberline {6.1}Demographics of Readers}{23}
-\contentsline {section}{\numberline {6.2}Overall Bias Reportings}{23}
-\contentsline {chapter}{\numberline {7}Analysis}{25}
-\contentsline {section}{\numberline {7.1}Media Brand Effect}{25}
-\contentsline {section}{\numberline {7.2}Reading Level Effect}{25}
-\contentsline {section}{\numberline {7.3}Other Linguistic Cues}{25}
-\contentsline {chapter}{\numberline {A}Tables}{27}
-\contentsline {chapter}{\numberline {B}Figures}{29}
+\contentsline {section}{\numberline {3.3}Election Classification}{17}
+\contentsline {section}{\numberline {3.4}Article Topic Classification}{17}
+\contentsline {section}{\numberline {3.5}Flesch-Kincaid Readability Tests}{19}
+\contentsline {chapter}{\numberline {4}Experimental Design}{21}
+\contentsline {section}{\numberline {4.1}Data Selection}{21}
+\contentsline {section}{\numberline {4.2}CrowdFlower}{21}
+\contentsline {section}{\numberline {4.3}Demographic Survey}{21}
+\contentsline {section}{\numberline {4.4}Political Affiliation Survey}{21}
+\contentsline {section}{\numberline {4.5}Quality Assurance}{21}
+\contentsline {chapter}{\numberline {5}Pre-Survey Analysis}{23}
+\contentsline {section}{\numberline {5.1}Topic Analysis}{23}
+\contentsline {section}{\numberline {5.2}Flesch-Kincaid Analysis}{23}
+\contentsline {subsection}{\numberline {5.2.1}Comparisons to other Reading Level Tests}{23}
+\contentsline {chapter}{\numberline {6}Study}{25}
+\contentsline {section}{\numberline {6.1}Demographics of Readers}{25}
+\contentsline {section}{\numberline {6.2}Overall Bias Reportings}{25}
+\contentsline {chapter}{\numberline {7}Analysis}{27}
+\contentsline {section}{\numberline {7.1}Media Brand Effect}{27}
+\contentsline {section}{\numberline {7.2}Reading Level Effect}{27}
+\contentsline {section}{\numberline {7.3}Other Linguistic Cues}{27}
+\contentsline {chapter}{\numberline {A}Tables}{29}
+\contentsline {chapter}{\numberline {B}Figures}{31}

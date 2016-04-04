@@ -6,8 +6,7 @@ The Electome is a large, collaborative, and ongoing effort in the Laboratory for
 
 The foundations of this thesis, which emerged from the Electome, are grounded in the former dataset, although only a portion of the data collected is analyzed in this study.
 
-\section{Story Collection}
-(this part is mine)
+\section{Story Collection} 
 
 News articles from 14 different news publications were systematically collected every hour from RSS feeds beginning from January 2015. The outlets tracked are:
  
@@ -19,7 +18,7 @@ News articles from 14 different news publications were systematically collected 
   \item Politico
   \item McClatchy
   \item The Washington Post
-  \item Buzzfeed News
+  \item Buzzfeed (News only)
   \item NPR
   \item The Huffington Post
   \item The Associated Press
@@ -28,15 +27,37 @@ News articles from 14 different news publications were systematically collected 
   \item The Los Angeles Times
 \end{itemize}
 
-\cite{PoliticalPolarization}TEST
+The above outlets were chosen to form a diverse subset of the current U.S. news ecosytem, including a combination of private and public, liberal and conservative, legacy and new media publications. Also included are wire services and a mix of media delivery formats for which the outlet is known (radio, television, print, or web).
 
-Talk about structure:
-- crawler
-- structural parser
-- 
+Steps to collect the news stories were as follows:
 
-In this study:
+ \begin{enumerate}
+   \item For each news publication:
+   \begin {enumerate}
+        \item Use regular expressions to extract all RSS feed urls for a news site.
+        \item For each RSS feed:
+        \begin {enumerate}
+            \item Parse feed using open source xml reader library, Feedparser.
+            \item For each link to a story in the feed:             
+            \begin {enumerate}
+                \item Parse html using Beautiful Soup 3 (an open source python library)
+                \item Insert headline, authors, story text, publication date and retrieval date into an SQL database.
 
+            \end {enumerate}
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+Data depulication (by story url and headline) is then performed to ensure only one copy of each article is in the database. This step is necessary as articles from wire services often appear across many outlets and effect aggregate text analsyis.
+
+On average, 2,000 stories are collected per day across all outlets. However, volume follows a consistent pattern of fluctuation depending on weekday, ranging from approximately 1,000 to 3,000 stories.
+
+[INSERT HERE GRAPH OF NEWS STORIES VOLUME BY WEEKDAY]
+
+As of March 1st, 2016, there were 855,000 stories collected in the database and 43,000 journalists.
+
+
+For the purposes of this study, stories were examined from five outlets: 
 
 \begin{itemize}
   \item CNN
@@ -46,9 +67,12 @@ In this study:
   \item The Associated Press 
 \end{itemize}
 
+because:   
+and cite Pew
 
-On an hourly basis, news articles from 14 different media outlets are ingested through their RSS feeds. These out- lets are: CNN, Fox News, The Wall Street Journal (WSJ), ProPublica, Politico, The McClatchy, The Washington Post (WashPo), BuzzFeed, National Public Radio (NPR), The Huffington Post, Associated Press (AP), Reuters, The New York Times (NYT) and The L.A. Times. These outlets were selected to represent a balanced collection of outlets: po- litically (i.e., liberal and conservative), new and old (e.g., Buzzfeed and NYT), public and private (e.g., NPR and Fox News), for-profit and non-profit (e.g., CNN and ProPub- lica), wire services 2 (e.g., Reuters and AP), and to include some smaller but influential outlets (e.g., The McClatchy). As with the Twitter pipeline, we started capturing articles from February 2015.
-The HTML Document Object Model (DOM) is extracted from the feeds and passed to a structural parser. The parser uses Beautiful Soup 3, which is a python package for pars- ing HTML to extract the headline, body, date-of-publication, and authors of each article and stores it in a database. At this stage, data deduplication is performed to ensure that only one copy of an article is in the database. This is necessary since articles from wire services like the AP and Reuters sometimes end up in the feeds of other news outlets. On av- erage 2,000 articles are ingested daily from the 14 media outlets. Next, all unique articles are passed to the election classifier.
+\section{Election Classification}
+
+Acknowledge Prashanth
 
 \section{Article Topic Classification}
 (This part is prashanths-- so cite)

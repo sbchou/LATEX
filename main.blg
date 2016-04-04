@@ -17,45 +17,45 @@ A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
 Warning--I didn't find a database entry for "Pew-bias-2012"
-You've used 3 entries,
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            538 strings with 5112 characters,
-and the built_in function-call counts, 959 in all, are:
-= -- 83
-> -- 59
+            531 strings with 4846 characters,
+and the built_in function-call counts, 642 in all, are:
+= -- 54
+> -- 36
 < -- 0
-+ -- 24
-- -- 20
-* -- 67
-:= -- 171
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 19
++ -- 15
+- -- 12
+* -- 46
+:= -- 116
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 32
-empty$ -- 74
-format.name$ -- 20
-if$ -- 193
+cite$ -- 2
+duplicate$ -- 25
+empty$ -- 52
+format.name$ -- 12
+if$ -- 128
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 2
 missing$ -- 2
-newline$ -- 20
-num.names$ -- 6
-pop$ -- 25
+newline$ -- 14
+num.names$ -- 4
+pop$ -- 14
 preamble$ -- 2
-purify$ -- 16
+purify$ -- 10
 quote$ -- 0
-skip$ -- 19
+skip$ -- 13
 stack$ -- 0
-substring$ -- 25
-swap$ -- 4
+substring$ -- 20
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 8
 warning$ -- 0
-while$ -- 7
-width$ -- 4
-write$ -- 36
+while$ -- 5
+width$ -- 3
+write$ -- 24
 (There was 1 warning)
