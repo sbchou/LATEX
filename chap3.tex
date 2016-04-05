@@ -10,22 +10,25 @@ The foundations of this thesis, which emerged from the Electome, are grounded in
 
 News articles from 14 different news publications were systematically collected every hour from RSS feeds beginning from January 2015. The outlets tracked are:
  
-\begin{itemize}
-  \item CNN
-  \item Fox News
-  \item The Wall Street Journal
-  \item ProPublica
-  \item Politico
-  \item McClatchy
-  \item The Washington Post
-  \item Buzzfeed (News only)
-  \item NPR
-  \item The Huffington Post
-  \item The Associated Press
-  \item Reuters
-  \item The New York Times
-  \item The Los Angeles Times
-\end{itemize}
+
+\begin{multicols}{2}
+    \begin{enumerate}
+      \item CNN
+      \item Fox News
+      \item The Wall Street Journal
+      \item ProPublica
+      \item Politico
+      \item McClatchy
+      \item The Washington Post
+      \item Buzzfeed (News only)
+      \item National Public Radio (NPR)
+      \item The Huffington Post
+      \item The Associated Press
+      \item Reuters
+      \item The New York Times
+      \item The Los Angeles Times
+    \end{enumerate}
+\end{multicols}
 
 The above outlets were chosen to form a diverse subset of the current U.S. news ecosytem, including a combination of private and public, liberal and conservative, legacy and new media publications. Also included are wire services and a mix of media delivery formats for which the outlet is known (radio, television, print, or web).
 
@@ -59,50 +62,55 @@ As of March 1st, 2016, there were 855,000 stories collected in the database and 
 
 For the purposes of this study, stories were examined from five outlets: 
 
-\begin{itemize}
+\begin{enumerate}
   \item CNN
   \item Fox News  
   \item The New York Times
   \item The Wall Street Journal
   \item The Associated Press 
-\end{itemize}
+\end{enumerate}
 
 because:   
 and cite Pew
 
 \section{Election Classification}
-
-Acknowledge Prashanth
+[How do I cite Prashanth's unpublished work?]
 
 \section{Article Topic Classification}
-(This part is prashanths-- so cite)
+[How do I cite Prashanth's unpublished work?]
  
 
+Election Classifier
+The election classifier is a binary classifier which takes a news article as input and determines whether it is about the 2016 US election or not. Since news articles usually con- tain clean and structured language, they can easily be classi- fied as election-related using Bag-of-Word (BoWs) features. We used the chi-square test for feature selection. Chi-square measures the lack of independence between a term in an ar- ticle and a class (in this case the election). High scores on chi-square indicate that the null hypothesis of independence should be rejected and thus that the occurrence of the term and class are dependent. The features are ranked based on their scores and the top 20,000 features form the vocabulary for the binary classifier. Next, using scikit-learn (Pedregosa et al. 2011)–a Python machine learning library– a binary Maximum Entropy (MaxEnt) text classifier (Nigam, Laf- ferty, and McCallum 1999) is trained on a balanced dataset of 1,000 manually labelled news articles. The classifier was evaluated on a separate balanced test set of 300 articles, with
 
-\begin{enumerate}
-  \item Income Inequality
-  \item Environment/Energy
-  \item Jobs/Employment
-  \item Guns
-  \item Racial Issues
-  \item Foreign Policy/National Security
-  \item LGBT Issues
-  \item Ethics
-  \item Education
-  \item Financial Regulation
-  \item Budget/Taxation
-  \item Veterans
-  \item Campaign Finance
-  \item Surveillance/Privacy
-  \item Drugs
-  \item Justice
-  \item Abortion
-  \item Immigration
-  \item Trade
-  \item Health Care
-  \item Economy
-  \item Other 
-\end{enumerate}
+
+
+\begin{multicols}{3}
+    \begin{itemize}
+      \item Income Inequality
+      \item Environment/Energy
+      \item Jobs/Employment
+      \item Guns
+      \item Racial Issues
+      \item Foreign Policy/National Security
+      \item LGBT Issues
+      \item Ethics
+      \item Education
+      \item Financial Regulation
+      \item Budget/Taxation
+      \item Veterans
+      \item Campaign Finance
+      \item Surveillance/Privacy
+      \item Drugs
+      \item Justice
+      \item Abortion
+      \item Immigration
+      \item Trade
+      \item Health Care
+      \item Economy
+      \item Other 
+    \end{itemize}
+\end{multicols}
  
 
 
@@ -120,21 +128,4 @@ And for reading grade level:
 $$0.39 \left ( \frac{\mbox{total words}}{\mbox{total sentences}} \right ) + 11.8 \left ( \frac{\mbox{total syllables}}{\mbox{total words}} \right ) - 15.59$$
  
 The two formulas are not directly comparable due to the difference in weighting factors. For ease of metaphor, we use the grade level tests in our analysis. Syllable length is highly weighted in this formula, so it is possible to generate a story of very high reading level that consists of a single word in a single sentence (the longest English word, \emph{pneumonoultramicroscopicsilicovolcanoconiosi}, a type of lung disease, has a reading grade level of 197.2), which is a limitation of the method, since texts with polysyllabic words are not always necessarily more difficult to read.
- 
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  

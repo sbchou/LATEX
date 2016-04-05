@@ -1,17 +1,18 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}
 \contentsline {chapter}{\numberline {2}The Power of (Percieved) Media Bias}{9}
-\contentsline {section}{\numberline {2.1}The Role of the Reader in Perceptions of Bias}{9}
-\contentsline {section}{\numberline {2.2}The Role of Media Brands in Perceptions of Bias}{10}
-\contentsline {section}{\numberline {2.3}The Role of Language [Policial Persuasion]}{10}
-\contentsline {subsection}{\numberline {2.3.1}Language and Politics}{10}
-\contentsline {subsection}{\numberline {2.3.2}The Seductive Allure [... of Simple] Language}{11}
-\contentsline {section}{\numberline {2.4}Importance in Political Outcomes}{13}
-\contentsline {section}{\numberline {2.5}The 2016 Elections}{13}
-\contentsline {subsection}{\numberline {2.5.1}Criticism of Media Bias}{13}
+\contentsline {section}{\numberline {2.1}The Effects of Media Bias}{9}
+\contentsline {section}{\numberline {2.2}The Role of the Reader in Perceptions of Bias}{9}
+\contentsline {section}{\numberline {2.3}The Role of Media Brands in Perceptions of Bias}{10}
+\contentsline {section}{\numberline {2.4}The Role of Language [Policial Persuasion]}{11}
+\contentsline {subsection}{\numberline {2.4.1}Language and Politics}{11}
+\contentsline {subsection}{\numberline {2.4.2}The Seductive Allure [... of Simple] Language}{11}
+\contentsline {section}{\numberline {2.5}Importance in Political Outcomes}{13}
+\contentsline {section}{\numberline {2.6}The 2016 Elections}{13}
+\contentsline {subsection}{\numberline {2.6.1}Criticism of Media Bias}{13}
 \contentsline {chapter}{\numberline {3}Data Collection}{15}
 \contentsline {section}{\numberline {3.1}The Electome}{15}
 \contentsline {section}{\numberline {3.2}Story Collection}{15}
-\contentsline {section}{\numberline {3.3}Election Classification}{18}
+\contentsline {section}{\numberline {3.3}Election Classification}{17}
 \contentsline {section}{\numberline {3.4}Article Topic Classification}{18}
 \contentsline {section}{\numberline {3.5}Flesch-Kincaid Readability Tests}{19}
 \contentsline {chapter}{\numberline {4}Experimental Design}{21}

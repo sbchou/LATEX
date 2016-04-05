@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 APR 2016 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 APR 2016 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -97,6 +97,55 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count94
+\mult@box=\box32
+\multicol@leftmargin=\dimen107
+\c@unbalance=\count95
+\c@collectmore=\count96
+\doublecol@number=\count97
+\multicoltolerance=\count98
+\multicolpretolerance=\count99
+\full@width=\dimen108
+\page@free=\dimen109
+\premulticols=\dimen110
+\postmulticols=\dimen111
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box33
+\last@line=\box34
+\maxbalancingoverflow=\dimen112
+\mult@rightbox=\box35
+\mult@grightbox=\box36
+\mult@gfirstbox=\box37
+\mult@firstbox=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\c@columnbadness=\count100
+\c@finalcolumnbadness=\count101
+\last@try=\dimen113
+\multicolovershoot=\dimen114
+\multicolundershoot=\dimen115
+\mult@nat@firstbox=\box56
+\colbreak@box=\box57
+\mc@col@check@num=\count102
+)
 Enter file names to process, (chap1,chap2 ...), or `all' to process all files:
 
 \files=all
@@ -106,31 +155,31 @@ Including all files.
 (./chap7.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count94
-\scratchdimen=\dimen107
-\scratchbox=\box32
-\nofMPsegments=\count95
-\nofMParguments=\count96
+\scratchcounter=\count103
+\scratchdimen=\dimen116
+\scratchbox=\box58
+\nofMPsegments=\count104
+\nofMParguments=\count105
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count97
-\MPscratchDim=\dimen108
-\MPnumerator=\count98
-\makeMPintoPDFobject=\count99
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen117
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks16
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -251,7 +300,7 @@ Chapter 2.
 File: images/flowchart_final.jpeg Graphic file (type jpg)
 
 <use images/flowchart_final.jpeg>
-Package pdftex.def Info: images/flowchart_final.jpeg used on input line 59.
+Package pdftex.def Info: images/flowchart_final.jpeg used on input line 60.
 (pdftex.def)             Requested size: 433.62pt x 578.15858pt.
  [11] [12 <./images/flowchart_final.jpeg>])
 [13]
@@ -263,18 +312,34 @@ Package pdftex.def Info: images/flowchart_final.jpeg used on input line 59.
 
 ]
 Chapter 3.
+[15] [16] [17]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
-[15] [16] [17] [18] [19]) [20]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
+
+Overfull \hbox (0.15816pt too wide) in paragraph at lines 91--92
+[]\T1/cmr/m/n/12 Environment/Energy 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]\T1/cmr/m/n/12 Foreign Pol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+\T1/cmr/m/n/12 icy/National Se-cu-
+ []
+
+[18]) [19]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex
-Chapter 4.
-) [21
+ (./chap4.tex [20
 
 
 
 ]
+Chapter 4.
+) [21]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex [22
@@ -322,13 +387,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2202 strings out of 493089
- 29492 string characters out of 6134842
- 89002 words of memory out of 5000000
- 5536 multiletter control sequences out of 15000+600000
+ 2317 strings out of 493089
+ 31259 string characters out of 6134842
+ 98423 words of memory out of 5000000
+ 5647 multiletter control sequences out of 15000+600000
  14573 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,25p,666b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,25p,1114b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
@@ -343,7 +408,7 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (29 pages, 415891 bytes).
+Output written on main.pdf (29 pages, 417974 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  105 compressed objects within 2 object streams
