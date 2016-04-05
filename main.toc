@@ -1,36 +1,33 @@
-\contentsline {chapter}{\numberline {1}Introduction}{11}
-\contentsline {chapter}{\numberline {2}Content vs. Context in Percieved Media Bias}{13}
-\contentsline {section}{\numberline {2.1}The Role of the Reader in Percieved Bias}{13}
-\contentsline {subsection}{\numberline {2.1.1}The Hostile Media Effect}{13}
-\contentsline {subsection}{\numberline {2.1.2}Perceptions of Media Brands}{14}
-\contentsline {section}{\numberline {2.2}The Role of Language in Percieved Bias [Policial Persuasion]}{14}
-\contentsline {subsection}{\numberline {2.2.1}Language and Politics}{14}
-\contentsline {subsection}{\numberline {2.2.2}The Seductive Allure [... of Simple] Language}{14}
-\contentsline {section}{\numberline {2.3}Importance in Political Outcomes}{16}
-\contentsline {section}{\numberline {2.4}The 2016 Elections}{16}
-\contentsline {subsection}{\numberline {2.4.1}Criticism of Media Bias}{16}
-\contentsline {chapter}{\numberline {3}Data Collection}{17}
-\contentsline {section}{\numberline {3.1}The Electome}{17}
-\contentsline {section}{\numberline {3.2}Story Collection}{17}
-\contentsline {section}{\numberline {3.3}Election Classification}{19}
-\contentsline {section}{\numberline {3.4}Article Topic Classification}{19}
-\contentsline {section}{\numberline {3.5}Flesch-Kincaid Readability Tests}{21}
-\contentsline {chapter}{\numberline {4}Experimental Design}{23}
-\contentsline {section}{\numberline {4.1}Data Selection}{23}
-\contentsline {section}{\numberline {4.2}CrowdFlower}{23}
-\contentsline {section}{\numberline {4.3}Demographic Survey}{23}
-\contentsline {section}{\numberline {4.4}Political Affiliation Survey}{23}
-\contentsline {section}{\numberline {4.5}Quality Assurance}{23}
-\contentsline {chapter}{\numberline {5}Pre-Survey Analysis}{25}
-\contentsline {section}{\numberline {5.1}Topic Analysis}{25}
-\contentsline {section}{\numberline {5.2}Flesch-Kincaid Analysis}{25}
-\contentsline {subsection}{\numberline {5.2.1}Comparisons to other Reading Level Tests}{25}
-\contentsline {chapter}{\numberline {6}Study}{27}
-\contentsline {section}{\numberline {6.1}Demographics of Readers}{27}
-\contentsline {section}{\numberline {6.2}Overall Bias Reportings}{27}
-\contentsline {chapter}{\numberline {7}Analysis}{29}
-\contentsline {section}{\numberline {7.1}Media Brand Effect}{29}
-\contentsline {section}{\numberline {7.2}Reading Level Effect}{29}
-\contentsline {section}{\numberline {7.3}Other Linguistic Cues}{29}
-\contentsline {chapter}{\numberline {A}Tables}{31}
-\contentsline {chapter}{\numberline {B}Figures}{33}
+\contentsline {chapter}{\numberline {1}Introduction}{7}
+\contentsline {chapter}{\numberline {2}The Power of (Percieved) Media Bias}{9}
+\contentsline {section}{\numberline {2.1}The Role of the Reader in Perceptions of Bias}{9}
+\contentsline {section}{\numberline {2.2}The Role of Media Brands in Perceptions of Bias}{10}
+\contentsline {section}{\numberline {2.3}The Role of Language [Policial Persuasion]}{10}
+\contentsline {subsection}{\numberline {2.3.1}Language and Politics}{10}
+\contentsline {subsection}{\numberline {2.3.2}The Seductive Allure [... of Simple] Language}{11}
+\contentsline {section}{\numberline {2.4}Importance in Political Outcomes}{13}
+\contentsline {section}{\numberline {2.5}The 2016 Elections}{13}
+\contentsline {subsection}{\numberline {2.5.1}Criticism of Media Bias}{13}
+\contentsline {chapter}{\numberline {3}Data Collection}{15}
+\contentsline {section}{\numberline {3.1}The Electome}{15}
+\contentsline {section}{\numberline {3.2}Story Collection}{15}
+\contentsline {section}{\numberline {3.3}Election Classification}{18}
+\contentsline {section}{\numberline {3.4}Article Topic Classification}{18}
+\contentsline {section}{\numberline {3.5}Flesch-Kincaid Readability Tests}{19}
+\contentsline {chapter}{\numberline {4}Experimental Design}{21}
+\contentsline {section}{\numberline {4.1}Data Selection}{21}
+\contentsline {section}{\numberline {4.2}CrowdFlower}{21}
+\contentsline {section}{\numberline {4.3}Demographic Survey}{21}
+\contentsline {section}{\numberline {4.4}Political Affiliation Survey}{21}
+\contentsline {section}{\numberline {4.5}Quality Assurance}{21}
+\contentsline {chapter}{\numberline {5}Pre-Survey Analysis}{23}
+\contentsline {section}{\numberline {5.1}Topic Analysis}{23}
+\contentsline {section}{\numberline {5.2}Flesch-Kincaid Analysis}{23}
+\contentsline {subsection}{\numberline {5.2.1}Comparisons to other Reading Level Tests}{23}
+\contentsline {chapter}{\numberline {6}Study}{25}
+\contentsline {section}{\numberline {6.1}Demographics of Readers}{25}
+\contentsline {section}{\numberline {6.2}Overall Bias Reportings}{25}
+\contentsline {chapter}{\numberline {7}Analysis}{27}
+\contentsline {section}{\numberline {7.1}Media Brand Effect}{27}
+\contentsline {section}{\numberline {7.2}Reading Level Effect}{27}
+\contentsline {section}{\numberline {7.3}Other Linguistic Cues}{27}

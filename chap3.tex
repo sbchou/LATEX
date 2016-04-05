@@ -107,9 +107,23 @@ Acknowledge Prashanth
 
 
 \section{Flesch-Kincaid Readability Tests} 
+In this study, we focus primarily on the Flesch-Kincaid (F-K) tests for estimating text readability. Originally developed for the U.S. Navy in 1975 for assessing the difficulty of technical manuals, the F-K reading level corresponds roughly to U.S. grade level and the reading ease score is inversely proportional to the grade level on a scale from 0 to approximately 120 \cite{kincaid1975derivation}.
 
+We chose the F-K tests over other comparable ones due to its popularity in educational assessment and other applications, including in legislation. For example, it is required by law in Florida that life insurance policies have a Flesch reading ease of 45 or greater (less than 12th grade in reading level) \cite{Statu37online}. The F-K tests are also bundled in many common word processing services, including Microsoft Office Word. As a comparison, basic article analysis is also computed using the Gunning fog index (see Section 5.2.1).
 
+The formula for Flesch reading ease is as follows:
 
+$$206.835 - 1.015 \left( \frac{\mbox{total words}}{\mbox{total sentences}} \right) - 84.6 \left( \frac{\mbox{total syllables}}{\mbox{total words}} \right)$$
+
+And for reading grade level:
+
+$$0.39 \left ( \frac{\mbox{total words}}{\mbox{total sentences}} \right ) + 11.8 \left ( \frac{\mbox{total syllables}}{\mbox{total words}} \right ) - 15.59$$
+ 
+The two formulas are not directly comparable due to the difference in weighting factors. For ease of metaphor, we use the grade level tests in our analysis. Syllable length is highly weighted in this formula, so it is possible to generate a story of very high reading level that consists of a single word in a single sentence (the longest English word, \emph{pneumonoultramicroscopicsilicovolcanoconiosi}, a type of lung disease, has a reading grade level of 197.2), which is a limitation of the method, since texts with polysyllabic words are not always necessarily more difficult to read.
+ 
+
+ 
+ 
 
 
 

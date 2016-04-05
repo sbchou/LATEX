@@ -2,6 +2,24 @@
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
 \begin{thebibliography}{1}
 
+\bibitem{baum2008eye}
+Matthew~A Baum, Phil Gussin, et~al.
+\newblock In the eye of the beholder: How information shortcuts shape
+  individual perceptions of bias in the media.
+\newblock {\em Quarterly Journal of political science}, 3(1):1--31, 2008.
+
+\bibitem{kincaid1975derivation}
+J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
+\newblock Derivation of new readability formulas (automated readability index,
+  fog count and flesch reading ease formula) for navy enlisted personnel.
+\newblock Technical report, DTIC Document, 1975.
+
+\bibitem{Statu37online}
+The~Florida Legislature.
+\newblock The 2015 florida statutes title xxxvii.
+\newblock \url{http://www.leg.state.fl.us}.
+\newblock (Accessed on 04/05/2016).
+
 \bibitem{vallone1985hostile}
 Robert~P Vallone, Lee Ross, and Mark~R Lepper.
 \newblock The hostile media phenomenon: biased perception and perceptions of
