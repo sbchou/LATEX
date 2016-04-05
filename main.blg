@@ -11,51 +11,49 @@ A level-1 auxiliary file: chap4.aux
 A level-1 auxiliary file: chap5.aux
 A level-1 auxiliary file: chap6.aux
 A level-1 auxiliary file: chap7.aux
-A level-1 auxiliary file: appa.aux
-A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
 Warning--I didn't find a database entry for "Pew-bias-2012"
-You've used 5 entries,
+You've used 6 entries,
             2118 wiz_defined-function locations,
-            550 strings with 5472 characters,
-and the built_in function-call counts, 1485 in all, are:
-= -- 137
-> -- 84
+            557 strings with 5768 characters,
+and the built_in function-call counts, 1802 in all, are:
+= -- 166
+> -- 107
 < -- 0
-+ -- 35
-- -- 28
-* -- 98
-:= -- 268
-add.period$ -- 16
-call.type$ -- 5
-change.case$ -- 29
++ -- 44
+- -- 36
+* -- 119
+:= -- 323
+add.period$ -- 20
+call.type$ -- 6
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 51
-empty$ -- 113
-format.name$ -- 28
-if$ -- 298
+cite$ -- 6
+duplicate$ -- 58
+empty$ -- 135
+format.name$ -- 36
+if$ -- 363
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 6
 missing$ -- 3
-newline$ -- 30
-num.names$ -- 10
-pop$ -- 33
+newline$ -- 36
+num.names$ -- 12
+pop$ -- 44
 preamble$ -- 2
-purify$ -- 23
+purify$ -- 29
 quote$ -- 0
-skip$ -- 31
+skip$ -- 37
 stack$ -- 0
-substring$ -- 52
-swap$ -- 5
+substring$ -- 57
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 24
 warning$ -- 0
-while$ -- 13
-width$ -- 6
-write$ -- 57
+while$ -- 15
+width$ -- 7
+write$ -- 69
 (There was 1 warning)

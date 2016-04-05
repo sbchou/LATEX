@@ -36,11 +36,13 @@ The above outlets were chosen to form a diverse subset of the current U.S. news 
 Steps to collect the news stories were as follows:
 
  \begin{enumerate}
-   \item For each news publication:
-   \begin {enumerate}
+    \item For each news publication:
+    \begin {enumerate}
+    \itemsep-1em 
         \item Use regular expressions to extract all RSS feed urls for a news site.
         \item For each RSS feed:
         \begin {enumerate}
+        \itemsep-1em 
             \item Parse feed using open source xml reader library, Feedparser.
             \item For each link to a story in the feed:             
             \begin {enumerate}
@@ -60,7 +62,6 @@ On average, 2,000 stories are collected per day across all outlets. However, vol
 
 As of March 1st, 2016, there were 855,000 stories collected in the database and 43,000 journalists.
 
-
 For the purposes of this study, stories were examined from five outlets: 
 
 \begin{itemize}
@@ -68,12 +69,15 @@ For the purposes of this study, stories were examined from five outlets:
   \item CNN
   \item Fox News  
   \item The New York Times
-  \item The Wall Street Journal
+  \item The Wall Street Journal 
   \item The Associated Press 
 \end{itemize}
 
-because:   
-and cite Pew
+The choices consist of two pairs of outlets in both print and television across the liberal-conservative divide, plus a wire service. Of the 14 outlets above, both Fox News and the Wall Street Journal have an audience that leans conservative compared to the overall population (27\% mostly conservative viewers versus 17\% in the overall population for Fox News and 22\% mostly conservative viewers versus 17\% in the overall population) measured by a 2014 Pew survey \cite{PoliticalPolarization}.
+
+On the other hand, the New York Times and CNN both have audiences that lean mostly liberal (25\% liberal versus 22\% in all respondents for CNN and 25\% for the New York Times). The Associated Press, which was not included in the survey, has members in outlets across the political divide and was chosen as an experimental control.
+ 
+For further analysis, see section 4.1.
 
 \section{Election Classification}
 [How do I cite Prashanth's unpublished work?]
