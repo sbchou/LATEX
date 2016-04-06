@@ -86,10 +86,14 @@ The election classifier consists of a binary Maximum Entropy (MaxEnt) text class
 
 The classifier is trained on a balanced dataset of 1,000 manually labelled news articles and evaluated on a separate balanced test set of 300 articles. We achieved a precision of 90\% and recall of 91\% (F-score of 92\%). 
 
-  
-%Figure 6 shows the number of election-related articles, ag- gregated weekly from February 2015 to December 2015 (to- tal of 38,595 election-related articles). As was the case with Twitter, the number of election-related articles increase as we get closer to the election. All election-related articles are next passed to three classifiers: topic, sentiment and candi- date.
+Between January 1, 2015 and March 1, 2016 there were 24,837 articles with over 90\% confidence level of being election related. The number of stories classified as such has increased over time as election day nears. 
 
+[INSERT \% ELECTION/ \% TOTAL STORIES CHART HERE]
+
+\newpage
 \section[Topic Classification] {Topic Classification\footnote{This section features shared machine learning tools within the Electome, with acknowledgements to Prashanth Vijayaraghavan.}} 
+
+The final step of article processing within the Electome pipeline for this experimental dataset is the application of a 22-topic classifier. The following 22 topics were curated within the Laboratory for Social Machines as central issues of discussion within the election:
 
 \begin{multicols}{2}
     \begin{itemize}
@@ -119,7 +123,9 @@ The classifier is trained on a balanced dataset of 1,000 manually labelled news 
     \end{itemize}
 \end{multicols}
  
+ 3,000 articles classified as election related by the methods detailed in section 3.3 were manually labelled to form our training dataset. Articles were labelled as belonging to one or more topics. We then used a two-step model to create the classifier, due to the challenges of having a large number of classes and relatively small number of labeled stories. First, thousands of election related articles were inputted into a domain adaptive semi-supervised (stories were not all labeled) topic classification system. Then, a denoising autoencoder (DA) was used to learn salient features in an unsupervised fashion \cite{vincent2008extracting}. Then, these features were used to train a topic classifier using the labelled dataset.
 
+The classifier was evaluated on an independent dataset of 400 manually annotated articles. We achieved a precision of 91\% and a recall of 94\% (weighted F-score of 92\%).
 
 \section{Flesch-Kincaid Readability Tests} 
 In this study, we focus primarily on the Flesch-Kincaid (F-K) tests for estimating text readability. Originally developed for the U.S. Navy in 1975 for assessing the difficulty of technical manuals, the F-K reading level corresponds roughly to U.S. grade level and the reading ease score is inversely proportional to the grade level on a scale from 0 to approximately 120 \cite{kincaid1975derivation}.

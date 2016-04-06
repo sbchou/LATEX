@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 APR 2016 12:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 APR 2016 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,52 +322,46 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 81.
- [17]
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 18 might be wrong on input line 118
-.
-
-[18] [19]) [20]
+ [17] [18] [19] [20]) [21]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex
-Chapter 4.
-) [21
+ (./chap4.tex [22
 
 
 
 ]
+Chapter 4.
+) [23]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [22
+ (./chap5.tex [24
 
 
 
 ]
 Chapter 5.
-) [23]
+) [25]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [24
+ (./chap6.tex [26
 
 
 
 ]
 Chapter 6.
-) [25]
+) [27]
 \openout2 = `chap7.aux'.
 
- (./chap7.tex [26
+ (./chap7.tex [28
 
 
 
 ]
 Chapter 7.
-) [27]
+) [29]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex (./main.bbl [28
+ (./biblio.tex (./main.bbl [30
 
 
 
@@ -382,7 +376,7 @@ Underfull \hbox (badness 1259) in paragraph at lines 38--43
 cent Michel,
  []
 
-)) [29] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
+[31])) [32] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
 (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
 (./chap6.aux) (./chap7.aux) (./biblio.aux))
 
@@ -390,13 +384,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2348 strings out of 493089
- 31747 string characters out of 6134842
- 95432 words of memory out of 5000000
- 5658 multiletter control sequences out of 15000+600000
+ 2349 strings out of 493089
+ 31770 string characters out of 6134842
+ 98435 words of memory out of 5000000
+ 5659 multiletter control sequences out of 15000+600000
  17018 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,29p,666b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,29p,783b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
@@ -413,10 +407,10 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (29 pages, 445347 bytes).
+Output written on main.pdf (32 pages, 449875 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 175 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
