@@ -1,6 +1,12 @@
 \newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{March45online}
+March 1 election results 2016 updates - the washington post.
+\newblock
+  \url{https://www.washingtonpost.com/2016-election-results/super-tuesday/}.
+\newblock (Accessed on 04/06/2016).
 
 \bibitem{baum2008eye}
 Matthew~A Baum, Phil Gussin, et~al.
