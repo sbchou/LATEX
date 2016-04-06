@@ -9,7 +9,6 @@ This thesis, which emerged from the Electome, examines a narrowed portion of the
 \section{Story Collection} 
 
 News articles from 14 different news publications were systematically collected every hour from RSS feeds beginning from January 2015. The outlets tracked are:
- 
 
 \begin{multicols}{2}
     \begin{itemize}
@@ -31,7 +30,7 @@ News articles from 14 different news publications were systematically collected 
     \end{itemize}
 \end{multicols}
 
-The above outlets were chosen to form a diverse subset of the current U.S. news ecosytem, including a combination of private and public, liberal and conservative, legacy and new media publications. Also included are wire services and a mix of media delivery formats for which the outlet is known (radio, television, print, or web).
+The above outlets were chosen to form a diverse subset of the current U.S. news ecosystem, including a combination of private and public, liberal and conservative, legacy and new media publications. Also included are wire services and a mix of media delivery formats for which the outlet is known (radio, television, print, or web).  
 
 Steps to collect the news stories were as follows:
 
@@ -79,18 +78,18 @@ On the other hand, the New York Times and CNN both have audiences that lean most
  
 For further analysis, see section 4.1.
 
-\section[Election Classification] {Election Classification\footnote{footnote}}
+\section[Election Classification] {Election Classification\footnote{This section features shared machine learning tools within the Electome, with acknowledgements to Prashanth Vijayaraghavan.}}
 
-[How do I cite Prashanth's unpublished work?]
- 
+All stories collected from the sources above are passed through a machine learning classifier to determine if they are primarily about the 2016 U.S. elections. This thesis examines only those articles classified as election related.
 
-Election Classifier
-The election classifier is a binary classifier which takes a news article as input and determines whether it is about the 2016 US election or not. Since news articles usually contain clean and structured language, they can easily be classi- fied as election-related using Bag-of-Word (BoWs) features. We used the chi-square test for feature selection. Chi-square measures the lack of independence between a term in an article and a class (in this case the election). High scores on chi-square indicate that the null hypothesis of independence should be rejected and thus that the occurrence of the term and class are dependent. The features are ranked based on their scores and the top 20,000 features form the vocabulary for the binary classifier. Next, using scikit-learn (Pedregosa et al. 2011)–a Python machine learning library– a binary Maximum Entropy (MaxEnt) text classifier (Nigam, Laf- ferty, and McCallum 1999) is trained on a balanced dataset of 1,000 manually labelled news articles. The classifier was evaluated on a separate balanced test set of 300 articles, with the precision and recall of the election-related articles being 0.9 and 0.91 respectively (F-score of 0.92).
-Figure 6 shows the number of election-related articles, ag- gregated weekly from February 2015 to December 2015 (to- tal of 38,595 election-related articles). As was the case with Twitter, the number of election-related articles increase as we get closer to the election. All election-related articles are next passed to three classifiers: topic, sentiment and candi- date.
+The election classifier consists of a binary Maximum Entropy (MaxEnt) text classifier using Bag-of-Word (BoW) features selected from the news articles \cite{nigam1999using}. The features are ranked according to the chi-squared test (where high scores indicate that the null hypothesis of independence should be rejected and thus the occurence of class and term are dependent) with a cutoff of 20,000. We use the open-source Python library scikit-learn for the implementation our MaxEnt classifier \cite{pedregosa2011scikit}.  
 
-\section[Topic Classification] {Topic Classification\footnote{footnote}}
-[How do I cite Prashanth's unpublished work?]
- 
+The classifier is trained on a balanced dataset of 1,000 manually labelled news articles and evaluated on a separate balanced test set of 300 articles. We achieved a precision of 90\% and recall of 91\% (F-score of 92\%). 
+
+  
+%Figure 6 shows the number of election-related articles, ag- gregated weekly from February 2015 to December 2015 (to- tal of 38,595 election-related articles). As was the case with Twitter, the number of election-related articles increase as we get closer to the election. All election-related articles are next passed to three classifiers: topic, sentiment and candi- date.
+
+\section[Topic Classification] {Topic Classification\footnote{This section features shared machine learning tools within the Electome, with acknowledgements to Prashanth Vijayaraghavan.}} 
 
 \begin{multicols}{2}
     \begin{itemize}

@@ -28,6 +28,19 @@ Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina~Eva Matsa.
   Oct 2014.
 \newblock (Accessed on 04/02/2016).
 
+\bibitem{nigam1999using}
+Kamal Nigam, John Lafferty, and Andrew McCallum.
+\newblock Using maximum entropy for text classification.
+\newblock In {\em IJCAI-99 workshop on machine learning for information
+  filtering}, volume~1, pages 61--67, 1999.
+
+\bibitem{pedregosa2011scikit}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, et~al.
+\newblock Scikit-learn: Machine learning in python.
+\newblock {\em The Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
 \bibitem{vallone1985hostile}
 Robert~P Vallone, Lee Ross, and Mark~R Lepper.
 \newblock The hostile media phenomenon: biased perception and perceptions of
