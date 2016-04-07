@@ -1,14 +1,12 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}
-\contentsline {chapter}{\numberline {2}The Power of (Percieved) Media Bias}{9}
-\contentsline {section}{\numberline {2.1}The Effects of Media Bias}{9}
-\contentsline {section}{\numberline {2.2}The Role of the Reader in Perceptions of Bias}{9}
-\contentsline {section}{\numberline {2.3}The Role of Media Brands in Perceptions of Bias}{10}
-\contentsline {section}{\numberline {2.4}The Role of Language [Policial Persuasion]}{10}
-\contentsline {subsection}{\numberline {2.4.1}Language and Politics}{10}
-\contentsline {subsection}{\numberline {2.4.2}The Seductive Allure [... of Simple] Language}{10}
-\contentsline {section}{\numberline {2.5}Importance in Political Outcomes}{10}
-\contentsline {section}{\numberline {2.6}The 2016 Elections}{10}
-\contentsline {subsection}{\numberline {2.6.1}Criticism of Media Bias}{10}
+\contentsline {chapter}{\numberline {2}The Power of (Perceived) Media Bias}{9}
+\contentsline {section}{\numberline {2.1}The Role of the Reader in Perceptions of Bias}{10}
+\contentsline {section}{\numberline {2.2}The Role of Media Brands in Perceptions of Bias}{10}
+\contentsline {section}{\numberline {2.3}The Role of Language [Policial Persuasion]}{10}
+\contentsline {subsection}{\numberline {2.3.1}Language and Politics}{10}
+\contentsline {subsection}{\numberline {2.3.2}The Seductive Allure [... of Simple] Language}{10}
+\contentsline {section}{\numberline {2.4}The 2016 Elections}{10}
+\contentsline {subsection}{\numberline {2.4.1}Criticism of Media Bias}{10}
 \contentsline {chapter}{\numberline {3}Data Collection}{11}
 \contentsline {section}{\numberline {3.1}The Electome}{11}
 \contentsline {section}{\numberline {3.2}Story Collection}{12}

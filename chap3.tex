@@ -107,7 +107,7 @@ The final step of article processing within the Electome pipeline for this exper
     \end{itemize}
 \end{multicols}
  
- 3,000 articles classified as election related by the methods detailed in section 3.3 were manually labelled to form our training dataset. Articles were labelled as belonging to one or more topics. We then used a two-step model to create the classifier, due to the challenges of having a large number of classes and relatively small number of labeled stories. First, thousands of election related articles were inputted into a domain adaptive semi-supervised (stories were not all labeled) topic classification system. Then, a denoising autoencoder (DA) was used to learn salient features in an unsupervised fashion \cite{vincent2008extracting}. Then, these features were used to train a topic classifier using the labelled dataset.
+ 3,000 articles classified as election related by the methods detailed in section 3.3 were manually labelled to form our training dataset. Articles were labelled as belonging to one or more topics. We then used a two-step model to create the classifier, due to the challenges of having a large number of classes and relatively small number of labeled stories. First, thousands of election related articles were inputted into a domain adaptive semi-supervised (stories were not all labeled) topic classification system. Then, a denoising autoencoder (DA) was used to learn salient features in an unsupervised fashion \cite{vincent2008extracting}. These features were used to train a topic classifier using the labelled dataset.
 
 The classifier was evaluated on an independent dataset of 400 manually annotated articles. We achieved a precision of 91\% and a recall of 94\% (weighted F-score of 92\%).
 

@@ -15,46 +15,49 @@ A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
 Warning--to sort, need author or key in Pew-bias-2012
+Warning--to sort, need author or key in beyond-distrust
 Warning--to sort, need author or key in March45online
-You've used 13 entries,
+Warning--empty author in Pew-bias-2012
+Warning--empty author in beyond-distrust
+You've used 15 entries,
             2118 wiz_defined-function locations,
-            598 strings with 7267 characters,
-and the built_in function-call counts, 4450 in all, are:
-= -- 427
-> -- 249
+            607 strings with 7553 characters,
+and the built_in function-call counts, 4858 in all, are:
+= -- 465
+> -- 257
 < -- 3
-+ -- 103
-- -- 86
-* -- 309
-:= -- 738
-add.period$ -- 42
-call.type$ -- 13
-change.case$ -- 82
++ -- 107
+- -- 88
+* -- 338
+:= -- 809
+add.period$ -- 48
+call.type$ -- 15
+change.case$ -- 89
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 148
-empty$ -- 333
-format.name$ -- 86
-if$ -- 927
+cite$ -- 20
+duplicate$ -- 178
+empty$ -- 369
+format.name$ -- 88
+if$ -- 1007
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 7
-newline$ -- 71
-num.names$ -- 22
-pop$ -- 101
+int.to.str$ -- 15
+missing$ -- 11
+newline$ -- 81
+num.names$ -- 24
+pop$ -- 102
 preamble$ -- 2
-purify$ -- 67
+purify$ -- 72
 quote$ -- 0
-skip$ -- 107
+skip$ -- 123
 stack$ -- 0
-substring$ -- 214
-swap$ -- 33
+substring$ -- 224
+swap$ -- 36
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
-warning$ -- 2
-while$ -- 35
-width$ -- 15
-write$ -- 145
-(There were 2 warnings)
+type$ -- 60
+warning$ -- 5
+while$ -- 37
+width$ -- 17
+write$ -- 165
+(There were 5 warnings)
