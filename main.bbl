@@ -8,11 +8,23 @@ March 1 election results 2016 updates - the washington post.
   \url{https://www.washingtonpost.com/2016-election-results/super-tuesday/}.
 \newblock (Accessed on 04/06/2016).
 
+\bibitem{Pew-bias-2012}
+Section 3: Perceptions of bias, news knowledge | pew research center.
+\newblock
+  \url{http://www.people-press.org/2012/02/07/section-3-perceptions-of-bias-news-knowledge/},
+  feb 2012.
+\newblock (Accessed on 04/06/2016).
+
 \bibitem{baum2008eye}
 Matthew~A Baum, Phil Gussin, et~al.
 \newblock In the eye of the beholder: How information shortcuts shape
   individual perceptions of bias in the media.
 \newblock {\em Quarterly Journal of political science}, 3(1):1--31, 2008.
+
+\bibitem{dellavigna2006fox}
+Stefano DellaVigna and Ethan Kaplan.
+\newblock The fox news effect: Media bias and voting.
+\newblock Technical report, National Bureau of Economic Research, 2006.
 
 \bibitem{kincaid1975derivation}
 J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
@@ -64,5 +76,11 @@ Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol.
 \newblock Extracting and composing robust features with denoising autoencoders.
 \newblock In {\em Proceedings of the 25th international conference on Machine
   learning}, pages 1096--1103. ACM, 2008.
+
+\bibitem{weisberg2008seductive}
+Deena~Skolnick Weisberg, Frank~C Keil, Joshua Goodstein, Elizabeth Rawson, and
+  Jeremy~R Gray.
+\newblock The seductive allure of neuroscience explanations.
+\newblock {\em Journal of cognitive neuroscience}, 20(3):470--477, 2008.
 
 \end{thebibliography}
