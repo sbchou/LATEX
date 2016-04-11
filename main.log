@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 APR 2016 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 APR 2016 18:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,10 +350,41 @@ Chapter 6.
 File: images/favorability_question.png Graphic file (type png)
 
 <use images/favorability_question.png>
-Package pdftex.def Info: images/favorability_question.png used on input line 11
+Package pdftex.def Info: images/favorability_question.png used on input line 13
 .
 (pdftex.def)             Requested size: 216.81pt x 51.75531pt.
-) [25 <./images/favorability_question.png>] [26]
+ [25 <./images/favorability_question.png>] <images/Trump_favorability.png, id=1
+06, 144.54pt x 144.54pt>
+File: images/Trump_favorability.png Graphic file (type png)
+
+<use images/Trump_favorability.png>
+Package pdftex.def Info: images/Trump_favorability.png used on input line 25.
+(pdftex.def)             Requested size: 104.07117pt x 104.0709pt.
+
+<images/Clinton_favorability.png, id=107, 144.54pt x 144.54pt>
+File: images/Clinton_favorability.png Graphic file (type png)
+
+<use images/Clinton_favorability.png>
+Package pdftex.def Info: images/Clinton_favorability.png used on input line 26.
+
+(pdftex.def)             Requested size: 104.07117pt x 104.0709pt.
+
+<images/Sanders_favorability.png, id=108, 144.54pt x 144.54pt>
+File: images/Sanders_favorability.png Graphic file (type png)
+
+<use images/Sanders_favorability.png>
+Package pdftex.def Info: images/Sanders_favorability.png used on input line 27.
+
+(pdftex.def)             Requested size: 104.07117pt x 104.0709pt.
+
+<images/Cruz_favorability.png, id=109, 144.54pt x 144.54pt>
+File: images/Cruz_favorability.png Graphic file (type png)
+
+<use images/Cruz_favorability.png>
+Package pdftex.def Info: images/Cruz_favorability.png used on input line 28.
+(pdftex.def)             Requested size: 104.07117pt x 104.0709pt.
+) [26 <./images/Trump_favorability.png> <./images/Clinton_favorability.png> <./
+images/Sanders_favorability.png> <./images/Cruz_favorability.png>]
 \openout2 = `chap7.aux'.
 
  (./chap7.tex
@@ -379,10 +410,10 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux)
 (./chap7.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 2356 strings out of 493089
- 32063 string characters out of 6134842
+ 2376 strings out of 493089
+ 32706 string characters out of 6134842
  98460 words of memory out of 5000000
- 5668 multiletter control sequences out of 15000+600000
+ 5684 multiletter control sequences out of 15000+600000
  17018 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,29p,777b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -403,10 +434,10 @@ m1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1
 8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pf
 b>
-Output written on main.pdf (30 pages, 495437 bytes).
+Output written on main.pdf (30 pages, 525697 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
