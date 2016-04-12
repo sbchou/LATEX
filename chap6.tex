@@ -22,38 +22,40 @@ Of the stories shown, both Sanders and Clinton were viewed as having more positi
 
 \begin{figure}[h!] 
 \centering
-  \includegraphics[width=0.24\textwidth]{Trump_favorability} 
-  \includegraphics[width=0.24\textwidth]{Clinton_favorability} 
-  \includegraphics[width=0.24\textwidth]{Sanders_favorability} 
-  \includegraphics[width=0.24\textwidth]{Cruz_favorability} 
+  \includegraphics[width=0.45\textwidth]{Trump_favorability} 
+  \includegraphics[width=0.45\textwidth]{Clinton_favorability} 
+  \includegraphics[width=0.45\textwidth]{Sanders_favorability} 
+  \includegraphics[width=0.45\textwidth]{Cruz_favorability} 
   \caption{Media Favorability of Candidates}
 \end{figure}
- 
+
+These trends persist when we filter responses by stories that were considered trustworthy or at least neutral (score > 0).
+
+\begin{figure}[h!] 
+\centering
+  \includegraphics[width=0.45\textwidth]{Trump_favorability_trust_gt_0} 
+  \includegraphics[width=0.45\textwidth]{Clinton_favorability_trust_gt_0} 
+  \includegraphics[width=0.45\textwidth]{Sanders_favorability_trust_gt_0} 
+  \includegraphics[width=0.45\textwidth]{Cruz_favorability_trust_gt_0} 
+  \caption{Media Favorability of Candidates, Trustworthy Articles}
+\end{figure}
+
+In the following section, we examine more patterns of media trustworthiness.
 
 
-WHAT ABOUT IN COMPARISON TO TRUSTWORTHINESS THO?
-WHEN WE LOOK AT ONLY TRUSTWORTHY STORIES
+\section{Media Trustworthiness}
 
- 
+Each reader was also asked to score the five stories according to how trustworthy they found each to be. 
 
-Bernie Sanders
- 0    42.777778
- 1    38.888889
--1    18.333333
-Name: favor, dtype: float64
+\begin{figure}[h!] 
+\centering
+  \fbox{\includegraphics[width=0.35\textwidth]{trustworthy_question}}
+  \caption{Example of trustworthiness scoring question}
+\end{figure}
 
-Hillary Clinton
- 1    38.888889
- 0    33.888889
--1    27.222222
-Name: favor, dtype: float64
+Scores were collected on a five-point (Likert) scale: Strongly Agree (2), Agree (1), Neutral (0), Disagree (-1), Strongly Disagree (-2).
 
-Ted Cruz
- 0    37.777778
--1    33.333333
- 1    28.888889
-Name: favor, dtype: float64
-
+Overall, despite reportings on national distrust of news, stories were marked positively for all candidates.
 
 \section{Overall Bias Reportings}
 
