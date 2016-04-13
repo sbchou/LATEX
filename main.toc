@@ -32,7 +32,7 @@
 \contentsline {section}{\numberline {6.2}Media Favorability of Candidates}{25}
 \contentsline {section}{\numberline {6.3}Media Trustworthiness}{27}
 \contentsline {section}{\numberline {6.4}Overall Bias Reportings}{28}
-\contentsline {chapter}{\numberline {7}Analysis}{29}
-\contentsline {section}{\numberline {7.1}Media Brand Effect}{29}
-\contentsline {section}{\numberline {7.2}Reading Level Effect}{29}
-\contentsline {section}{\numberline {7.3}Other Linguistic Cues}{29}
+\contentsline {chapter}{\numberline {7}Analysis}{31}
+\contentsline {section}{\numberline {7.1}Media Brand Effect}{31}
+\contentsline {section}{\numberline {7.2}Reading Level Effect}{31}
+\contentsline {section}{\numberline {7.3}Other Linguistic Cues}{31}
