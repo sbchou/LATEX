@@ -11,53 +11,54 @@ A level-1 auxiliary file: chap4.aux
 A level-1 auxiliary file: chap5.aux
 A level-1 auxiliary file: chap6.aux
 A level-1 auxiliary file: chap7.aux
+A level-1 auxiliary file: appa.aux
+A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
-Warning--to sort, need author or key in Pew-bias-2012
+Warning--to sort, need author or key in Trump-advantage
 Warning--to sort, need author or key in beyond-distrust
 Warning--to sort, need author or key in March45online
-Warning--empty author in Pew-bias-2012
 Warning--empty author in beyond-distrust
 You've used 15 entries,
             2118 wiz_defined-function locations,
-            607 strings with 7553 characters,
-and the built_in function-call counts, 4858 in all, are:
-= -- 465
-> -- 257
+            609 strings with 7708 characters,
+and the built_in function-call counts, 4830 in all, are:
+= -- 461
+> -- 251
 < -- 3
-+ -- 107
-- -- 88
-* -- 338
-:= -- 809
-add.period$ -- 48
++ -- 104
+- -- 86
+* -- 324
+:= -- 794
+add.period$ -- 49
 call.type$ -- 15
-change.case$ -- 89
+change.case$ -- 87
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 178
-empty$ -- 369
-format.name$ -- 88
-if$ -- 1007
+cite$ -- 19
+duplicate$ -- 174
+empty$ -- 381
+format.name$ -- 86
+if$ -- 1012
 int.to.chr$ -- 0
 int.to.str$ -- 15
-missing$ -- 11
-newline$ -- 81
+missing$ -- 10
+newline$ -- 82
 num.names$ -- 24
-pop$ -- 102
+pop$ -- 115
 preamble$ -- 2
-purify$ -- 72
+purify$ -- 71
 quote$ -- 0
-skip$ -- 123
+skip$ -- 120
 stack$ -- 0
-substring$ -- 224
-swap$ -- 36
+substring$ -- 223
+swap$ -- 37
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 60
-warning$ -- 5
+warning$ -- 4
 while$ -- 37
 width$ -- 17
-write$ -- 165
-(There were 5 warnings)
+write$ -- 164
+(There were 4 warnings)

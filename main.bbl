@@ -8,10 +8,12 @@ March 1 election results 2016 updates - the washington post.
   \url{https://www.washingtonpost.com/2016-election-results/super-tuesday/}.
 \newblock (Accessed on 04/06/2016).
 
-\bibitem{Pew-bias-2012}
-Perceptions of bias, news knowledge.
-\newblock {\em Pew Research Center}, feb 2012.
-\newblock (Accessed on 04/06/2016).
+\bibitem{Trump-advantage}
+Measuring donald trump’s mammoth advantage in free media - the new york
+  times.
+\newblock
+  \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
+\newblock (Accessed on 04/20/2016).
 
 \bibitem{beyond-distrust}
 Beyond distrust: How americans view their government.
@@ -23,11 +25,6 @@ Matthew~A Baum, Phil Gussin, et~al.
 \newblock In the eye of the beholder: How information shortcuts shape
   individual perceptions of bias in the media.
 \newblock {\em Quarterly Journal of political science}, 3(1):1--31, 2008.
-
-\bibitem{dellavigna2006fox}
-Stefano DellaVigna and Ethan Kaplan.
-\newblock The fox news effect: Media bias and voting.
-\newblock Technical report, National Bureau of Economic Research, 2006.
 
 \bibitem{kincaid1975derivation}
 J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
@@ -65,6 +62,13 @@ Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
   Weiss, Vincent Dubourg, et~al.
 \newblock Scikit-learn: Machine learning in python.
 \newblock {\em The Journal of Machine Learning Research}, 12:2825--2830, 2011.
+
+\bibitem{Gallup-trust-2015}
+Rebecca Riffkin.
+\newblock Americans' trust in media remains at historical low.
+\newblock
+  \url{http://www.gallup.com/poll/185927/americans-trust-media-remains-historical-low.aspx}.
+\newblock (Accessed on 04/20/2016).
 
 \bibitem{vallone1985hostile}
 Robert~P Vallone, Lee Ross, and Mark~R Lepper.
