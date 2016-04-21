@@ -7,10 +7,11 @@
 \contentsline {subsection}{\numberline {2.2.3}The Role of Language}{10}
 \contentsline {chapter}{\numberline {3}Metrics for Measuring Trust}{11}
 \contentsline {section}{\numberline {3.1}Computing Reading Level}{11}
-\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid}{11}
-\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{11}
-\contentsline {chapter}{\numberline {4}Does Reading Level Matter?}{13}
-\contentsline {section}{\numberline {4.1}Motivation}{14}
+\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{11}
+\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{12}
+\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{12}
+\contentsline {chapter}{\numberline {4}Reading Level Effects}{13}
+\contentsline {section}{\numberline {4.1}Motivation}{13}
 \contentsline {section}{\numberline {4.2}Experimental Design}{14}
 \contentsline {subsection}{\numberline {4.2.1}Quality Control}{14}
 \contentsline {subsection}{\numberline {4.2.2}Dataset}{14}
@@ -18,17 +19,17 @@
 \contentsline {section}{\numberline {4.3}Analysis}{14}
 \contentsline {section}{\numberline {4.4}Conclusions}{14}
 \contentsline {section}{\numberline {4.5}Limitations}{14}
-\contentsline {chapter}{\numberline {5}Does Media Brand Matter?}{15}
-\contentsline {section}{\numberline {5.1}Motivations}{15}
-\contentsline {section}{\numberline {5.2}Experimental Design}{16}
-\contentsline {subsection}{\numberline {5.2.1}Dataset}{16}
-\contentsline {subsection}{\numberline {5.2.2}Survey}{16}
-\contentsline {subsection}{\numberline {5.2.3}Quality Control}{16}
-\contentsline {section}{\numberline {5.3}Analysis}{16}
-\contentsline {section}{\numberline {5.4}Conclusions}{16}
-\contentsline {section}{\numberline {5.5}Limitations}{16}
-\contentsline {chapter}{\numberline {6}Future Work}{17}
-\contentsline {section}{\numberline {6.1}Designing Interventions}{17}
-\contentsline {chapter}{\numberline {7}Conclusion}{19}
-\contentsline {chapter}{\numberline {8}Tables}{21}
-\contentsline {chapter}{\numberline {9}Figures}{23}
+\contentsline {chapter}{\numberline {5}Media Brand Effects}{17}
+\contentsline {section}{\numberline {5.1}Motivations}{17}
+\contentsline {section}{\numberline {5.2}Experimental Design}{17}
+\contentsline {subsection}{\numberline {5.2.1}Dataset}{19}
+\contentsline {subsection}{\numberline {5.2.2}Survey}{19}
+\contentsline {subsection}{\numberline {5.2.3}Quality Control}{19}
+\contentsline {section}{\numberline {5.3}Analysis}{19}
+\contentsline {section}{\numberline {5.4}Conclusions}{19}
+\contentsline {section}{\numberline {5.5}Limitations}{19}
+\contentsline {chapter}{\numberline {6}Future Work}{21}
+\contentsline {section}{\numberline {6.1}Designing Interventions}{21}
+\contentsline {chapter}{\numberline {7}Conclusion}{23}
+\contentsline {chapter}{\numberline {8}Tables}{25}
+\contentsline {chapter}{\numberline {9}Figures}{27}
