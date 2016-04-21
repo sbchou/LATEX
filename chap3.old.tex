@@ -1,0 +1,129 @@
+\chapter{Blank : used to be electome stuff}
+% %\chapter{Data Collection}
+
+% %\section{The Electome}
+
+% %The Electome is a large, collaborative, and ongoing effort in the Laboratory for Social Machines that seeks to analyze the ``competition of ideas'' in the upcoming 2016 elections. It does so by using techniques in natural language processing, machine learning, and network analysis to make sense of ``big data'' collected from two main sources: traditional media (online versions of news publications) and social media (Twitter) \cite{vvr_electome2016}. 
+
+% %This thesis, which emerged from the Electome, examines a narrowed portion of the first dataset centered around specific topics and candidates. The following section will describe the methods used to gather this dataset as well as shared machine learning tools for article classification.
+
+% %\section{Story Collection} 
+
+% %News articles from 14 different news publications were systematically collected every hour from RSS feeds beginning from January 2015. The outlets tracked are:
+
+% %\begin{multicols}{2}
+% %    \begin{itemize}
+% %    \itemsep-1em 
+% %      \item CNN
+% %      \item Fox News
+% %      \item The Wall Street Journal
+%       \item ProPublica
+%       \item Politico
+%       \item McClatchy
+%       \item The Washington Post
+%       \item Buzzfeed (News only)
+%       \item National Public Radio (NPR)
+%       \item The Huffington Post
+%       \item The Associated Press
+%       \item Reuters
+%       \item The New York Times
+%       \item The Los Angeles Times
+%     \end{itemize}
+% \end{multicols}
+
+% The above outlets were chosen to form a diverse subset of the current U.S. news ecosystem, including a combination of private and public, liberal and conservative, legacy and new media publications. Also included are wire services and a mix of media delivery formats for which the outlet is known (radio, television, print, or web).  
+
+% Steps to collect the news stories were as follows:
+
+%  \begin{enumerate}
+%     \item For each news publication:
+%     \begin {enumerate}
+%     \itemsep-1em 
+%         \item Use regular expressions to extract all RSS feed urls for a news site.
+%         \item For each RSS feed:
+%         \begin {enumerate}
+%         \itemsep-1em 
+%             \item Parse feed using open source xml reader library, Feedparser.
+%             \item For each link to a story in the feed:             
+%             \begin {enumerate}
+%                 \item Parse html using Beautiful Soup 3 (an open source python library)
+%                 \item Insert headline, authors, story text, publication date and retrieval date into an SQL database.
+
+%             \end {enumerate}
+%         \end{enumerate}
+%     \end{enumerate}
+% \end{enumerate}
+
+% Data depulication (by story url and headline) is then performed to ensure only one copy of each article is in the database. This step is necessary as articles from wire services often appear across many outlets and effect aggregate text analsyis.
+
+% On average, 2,000 stories are collected per day across all outlets. However, volume follows a consistent pattern of fluctuation depending on weekday, ranging from approximately 1,000 to 3,000 stories.
+
+% [INSERT HERE GRAPH OF NEWS STORIES VOLUME BY WEEKDAY]
+
+% As of March 1st, 2016, there were 855,000 stories collected in the database and 43,000 journalists.
+
+
+% \section[Election Classification] {Election Classification\footnote{This section features shared machine learning tools within the Electome, with acknowledgements to Prashanth Vijayaraghavan.}}
+
+% All stories collected from the sources above are passed through a machine learning classifier to determine if they are primarily about the 2016 U.S. elections. This thesis examines only those articles classified as election related.
+
+% The election classifier consists of a binary Maximum Entropy (MaxEnt) text classifier using Bag-of-Word (BoW) features selected from the news articles \cite{nigam1999using}. The features are ranked according to the chi-squared test (where high scores indicate that the null hypothesis of independence should be rejected and thus the occurence of class and term are dependent) with a cutoff of 20,000. We use the open-source Python library scikit-learn for the implementation our MaxEnt classifier \cite{pedregosa2011scikit}.  
+
+% The classifier is trained on a balanced dataset of 1,000 manually labelled news articles and evaluated on a separate balanced test set of 300 articles. We achieved a precision of 90\% and recall of 91\% (F-score of 92\%). 
+
+% Between January 1, 2015 and March 1, 2016 there were 24,837 articles with over 90\% confidence level of being election related. The number of stories classified as such has increased over time as election day nears. 
+
+% [INSERT \% ELECTION/ \% TOTAL STORIES CHART HERE]
+
+% \newpage
+% \section[Topic Classification] {Topic Classification\footnote{This section features shared machine learning tools within the Electome, with acknowledgements to Prashanth Vijayaraghavan.}} 
+
+% The final step of article processing within the Electome pipeline for this experimental dataset is the application of a 22-topic classifier. The following 22 topics were curated within the Laboratory for Social Machines as central issues of discussion within the election:
+
+% \begin{multicols}{2}
+%     \begin{itemize}
+%     \itemsep-1em 
+%       \item Income Inequality
+%       \item Environment/Energy
+%       \item Jobs/Employment
+%       \item Guns
+%       \item Racial Issues
+%       \item Foreign Policy/National Security
+%       \item LGBT Issues
+%       \item Ethics
+%       \item Education
+%       \item Financial Regulation
+%       \item Budget/Taxation
+%       \item Veterans
+%       \item Campaign Finance
+%       \item Surveillance/Privacy
+%       \item Drugs
+%       \item Justice
+%       \item Abortion
+%       \item Immigration
+%       \item Trade
+%       \item Health Care
+%       \item Economy
+%       \item Other 
+%     \end{itemize}
+% \end{multicols}
+ 
+%  3,000 articles classified as election related by the methods detailed in section 3.3 were manually labelled to form our training dataset. Articles were labelled as belonging to one or more topics. We then used a two-step model to create the classifier, due to the challenges of having a large number of classes and relatively small number of labeled stories. First, thousands of election related articles were inputted into a domain adaptive semi-supervised (stories were not all labeled) topic classification system. Then, a denoising autoencoder (DA) was used to learn salient features in an unsupervised fashion \cite{vincent2008extracting}. These features were used to train a topic classifier using the labelled dataset.
+
+% The classifier was evaluated on an independent dataset of 400 manually annotated articles. We achieved a precision of 91\% and a recall of 94\% (weighted F-score of 92\%).
+
+% \section{Flesch-Kincaid Readability Tests} 
+% In this study, we focus primarily on the Flesch-Kincaid (F-K) tests for estimating text readability. Originally developed for the U.S. Navy in 1975 for assessing the difficulty of technical manuals, the F-K reading level corresponds roughly to U.S. grade level and the reading ease score is inversely proportional to the grade level on a scale from 0 to approximately 120 \cite{kincaid1975derivation}.
+
+% We chose the F-K tests over other comparable ones due to its popularity in educational assessment and other applications, including in legislation. For example, it is required by law in Florida that life insurance policies have a Flesch reading ease of 45 or greater (less than 12th grade in reading level) \cite{Statu37online}. The F-K tests are also bundled in many common word processing services, including Microsoft Office Word. As a comparison, basic article analysis is also computed using the Gunning fog index (see Section 5.2.1).
+
+% The formula for Flesch reading ease is as follows:
+
+% $$206.835 - 1.015 \left( \frac{\mbox{total words}}{\mbox{total sentences}} \right) - 84.6 \left( \frac{\mbox{total syllables}}{\mbox{total words}} \right)$$
+
+% And for reading grade level:
+
+% $$0.39 \left ( \frac{\mbox{total words}}{\mbox{total sentences}} \right ) + 11.8 \left ( \frac{\mbox{total syllables}}{\mbox{total words}} \right ) - 15.59$$
+ 
+% The two formulas are not directly comparable due to the difference in weighting factors. For ease of metaphor, we use the grade level tests in our analysis. Syllable length is highly weighted in this formula, so it is possible to generate a story of very high reading level that consists of a single word in a single sentence (the longest English word, \emph{pneumonoultramicroscopicsilicovolcanoconiosi}, a type of lung disease, has a reading grade level of 197.2), which is a limitation of the method, since texts with polysyllabic words are not always necessarily more difficult to read.
+%   

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 APR 2016 02:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 APR 2016 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -320,148 +320,89 @@ Chapter 3.
 
 ]
 Chapter 4.
-[13]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
- [14]
-<images/crowdflower_instructions.png, id=61, 921.4425pt x 514.92375pt>
-File: images/crowdflower_instructions.png Graphic file (type png)
+) [13]
+Overfull \vbox (7.71535pt too high) has occurred while \output is active []
 
-<use images/crowdflower_instructions.png>
-Package pdftex.def Info: images/crowdflower_instructions.png used on input line
- 55.
-(pdftex.def)             Requested size: 433.62pt x 242.31276pt.
-) [15 <./images/crowdflower_instructions.png>] [16]
+
+[14]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
 Chapter 5.
+) [15
+
+
+
+] [16]
+\openout2 = `chap6.aux'.
+
+ (./chap6.tex
+Chapter 6.
 ) [17
 
 
 
 ]
-\openout2 = `chap6.aux'.
+\openout2 = `chap7.aux'.
 
- (./chap6.tex [18
+ (./chap7.tex [18
 
 
 
 ]
-Chapter 6.
-[19]) [20]
-\openout2 = `chap7.aux'.
-
- (./chap7.tex
 Chapter 7.
-
-Underfull \hbox (badness 4660) in paragraph at lines 21--21
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 21--21
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 21--21
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 21--22
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 22--22
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 22--22
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 22--22
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 22--23
-[]|\T1/cmr/m/n/12 Clinton, Cruz,
- []
-
-
-Overfull \hbox (75.17096pt too wide) in paragraph at lines 17--25
-[][] 
- []
-
-[21
-
-
-
-] [22]) [23]
+) [19]
 \openout2 = `chap8.aux'.
 
- (./chap8.tex [24
+
+No file chap8.tex.
+\openout2 = `chap9.aux'.
+
+No file chap9.tex.
+\openout2 = `appa.aux'.
+
+(./appa.tex [20
+
+
+
+
 
 
 
 ]
 Chapter 8.
-) [25]
-\openout2 = `chap9.aux'.
+[21])
+\openout2 = `appb.aux'.
 
- (./chap9.tex [26
+ (./appb.tex [22
+
 
 
 
 ]
 Chapter 9.
-) [27]
-\openout2 = `appa.aux'.
-
- (./appa.tex [28
-
-
-
-]
-Chapter 10.
-[29])
-\openout2 = `appb.aux'.
-
- (./appb.tex [30
-
-
-
-
-]
-Chapter 11.
-<images/trump_topics.png, id=114, 283.0575pt x 427.5975pt>
+<images/trump_topics.png, id=86, 283.0575pt x 427.5975pt>
 File: images/trump_topics.png Graphic file (type png)
 
 <use images/trump_topics.png>
 Package pdftex.def Info: images/trump_topics.png used on input line 8.
 (pdftex.def)             Requested size: 195.12767pt x 294.77509pt.
 
-<images/clinton_topics.png, id=115, 290.08376pt x 418.56375pt>
+<images/clinton_topics.png, id=88, 290.08376pt x 418.56375pt>
 File: images/clinton_topics.png Graphic file (type png)
 
 <use images/clinton_topics.png>
 Package pdftex.def Info: images/clinton_topics.png used on input line 9.
 (pdftex.def)             Requested size: 195.12767pt x 281.55392pt.
 
-<images/sanders_topics.png, id=116, 279.0425pt x 428.60126pt>
+<images/sanders_topics.png, id=89, 279.0425pt x 428.60126pt>
 File: images/sanders_topics.png Graphic file (type png)
 
 <use images/sanders_topics.png>
 Package pdftex.def Info: images/sanders_topics.png used on input line 10.
 (pdftex.def)             Requested size: 195.12767pt x 299.71799pt.
 
-<images/cruz_topics.png, id=117, 270.00874pt x 428.60126pt>
+<images/cruz_topics.png, id=90, 270.00874pt x 428.60126pt>
 File: images/cruz_topics.png Graphic file (type png)
 
 <use images/cruz_topics.png>
@@ -471,7 +412,7 @@ Package pdftex.def Info: images/cruz_topics.png used on input line 11.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] [32 <./images/trump_topics.png> <./images/clinton_topics.png> <./images/sa
+[23] [24 <./images/trump_topics.png> <./images/clinton_topics.png> <./images/sa
 nders_topics.png> <./images/cruz_topics.png>])
 \openout2 = `biblio.aux'.
 
@@ -538,42 +479,39 @@ Underfull \hbox (badness 5667) in paragraph at lines 48--53
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-[33
+[25
 
 
 
 
-])) [34] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
+])) [26] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
 (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
 (./chap6.aux) (./chap7.aux) (./chap8.aux) (./chap9.aux) (./appa.aux)
-(./appb.aux) (./biblio.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./appb.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 2414 strings out of 493089
- 32670 string characters out of 6134842
- 95216 words of memory out of 5000000
- 5713 multiletter control sequences out of 15000+600000
+ 2401 strings out of 493089
+ 32392 string characters out of 6134842
+ 95202 words of memory out of 5000000
+ 5706 multiletter control sequences out of 15000+600000
  14573 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,23p,755b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (34 pages, 791072 bytes).
+ 37i,7n,23p,643b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
+ps/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/cm-super/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/c
+m-super/sfbx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfbx2488.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-su
+per/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/
+sfrm1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sf
+ti1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt
+1200.pfb>
+Output written on main.pdf (26 pages, 566844 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 143 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
