@@ -21,19 +21,14 @@
 \contentsline {section}{\numberline {5.2}Flesch-Kincaid Analysis}{17}
 \contentsline {subsection}{\numberline {5.2.1}Comparisons to other Reading Level Tests}{17}
 \contentsline {chapter}{\numberline {6}Exploratory Study}{19}
-\contentsline {section}{\numberline {6.1}Reader Demographics}{19}
-\contentsline {section}{\numberline {6.2}Media Favorability of Candidates}{19}
-\contentsline {section}{\numberline {6.3}Media Trustworthiness}{21}
-\contentsline {section}{\numberline {6.4}Overall Bias Reportings}{22}
-\contentsline {section}{\numberline {6.5}Media Brand Effect}{22}
-\contentsline {section}{\numberline {6.6}Reading Level Effect}{22}
-\contentsline {section}{\numberline {6.7}Other Linguistic Cues}{22}
-\contentsline {section}{\numberline {6.8}Limitations}{22}
-\contentsline {chapter}{\numberline {7}Main Study}{25}
-\contentsline {section}{\numberline {7.1}Experimental Design}{26}
-\contentsline {section}{\numberline {7.2}Data Selection}{26}
-\contentsline {section}{\numberline {7.3}Limitations}{26}
-\contentsline {chapter}{\numberline {8}Future Work}{27}
-\contentsline {chapter}{\numberline {9}Conclusion}{29}
-\contentsline {chapter}{\numberline {10}Tables}{31}
-\contentsline {chapter}{\numberline {11}Figures}{33}
+\contentsline {section}{\numberline {6.1}Motivation}{19}
+\contentsline {section}{\numberline {6.2}Dataset}{19}
+\contentsline {section}{\numberline {6.3}Limitations}{19}
+\contentsline {chapter}{\numberline {7}Main Study}{21}
+\contentsline {section}{\numberline {7.1}Experimental Design}{21}
+\contentsline {section}{\numberline {7.2}Data Selection}{23}
+\contentsline {section}{\numberline {7.3}Limitations}{23}
+\contentsline {chapter}{\numberline {8}Future Work}{25}
+\contentsline {chapter}{\numberline {9}Conclusion}{27}
+\contentsline {chapter}{\numberline {10}Tables}{29}
+\contentsline {chapter}{\numberline {11}Figures}{31}

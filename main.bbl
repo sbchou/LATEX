@@ -1,6 +1,6 @@
 \newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Greenwald}
 Is glenn greenwald the future of news? -- the new york times.
@@ -37,6 +37,12 @@ Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina~Eva Matsa.
 \newblock Political polarization \& media habits.
 \newblock {\em Pew Research Center}, Oct 2014.
 \newblock (Accessed on 04/02/2016).
+
+\bibitem{apFAQ}
+Associated Press.
+\newblock Faqs.
+\newblock \url{http://www.ap.org/company/FAQs}, 2016.
+\newblock (Accessed on 04/21/2016).
 
 \bibitem{Gallup-trust-2015}
 Rebecca Riffkin.

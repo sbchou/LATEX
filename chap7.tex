@@ -1,26 +1,19 @@
 \chapter{Main Study}
 
 %\section{Motivation}
+Following the limitations and patterns from the prelimary study, we designed a follow-up study to verify interactions between news source and reading level.
 
-From our exploratory study, we were able to obtain a significant but weak effect between disclosing the source and the levels of trust marked by readers towards an article.
-
-We also observed trends that suggested an interaction between disclosing the source and the reading level of a story, however we did not obtain enough samples to show a statistically significant result. 
-
-Furthermore, multiple levels of independent variables (ie: 5 levels for input source) made modeling complex and the results less clear.
-
-The dataset was also unbalanced and sparse (ie, because of large numbers of input variables we did not have complete representation for each category, such as high, low, and mid-reading level stories for every outlet and topic). We tried to control for those factors by randomization, however it made more difficult to analyze specific correlations between source and trust.
-
-To further explore the interaction between disclosing the source and the reading level of the story, we set up another crowdsourcing experiment on CrowdFlower, this time targeting this specific interaction, to see if there is a significant effect between the two.
-
+What were your main hypotheses?
+H1
+H2
 
 \section{Experimental Design}
 
-We revised the experiment to have a 4 x 2 subject design.
-Within subject: Candidates and High/Low Reading Level
-Mixed design
-
+For the second study, our experiment was revised to have a 4 x 2 mixed-factorial design.
+In this study, reading level of articles and candidates featured in the articles were treated as within-subject variables, and the source of the story between-subjects.
 
 \begin{center}
+\begin{table}
 \begin{tabular}{ | m{10em} | m{7em}| m{7em} | m{7em} | m{7em} | } 
  \hline
   & \textbf{Source: None} & \textbf{Source: AP} & \textbf{Source: Fox} & \textbf{Source: CNN} \\
@@ -29,11 +22,33 @@ Mixed design
  \textbf{Low Reading Level} & Clinton, Cruz, Sanders, Trump & Clinton, Cruz, Sanders, Trump & Clinton, Cruz, Sanders, Trump & Clinton, Cruz, Sanders, Trump \\ 
  \hline
 \end{tabular}
+\caption{Main Study Design}
+\label{study2}
+\end{table}
 \end{center}
+%\newpage
+
+% \begin{itemize}
+%   \item Source (4 levels: None, AP, CNN, Fox)
+%   \item Candidate (4 levels: Clinton, Cruz, Sanders, Trump)
+%   \item Reading Level (2 levels: High, Low)
+% \end{itemize}
+
+This time, we reduced the number of stories to N=8, and also changed reading level from a 3-level to 2-level variable (low, high) for clarity.
+
+Most significantly, since we observed some significant effect from disclosing source to the reader in Study 1, we added a manipulation in this experiment to further study the effect of revealing the source:
+
+Following Baum's research in showing the effects of media brands and reader bias by manipulating reported brands, all eight stories in Study 2 were in fact written by the Associated Press, however, we manipulated the source shown to the reader \cite{baum2008eye}. In group A, readers were shown the headline and text of the story with no other context. In group B, readers were additionally shown that the story was from the Associated Press (true label). In groups C and D, readers were shown that the story was from CNN and Fox News, respectively.
+
+This setup was created to eliminate some of the confounding effects from using stories from different sources (writing style, focus of content, slant, etc.), while directly observing the effect of revealing a specific source to the reader. The Associated Press was chosen as the source of the stories as it is the highest circulation newswire service in the United States, and has 14,000 members that use its content \cite{apFAQ}. Notably, both CNN and Fox News publish content in full or part from the Associated Press, although the specific stories chosen had not been published in full by either to avoid bias.
+
+We removed the favorability question from Study 1 (as the 3-point scale did not yield significant results), instead asking the reader more directly about media bias by ranking the fairness of the story on a 5-point Likert scale. The trustworthiness question from Study 1 was kept, also on the same 5-point Likert scale.
+
 
 %What stayed the same? What changed?
 
 \section{Data Selection} 
+Eight stories were chosen for this study: two (high and low reading level) per candidate.
 %[How did you choose the eight stories?]
 
 
@@ -51,13 +66,14 @@ Mixed design
  
 % What kind of effects did you find?
 
-% How do your trustworthiness findings line up with the findings from Pew surveys and prior work?
+How do your trustworthiness findings line up with the findings from Pew surveys and prior work? What hypotheses did you verify from prior work?
 
 % What were potential limitations of the study?
 
 % Analysis
 
 \section{Limitations}
+Just 8 stories I know
 
 % % This is an example of how you would use tgrind to include an example
 % % of source code; it is commented out in this template since the code
