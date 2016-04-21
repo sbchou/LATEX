@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.2.1}The Role of the Reader}{10}
 \contentsline {subsection}{\numberline {2.2.2}The Role of Media Brands}{10}
 \contentsline {subsection}{\numberline {2.2.3}The Role of Language}{10}
-\contentsline {chapter}{\numberline {3}Metrics for Measuring Trust}{11}
+\contentsline {chapter}{\numberline {3}Tools for Unpacking Trust}{11}
 \contentsline {section}{\numberline {3.1}Computing Reading Level}{11}
 \contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{11}
 \contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{12}
@@ -17,23 +17,27 @@
 \contentsline {chapter}{\numberline {4}Reading Level Effects}{13}
 \contentsline {section}{\numberline {4.1}Motivation}{13}
 \contentsline {section}{\numberline {4.2}Experimental Design}{13}
-\contentsline {subsection}{\numberline {4.2.1}Quality Control}{13}
-\contentsline {subsection}{\numberline {4.2.2}Dataset}{15}
-\contentsline {subsection}{\numberline {4.2.3}Survey}{15}
-\contentsline {section}{\numberline {4.3}Analysis}{15}
-\contentsline {section}{\numberline {4.4}Conclusions}{15}
-\contentsline {section}{\numberline {4.5}Limitations}{15}
-\contentsline {chapter}{\numberline {5}Media Brand Effects}{17}
-\contentsline {section}{\numberline {5.1}Motivations}{17}
-\contentsline {section}{\numberline {5.2}Experimental Design}{17}
-\contentsline {subsection}{\numberline {5.2.1}Dataset}{19}
-\contentsline {subsection}{\numberline {5.2.2}Survey}{19}
-\contentsline {subsection}{\numberline {5.2.3}Quality Control}{19}
-\contentsline {section}{\numberline {5.3}Analysis}{20}
-\contentsline {section}{\numberline {5.4}Conclusions}{20}
-\contentsline {section}{\numberline {5.5}Limitations}{20}
-\contentsline {chapter}{\numberline {6}Future Work}{21}
-\contentsline {section}{\numberline {6.1}Designing Interventions}{21}
-\contentsline {chapter}{\numberline {7}Conclusion}{23}
-\contentsline {chapter}{\numberline {8}Tables}{25}
-\contentsline {chapter}{\numberline {9}Figures}{27}
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{13}
+\contentsline {subsubsection}{Data Selection}{13}
+\contentsline {subsubsection}{Publication Selection}{14}
+\contentsline {subsubsection}{Topic Selection}{15}
+\contentsline {subsubsection}{Story Redaction}{15}
+\contentsline {subsection}{\numberline {4.2.2}Survey}{15}
+\contentsline {subsection}{\numberline {4.2.3}Quality Control}{15}
+\contentsline {section}{\numberline {4.3}Analysis}{16}
+\contentsline {section}{\numberline {4.4}Conclusions}{16}
+\contentsline {section}{\numberline {4.5}Limitations}{16}
+\contentsline {chapter}{\numberline {5}Media Brand Effects}{19}
+\contentsline {section}{\numberline {5.1}Motivations}{19}
+\contentsline {section}{\numberline {5.2}Experimental Design}{19}
+\contentsline {subsection}{\numberline {5.2.1}Dataset}{21}
+\contentsline {subsection}{\numberline {5.2.2}Survey}{21}
+\contentsline {subsection}{\numberline {5.2.3}Quality Control}{21}
+\contentsline {section}{\numberline {5.3}Analysis}{22}
+\contentsline {section}{\numberline {5.4}Conclusions}{22}
+\contentsline {section}{\numberline {5.5}Limitations}{22}
+\contentsline {chapter}{\numberline {6}Future Work}{23}
+\contentsline {section}{\numberline {6.1}Designing Interventions}{23}
+\contentsline {chapter}{\numberline {7}Conclusion}{25}
+\contentsline {chapter}{\numberline {8}Tables}{27}
+\contentsline {chapter}{\numberline {9}Figures}{29}
