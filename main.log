@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 APR 2016 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 APR 2016 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,71 +298,64 @@ Chapter 2.
 
  (./chap3.tex
 Chapter 3.
-[11
+) [11
 
 
 
 ]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
- [12]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 65.
- [13] [14] [15] [16]) [17]
 \openout2 = `chap4.aux'.
 
- (./chap4.tex [18
+ (./chap4.tex [12
 
 
 
 ]
 Chapter 4.
-[19] [20]
-<images/crowdflower_instructions.png, id=85, 921.4425pt x 514.92375pt>
+[13]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+ [14]
+<images/crowdflower_instructions.png, id=61, 921.4425pt x 514.92375pt>
 File: images/crowdflower_instructions.png Graphic file (type png)
 
 <use images/crowdflower_instructions.png>
 Package pdftex.def Info: images/crowdflower_instructions.png used on input line
  55.
 (pdftex.def)             Requested size: 433.62pt x 242.31276pt.
-) [21 <./images/crowdflower_instructions.png>] [22]
+) [15 <./images/crowdflower_instructions.png>] [16]
 \openout2 = `chap5.aux'.
 
  (./chap5.tex
 Chapter 5.
-) [23
+) [17
 
 
 
 ]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [24
+ (./chap6.tex [18
 
 
 
 ]
 Chapter 6.
-<images/favorability_question.png, id=100, 466.74374pt x 111.41624pt>
+<images/favorability_question.png, id=76, 466.74374pt x 111.41624pt>
 File: images/favorability_question.png Graphic file (type png)
 
 <use images/favorability_question.png>
 Package pdftex.def Info: images/favorability_question.png used on input line 13
 .
 (pdftex.def)             Requested size: 216.81pt x 51.75531pt.
- [25 <./images/favorability_question.png>] <images/Trump_favorability.png, id=1
-06, 144.54pt x 144.54pt>
+ [19 <./images/favorability_question.png>] <images/Trump_favorability.png, id=8
+2, 144.54pt x 144.54pt>
 File: images/Trump_favorability.png Graphic file (type png)
 
 <use images/Trump_favorability.png>
 Package pdftex.def Info: images/Trump_favorability.png used on input line 25.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Clinton_favorability.png, id=107, 144.54pt x 144.54pt>
+<images/Clinton_favorability.png, id=83, 144.54pt x 144.54pt>
 File: images/Clinton_favorability.png Graphic file (type png)
 
 <use images/Clinton_favorability.png>
@@ -370,7 +363,7 @@ Package pdftex.def Info: images/Clinton_favorability.png used on input line 26.
 
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Sanders_favorability.png, id=108, 144.54pt x 144.54pt>
+<images/Sanders_favorability.png, id=84, 144.54pt x 144.54pt>
 File: images/Sanders_favorability.png Graphic file (type png)
 
 <use images/Sanders_favorability.png>
@@ -378,14 +371,14 @@ Package pdftex.def Info: images/Sanders_favorability.png used on input line 27.
 
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Cruz_favorability.png, id=109, 144.54pt x 144.54pt>
+<images/Cruz_favorability.png, id=85, 144.54pt x 144.54pt>
 File: images/Cruz_favorability.png Graphic file (type png)
 
 <use images/Cruz_favorability.png>
 Package pdftex.def Info: images/Cruz_favorability.png used on input line 28.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Trump_favorability_trust_gt_0.png, id=110, 144.54pt x 144.54pt>
+<images/Trump_favorability_trust_gt_0.png, id=86, 144.54pt x 144.54pt>
 File: images/Trump_favorability_trust_gt_0.png Graphic file (type png)
 
 <use images/Trump_favorability_trust_gt_0.png>
@@ -393,7 +386,7 @@ Package pdftex.def Info: images/Trump_favorability_trust_gt_0.png used on input
  line 36.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Clinton_favorability_trust_gt_0.png, id=111, 144.54pt x 144.54pt>
+<images/Clinton_favorability_trust_gt_0.png, id=87, 144.54pt x 144.54pt>
 File: images/Clinton_favorability_trust_gt_0.png Graphic file (type png)
 
 <use images/Clinton_favorability_trust_gt_0.png>
@@ -401,7 +394,7 @@ Package pdftex.def Info: images/Clinton_favorability_trust_gt_0.png used on inp
 ut line 37.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Sanders_favorability_trust_gt_0.png, id=112, 144.54pt x 144.54pt>
+<images/Sanders_favorability_trust_gt_0.png, id=88, 144.54pt x 144.54pt>
 File: images/Sanders_favorability_trust_gt_0.png Graphic file (type png)
 
 <use images/Sanders_favorability_trust_gt_0.png>
@@ -409,7 +402,7 @@ Package pdftex.def Info: images/Sanders_favorability_trust_gt_0.png used on inp
 ut line 38.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Cruz_favorability_trust_gt_0.png, id=113, 144.54pt x 144.54pt>
+<images/Cruz_favorability_trust_gt_0.png, id=89, 144.54pt x 144.54pt>
 File: images/Cruz_favorability_trust_gt_0.png Graphic file (type png)
 
 <use images/Cruz_favorability_trust_gt_0.png>
@@ -420,9 +413,9 @@ line 39.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./images/Trump_favorability.png> <./images/Clinton_favorability.png> <./im
+[20 <./images/Trump_favorability.png> <./images/Clinton_favorability.png> <./im
 ages/Sanders_favorability.png> <./images/Cruz_favorability.png>]
-<images/trustworthy_question.png, id=121, 273.02pt x 155.58125pt>
+<images/trustworthy_question.png, id=97, 273.02pt x 155.58125pt>
 File: images/trustworthy_question.png Graphic file (type png)
 
 <use images/trustworthy_question.png>
@@ -433,10 +426,10 @@ Package pdftex.def Info: images/trustworthy_question.png used on input line 52.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 <./images/Trump_favorability_trust_gt_0.png> <./images/Clinton_favorability
+[21 <./images/Trump_favorability_trust_gt_0.png> <./images/Clinton_favorability
 _trust_gt_0.png> <./images/Sanders_favorability_trust_gt_0.png> <./images/Cruz_
 favorability_trust_gt_0.png>]
-<images/Trump_trustworthiness_binary.png, id=129, 144.54pt x 144.54pt>
+<images/Trump_trustworthiness_binary.png, id=105, 144.54pt x 144.54pt>
 File: images/Trump_trustworthiness_binary.png Graphic file (type png)
 
 <use images/Trump_trustworthiness_binary.png>
@@ -444,7 +437,7 @@ Package pdftex.def Info: images/Trump_trustworthiness_binary.png used on input
 line 64.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Clinton_trustworthiness_binary.png, id=130, 144.54pt x 144.54pt>
+<images/Clinton_trustworthiness_binary.png, id=106, 144.54pt x 144.54pt>
 File: images/Clinton_trustworthiness_binary.png Graphic file (type png)
 
 <use images/Clinton_trustworthiness_binary.png>
@@ -452,7 +445,7 @@ Package pdftex.def Info: images/Clinton_trustworthiness_binary.png used on inpu
 t line 65.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Sanders_trustworthiness_binary.png, id=131, 144.54pt x 144.54pt>
+<images/Sanders_trustworthiness_binary.png, id=107, 144.54pt x 144.54pt>
 File: images/Sanders_trustworthiness_binary.png Graphic file (type png)
 
 <use images/Sanders_trustworthiness_binary.png>
@@ -460,7 +453,7 @@ Package pdftex.def Info: images/Sanders_trustworthiness_binary.png used on inpu
 t line 66.
 (pdftex.def)             Requested size: 195.12767pt x 195.1382pt.
 
-<images/Cruz_trustworthiness_binary.png, id=132, 144.54pt x 144.54pt>
+<images/Cruz_trustworthiness_binary.png, id=108, 144.54pt x 144.54pt>
 File: images/Cruz_trustworthiness_binary.png Graphic file (type png)
 
 <use images/Cruz_trustworthiness_binary.png>
@@ -471,59 +464,59 @@ ine 67.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [28 <./images/trustworthy_question.png>] [29 <./images/Trump_trustworthiness_
+) [22 <./images/trustworthy_question.png>] [23 <./images/Trump_trustworthiness_
 binary.png> <./images/Clinton_trustworthiness_binary.png> <./images/Sanders_tru
 stworthiness_binary.png> <./images/Cruz_trustworthiness_binary.png>]
 \openout2 = `chap7.aux'.
 
 
-(./chap7.tex [30
+(./chap7.tex [24
 
 
 
 ]
 Chapter 7.
-) [31]
+) [25]
 \openout2 = `appa.aux'.
 
- (./appa.tex [32
+ (./appa.tex [26
 
 
 
 ]
 Chapter 8.
-[33])
+[27])
 \openout2 = `appb.aux'.
 
- (./appb.tex [34
+ (./appb.tex [28
 
 
 
 
 ]
 Chapter 9.
-<images/trump_topics.png, id=160, 283.0575pt x 427.5975pt>
+<images/trump_topics.png, id=136, 283.0575pt x 427.5975pt>
 File: images/trump_topics.png Graphic file (type png)
 
 <use images/trump_topics.png>
 Package pdftex.def Info: images/trump_topics.png used on input line 8.
 (pdftex.def)             Requested size: 195.12767pt x 294.77509pt.
 
-<images/clinton_topics.png, id=161, 290.08376pt x 418.56375pt>
+<images/clinton_topics.png, id=137, 290.08376pt x 418.56375pt>
 File: images/clinton_topics.png Graphic file (type png)
 
 <use images/clinton_topics.png>
 Package pdftex.def Info: images/clinton_topics.png used on input line 9.
 (pdftex.def)             Requested size: 195.12767pt x 281.55392pt.
 
-<images/sanders_topics.png, id=162, 279.0425pt x 428.60126pt>
+<images/sanders_topics.png, id=138, 279.0425pt x 428.60126pt>
 File: images/sanders_topics.png Graphic file (type png)
 
 <use images/sanders_topics.png>
 Package pdftex.def Info: images/sanders_topics.png used on input line 10.
 (pdftex.def)             Requested size: 195.12767pt x 299.71799pt.
 
-<images/cruz_topics.png, id=163, 270.00874pt x 428.60126pt>
+<images/cruz_topics.png, id=139, 270.00874pt x 428.60126pt>
 File: images/cruz_topics.png Graphic file (type png)
 
 <use images/cruz_topics.png>
@@ -533,7 +526,7 @@ Package pdftex.def Info: images/cruz_topics.png used on input line 11.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36 <./images/trump_topics.png> <./images/clinton_topics.png> <./images/sa
+[29] [30 <./images/trump_topics.png> <./images/clinton_topics.png> <./images/sa
 nders_topics.png> <./images/cruz_topics.png>])
 \openout2 = `biblio.aux'.
 
@@ -543,71 +536,89 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 7168) in paragraph at lines 12--17
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+[]\T1/cmr/m/n/12 Is glenn green-wald the fu-ture of news? - the new
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+\T1/cmr/m/n/12 york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes . com / 2
+013 / 10 / 28 / opinion /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+\T1/cmtt/m/n/12 a-[]conversation-[]in-[]lieu-[]of-[]a-[]column . html ? mtrref 
+= www . google . com &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+\T1/cmtt/m/n/12 gwh = 450466A4B52C2124639CE220312812D5 & gwt = pay & assetType 
+= opinion$\T1/cmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 18--23
 []\T1/cmr/m/n/12 Measuring don-ald trump’s mam-moth ad-van-tage in free me-di
 a -
  []
 
 
-Underfull \hbox (badness 7595) in paragraph at lines 12--17
+Underfull \hbox (badness 7595) in paragraph at lines 18--23
 \T1/cmr/m/n/12 the new york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes .
  com / 2016 / 03 / 16 / upshot /
  []
 
-[37
 
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 67--72
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--72
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 67--72
+Underfull \hbox (badness 5667) in paragraph at lines 43--48
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-)) [38] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
+[31
+
+
+
+
+])) [32] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
 (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
 (./chap6.aux) (./chap7.aux) (./appa.aux) (./appb.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 2459 strings out of 493089
- 35257 string characters out of 6134842
- 99010 words of memory out of 5000000
- 5740 multiletter control sequences out of 15000+600000
- 17018 words of font info for 40 fonts, out of 8000000 for 9000
+ 2426 strings out of 493089
+ 34727 string characters out of 6134842
+ 94990 words of memory out of 5000000
+ 5727 multiletter control sequences out of 15000+600000
+ 14573 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,29p,777b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,23p,755b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/lo
 cal/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (38 pages, 967809 bytes).
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (32 pages, 915397 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

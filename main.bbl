@@ -2,6 +2,12 @@
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
 \begin{thebibliography}{10}
 
+\bibitem{Greenwald}
+Is glenn greenwald the future of news? - the new york times.
+\newblock
+  \url{http://www.nytimes.com/2013/10/28/opinion/a-conversation-in-lieu-of-a-column.html?mtrref=www.google.com&gwh=450466A4B52C2124639CE220312812D5&gwt=pay&assetType=opinion}.
+\newblock (Accessed on 04/20/2016).
+
 \bibitem{March45online}
 March 1 election results 2016 updates - the washington post.
 \newblock
@@ -15,22 +21,11 @@ Measuring donald trump’s mammoth advantage in free media - the new york
   \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
 \newblock (Accessed on 04/20/2016).
 
-\bibitem{beyond-distrust}
-Beyond distrust: How americans view their government.
-\newblock {\em Pew Research Center}, nov 2015.
-\newblock (Accessed on 04/07/2016).
-
 \bibitem{baum2008eye}
 Matthew~A Baum, Phil Gussin, et~al.
 \newblock In the eye of the beholder: How information shortcuts shape
   individual perceptions of bias in the media.
 \newblock {\em Quarterly Journal of political science}, 3(1):1--31, 2008.
-
-\bibitem{kincaid1975derivation}
-J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
-\newblock Derivation of new readability formulas (automated readability index,
-  fog count and flesch reading ease formula) for navy enlisted personnel.
-\newblock Technical report, DTIC Document, 1975.
 
 \bibitem{ladd2005attitudes}
 Jonathan~McDonald Ladd.
@@ -38,30 +33,11 @@ Jonathan~McDonald Ladd.
 \newblock In {\em Annual Meeting of the Midwest Political Science Association},
   2005.
 
-\bibitem{Statu37online}
-The~Florida Legislature.
-\newblock The 2015 florida statutes title xxxvii.
-\newblock \url{http://www.leg.state.fl.us/Statutes}.
-\newblock (Accessed on 04/05/2016).
-
 \bibitem{PoliticalPolarization}
 Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina~Eva Matsa.
 \newblock Political polarization \& media habits.
 \newblock {\em Pew Research Center}, Oct 2014.
 \newblock (Accessed on 04/02/2016).
-
-\bibitem{nigam1999using}
-Kamal Nigam, John Lafferty, and Andrew McCallum.
-\newblock Using maximum entropy for text classification.
-\newblock In {\em IJCAI-99 workshop on machine learning for information
-  filtering}, volume~1, pages 61--67, 1999.
-
-\bibitem{pedregosa2011scikit}
-Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
-  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
-  Weiss, Vincent Dubourg, et~al.
-\newblock Scikit-learn: Machine learning in python.
-\newblock {\em The Journal of Machine Learning Research}, 12:2825--2830, 2011.
 
 \bibitem{Gallup-trust-2015}
 Rebecca Riffkin.
@@ -70,23 +46,16 @@ Rebecca Riffkin.
   \url{http://www.gallup.com/poll/185927/americans-trust-media-remains-historical-low.aspx}.
 \newblock (Accessed on 04/20/2016).
 
+\bibitem{taber2006motivated}
+Charles~S Taber and Milton Lodge.
+\newblock Motivated skepticism in the evaluation of political beliefs.
+\newblock {\em American Journal of Political Science}, 50(3):755--769, 2006.
+
 \bibitem{vallone1985hostile}
 Robert~P Vallone, Lee Ross, and Mark~R Lepper.
 \newblock The hostile media phenomenon: biased perception and perceptions of
   media bias in coverage of the beirut massacre.
 \newblock {\em Journal of personality and social psychology}, 49(3):577, 1985.
-
-\bibitem{vvr_electome2016}
-Prashanth Vijayaraghavan, Soroush Vosoughi, and Deb Roy.
-\newblock Automatic detection and categorization of election-related tweets.
-\newblock In {\em 10th International AAAI Conference on Web and Social Media},
-  2016.
-
-\bibitem{vincent2008extracting}
-Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol.
-\newblock Extracting and composing robust features with denoising autoencoders.
-\newblock In {\em Proceedings of the 25th international conference on Machine
-  learning}, pages 1096--1103. ACM, 2008.
 
 \bibitem{weisberg2008seductive}
 Deena~Skolnick Weisberg, Frank~C Keil, Joshua Goodstein, Elizabeth Rawson, and

@@ -17,48 +17,47 @@ A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
 Warning--to sort, need author or key in Trump-advantage
-Warning--to sort, need author or key in beyond-distrust
+Warning--to sort, need author or key in Greenwald
 Warning--to sort, need author or key in March45online
-Warning--empty author in beyond-distrust
-You've used 15 entries,
+You've used 10 entries,
             2118 wiz_defined-function locations,
-            609 strings with 7708 characters,
-and the built_in function-call counts, 4830 in all, are:
-= -- 461
-> -- 251
-< -- 3
-+ -- 104
-- -- 86
-* -- 324
-:= -- 794
-add.period$ -- 49
-call.type$ -- 15
-change.case$ -- 87
+            579 strings with 6547 characters,
+and the built_in function-call counts, 2702 in all, are:
+= -- 260
+> -- 117
+< -- 0
++ -- 50
+- -- 38
+* -- 172
+:= -- 444
+add.period$ -- 32
+call.type$ -- 10
+change.case$ -- 48
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 174
-empty$ -- 381
-format.name$ -- 86
-if$ -- 1012
+cite$ -- 13
+duplicate$ -- 96
+empty$ -- 238
+format.name$ -- 38
+if$ -- 567
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 10
-newline$ -- 82
-num.names$ -- 24
-pop$ -- 115
+int.to.str$ -- 10
+missing$ -- 6
+newline$ -- 56
+num.names$ -- 14
+pop$ -- 70
 preamble$ -- 2
-purify$ -- 71
+purify$ -- 38
 quote$ -- 0
-skip$ -- 120
+skip$ -- 62
 stack$ -- 0
-substring$ -- 223
-swap$ -- 37
-text.length$ -- 3
+substring$ -- 127
+swap$ -- 11
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
-warning$ -- 4
-while$ -- 37
-width$ -- 17
-write$ -- 164
-(There were 4 warnings)
+type$ -- 40
+warning$ -- 3
+while$ -- 21
+width$ -- 12
+write$ -- 107
+(There were 3 warnings)
