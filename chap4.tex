@@ -8,22 +8,23 @@ What were the hypotheses?
 \section{Experimental Design}
 \subsection{Quality Control}
 
-% How did you control for quality?
+CrowdFlower has a built-in ``Test Question'' feature that allows for the rejection of a annotator whose answers to specific questions do not lie within a threshold (default 70\%) of the ``correct'' answer or whose answers lay outside the standard variation compared to others.
 
-% CrowdFlower has a built-in “Test Question” feature that allows for the rejection of a annotator whose answers to specific questions do not lie within a threshold (default 70%) of the “correct” answer or whose answers lay outside the standard variation compared to others.
+However, since the questions we asked were by nature subjective and therefore outliers and disagreements in answers could imply signal rather than noise, we chose to monitor for quality using other metrics instead. CrowdFlower was not designed explicitly for survey-like tasks, and therefore there were no options for different screening methods or questions. Gold Questions on the platform are selected by the creator within the set of all questions being recorded.
 
-% However, since the questions we asked were by nature subjective and therefore outliers and disagreements in answers could imply signal rather than noise, we chose to monitor for quality using other metrics instead. CrowdFlower was not designed explicitly for survey-like tasks, and therefore there were no options for different screening methods or questions. Gold Questions on the platform are selected by the creator within the set of all questions being recorded.
+Because of this, we monitored quality of results in two ways:
 
-% Because of this, we monitored quality of results in two ways:
+First, by setting a minimum of time of 180 seconds to complete the task of reading 5 stories for a task to be accepted,
 
-% First, by setting a minimum of time of 180 seconds to complete the task of reading 5 stories for a task to be accepted,
+And second, by selecting only Level 3 contributors on CrowdFlower as suggested on their website for handling survey-like tasks \cite{CrowdFlower-guide}.
 
-% And second, by selecting only Level 3 workers on CrowdFlower as suggested on their website for handling survey-like tasks.
-% [https://success.crowdflower.com/hc/en-us/articles/201855969-Survey-Guide-To-Running-Surveys] 
+Level 3 contributors are described as those who ``have completed over a hundred Test Questions across hundreds of different Job types, and have a near perfect overall Accuracy'' \cite{Crowdflower-levels}. This is the highest category of contributor.
+ 
+Users were also only allowed to answer the set of questions once. 
 
-% Users were also only allowed to answer the set of questions once. 
-
-% Average response time was 07:31 minutes.
+Average response time was 07:31 minutes.
+\$0.50 was given per survey, as suggested by MIT Committee on the Use of Humans as Experimental Subjects \cite{COUHES-turk}.
+ 
 
 \subsection{Dataset}
 \subsection{Survey} 

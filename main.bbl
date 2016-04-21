@@ -2,17 +2,23 @@
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
 \begin{thebibliography}{10}
 
+\bibitem{COUHES-turk}
+Couhes policy for using amazon's mechanical turk | welcome to couhes.
+\newblock
+  \url{https://couhes.mit.edu/guidelines/couhes-policy-using-amazons-mechanical-turk}.
+\newblock (Accessed on 04/21/2016).
+
+\bibitem{CrowdFlower-guide}
+Guide to: Running surveys –- crowdflower success center.
+\newblock
+  \url{https://success.crowdflower.com/hc/en-us/articles/201855969-Survey-Guide-To-Running-Surveys}.
+\newblock (Accessed on 04/21/2016).
+
 \bibitem{Greenwald}
 Is glenn greenwald the future of news? -- the new york times.
 \newblock
   \url{http://www.nytimes.com/2013/10/28/opinion/a-conversation-in-lieu-of-a-column.html?mtrref=www.google.com&gwh=450466A4B52C2124639CE220312812D5&gwt=pay&assetType=opinion}.
 \newblock (Accessed on 04/20/2016).
-
-\bibitem{March45online}
-March 1 election results 2016 updates -- the washington post.
-\newblock
-  \url{https://www.washingtonpost.com/2016-election-results/super-tuesday/}.
-\newblock (Accessed on 04/06/2016).
 
 \bibitem{Trump-advantage}
 Measuring donald trump's mammoth advantage in free media - the new york times.
@@ -20,11 +26,24 @@ Measuring donald trump's mammoth advantage in free media - the new york times.
   \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
 \newblock (Accessed on 04/20/2016).
 
+\bibitem{Crowdflower-levels}
+Introducing contributor performance levels! - crowdflower community.
+\newblock
+  \url{http://crowdflowercommunity.tumblr.com/post/80598014542/introducing-contributor-performance-levels},
+  mar 2014.
+\newblock (Accessed on 04/21/2016).
+
 \bibitem{baum2008eye}
 Matthew~A Baum, Phil Gussin, et~al.
 \newblock In the eye of the beholder: How information shortcuts shape
   individual perceptions of bias in the media.
 \newblock {\em Quarterly Journal of political science}, 3(1):1--31, 2008.
+
+\bibitem{kincaid1975derivation}
+J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
+\newblock Derivation of new readability formulas (automated readability index,
+  fog count and flesch reading ease formula) for navy enlisted personnel.
+\newblock Technical report, DTIC Document, 1975.
 
 \bibitem{ladd2005attitudes}
 Jonathan~McDonald Ladd.
@@ -32,11 +51,11 @@ Jonathan~McDonald Ladd.
 \newblock In {\em Annual Meeting of the Midwest Political Science Association},
   2005.
 
-\bibitem{PoliticalPolarization}
-Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina~Eva Matsa.
-\newblock Political polarization \& media habits.
-\newblock {\em Pew Research Center}, Oct 2014.
-\newblock (Accessed on 04/02/2016).
+\bibitem{Statu37online}
+The~Florida Legislature.
+\newblock The 2015 florida statutes title xxxvii.
+\newblock \url{http://www.leg.state.fl.us/Statutes}.
+\newblock (Accessed on 04/05/2016).
 
 \bibitem{apFAQ}
 Associated Press.
