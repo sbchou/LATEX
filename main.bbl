@@ -1,22 +1,21 @@
 \newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{Greenwald}
-Is glenn greenwald the future of news? - the new york times.
+Is glenn greenwald the future of news? -- the new york times.
 \newblock
   \url{http://www.nytimes.com/2013/10/28/opinion/a-conversation-in-lieu-of-a-column.html?mtrref=www.google.com&gwh=450466A4B52C2124639CE220312812D5&gwt=pay&assetType=opinion}.
 \newblock (Accessed on 04/20/2016).
 
 \bibitem{March45online}
-March 1 election results 2016 updates - the washington post.
+March 1 election results 2016 updates -- the washington post.
 \newblock
   \url{https://www.washingtonpost.com/2016-election-results/super-tuesday/}.
 \newblock (Accessed on 04/06/2016).
 
 \bibitem{Trump-advantage}
-Measuring donald trump’s mammoth advantage in free media - the new york
-  times.
+Measuring donald trump's mammoth advantage in free media - the new york times.
 \newblock
   \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
 \newblock (Accessed on 04/20/2016).
@@ -50,12 +49,6 @@ Rebecca Riffkin.
 Charles~S Taber and Milton Lodge.
 \newblock Motivated skepticism in the evaluation of political beliefs.
 \newblock {\em American Journal of Political Science}, 50(3):755--769, 2006.
-
-\bibitem{vallone1985hostile}
-Robert~P Vallone, Lee Ross, and Mark~R Lepper.
-\newblock The hostile media phenomenon: biased perception and perceptions of
-  media bias in coverage of the beirut massacre.
-\newblock {\em Journal of personality and social psychology}, 49(3):577, 1985.
 
 \bibitem{weisberg2008seductive}
 Deena~Skolnick Weisberg, Frank~C Keil, Joshua Goodstein, Elizabeth Rawson, and

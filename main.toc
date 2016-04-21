@@ -1,8 +1,8 @@
 \contentsline {chapter}{\numberline {1}Introduction}{7}
 \contentsline {chapter}{\numberline {2}In Media We ... Trust?}{9}
-\contentsline {section}{\numberline {2.1}What You Read is Who You Are}{10}
-\contentsline {section}{\numberline {2.2}Who You Read is What You Are}{10}
-\contentsline {section}{\numberline {2.3}The Role of Language [Policial Persuasion]}{10}
+\contentsline {section}{\numberline {2.1}The Role of the Reader}{10}
+\contentsline {section}{\numberline {2.2}The Role of Media Brands}{10}
+\contentsline {section}{\numberline {2.3}The Role of Language}{10}
 \contentsline {subsection}{\numberline {2.3.1}Language and Politics}{10}
 \contentsline {subsection}{\numberline {2.3.2}The Seductive Allure [... of Simple] Language}{10}
 \contentsline {chapter}{\numberline {3}Blank : used to be electome stuff}{11}
@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {5.1}Topic Analysis}{17}
 \contentsline {section}{\numberline {5.2}Flesch-Kincaid Analysis}{17}
 \contentsline {subsection}{\numberline {5.2.1}Comparisons to other Reading Level Tests}{17}
-\contentsline {chapter}{\numberline {6}Study One}{19}
+\contentsline {chapter}{\numberline {6}Exploratory Study}{19}
 \contentsline {section}{\numberline {6.1}Reader Demographics}{19}
 \contentsline {section}{\numberline {6.2}Media Favorability of Candidates}{19}
 \contentsline {section}{\numberline {6.3}Media Trustworthiness}{21}
@@ -28,6 +28,12 @@
 \contentsline {section}{\numberline {6.5}Media Brand Effect}{22}
 \contentsline {section}{\numberline {6.6}Reading Level Effect}{22}
 \contentsline {section}{\numberline {6.7}Other Linguistic Cues}{22}
-\contentsline {chapter}{\numberline {7}Study Two}{25}
-\contentsline {chapter}{\numberline {8}Tables}{27}
-\contentsline {chapter}{\numberline {9}Figures}{29}
+\contentsline {section}{\numberline {6.8}Limitations}{22}
+\contentsline {chapter}{\numberline {7}Main Study}{25}
+\contentsline {section}{\numberline {7.1}Experimental Design}{26}
+\contentsline {section}{\numberline {7.2}Data Selection}{26}
+\contentsline {section}{\numberline {7.3}Limitations}{26}
+\contentsline {chapter}{\numberline {8}Future Work}{27}
+\contentsline {chapter}{\numberline {9}Conclusion}{29}
+\contentsline {chapter}{\numberline {10}Tables}{31}
+\contentsline {chapter}{\numberline {11}Figures}{33}
