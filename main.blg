@@ -20,49 +20,52 @@ The style file: plain.bst
 Database file #1: main.bib
 Warning--to sort, need author or key in Trump-advantage
 Warning--to sort, need author or key in Greenwald
+Warning--to sort, need author or key in Pew-bias-2012
 Warning--to sort, need author or key in March45online
 Warning--to sort, need author or key in CrowdFlower-guide
 Warning--to sort, need author or key in Crowdflower-levels
 Warning--to sort, need author or key in COUHES-turk
-You've used 18 entries,
+Warning--empty author in Pew-bias-2012
+Warning--empty journal in sherif1961social
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            622 strings with 7718 characters,
-and the built_in function-call counts, 4328 in all, are:
-= -- 418
-> -- 160
+            655 strings with 8643 characters,
+and the built_in function-call counts, 5631 in all, are:
+= -- 545
+> -- 212
 < -- 1
-+ -- 70
-- -- 50
-* -- 234
-:= -- 700
-add.period$ -- 58
-call.type$ -- 18
-change.case$ -- 77
++ -- 92
+- -- 66
+* -- 327
+:= -- 922
+add.period$ -- 73
+call.type$ -- 23
+change.case$ -- 100
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 165
-empty$ -- 414
-format.name$ -- 50
-if$ -- 932
+cite$ -- 32
+duplicate$ -- 218
+empty$ -- 521
+format.name$ -- 66
+if$ -- 1197
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 10
-newline$ -- 98
-num.names$ -- 24
-pop$ -- 135
+int.to.str$ -- 23
+missing$ -- 15
+newline$ -- 123
+num.names$ -- 32
+pop$ -- 154
 preamble$ -- 2
-purify$ -- 60
+purify$ -- 78
 quote$ -- 0
-skip$ -- 107
+skip$ -- 144
 stack$ -- 0
-substring$ -- 167
-swap$ -- 19
+substring$ -- 233
+swap$ -- 23
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
-warning$ -- 6
-while$ -- 31
-width$ -- 20
-write$ -- 191
-(There were 6 warnings)
+type$ -- 88
+warning$ -- 9
+while$ -- 43
+width$ -- 25
+write$ -- 243
+(There were 9 warnings)

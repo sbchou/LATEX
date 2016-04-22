@@ -26,6 +26,11 @@ Measuring donald trump's mammoth advantage in free media - the new york times.
   \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html}.
 \newblock (Accessed on 04/20/2016).
 
+\bibitem{Pew-bias-2012}
+Perceptions of bias, news knowledge.
+\newblock {\em Pew Research Center}, feb 2012.
+\newblock (Accessed on 04/06/2016).
+
 \bibitem{Crowdflower-levels}
 Introducing contributor performance levels! - crowdflower community.
 \newblock
@@ -45,6 +50,18 @@ Matthew~A Baum, Phil Gussin, et~al.
 \newblock In the eye of the beholder: How information shortcuts shape
   individual perceptions of bias in the media.
 \newblock {\em Quarterly Journal of political science}, 3(1):1--31, 2008.
+
+\bibitem{cacioppo1979effects}
+John~T Cacioppo and Richard~E Petty.
+\newblock Effects of message repetition and position on cognitive response,
+  recall, and persuasion.
+\newblock {\em Journal of personality and Social Psychology}, 37(1):97, 1979.
+
+\bibitem{gunther1988attitude}
+Albert Gunther.
+\newblock Attitude extremity and trust in media.
+\newblock {\em Journalism \& Mass Communication Quarterly}, 65(2):279--287,
+  1988.
 
 \bibitem{kincaid1975derivation}
 J~Peter Kincaid, Robert~P Fishburne~Jr, Richard~L Rogers, and Brad~S Chissom.
@@ -98,10 +115,22 @@ Rebecca Riffkin.
   \url{http://www.gallup.com/poll/185927/americans-trust-media-remains-historical-low.aspx}.
 \newblock (Accessed on 04/20/2016).
 
+\bibitem{sherif1961social}
+Muzafer Sherif and Carl~I Hovland.
+\newblock Social judgment: Assimilation and contrast effects in communication
+  and attitude change.
+\newblock 1961.
+
 \bibitem{taber2006motivated}
 Charles~S Taber and Milton Lodge.
 \newblock Motivated skepticism in the evaluation of political beliefs.
 \newblock {\em American Journal of Political Science}, 50(3):755--769, 2006.
+
+\bibitem{vallone1985hostile}
+Robert~P Vallone, Lee Ross, and Mark~R Lepper.
+\newblock The hostile media phenomenon: biased perception and perceptions of
+  media bias in coverage of the beirut massacre.
+\newblock {\em Journal of personality and social psychology}, 49(3):577, 1985.
 
 \bibitem{weisberg2008seductive}
 Deena~Skolnick Weisberg, Frank~C Keil, Joshua Goodstein, Elizabeth Rawson, and
