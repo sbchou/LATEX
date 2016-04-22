@@ -5,35 +5,35 @@
 \contentsline {subsection}{\numberline {2.2.1}The Role of the Reader}{11}
 \contentsline {subsection}{\numberline {2.2.2}The Role of Media Brands}{12}
 \contentsline {subsection}{\numberline {2.2.3}The Role of Language}{12}
-\contentsline {chapter}{\numberline {3}Tools for Dissecting Trust}{13}
-\contentsline {section}{\numberline {3.1}Computing Reading Level}{13}
-\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{13}
-\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{14}
-\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{14}
-\contentsline {chapter}{\numberline {4}Reading Level Effects}{15}
-\contentsline {section}{\numberline {4.1}Motivation}{15}
-\contentsline {section}{\numberline {4.2}Experimental Design}{15}
-\contentsline {subsection}{\numberline {4.2.1}Dataset}{15}
-\contentsline {subsubsection}{Data Selection}{15}
-\contentsline {subsubsection}{Publication Selection}{16}
-\contentsline {subsubsection}{Topic Selection}{17}
-\contentsline {subsubsection}{Story Redaction}{17}
-\contentsline {subsection}{\numberline {4.2.2}Survey}{17}
-\contentsline {subsection}{\numberline {4.2.3}Quality Control}{18}
-\contentsline {section}{\numberline {4.3}Analysis}{19}
-\contentsline {section}{\numberline {4.4}Conclusions}{19}
-\contentsline {section}{\numberline {4.5}Limitations}{19}
-\contentsline {chapter}{\numberline {5}Media Brand Effects}{21}
-\contentsline {section}{\numberline {5.1}Motivations}{21}
-\contentsline {section}{\numberline {5.2}Experimental Design}{21}
-\contentsline {subsection}{\numberline {5.2.1}Dataset}{23}
-\contentsline {subsection}{\numberline {5.2.2}Survey}{23}
-\contentsline {subsection}{\numberline {5.2.3}Quality Control}{24}
-\contentsline {section}{\numberline {5.3}Analysis}{24}
-\contentsline {section}{\numberline {5.4}Conclusions}{24}
-\contentsline {section}{\numberline {5.5}Limitations}{25}
-\contentsline {chapter}{\numberline {6}Future Work}{27}
-\contentsline {section}{\numberline {6.1}Designing Interventions}{27}
-\contentsline {chapter}{\numberline {7}Conclusion}{29}
-\contentsline {chapter}{\numberline {8}Tables}{31}
-\contentsline {chapter}{\numberline {9}Figures}{33}
+\contentsline {chapter}{\numberline {3}Tools for Dissecting Trust}{15}
+\contentsline {section}{\numberline {3.1}Computing Reading Level}{15}
+\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{15}
+\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{16}
+\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{16}
+\contentsline {chapter}{\numberline {4}Reading Level Effects}{17}
+\contentsline {section}{\numberline {4.1}Motivation}{17}
+\contentsline {section}{\numberline {4.2}Experimental Design}{17}
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{17}
+\contentsline {subsubsection}{Data Selection}{17}
+\contentsline {subsubsection}{Publication Selection}{18}
+\contentsline {subsubsection}{Topic Selection}{19}
+\contentsline {subsubsection}{Story Redaction}{19}
+\contentsline {subsection}{\numberline {4.2.2}Survey}{19}
+\contentsline {subsection}{\numberline {4.2.3}Quality Control}{20}
+\contentsline {section}{\numberline {4.3}Analysis}{21}
+\contentsline {section}{\numberline {4.4}Conclusions}{21}
+\contentsline {section}{\numberline {4.5}Limitations}{21}
+\contentsline {chapter}{\numberline {5}Media Brand Effects}{23}
+\contentsline {section}{\numberline {5.1}Motivations}{23}
+\contentsline {section}{\numberline {5.2}Experimental Design}{23}
+\contentsline {subsection}{\numberline {5.2.1}Dataset}{25}
+\contentsline {subsection}{\numberline {5.2.2}Survey}{25}
+\contentsline {subsection}{\numberline {5.2.3}Quality Control}{26}
+\contentsline {section}{\numberline {5.3}Analysis}{26}
+\contentsline {section}{\numberline {5.4}Conclusions}{26}
+\contentsline {section}{\numberline {5.5}Limitations}{27}
+\contentsline {chapter}{\numberline {6}Future Work}{29}
+\contentsline {section}{\numberline {6.1}Designing Interventions}{29}
+\contentsline {chapter}{\numberline {7}Conclusion}{31}
+\contentsline {chapter}{\numberline {8}Tables}{33}
+\contentsline {chapter}{\numberline {9}Figures}{35}
