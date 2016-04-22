@@ -24,45 +24,45 @@ Warning--to sort, need author or key in March45online
 Warning--to sort, need author or key in CrowdFlower-guide
 Warning--to sort, need author or key in Crowdflower-levels
 Warning--to sort, need author or key in COUHES-turk
-You've used 15 entries,
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            604 strings with 7375 characters,
-and the built_in function-call counts, 3627 in all, are:
-= -- 355
-> -- 139
-< -- 0
-+ -- 61
-- -- 44
-* -- 198
-:= -- 578
-add.period$ -- 49
-call.type$ -- 15
-change.case$ -- 67
+            622 strings with 7718 characters,
+and the built_in function-call counts, 4328 in all, are:
+= -- 418
+> -- 160
+< -- 1
++ -- 70
+- -- 50
+* -- 234
+:= -- 700
+add.period$ -- 58
+call.type$ -- 18
+change.case$ -- 77
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 128
-empty$ -- 343
-format.name$ -- 44
-if$ -- 783
+cite$ -- 24
+duplicate$ -- 165
+empty$ -- 414
+format.name$ -- 50
+if$ -- 932
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 5
-newline$ -- 83
-num.names$ -- 18
-pop$ -- 116
+int.to.str$ -- 18
+missing$ -- 10
+newline$ -- 98
+num.names$ -- 24
+pop$ -- 135
 preamble$ -- 2
-purify$ -- 51
+purify$ -- 60
 quote$ -- 0
-skip$ -- 88
+skip$ -- 107
 stack$ -- 0
-substring$ -- 143
-swap$ -- 15
-text.length$ -- 0
+substring$ -- 167
+swap$ -- 19
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 68
 warning$ -- 6
-while$ -- 24
-width$ -- 17
-write$ -- 159
+while$ -- 31
+width$ -- 20
+write$ -- 191
 (There were 6 warnings)
