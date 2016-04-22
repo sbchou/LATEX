@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2016 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2016 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,24 +537,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 108--113
+Underfull \hbox (badness 5667) in paragraph at lines 113--118
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 132--139
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 137--144
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
@@ -564,10 +564,10 @@ level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
 (./chap6.aux) (./chap7.aux) (./chap8.aux) (./chap9.aux) (./appa.aux)
 (./appb.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 2428 strings out of 493089
- 32954 string characters out of 6134842
- 96265 words of memory out of 5000000
- 5730 multiletter control sequences out of 15000+600000
+ 2429 strings out of 493089
+ 32971 string characters out of 6134842
+ 97269 words of memory out of 5000000
+ 5731 multiletter control sequences out of 15000+600000
  14573 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,999b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -586,7 +586,7 @@ rm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm
 1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti12
 00.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb>
-Output written on main.pdf (37 pages, 1067096 bytes).
+Output written on main.pdf (37 pages, 1068320 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams

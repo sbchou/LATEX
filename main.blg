@@ -22,47 +22,49 @@ Warning--to sort, need author or key in Trump-advantage
 Warning--to sort, need author or key in Greenwald
 Warning--to sort, need author or key in Pew-bias-2012
 Warning--to sort, need author or key in CrowdFlower-levels
+Warning--to sort, need author or key in beyond-distrust
 Warning--empty author in Pew-bias-2012
+Warning--empty author in beyond-distrust
 Warning--empty journal in sherif1961social
-You've used 23 entries,
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            662 strings with 8899 characters,
-and the built_in function-call counts, 6170 in all, are:
-= -- 600
-> -- 257
+            666 strings with 9087 characters,
+and the built_in function-call counts, 6345 in all, are:
+= -- 618
+> -- 258
 < -- 2
-+ -- 108
++ -- 109
 - -- 82
-* -- 374
-:= -- 1028
-add.period$ -- 75
-call.type$ -- 23
-change.case$ -- 108
+* -- 387
+:= -- 1052
+add.period$ -- 78
+call.type$ -- 24
+change.case$ -- 111
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 233
-empty$ -- 541
+cite$ -- 32
+duplicate$ -- 243
+empty$ -- 559
 format.name$ -- 82
-if$ -- 1301
+if$ -- 1339
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 16
-newline$ -- 124
+int.to.str$ -- 24
+missing$ -- 17
+newline$ -- 129
 num.names$ -- 38
-pop$ -- 153
+pop$ -- 156
 preamble$ -- 2
-purify$ -- 86
+purify$ -- 88
 quote$ -- 0
-skip$ -- 156
+skip$ -- 163
 stack$ -- 0
-substring$ -- 273
-swap$ -- 31
+substring$ -- 278
+swap$ -- 32
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 88
-warning$ -- 6
+type$ -- 92
+warning$ -- 8
 while$ -- 54
-width$ -- 25
-write$ -- 250
-(There were 6 warnings)
+width$ -- 26
+write$ -- 260
+(There were 8 warnings)
