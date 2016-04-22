@@ -2,12 +2,6 @@
   \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
 \begin{thebibliography}{10}
 
-\bibitem{COUHES-turk}
-Couhes policy for using amazon's mechanical turk | welcome to couhes.
-\newblock
-  \url{https://couhes.mit.edu/guidelines/couhes-policy-using-amazons-mechanical-turk}.
-\newblock (Accessed on 04/21/2016).
-
 \bibitem{Greenwald}
 Is glenn greenwald the future of news? -- the new york times.
 \newblock
@@ -25,6 +19,13 @@ Perceptions of bias, news knowledge.
 \newblock {\em Pew Research Center}, feb 2012.
 \newblock (Accessed on 04/06/2016).
 
+\bibitem{CrowdFlower-levels}
+Introducing contributor performance levels! - crowdflower community.
+\newblock
+  \url{http://crowdflowercommunity.tumblr.com/post/80598014542/introducing-contributor-performance-levels},
+  mar 2014.
+\newblock (Accessed on 04/21/2016).
+
 \bibitem{baum2008eye}
 Matthew~A Baum, Phil Gussin, et~al.
 \newblock In the eye of the beholder: How information shortcuts shape
@@ -36,6 +37,14 @@ John~T Cacioppo and Richard~E Petty.
 \newblock Effects of message repetition and position on cognitive response,
   recall, and persuasion.
 \newblock {\em Journal of personality and Social Psychology}, 37(1):97, 1979.
+
+\bibitem{finin2010annotating}
+Tim Finin, Will Murnane, Anand Karandikar, Nicholas Keller, Justin Martineau,
+  and Mark Dredze.
+\newblock Annotating named entities in twitter data with crowdsourcing.
+\newblock In {\em Proceedings of the NAACL HLT 2010 Workshop on Creating Speech
+  and Language Data with Amazon's Mechanical Turk}, pages 80--88. Association
+  for Computational Linguistics, 2010.
 
 \bibitem{Vocativ-speech}
 EJ~Fox, Mike Spies, and Matan Gilat.
