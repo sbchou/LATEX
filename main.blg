@@ -21,51 +21,48 @@ Database file #1: main.bib
 Warning--to sort, need author or key in Trump-advantage
 Warning--to sort, need author or key in Greenwald
 Warning--to sort, need author or key in Pew-bias-2012
-Warning--to sort, need author or key in March45online
-Warning--to sort, need author or key in CrowdFlower-guide
-Warning--to sort, need author or key in Crowdflower-levels
 Warning--to sort, need author or key in COUHES-turk
 Warning--empty author in Pew-bias-2012
 Warning--empty journal in sherif1961social
-You've used 25 entries,
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            667 strings with 9182 characters,
-and the built_in function-call counts, 6136 in all, are:
-= -- 594
-> -- 237
+            655 strings with 8516 characters,
+and the built_in function-call counts, 5613 in all, are:
+= -- 544
+> -- 224
 < -- 1
-+ -- 102
-- -- 74
-* -- 352
-:= -- 1008
-add.period$ -- 81
-call.type$ -- 25
-change.case$ -- 110
++ -- 95
+- -- 70
+* -- 331
+:= -- 942
+add.period$ -- 71
+call.type$ -- 22
+change.case$ -- 99
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 232
-empty$ -- 565
-format.name$ -- 74
-if$ -- 1305
+cite$ -- 28
+duplicate$ -- 212
+empty$ -- 503
+format.name$ -- 70
+if$ -- 1179
 int.to.chr$ -- 0
-int.to.str$ -- 25
+int.to.str$ -- 22
 missing$ -- 15
-newline$ -- 135
+newline$ -- 119
 num.names$ -- 36
-pop$ -- 172
+pop$ -- 143
 preamble$ -- 2
-purify$ -- 86
+purify$ -- 78
 quote$ -- 0
-skip$ -- 156
+skip$ -- 140
 stack$ -- 0
-substring$ -- 243
-swap$ -- 25
+substring$ -- 244
+swap$ -- 22
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
-warning$ -- 9
-while$ -- 47
-width$ -- 27
-write$ -- 267
-(There were 9 warnings)
+type$ -- 84
+warning$ -- 6
+while$ -- 49
+width$ -- 24
+write$ -- 237
+(There were 6 warnings)
