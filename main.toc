@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {5.1}Motivations}{21}
 \contentsline {section}{\numberline {5.2}Experimental Design}{22}
 \contentsline {subsection}{\numberline {5.2.1}Dataset}{24}
-\contentsline {subsection}{\numberline {5.2.2}Survey}{24}
+\contentsline {subsection}{\numberline {5.2.2}Survey Design}{24}
 \contentsline {subsection}{\numberline {5.2.3}Quality Control}{25}
 \contentsline {section}{\numberline {5.3}Basic Analysis}{26}
 \contentsline {subsection}{\numberline {5.3.1}Demographics}{26}
