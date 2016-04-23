@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 APR 2016 00:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 APR 2016 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,7 +638,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
-[]\T1/cmr/m/n/12 Guide to: Run-ning sur-veys –- crowd-flower suc-cess cen-
+[]\T1/cmr/m/n/12 Guide to run-ning sur-veys: Crowd-flower suc-cess cen-
  []
 
 
@@ -696,8 +696,8 @@ Underfull \hbox (badness 6876) in paragraph at lines 24--28
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--40
-[]\T1/cmr/m/n/12 Introducing con-trib-u-tor per-for-mance lev-els -- crowd-flow
-er com-mu-
+[]\T1/cmr/m/n/12 Introducing con-trib-u-tor per-for-mance lev-els: Crowd-flower
+ com-mu-
  []
 
 
@@ -763,7 +763,7 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (47 pages, 1111605 bytes).
+Output written on main.pdf (47 pages, 1111278 bytes).
 PDF statistics:
  262 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams
