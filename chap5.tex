@@ -82,54 +82,89 @@ Reading level cutoffs were made by taking the bottom and top 25\% percentile of 
 
 
 
-Demographics
-What is your gender?
- Male
- Female
- Other
-What is your age?
- 18-29
- 30-49
- 50-64
- 64+
-What is your political party affiliation?
- Democrat
- Republican
- Independent/Other
- No Affiliation
-If the election were tomorrow, I would vote for…
- Hillary Clinton
- Bernie Sanders
- Donald Trump
- Ted Cruz
- John Kasich
- Other
- Might not vote
-Have you read any of the stories above before this study?
- Yes
- No
- Might have, but I am not sure
+% Demographics
+% What is your gender?
+%  Male
+%  Female
+%  Other
+% What is your age?
+%  18-29
+%  30-49
+%  50-64
+%  64+
+% What is your political party affiliation?
+%  Democrat
+%  Republican
+%  Independent/Other
+%  No Affiliation
+% If the election were tomorrow, I would vote for…
+%  Hillary Clinton
+%  Bernie Sanders
+%  Donald Trump
+%  Ted Cruz
+%  John Kasich
+%  Other
+%  Might not vote
+% Have you read any of the stories above before this study?
+%  Yes
+%  No
+%  Might have, but I am not sure
 
 
  % when we removed people who might have already read stories, no sig diff results in analysis.
 
 
 
-% just pics etc.
+% just pics etc. 
+
 \subsection{Quality Control}
 
-As in the first study, users were filtered by minimum time taken to complete the task. Again, only Level 3 workers were chosen from Crowdflower, and users from Study 1 were forbidden to complete tasks in Study 2. 
+CrowdFlower has a built-in ``Test Question'' feature that allows for the rejection of a annotator whose answers to specific questions do not lie within a threshold (default 70\%) of the ``correct'' answer or whose answers lay outside the standard variation compared to others.
 
-Because Study 2 presented a longer task of reading 8 versus 5 news stories, we set a longer minimum time of 6 minutes to complete the task. A payment of \$0.80 per survey was given based off guidelines by MIT.
+However, since the questions we asked were by nature subjective and therefore outliers and disagreements in answers could imply signal rather than noise, we chose to monitor for quality using other metrics instead. CrowdFlower was not designed explicitly for survey-like tasks, and therefore there were no options for different screening methods or questions. Gold Questions on the platform are selected by the creator within the set of all questions being recorded.
 
-The average response time for the task was 09:20 min.
+Because of this, we monitored quality of results in two ways:
+
+First, by setting a minimum of time of 360 seconds to complete the task of reading 5 stories for a task to be accepted.
+
+Second, by selecting only Level 3 contributors on CrowdFlower as suggested on their website for handling survey-like tasks \cite{CrowdFlower-guide}.
+
+Level 3 contributors are described as those who ``have completed over a hundred Test Questions across hundreds of different Job types, and have a near perfect overall Accuracy'' \cite{CrowdFlower-levels}. This is the highest category of contributor.
+ 
+Users were also only allowed to answer the set of questions once. 
+
+\$0.80 was given per survey, as suggested by MIT Committee on the Use of Humans as Experimental Subjects. The average response time per survey was 09:20 min.
+
 
 \section{Analysis}
 
 
 \subsection{Demographics}
-basic demographics of voters.
 
+
+% \begin{figure}[h!] 
+% \centering
+%   \frame{\includegraphics[width=0.45\textwidth]{gender_study2}}
+%   \caption{Survey Questions for Study 2}
+% \end{figure} 
+
+\begin{figure}[h!] 
+\label{fig:demographics2}
+\centering 
+  \includegraphics[width=0.45\textwidth]{gender_study2} 
+  \includegraphics[width=0.45\textwidth]{age_study2} 
+  %\includegraphics[width=0.32\textwidth]{location_study2} 
+  \caption{Demographics of Participants}
+\end{figure}
+
+\begin{figure}[h!] 
+\label{fig:locations2}
+\centering  
+  \includegraphics[width=0.7\textwidth]{location_study2} 
+  \caption{Locations of Participants}
+\end{figure}
+
+\newpage
 \subsection{Trends}
 descriptive analytics of fairness and trust.
 

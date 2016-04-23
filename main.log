@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2016 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 APR 2016 20:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,17 +389,38 @@ File: images/study2_qs.png Graphic file (type png)
 <use images/study2_qs.png>
 Package pdftex.def Info: images/study2_qs.png used on input line 79.
 (pdftex.def)             Requested size: 195.12767pt x 224.9397pt.
- [23 <./images/study2_qs.png>] [24]) [25]
+ [23 <./images/study2_qs.png>]
+<images/gender_study2.png, id=97, 578.16pt x 397.485pt>
+File: images/gender_study2.png Graphic file (type png)
+
+<use images/gender_study2.png>
+Package pdftex.def Info: images/gender_study2.png used on input line 154.
+(pdftex.def)             Requested size: 195.12767pt x 134.14842pt.
+
+<images/age_study2.png, id=98, 578.16pt x 397.485pt>
+File: images/age_study2.png Graphic file (type png)
+
+<use images/age_study2.png>
+Package pdftex.def Info: images/age_study2.png used on input line 155.
+(pdftex.def)             Requested size: 195.12767pt x 134.14842pt.
+ [24]
+<images/location_study2.png, id=102, 578.16pt x 397.485pt>
+File: images/location_study2.png Graphic file (type png)
+
+<use images/location_study2.png>
+Package pdftex.def Info: images/location_study2.png used on input line 163.
+(pdftex.def)             Requested size: 303.53267pt x 208.67668pt.
+ [25 <./images/gender_study2.png> <./images/age_study2.png> <./images/location_
+study2.png>]) [26]
 \openout2 = `chap6.aux'.
 
-
-(./chap6.tex [26
+ (./chap6.tex
+Chapter 6.
+) [27
 
 
 
 ]
-Chapter 6.
-) [27]
 \openout2 = `chap7.aux'.
 
  (./chap7.tex [28
@@ -438,28 +459,28 @@ Chapter 8.
 
 ]
 Chapter 9.
-<images/trump_topics.png, id=126, 283.0575pt x 427.5975pt>
+<images/trump_topics.png, id=132, 283.0575pt x 427.5975pt>
 File: images/trump_topics.png Graphic file (type png)
 
 <use images/trump_topics.png>
 Package pdftex.def Info: images/trump_topics.png used on input line 8.
 (pdftex.def)             Requested size: 195.12767pt x 294.77509pt.
 
-<images/clinton_topics.png, id=127, 290.08376pt x 418.56375pt>
+<images/clinton_topics.png, id=133, 290.08376pt x 418.56375pt>
 File: images/clinton_topics.png Graphic file (type png)
 
 <use images/clinton_topics.png>
 Package pdftex.def Info: images/clinton_topics.png used on input line 9.
 (pdftex.def)             Requested size: 195.12767pt x 281.55392pt.
 
-<images/sanders_topics.png, id=128, 279.0425pt x 428.60126pt>
+<images/sanders_topics.png, id=134, 279.0425pt x 428.60126pt>
 File: images/sanders_topics.png Graphic file (type png)
 
 <use images/sanders_topics.png>
 Package pdftex.def Info: images/sanders_topics.png used on input line 10.
 (pdftex.def)             Requested size: 195.12767pt x 299.71799pt.
 
-<images/cruz_topics.png, id=129, 270.00874pt x 428.60126pt>
+<images/cruz_topics.png, id=135, 270.00874pt x 428.60126pt>
 File: images/cruz_topics.png Graphic file (type png)
 
 <use images/cruz_topics.png>
@@ -480,53 +501,64 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
-[]\T1/cmr/m/n/12 Is glenn green-wald the fu-ture of news? -- the new
+[]\T1/cmr/m/n/12 Guide to: Run-ning sur-veys –- crowd-flower suc-cess cen-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--10
+\T1/cmr/m/n/12 ter.  $\T1/cmtt/m/n/12 https : / / success . crowdflower . com /
+ hc / en-[]us / articles /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
+[]\T1/cmr/m/n/12 Is glenn green-wald the fu-ture of news? -- the new
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
 \T1/cmr/m/n/12 york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes . com / 2
 013 / 10 / 28 / opinion /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
 \T1/cmtt/m/n/12 a-[]conversation-[]in-[]lieu-[]of-[]a-[]column . html ? mtrref 
 = www . google . com &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
+Underfull \hbox (badness 10000) in paragraph at lines 12--16
 \T1/cmtt/m/n/12 gwh = 450466A4B52C2124639CE220312812D5 & gwt = pay & assetType 
 = opinion$\T1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 4660) in paragraph at lines 12--16
+Underfull \hbox (badness 4660) in paragraph at lines 18--22
 []\T1/cmr/m/n/12 Measuring don-ald trump's mam-moth ad-van-tage in free me-dia 
 - the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 \T1/cmr/m/n/12 new york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes . com
  / 2016 / 03 / 16 / upshot /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
 \T1/cmtt/m/n/12 measuring-[]donald-[]trumps-[]mammoth-[]advantage-[]in-[]free-[
 ]media . html$\T1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
-[]\T1/cmr/m/n/12 Introducing con-trib-u-tor per-for-mance lev-els! - crowd-flow
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+[]\T1/cmr/m/n/12 Introducing con-trib-u-tor per-for-mance lev-els -- crowd-flow
 er com-mu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
 \T1/cmr/m/n/12 nity.  $\T1/cmtt/m/n/12 http : / / crowdflowercommunity . tumblr
  . com / post / 80598014542 /
  []
@@ -537,37 +569,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 113--118
+Underfull \hbox (badness 5667) in paragraph at lines 119--124
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 137--144
+[36]
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 143--150
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-[36])) [37] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
+)) [37] (./main.aux (./cover.aux) (./signature.aux) (./contents.aux)
 (./chap1.aux) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux)
 (./chap6.aux) (./chap7.aux) (./chap8.aux) (./chap9.aux) (./appa.aux)
 (./appb.aux) (./biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 2429 strings out of 493089
- 32971 string characters out of 6134842
- 97269 words of memory out of 5000000
- 5731 multiletter control sequences out of 15000+600000
+ 2447 strings out of 493089
+ 33416 string characters out of 6134842
+ 97299 words of memory out of 5000000
+ 5746 multiletter control sequences out of 15000+600000
  14573 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,23p,999b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -586,10 +618,10 @@ rm1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm
 1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti12
 00.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb>
-Output written on main.pdf (37 pages, 1068714 bytes).
+Output written on main.pdf (37 pages, 1115654 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
