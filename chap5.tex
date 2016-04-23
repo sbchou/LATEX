@@ -100,7 +100,7 @@ Reading level cutoffs were made by taking the bottom and top 25\% percentile of 
 \subsection{Survey Design}
 We designed four surveys (1 per group) on the platform CrowdFlower. Each participant was randomnly assigned to a group and could not take the survey more than once. The eight stories were shown (in a randomized order), and each story was followed up by two scoring questions pertaining to fairness and trustworthiness.
 
-\begin{figure}[h!] 
+\begin{figure}[H] 
 \centering
   \frame{\includegraphics[width=0.45\textwidth]{study2_qs}}
   \caption{Scoring Questions for Survey}
@@ -115,20 +115,13 @@ The survey concluded with an abbreviated standard demographic survey as well as 
   \caption{Demographic Questions for Survey}
 \end{figure}
 
+Finally, we asked readers to report whether or not they migh have read the stories before.
 
-\begin{figure}[h!] 
+\begin{figure}[H] 
 \centering
   \frame{\includegraphics[width=0.45\textwidth]{survey_comments}}
   \caption{Comments for Survey}
 \end{figure}
-
- 
-
- % when we removed people who might have already read stories, no sig diff results in analysis.
-
-
-
-% just pics etc. 
 
 We ran the survey of a duration of  hours and had 40 participants sign up per group, for a total of 160 participants.
 
@@ -153,49 +146,108 @@ Users were also only allowed to answer the set of questions once.
 
 \section{Basic Analysis}
 
-
 \subsection{Demographics}
 
+\begin{figure}[H] 
+\centering 
+  \includegraphics[width=0.49\textwidth]{gender_study2} 
+  \includegraphics[width=0.49\textwidth]{age_study2} 
+  %\includegraphics[width=0.32\textwidth]{location_study2} 
+  \caption{Demographics of Participants
+    \label{fig:demographics2}}
+\end{figure}
 
-% \begin{figure}[h!] 
-% \centering
-%   \frame{\includegraphics[width=0.45\textwidth]{gender_study2}}
-%   \caption{Survey Questions for Study 2}
-% \end{figure} 
+Gender of participants were majority male. We had 758 male participants, 496 female participants and 24 signed up as ``other'' (it is possible that those who did not wish to identify chose the ``other'' category). 
 
-See figure~\ref{fig:demographics2} on page \pageref{fig:demographics2}
+Majority of participants were also in age group 18-29.
+ 
+In our analyses, we balance for gender and age disparaties. %%%%% DO THIS !!!!!!!!!!!!!!!!!!!!!!
 
-See figure~\ref{fig:locations2}
-See figure~\ref{fig:party2}
+\subsection{Location}
 
-% \begin{figure}[h!] 
-% \label{fig:demographics2}
-% \centering 
-%   \includegraphics[width=0.8\textwidth]{gender_study2} 
-%   \includegraphics[width=0.8\textwidth]{age_study2} 
-%   %\includegraphics[width=0.32\textwidth]{location_study2} 
-%   \caption{Demographics of Participants}
-% \end{figure}
+Our participants represented a wide variety of geographic locations in the US.
 
-% \begin{figure}[h!] 
-% \label{fig:locations2}
-% \centering  
-%   \includegraphics[width=0.9\textwidth]{location_study2} 
-%   \caption{Locations of Participants}
-% \end{figure}
+\begin{figure}[H]  
+\centering  
+  \includegraphics[width=0.9\textwidth]{location_study2} 
+  \caption{Locations of Participants
+    \label{fig:locations2}}
+\end{figure}
 
-% \begin{figure}[h!] 
-% \label{fig:demographics2}
-% \centering 
-%   \includegraphics[width=.8\textwidth]{party_study2} 
-%   \includegraphics[width=.8\textwidth]{voting_for_study2} 
-%   %\includegraphics[width=0.32\textwidth]{location_study2} 
-%   \caption{Political Affiliations of Participants}
-% \end{figure}
+\subsection{Political Affiliation}
+
+More than twice as many democrats than republicans particpated in our study, which also was reflected in candidate preference disparaties. These effects are taken into account in our modeling.
+
+\begin{figure}[H]  
+\centering 
+  \includegraphics[width=.7\textwidth]{party_study2} 
+  \includegraphics[width=.7\textwidth]{voting_for_study2}  
+  \caption{Political Affiliations of Participants
+    \label{fig:political2}}
+\end{figure}
+
+ 
+  
+% See figure~\ref{fig:demographics2} on page \pageref{fig:demographics2}
+
+% See figure~\ref{fig:locations2}
+% See figure~\ref{fig:party2}
 
 \newpage
-\subsection{Trends}
-descriptive analytics of fairness and trust.
+\subsection{Trust}
+From a scale of -2 (Strongly Disagree) to 2 (Strongly Agree), on average, most stories were deemed trustworthy for all groups with a mean score of 0.55 (between Neutral and Agree). For distribution of all scores, see figure~\ref{fig:trust} on page \pageref{fig:trust}.
+
+However, the distrubtions for candidates varied. Stories about Sanders were seen as most trustworthy across all participants with a mean score of 0.66, followed by Cruz (0.63), Clinton (0.53), and Trump (0.40).
+
+\begin{figure}[H] 
+\centering 
+  \includegraphics[width=.49\textwidth]{trust_clinton}   
+  \includegraphics[width=.49\textwidth]{trust_sanders}   
+  \includegraphics[width=.49\textwidth]{trust_trump}   
+  \includegraphics[width=.49\textwidth]{trust_cruz}  
+  \caption{Trust Ratings for Stories About Candidate
+    \label{fig:trust}}   
+\end{figure}
+
+On average, men were slightly less likely to trust stories (average of 0.54) than women (0.60) and others. 
+
+Those in age group 30-49 were most likely to find stories trustworthy (average 0.675), followed by those in age group 50-64 (average 0.083), then those 18-29 (0.49), then those 64+ (0.083).
+
+For distributions of trust by age group, see figure~\ref{fig:trust-by-age} on page \pageref{fig:trust-by-age}.
+
+On average, stories were more trusted by democrats (0.69 mean).
+
+% FIX THIS !!!!!!!!!!
+For distributions of trust by party affiliation, see figure ?? on page ??.
+
+\subsection{Fairness}
+From a scale of -2 (Strongly Disagree) to 2 (Strongly Agree), on average, most stories were deemed fair for all groups with a mean score of 0.57 (between Neutral and Agree). For distribution of all scores, see figure~\ref{fig:fair} on page \pageref{fig:fair}.
+
+Perceptions of fair treatment of candidates in stories diverged from the trust ratings above. Whereas stories about Sanders were most trusted, those about Clinton were seen as most fair (0.67 average).
+
+\begin{figure}[H] 
+\centering 
+  \includegraphics[width=.49\textwidth]{fair_clinton}   
+  \includegraphics[width=.49\textwidth]{fair_sanders}   
+  \includegraphics[width=.49\textwidth]{fair_trump}   
+  \includegraphics[width=.49\textwidth]{fair_cruz}  
+  \caption{Fairness Ratings for Stories About Candidate
+    \label{fig:fair-candidate}}   
+\end{figure}
+
+Women were more likely to see articles as fair on average (0.67) than men (0.51 mean).
+Again, those in age group 30-49 were also most likely to find stories fair (average .70), this time followed by Millenials (0.51 average), then those 50-64 (0.48) and 64+ (0.20).
+
+Democrats and Independents were far more likely to view stories as fair on average (0.68, 0.67) than Republicans (0.375), although all averages were between neutral and fair.
+
+This finding about low perceptions of fairness in media is aligned with prior research findings. In ``The Liberal Media Myth Revisited,'' T.T. Lee hypothesized (and verified) that ``the more conservative (versus liberal) media consumers are, the more likely they are to perceive a media bias'' and similarly ``the more consumers lean toward the Republican (versus Democratic) party, the more likely they are to perceive a media bias'' \cite{lee2005liberal}.
+% For distributions of trust by age group, see figure~\ref{fig:trust-by-age} on page \pageref{fig:trust-by-age}.
+
+% On average, stories were more trusted by democrats (0.69 mean).
+
+% % FIX THIS !!!!!!!!!!
+% For distributions of trust by party affiliation, see figure ?? on page ??.
+ 
 
 %% FUN SECTION: COMMENTS COLLECTED
  
@@ -204,7 +256,9 @@ descriptive analytics of fairness and trust.
 
 \section{Media Brand Effects}
 
-
+\section{Qualitative}
+People's comments
+And whether or not they read the stories
 
 \section{Conclusions}
 

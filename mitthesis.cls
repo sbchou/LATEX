@@ -222,6 +222,7 @@
 
 
 \usepackage{parskip}  % Let's not indent
+\usepackage{float} % image stays in place
 
 \setlength{\oddsidemargin}{0.0in}	% 1.25in left margin 
 \setlength{\evensidemargin}{0.0in}	% 1.25in left margin (even pages)
