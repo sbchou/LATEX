@@ -29,8 +29,13 @@
 \contentsline {section}{\numberline {5.6}Qualitative}{34}
 \contentsline {section}{\numberline {5.7}Conclusions}{34}
 \contentsline {section}{\numberline {5.8}Limitations}{34}
-\contentsline {chapter}{\numberline {6}Future Work}{35}
-\contentsline {section}{\numberline {6.1}Designing Interventions}{35}
-\contentsline {chapter}{\numberline {7}Conclusion}{37}
-\contentsline {chapter}{\numberline {8}Tables}{39}
-\contentsline {chapter}{\numberline {9}Figures}{41}
+\contentsline {chapter}{\numberline {6}Taking Trust to Another Dimension of Data}{35}
+\contentsline {section}{\numberline {6.1}The Social Media Megaphone}{35}
+\contentsline {section}{\numberline {6.2}Trust, Virality, and Controversy}{36}
+\contentsline {section}{\numberline {6.3}Conclusions}{36}
+\contentsline {chapter}{\numberline {7}Future Work}{37}
+\contentsline {section}{\numberline {7.1}Designing Interventions}{37}
+\contentsline {section}{\numberline {7.2}De-biasing Twitter Analysis}{37}
+\contentsline {chapter}{\numberline {8}Conclusion}{39}
+\contentsline {chapter}{\numberline {9}Tables}{41}
+\contentsline {chapter}{\numberline {10}Figures}{43}
