@@ -62,14 +62,14 @@
 
 % To use this style - say something like:
 %  for dull, boring thesis format:
-%	\documentclass[12pt]{mitthesis}
+% \documentclass[12pt]{mitthesis}
 %       \pagestyle{plain}
 % OR for fast drafts: 
-%	\documentclass[11pt,singlespace,draft]{mitthesis}
-%	\pagestyle{drafthead}
+% \documentclass[11pt,singlespace,draft]{mitthesis}
+% \pagestyle{drafthead}
 % OR for Tech Reports:
-%	\documentclass[12pt,twoside]{mitthesis}	
-%	\pagestyle{headings}
+% \documentclass[12pt,twoside]{mitthesis} 
+% \pagestyle{headings}
 % OR
 %  some other combination...
 %
@@ -85,9 +85,9 @@
 %   Double-spaced theses are the default.
 %   That is what M.I.T. asks for in the formal specifications.
 %
-% 	Note that MIT does not REQUIRE all theses to be double-spaced anymore.
-% 	Someone in the library system said that it's OK to be single-spaced.
-% 	(Regardless of what the specs. say...)
+%   Note that MIT does not REQUIRE all theses to be double-spaced anymore.
+%   Someone in the library system said that it's OK to be single-spaced.
+%   (Regardless of what the specs. say...)
 %   To get singlespacing in an area - Use  the 'singlespace' environment. 
 %
 % Option `draft':
@@ -100,27 +100,27 @@
 %
 %%%% Parameters to initialize for boilerplate page:
 %
-%	\title{Mixed Circular Cylindrical Shells}
-% 	\author{J. Casey Salas}
-% 	\prevdegrees{B.S., University of California (1978) \\
-%		     S.M., Massachusetts Institute of Technology (1981)}
-% 	\department{Department of Electrical Engineering and Computer Science}
-% 	\degree{Doctor of Philosophy}
+% \title{Mixed Circular Cylindrical Shells}
+%   \author{J. Casey Salas}
+%   \prevdegrees{B.S., University of California (1978) \\
+%        S.M., Massachusetts Institute of Technology (1981)}
+%   \department{Department of Electrical Engineering and Computer Science}
+%   \degree{Doctor of Philosophy}
 %% If the thesis is for two degrees simultaneously, list them both
 %% separated by \and like this:
-% 	\degree{Doctor of Philosophy \and Master of Science}
-% 	\degreemonth{February}
-% 	\degreeyear{1987}
-% 	\thesisdate{December 10, 1986}
+%   \degree{Doctor of Philosophy \and Master of Science}
+%   \degreemonth{February}
+%   \degreeyear{1987}
+%   \thesisdate{December 10, 1986}
 %% If the thesis is copyright by the Institute, leave this line out and
 %% the standard copyright line will be used instead.
-% 	\copyrightnotice{J. Casey Salas, 1986}
+%   \copyrightnotice{J. Casey Salas, 1986}
 %% If there is more than one supervisor, use the \supervisor command
 %% once for each.
-% 	\supervisor{John D. Galli}{Director, Sound Instrument Laboratory}
+%   \supervisor{John D. Galli}{Director, Sound Instrument Laboratory}
 %% This is the department committee chairman, not the thesis committee chairman
-% 	\chairman{Arthur C. Smith}
-%		 {Chairman, Departmental Committee on Graduate Students}
+%   \chairman{Arthur C. Smith}
+%    {Chairman, Departmental Committee on Graduate Students}
 %% Make the titlepage based on the above information.  If you need
 %% something special and can't use the standard form, you can specify
 %% the exact text of the titlepage yourself.  Put it in a titlepage
@@ -136,30 +136,30 @@
 %% format of the page, you can use the abstract environment, which puts
 %% the word "Abstract" at the beginning and single spaces its text.
 %
-% 	\begin{abstractpage}
-%	    Abstract goes here.
-%	\end{abstractpage}
+%   \begin{abstractpage}
+%     Abstract goes here.
+% \end{abstractpage}
 %
 %%%%%%%% Newer additions 
 %
 % documentclass options - 
-% vi		For MIT course VI or VIII thesis - will copyright the thesis to
-% 		you while giving MIT permission to copy and distribute it.
-% upcase	Will put much of the cover page in uppercase, as per the
-% 		example on page 17 of the *Specifications for Thesis
-% 		Preparation*, (revised 1989)
+% vi    For MIT course VI or VIII thesis - will copyright the thesis to
+%     you while giving MIT permission to copy and distribute it.
+% upcase  Will put much of the cover page in uppercase, as per the
+%     example on page 17 of the *Specifications for Thesis
+%     Preparation*, (revised 1989)
 % Also added ``All Rights Reserved'' to default copyright notice.
 %
 %%%%%%%%%%%
 % 
 % Documentclass options (vi and upcase) and changes to copyright notice
-%	Copyright (c) 1990, by Krishna Sethuraman.
+% Copyright (c) 1990, by Krishna Sethuraman.
 %
 % Pagestyle and header generation
-%	Copyright (c) 1987, 1988 by Peter Nuth
+% Copyright (c) 1987, 1988 by Peter Nuth
 %
 % Original version
-%	 Copyright (c) 1987 by Stephen Gildea
+%  Copyright (c) 1987 by Stephen Gildea
 % Permission to copy all or part of this work is granted, provided
 % that the copies are not made or distributed for resale, and that
 % the copyright notice and this notice are retained.
@@ -173,12 +173,12 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{mitthesis}[1999/10/20]
 
-\def\mystretch{1.5}		% Double spacing hack
-\DeclareOption{doublespace}{}	% This is default
-				% So we do not read this style twice
-\DeclareOption{singlespace}{		% If he explicitly wants single spacing
+\def\mystretch{1.5}   % Double spacing hack
+\DeclareOption{doublespace}{} % This is default
+        % So we do not read this style twice
+\DeclareOption{singlespace}{    % If he explicitly wants single spacing
     \typeout{Single spaced}
-    \def\mystretch{1}}	
+    \def\mystretch{1}}  
 
 %% `vi' and `upcase' document style options.  Krishna Sethuraman (1990)
 \newcount\vithesis
@@ -186,7 +186,7 @@
 \vithesis=0
 
 \DeclareOption{upcase}{\typeout{Uppercase cover page.}
-	\gdef\choosecase#1{\uppercase\expandafter{#1}}}
+  \gdef\choosecase#1{\uppercase\expandafter{#1}}}
 \def\choosecase#1{#1}
 
 %% leftblank option by Kevin Fu
@@ -209,43 +209,69 @@
 % with 2e.  setspace is a replacement which is 2e-compliant.
 
 % Read the doublespace style that we got from Rochester:
-%\input setdoublespace.sty 		
+%\input setdoublespace.sty    
 
-\def\baselinestretch{\mystretch}	% Double spacing hack
+\def\baselinestretch{\mystretch}  % Double spacing hack
 
 %%%%%%%  Set up margins and formatting params %%%
 
 % Margins.
 %  Note we want 1in top margin assuming no header line, so push header
-%	into 1in margin.
+% into 1in margin.
 %  Draft mode brings the header back down.
 
 
 \usepackage{parskip}  % Let's not indent
 \usepackage{float} % image stays in place
 
-\setlength{\oddsidemargin}{0.0in}	% 1.25in left margin 
-\setlength{\evensidemargin}{0.0in}	% 1.25in left margin (even pages)
-\setlength{\topmargin}{0.0in}		% 1in top margin
-\setlength{\textwidth}{6.0in}		% 6.0in text - 1.25in rt margin
-\setlength{\textheight}{9in}		% Body ht for 1in margins
-\addtolength{\topmargin}{-\headheight}	% No header, so compensate
-\addtolength{\topmargin}{-\headsep}	% for header height and separation
+%%%%%%%% make yer own blank pages %%%%%%%%%%
+
+\usepackage{setspace}
+\usepackage{afterpage} % clear pages
+\newcommand\blankpage{%
+    \hbox{}\par\vfill\centerline
+    {THIS PAGE INTENTIONALLY LEFT BLANK}%
+    \vfill\newpage 
+    \thispagestyle{plain}%
+    \global\@topnum\z@
+    \@afterindentfalse 
+    \addtocounter{page}{-1}%
+    } 
+ 
+
+%{\clearpage\ifodd\c@page\else
+%   \hbox{}\par\vfill\centerline%
+%   {THIS PAGE INTENTIONALLY LEFT BLANK}%
+%   \vfill\newpage\fi
+%   \thispagestyle{plain}  % Page style of chapter page is 'plain'
+%   \global\@topnum\z@   % Prevents figures from going at top of page.
+%   \@afterindentfalse   % Suppresses indent in first paragraph.  Change
+%   \secdef\@chapter\@schapter}
+
+
+
+\setlength{\oddsidemargin}{0.0in} % 1.25in left margin 
+\setlength{\evensidemargin}{0.0in}  % 1.25in left margin (even pages)
+\setlength{\topmargin}{0.0in}   % 1in top margin
+\setlength{\textwidth}{6.0in}   % 6.0in text - 1.25in rt margin
+\setlength{\textheight}{9in}    % Body ht for 1in margins
+\addtolength{\topmargin}{-\headheight}  % No header, so compensate
+\addtolength{\topmargin}{-\headsep} % for header height and separation
 
 % The next two macros compensate page style for headers and footers
 % We only need them in page styles that USE headers and footers.
     % If we have a header, it must be 1in from top of page.
-\def\pulldownheader{			% Shift header down 1in from top
-    \addtolength{\topmargin}{\headheight}	
-    \addtolength{\topmargin}{\headsep}	
+\def\pulldownheader{      % Shift header down 1in from top
+    \addtolength{\topmargin}{\headheight} 
+    \addtolength{\topmargin}{\headsep}  
     \addtolength{\textheight}{-\headheight}
     \addtolength{\textheight}{-\headsep}
 }
     % If we have a footer, put it 1in up from bottom
-\def\pullupfooter{				% Shift footer up
+\def\pullupfooter{        % Shift footer up
     \addtolength{\textheight}{-\footskip}
 %    \addtolength{\textheight}{-\footheight}  %footheight doesn't
-%    						exist in 2e
+%               exist in 2e
 }
 
 %%%%%%%  End of margins and formatting params %%%
@@ -274,11 +300,11 @@
     \def\@evenhead{\rm \thepage\hfil \sl \leftmark}
     \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}
     \def\chaptermark##1{\markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}{}}
+  \@chapapp\ \thechapter. \ \fi ##1}}{}}
     \def\sectionmark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
-	\thesection. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
-    \pullupfooter				% Bring footer up
+  \thesection. \ \fi ##1}}}
+    \pulldownheader       % Bring header down from edge
+    \pullupfooter       % Bring footer up
 }
 \else               % If one-sided printing.
 \def\ps@drafthead{
@@ -286,9 +312,9 @@
     \def\@oddfoot{\rm \today \hfil \sc \draftrmark}
     \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}
     \def\chaptermark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
-    \pullupfooter				% Bring footer up
+  \@chapapp\ \thechapter. \ \fi ##1}}}
+    \pulldownheader       % Bring header down from edge
+    \pullupfooter       % Bring footer up
 }
 \fi
 
@@ -298,26 +324,26 @@
 %  \def\ps@headings.
 %
 
-\if@twoside					% If two-sided printing.
+\if@twoside         % If two-sided printing.
 \def\ps@headings{\let\@mkboth\markboth
     \def\@oddfoot{}
-    \def\@evenfoot{}		% No feet.
-    \def\@evenhead{\rm \thepage\hfil \sl \leftmark}	% Left heading.
-    \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}	% Right heading.
+    \def\@evenfoot{}    % No feet.
+    \def\@evenhead{\rm \thepage\hfil \sl \leftmark} % Left heading.
+    \def\@oddhead{\hbox{}\sl \rightmark \hfil \rm\thepage}  % Right heading.
     \def\chaptermark##1{\markboth {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}{}}	
+  \@chapapp\ \thechapter. \ \fi ##1}}{}}  
     \def\sectionmark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\z@
-	\thesection. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
+  \thesection. \ \fi ##1}}}
+    \pulldownheader       % Bring header down from edge
 }
-\else						% If one-sided printing.
+\else           % If one-sided printing.
 \def\ps@headings{\let\@mkboth\markboth
     \def\@oddfoot{}
-    \def\@evenfoot{}		%     No feet.
-    \def\@oddhead{\hbox {}\sl \rightmark \hfil \rm\thepage}	% Heading.
+    \def\@evenfoot{}    %     No feet.
+    \def\@oddhead{\hbox {}\sl \rightmark \hfil \rm\thepage} % Heading.
     \def\chaptermark##1{\markright {\uppercase{\ifnum \c@secnumdepth >\m@ne
-	\@chapapp\ \thechapter. \ \fi ##1}}}
-    \pulldownheader				% Bring header down from edge
+  \@chapapp\ \thechapter. \ \fi ##1}}}
+    \pulldownheader       % Bring header down from edge
 }
 \fi
 
@@ -328,10 +354,10 @@
     \def\@evenfoot{}
     \def\sectionmark##1{}
     \def\subsectionmark##1{}
-    \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}}	%
-    \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage}	%
-    \pulldownheader				% Bring header down from edge
-}						
+    \def\@evenhead{\rm \thepage\hfil\sl\leftmark\hbox {}} %
+    \def\@oddhead{\hbox{}\sl\rightmark \hfil \rm\thepage} %
+    \pulldownheader       % Bring header down from edge
+}           
 
 % Redefine '/chapter' to always start on an odd page.
 % Should make no difference in singleside mode.
@@ -342,16 +368,16 @@
    \hbox{}\par\vfill\centerline%
    {THIS PAGE INTENTIONALLY LEFT BLANK}%
    \vfill\newpage\fi
-   \thispagestyle{plain}	% Page style of chapter page is 'plain'
-   \global\@topnum\z@		% Prevents figures from going at top of page.
-   \@afterindentfalse		% Suppresses indent in first paragraph.  Change
-   \secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
+   \thispagestyle{plain}  % Page style of chapter page is 'plain'
+   \global\@topnum\z@   % Prevents figures from going at top of page.
+   \@afterindentfalse   % Suppresses indent in first paragraph.  Change
+   \secdef\@chapter\@schapter}  % to \@afterindenttrue to have indent.
 \else
-\def\chapter{\clearpage %\cleardoublepage	% Starts new page.
-   \thispagestyle{plain}	% Page style of chapter page is 'plain'
-   \global\@topnum\z@		% Prevents figures from going at top of page.
-   \@afterindentfalse		% Suppresses indent in first paragraph.  Change
-   \secdef\@chapter\@schapter}	% to \@afterindenttrue to have indent.
+\def\chapter{\clearpage %\cleardoublepage % Starts new page.
+   \thispagestyle{plain}  % Page style of chapter page is 'plain'
+   \global\@topnum\z@   % Prevents figures from going at top of page.
+   \@afterindentfalse   % Suppresses indent in first paragraph.  Change
+   \secdef\@chapter\@schapter}  % to \@afterindenttrue to have indent.
 \fi
 % If using the report style, use - instead of . in the figure number.
 \@ifundefined{thechapter}{}{\def\thefigure{\thechapter-\arabic{figure}}}
@@ -377,7 +403,7 @@
 
 
 % If you are getting two degrees, use \and between the names.
-\def\degree#1{\setbox0\hbox{#1}	 %for side effect of setting \@degreeword
+\def\degree#1{\setbox0\hbox{#1}  %for side effect of setting \@degreeword
   \gdef\@degree{#1}}
 
 % \and is used inside the \degree argument to separate two degrees
@@ -421,7 +447,7 @@ reserved.\par\permission}}
 %% or just
 %%\@degreeyear}}
 \typeout{Copyright given to author,
-	permission to copy/distribute given to MIT.}
+  permission to copy/distribute given to MIT.}
 \else \typeout{Thesis document copyright MIT unless otherwise (manually) specified}
 \fi
 
@@ -438,7 +464,7 @@ reserved.\par\permission}}
 % we build the appropriate boxes for the titlepage and
 % the abstractpage as the user makes multiple calls
 % to \supervisor
-\newbox\@titlesupervisor 	\newbox\@abstractsupervisor
+\newbox\@titlesupervisor  \newbox\@abstractsupervisor
 
 \def\supervisor#1#2{\setbox\@titlesupervisor\vbox
   {\unvbox\@titlesupervisor \vskip 10pt% plus 1fil minus 1fil
@@ -559,5 +585,4 @@ requirements for the \@degreeword\ of \\
   \signature{Thesis Reader}{#1 \\ #2 \\ #3}}
 }
  
-
 
