@@ -1,44 +1,57 @@
-\contentsline {chapter}{\numberline {1}Introduction}{9}
-\contentsline {part}{I\hspace {1em}Small Data}{12}
-\contentsline {chapter}{\numberline {2}In Media We ... Trust?}{13}
-\contentsline {section}{\numberline {2.1}Why Does Media Trust Matter?}{14}
-\contentsline {section}{\numberline {2.2}How is Media Trust Formed?}{15}
-\contentsline {subsection}{\numberline {2.2.1}The Role of the Reader}{15}
-\contentsline {subsection}{\numberline {2.2.2}The Role of Media Brands}{16}
-\contentsline {subsection}{\numberline {2.2.3}The Role of Language}{16}
-\contentsline {chapter}{\numberline {3}Tools for Dissecting Trust}{19}
-\contentsline {section}{\numberline {3.1}Computing Reading Level}{19}
-\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{19}
-\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{20}
-\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{20}
-\contentsline {subsection}{\numberline {3.2.1}CrowdFlower}{21}
-\contentsline {chapter}{\numberline {4}Exploratory Study}{23}
-\contentsline {chapter}{\numberline {5}Study}{25}
-\contentsline {section}{\numberline {5.1}Motivations}{25}
-\contentsline {section}{\numberline {5.2}Experimental Design}{26}
-\contentsline {subsection}{\numberline {5.2.1}Dataset}{28}
-\contentsline {subsection}{\numberline {5.2.2}Survey Design}{28}
-\contentsline {subsection}{\numberline {5.2.3}Quality Control}{29}
-\contentsline {section}{\numberline {5.3}Basic Analysis}{31}
-\contentsline {subsection}{\numberline {5.3.1}Demographics}{31}
-\contentsline {subsection}{\numberline {5.3.2}Location}{31}
-\contentsline {subsection}{\numberline {5.3.3}Political Affiliation}{32}
-\contentsline {subsection}{\numberline {5.3.4}Trust}{34}
-\contentsline {subsection}{\numberline {5.3.5}Fairness}{35}
-\contentsline {chapter}{\numberline {6}Findings}{37}
-\contentsline {section}{\numberline {6.1}Reading Level Effects}{37}
-\contentsline {section}{\numberline {6.2}Media Brand Effects}{38}
-\contentsline {section}{\numberline {6.3}Qualitative}{38}
-\contentsline {section}{\numberline {6.4}Conclusions}{39}
-\contentsline {section}{\numberline {6.5}Limitations}{39}
-\contentsline {part}{II\hspace {1em}Big Data}{40}
-\contentsline {chapter}{\numberline {7}Taking Trust to Another Dimension of Data}{41}
-\contentsline {section}{\numberline {7.1}The Social Media Megaphone}{41}
-\contentsline {section}{\numberline {7.2}Trust, Virality, and Controversy}{42}
-\contentsline {section}{\numberline {7.3}Conclusions}{42}
-\contentsline {chapter}{\numberline {8}Future Directions}{43}
-\contentsline {section}{\numberline {8.1}Designing Interventions}{43}
-\contentsline {section}{\numberline {8.2}De-biasing Twitter Analysis}{43}
-\contentsline {chapter}{\numberline {9}Conclusion}{45}
-\contentsline {chapter}{\numberline {10}Tables}{47}
-\contentsline {chapter}{\numberline {11}Figures}{49}
+\contentsline {chapter}{\numberline {1}Introduction}{11}
+\contentsline {part}{I\hspace {1em}Small Data}{14}
+\contentsline {chapter}{\numberline {2}In Media We ... Trust?}{15}
+\contentsline {section}{\numberline {2.1}Why Does Media Trust Matter?}{16}
+\contentsline {section}{\numberline {2.2}How is Media Trust Formed?}{17}
+\contentsline {subsection}{\numberline {2.2.1}The Role of the Reader}{17}
+\contentsline {subsection}{\numberline {2.2.2}The Role of Media Brands}{18}
+\contentsline {subsection}{\numberline {2.2.3}The Role of Language}{18}
+\contentsline {chapter}{\numberline {3}Tools for Dissecting Trust}{21}
+\contentsline {section}{\numberline {3.1}Computing Reading Level}{21}
+\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{21}
+\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{22}
+\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{22}
+\contentsline {subsection}{\numberline {3.2.1}CrowdFlower}{23}
+\contentsline {chapter}{\numberline {4}Exploratory Study}{25}
+\contentsline {chapter}{\numberline {5}Study}{27}
+\contentsline {section}{\numberline {5.1}Motivations}{27}
+\contentsline {section}{\numberline {5.2}Experimental Design}{28}
+\contentsline {subsection}{\numberline {5.2.1}Dataset}{30}
+\contentsline {subsection}{\numberline {5.2.2}Survey Design}{30}
+\contentsline {subsection}{\numberline {5.2.3}Quality Control}{31}
+\contentsline {section}{\numberline {5.3}Basic Analysis}{33}
+\contentsline {subsection}{\numberline {5.3.1}Demographics}{33}
+\contentsline {subsection}{\numberline {5.3.2}Location}{33}
+\contentsline {subsection}{\numberline {5.3.3}Political Affiliation}{34}
+\contentsline {subsection}{\numberline {5.3.4}Trust}{36}
+\contentsline {subsection}{\numberline {5.3.5}Fairness}{37}
+\contentsline {chapter}{\numberline {6}Findings}{39}
+\contentsline {section}{\numberline {6.1}Reading Level Effects}{39}
+\contentsline {section}{\numberline {6.2}Media Brand Effects}{40}
+\contentsline {section}{\numberline {6.3}Qualitative}{40}
+\contentsline {section}{\numberline {6.4}Conclusions}{41}
+\contentsline {section}{\numberline {6.5}Limitations}{41}
+\contentsline {part}{II\hspace {1em}Big Data}{42}
+\contentsline {chapter}{\numberline {7}Taking Media Analysis to Another Dimension of Data}{43}
+\contentsline {section}{\numberline {7.1}The Social Media Megaphone}{44}
+\contentsline {section}{\numberline {7.2}Trust, Virality, and Controversy}{44}
+\contentsline {chapter}{\numberline {8}Tools for Analysis at Scale}{45}
+\contentsline {section}{\numberline {8.1}The Electome Project}{45}
+\contentsline {section}{\numberline {8.2}For Stories}{45}
+\contentsline {subsection}{\numberline {8.2.1}Structured Parser}{45}
+\contentsline {subsection}{\numberline {8.2.2}Sentiment Analysis}{45}
+\contentsline {subsection}{\numberline {8.2.3}Emotional Content}{45}
+\contentsline {section}{\numberline {8.3}For Tweets}{45}
+\contentsline {subsection}{\numberline {8.3.1}Sentiment}{45}
+\contentsline {subsection}{\numberline {8.3.2}Followership as a Proxy for Loyalty}{45}
+\contentsline {chapter}{\numberline {9}Analysis}{47}
+\contentsline {section}{\numberline {9.1}Dataset}{47}
+\contentsline {section}{\numberline {9.2}Connecting Tweets with Stories}{47}
+\contentsline {subsection}{\numberline {9.2.1}URL Extraction}{47}
+\contentsline {subsection}{\numberline {9.2.2}Mapping Tweets to Stories}{47}
+\contentsline {chapter}{\numberline {10}Future Directions}{49}
+\contentsline {section}{\numberline {10.1}Designing Interventions}{49}
+\contentsline {section}{\numberline {10.2}De-biasing Twitter Analysis}{49}
+\contentsline {chapter}{\numberline {11}Conclusion}{51}
+\contentsline {chapter}{\numberline {12}Tables}{53}
+\contentsline {chapter}{\numberline {13}Figures}{55}
