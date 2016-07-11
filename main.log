@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 MAY 2016 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JUL 2016 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -587,13 +587,13 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 \openout2 = `cover.aux'.
 
  (./cover.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
 <<oms.cmap>>
 [1
 
@@ -615,107 +615,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 \openout2 = `acknowledgements.aux'.
 
 
-(./acknowledgements.tex
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-utf8.def
-File: se-utf8.def 2011/12/02 v1.10 stringenc: UTF-8
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-utf32be.def
-File: se-utf32be.def 2011/12/02 v1.10 stringenc: UTF-32BE
-)
-<emoji_images/hires/1F468.pdf, id=36, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F468.pdf Graphic file (type pdf)
+(./acknowledgements.tex) [5
 
-<use emoji_images/hires/1F468.pdf>
-Package pdftex.def Info: emoji_images/hires/1F468.pdf used on input line 13.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-<emoji_images/hires/1F469.pdf, id=37, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F469.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F469.pdf>
-Package pdftex.def Info: emoji_images/hires/1F469.pdf used on input line 13.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F467.pdf, id=38, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F467.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F467.pdf>
-Package pdftex.def Info: emoji_images/hires/1F467.pdf used on input line 13.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-File: emoji_images/hires/1F467.pdf Graphic file (type pdf)
- <use emoji_images/hires/1F467.pdf>
-Package pdftex.def Info: emoji_images/hires/1F467.pdf used on input line 13.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F431.pdf, id=39, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F431.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F431.pdf>
-Package pdftex.def Info: emoji_images/hires/1F431.pdf used on input line 13.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F46B.pdf, id=40, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F46B.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F46B.pdf>
-Package pdftex.def Info: emoji_images/hires/1F46B.pdf used on input line 14.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F46D.pdf, id=41, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F46D.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F46D.pdf>
-Package pdftex.def Info: emoji_images/hires/1F46D.pdf used on input line 15.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F466.pdf, id=42, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F466.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F466.pdf>
-Package pdftex.def Info: emoji_images/hires/1F466.pdf used on input line 20.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F64B.pdf, id=43, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F64B.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F64B.pdf>
-Package pdftex.def Info: emoji_images/hires/1F64B.pdf used on input line 20.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-File: emoji_images/hires/1F64B.pdf Graphic file (type pdf)
- <use emoji_images/hires/1F64B.pdf>
-Package pdftex.def Info: emoji_images/hires/1F64B.pdf used on input line 20.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-File: emoji_images/hires/1F64B.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F64B.pdf>
-Package pdftex.def Info: emoji_images/hires/1F64B.pdf used on input line 20.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-File: emoji_images/hires/1F431.pdf Graphic file (type pdf)
- <use emoji_images/hires/1F431.pdf>
-Package pdftex.def Info: emoji_images/hires/1F431.pdf used on input line 27.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-
-<emoji_images/hires/1F495.pdf, id=44, 11.38112pt x 11.38112pt>
-File: emoji_images/hires/1F495.pdf Graphic file (type pdf)
-
-<use emoji_images/hires/1F495.pdf>
-Package pdftex.def Info: emoji_images/hires/1F495.pdf used on input line 27.
-(pdftex.def)             Requested size: 11.74713pt x 11.74731pt.
-) [5
-
- </Users/Cat/Library/texmf/tex/latex/local/coloremoji.sty/emoji_images/hires/1F
-468.pdf> </Users/Cat/Library/texmf/tex/latex/local/coloremoji.sty/emoji_images/
-hires/1F469.pdf> </Users/Cat/Library/texmf/tex/latex/local/coloremoji.sty/emoji
-_images/hires/1F467.pdf> </Users/Cat/Library/texmf/tex/latex/local/coloremoji.s
-ty/emoji_images/hires/1F431.pdf> </Users/Cat/Library/texmf/tex/latex/local/colo
-remoji.sty/emoji_images/hires/1F46B.pdf> </Users/Cat/Library/texmf/tex/latex/lo
-cal/coloremoji.sty/emoji_images/hires/1F46D.pdf> </Users/Cat/Library/texmf/tex/
-latex/local/coloremoji.sty/emoji_images/hires/1F466.pdf> </Users/Cat/Library/te
-xmf/tex/latex/local/coloremoji.sty/emoji_images/hires/1F64B.pdf> </Users/Cat/Li
-brary/texmf/tex/latex/local/coloremoji.sty/emoji_images/hires/1F495.pdf>] [6
+] [6
 
 ]
 \openout2 = `contents.aux'.
@@ -754,7 +656,7 @@ Chapter 2.
 
 
 ] [16] [17] [18]
-<images/vocativ_speech.png, id=154, 592.2125pt x 455.7025pt>
+<images/vocativ_speech.png, id=89, 592.2125pt x 455.7025pt>
 File: images/vocativ_speech.png Graphic file (type png)
 
 <use images/vocativ_speech.png>
@@ -855,70 +757,69 @@ Overfull \hbox (16.4353pt too wide) in paragraph at lines 58--66
 [][] 
  []
 
-[28] [29] <images/study2_qs.png, id=196, 425.59pt x 274.02374pt>
+[28] [29] <images/study2_qs.png, id=130, 425.59pt x 274.02374pt>
 File: images/study2_qs.png Graphic file (type png)
 
 <use images/study2_qs.png>
 Package pdftex.def Info: images/study2_qs.png used on input line 106.
 (pdftex.def)             Requested size: 195.12767pt x 125.6385pt.
  [30 <./images/study2_qs.png>]
-<images/demographic_qs.png, id=201, 550.055pt x 478.78876pt>
+<images/demographic_qs.png, id=135, 550.055pt x 478.78876pt>
 File: images/demographic_qs.png Graphic file (type png)
 
 <use images/demographic_qs.png>
 Package pdftex.def Info: images/demographic_qs.png used on input line 115.
 (pdftex.def)             Requested size: 195.12767pt x 169.84334pt.
 
-<images/survey_comments.png, id=202, 600.2425pt x 349.305pt>
+<images/survey_comments.png, id=136, 600.2425pt x 349.305pt>
 File: images/survey_comments.png Graphic file (type png)
 
 <use images/survey_comments.png>
 Package pdftex.def Info: images/survey_comments.png used on input line 123.
 (pdftex.def)             Requested size: 195.12767pt x 113.54942pt.
- [31 <./images/demographic_qs.png> <./images/survey_comments.png>] <images/gend
-er_study2.png, id=208, 578.16pt x 397.485pt>
+ [31 <./images/demographic_qs.png> <./images/survey_comments.png>]
+<images/gender_study2.png, id=142, 924.45375pt x 635.37375pt>
 File: images/gender_study2.png Graphic file (type png)
 
 <use images/gender_study2.png>
 Package pdftex.def Info: images/gender_study2.png used on input line 154.
-(pdftex.def)             Requested size: 212.47617pt x 146.07246pt.
+(pdftex.def)             Requested size: 212.47617pt x 146.03593pt.
 
-<images/age_study2.png, id=209, 578.16pt x 397.485pt>
+<images/age_study2.png, id=143, 924.45375pt x 635.37375pt>
 File: images/age_study2.png Graphic file (type png)
 
 <use images/age_study2.png>
 Package pdftex.def Info: images/age_study2.png used on input line 155.
-(pdftex.def)             Requested size: 212.47617pt x 146.07246pt.
+(pdftex.def)             Requested size: 212.47617pt x 146.03593pt.
  [32]
-<images/location_study2.png, id=214, 578.16pt x 397.485pt>
+<images/location_study2.png, id=148, 924.45375pt x 635.37375pt>
 File: images/location_study2.png Graphic file (type png)
 
 <use images/location_study2.png>
 Package pdftex.def Info: images/location_study2.png used on input line 173.
-(pdftex.def)             Requested size: 390.25534pt x 268.29686pt.
+(pdftex.def)             Requested size: 390.25534pt x 268.22215pt.
  [33 <./images/gender_study2.png> <./images/age_study2.png>] <images/party_stud
-y2.png, id=220, 578.16pt x 397.485pt>
+y2.png, id=154, 924.45375pt x 635.37375pt>
 File: images/party_study2.png Graphic file (type png)
 
 <use images/party_study2.png>
 Package pdftex.def Info: images/party_study2.png used on input line 184.
-(pdftex.def)             Requested size: 303.53267pt x 208.67668pt.
+(pdftex.def)             Requested size: 303.53267pt x 208.61722pt.
 
-<images/voting_for_study2.png, id=221, 578.16pt x 397.485pt>
+<images/voting_for_study2.png, id=155, 924.45375pt x 635.37375pt>
 File: images/voting_for_study2.png Graphic file (type png)
 
 <use images/voting_for_study2.png>
 Package pdftex.def Info: images/voting_for_study2.png used on input line 185.
-(pdftex.def)             Requested size: 303.53267pt x 208.67668pt.
+(pdftex.def)             Requested size: 303.53267pt x 208.61722pt.
  [34 <./images/location_study2.png>] [35 <./images/party_study2.png> <./images/
 voting_for_study2.png>]
-<images/trust.png, id=231, 578.16pt x 397.485pt>
+<images/trust.png, id=165, 433.62pt x 289.08pt>
 File: images/trust.png Graphic file (type png)
  <use images/trust.png>
 Package pdftex.def Info: images/trust.png used on input line 203.
-(pdftex.def)             Requested size: 303.53267pt x 208.67668pt.
-
-[36 <./images/trust.png>] <images/fair.png, id=236, 578.16pt x 397.485pt>
+(pdftex.def)             Requested size: 303.53267pt x 202.36343pt.
+ [36 <./images/trust.png>] <images/fair.png, id=170, 578.16pt x 397.485pt>
 File: images/fair.png Graphic file (type png)
 
 <use images/fair.png>
@@ -956,7 +857,10 @@ Chapter 7.
 
 
 
-]) [44]
+] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+))
+[44]
 \openout2 = `chap8.aux'.
 
  (./chap8.tex
@@ -1016,36 +920,35 @@ Chapter 12.
 
 ]
 Chapter 13.
-[55] <images/trust_18-29.png, id=298, 578.16pt x 397.485pt>
+[55] <images/trust_18-29.png, id=233, 433.62pt x 289.08pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
-(pdftex.def)             Requested size: 346.89731pt x 238.49283pt.
+(pdftex.def)             Requested size: 346.89731pt x 231.27754pt.
 
-<images/trust_30-49.png, id=299, 578.16pt x 397.485pt>
+<images/trust_30-49.png, id=234, 433.62pt x 289.08pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
-(pdftex.def)             Requested size: 346.89731pt x 238.49283pt.
+(pdftex.def)             Requested size: 346.89731pt x 231.27754pt.
 
-<images/trust_50-64.png, id=300, 578.16pt x 397.485pt>
+<images/trust_50-64.png, id=235, 433.62pt x 289.08pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
-(pdftex.def)             Requested size: 346.89731pt x 238.49283pt.
+(pdftex.def)             Requested size: 346.89731pt x 231.27754pt.
 
-<images/trust_64+.png, id=301, 578.16pt x 397.485pt>
+<images/trust_64+.png, id=236, 433.62pt x 289.08pt>
 File: images/trust_64+.png Graphic file (type png)
-
-<use images/trust_64+.png>
+ <use images/trust_64+.png>
 Package pdftex.def Info: images/trust_64+.png used on input line 19.
-(pdftex.def)             Requested size: 346.89731pt x 238.49283pt.
+(pdftex.def)             Requested size: 346.89731pt x 231.27754pt.
 
 
-LaTeX Warning: Float too large for page by 333.37408pt on input line 23.
+LaTeX Warning: Float too large for page by 304.51294pt on input line 23.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1188,33 +1091,31 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13998 strings out of 493089
- 244864 string characters out of 6134842
+ 13916 strings out of 493089
+ 242906 string characters out of 6134842
  285564 words of memory out of 5000000
- 17099 multiletter control sequences out of 15000+600000
- 16648 words of font info for 40 fonts, out of 8000000 for 9000
+ 17037 multiletter control sequences out of 15000+600000
+ 15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,10n,47p,10384b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (64 pages, 1331231 bytes).
+/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (64 pages, 1011284 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
+ 300 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
