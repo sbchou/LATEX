@@ -35,15 +35,10 @@
 \contentsline {chapter}{\numberline {7}Taking Media Analysis to Another Dimension of Data}{43}
 \contentsline {section}{\numberline {7.1}The Social Media Megaphone}{44}
 \contentsline {section}{\numberline {7.2}Trust, Virality, and Controversy}{45}
-\contentsline {chapter}{\numberline {8}Tools for Analysis at Scale}{47}
-\contentsline {section}{\numberline {8.1}The Electome Project}{47}
-\contentsline {section}{\numberline {8.2}For Stories}{47}
-\contentsline {subsection}{\numberline {8.2.1}Structured Parser}{47}
-\contentsline {subsection}{\numberline {8.2.2}Sentiment Analysis}{47}
-\contentsline {subsection}{\numberline {8.2.3}Emotional Content}{47}
-\contentsline {section}{\numberline {8.3}For Tweets}{47}
-\contentsline {subsection}{\numberline {8.3.1}Sentiment}{47}
-\contentsline {subsection}{\numberline {8.3.2}Followership as a Proxy for Loyalty}{47}
+\contentsline {chapter}{\numberline {8}Metrics for Analysis}{47}
+\contentsline {section}{\numberline {8.1}Independent Variables}{47}
+\contentsline {section}{\numberline {8.2}Emotional Coding}{47}
+\contentsline {section}{\numberline {8.3}Followership as a Proxy for Political Engagement}{47}
 \contentsline {chapter}{\numberline {9}Analysis}{49}
 \contentsline {section}{\numberline {9.1}Dataset}{49}
 \contentsline {section}{\numberline {9.2}Connecting Tweets with Stories}{49}

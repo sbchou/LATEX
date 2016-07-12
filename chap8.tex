@@ -1,18 +1,23 @@
- \chapter{Tools for Analysis at Scale}
- \section{The Electome Project}
+ \chapter{Metrics for Analysis}
+\section{Independent Variables}
+\section{Emotional Coding}
 
- \section{For Stories}
- \subsection{Structured Parser}
- \subsection{Sentiment Analysis}
- \subsection{Emotional Content}
- %LWIC
+ \section{Followership as a Proxy for Political Engagement}
+In the following sections, we use Twitter followership as a proxy for measuring degrees of political engagement. 
 
- \section{For Tweets}
- \subsection{Sentiment}
- \subsection{Followership as a Proxy for Loyalty}
+Previous research in network analysis and attempts to predict latent political affiliations of users in the social network has shown that users on Twitter tend to show network homophily within political groups, and that ``like follows like'' \cite{colleoni2014echo}. In addition, followership of only Democratic or only Republican official accounts can be used as a reasonable estimator of party loyalty. Those accounts that follow only the officials of one party tend to demonstrate more closeness with other users in their political party than those who do not.
+            
+Due to the highly individual nature of this election, where candidate loyalty does not necessarily imply goodwill towards the party, we look specifically at what candidates users follow instead of party loyalty at large. 
 
+For \emph{levels} of political engagement, we group those Twitter users who share news stories into three segments: 
 
+\begin{itemize}
+  \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
+  \item \emph{single-candidate} Tweeters (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
+\end{itemize}
 
+In addition, for single-candidate Tweeters, we divide users by the candidate they follow. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. We call each group \emph{X}-followers where \emph{X} is the candidate name, although these do not include every person on Twitter who follows \emph{X}.  
 %  \chapter{The Electome Project}
 %  % intro-y to electome here
 %  % cite its outcomes 

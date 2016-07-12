@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2016 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2016 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,16 +869,16 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 ]
 Chapter 8.
-) [47]
+[47]) [48]
 \openout2 = `chap9.aux'.
 
- (./chap9.tex [48
+ (./chap9.tex
+Chapter 9.
+) [49
 
 
 
 ]
-Chapter 9.
-) [49]
 \openout2 = `chap10.aux'.
 
  (./chap10.tex)
@@ -1042,46 +1042,46 @@ Underfull \hbox (badness 6625) in paragraph at lines 41--47
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
 []\T1/cmr/m/n/12 NICHOLAS CON-FES-SORE and KAREN YOUR-ISH.  $2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
 \T1/cmr/m/n/12 bil-lion worth of free me-dia for don-ald trump - the new
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
 \T1/cmr/m/n/12 york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes . com / 2
 016 / 03 / 16 / upshot /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
 \T1/cmtt/m/n/12 measuring-[]donald-[]trumps-[]mammoth-[]advantage-[]in-[]free-[
 ]media . html$\T1/cmr/m/n/12 ,
  []
 
 [60]
-Underfull \hbox (badness 10000) in paragraph at lines 155--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--166
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--166
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 155--160
+Underfull \hbox (badness 5667) in paragraph at lines 161--166
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 179--186
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 185--192
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
@@ -1096,10 +1096,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13918 strings out of 493089
- 242950 string characters out of 6134842
- 285572 words of memory out of 5000000
- 17039 multiletter control sequences out of 15000+600000
+ 13919 strings out of 493089
+ 242968 string characters out of 6134842
+ 285576 words of memory out of 5000000
+ 17040 multiletter control sequences out of 15000+600000
  15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1117,7 +1117,7 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (66 pages, 1066847 bytes).
+Output written on main.pdf (66 pages, 1069204 bytes).
 PDF statistics:
  306 PDF objects out of 1000 (max. 8388607)
  188 compressed objects within 2 object streams
