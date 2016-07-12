@@ -43,15 +43,6 @@ Beyond distrust: How americans view their government.
 \newblock {\em Pew Research Center}, nov 2015.
 \newblock (Accessed on 04/07/2016).
 
-\bibitem{Pew-news-sharing}
-Micheal Barthel, Elisa Shearer, Jeffrey Gottfried, and Amy Mitchell.
-\newblock News use on facebook and twitter is on the rise | pew research
-  center.
-\newblock
-  \url{http://www.journalism.org/2015/07/14/news-use-on-facebook-and-twitter-is-on-the-rise/},
-  jul 2015.
-\newblock (Accessed on 04/27/2016).
-
 \bibitem{pew-twitter-news}
 Michael Bartherl, Elisa Shearer, Jeffrey Gottfried, and Amy Mitchell.
 \newblock How do americans use twitter for news? | pew research center.
@@ -76,6 +67,22 @@ John~T Cacioppo and Richard~E Petty.
 \newblock Effects of message repetition and position on cognitive response,
   recall, and persuasion.
 \newblock {\em Journal of personality and Social Psychology}, 37(1):97, 1979.
+
+\bibitem{cogburn2011networked}
+Derrick~L Cogburn and Fatima~K Espinoza-Vasquez.
+\newblock From networked nominee to networked nation: Examining the impact of
+  web 2.0 and social media on political participation and civic engagement in
+  the 2008 obama campaign.
+\newblock {\em Journal of Political Marketing}, 10(1-2):189--213, 2011.
+
+\bibitem{nyt-trump-free-media}
+NICHOLAS CONFESSORE and KAREN YOURISH.
+\newblock \$2 billion worth of free media for donald trump - the new york
+  times.
+\newblock
+  \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html},
+  mar 2016.
+\newblock (Accessed on 07/12/2016).
 
 \bibitem{finin2010annotating}
 Tim Finin, Will Murnane, Anand Karandikar, Nicholas Keller, Justin Martineau,

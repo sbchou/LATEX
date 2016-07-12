@@ -34,24 +34,24 @@
 \contentsline {part}{II\hspace {1em}Sharing the News}{42}
 \contentsline {chapter}{\numberline {7}Taking Media Analysis to Another Dimension of Data}{43}
 \contentsline {section}{\numberline {7.1}The Social Media Megaphone}{44}
-\contentsline {section}{\numberline {7.2}Trust, Virality, and Controversy}{44}
-\contentsline {chapter}{\numberline {8}Tools for Analysis at Scale}{45}
-\contentsline {section}{\numberline {8.1}The Electome Project}{45}
-\contentsline {section}{\numberline {8.2}For Stories}{45}
-\contentsline {subsection}{\numberline {8.2.1}Structured Parser}{45}
-\contentsline {subsection}{\numberline {8.2.2}Sentiment Analysis}{45}
-\contentsline {subsection}{\numberline {8.2.3}Emotional Content}{45}
-\contentsline {section}{\numberline {8.3}For Tweets}{45}
-\contentsline {subsection}{\numberline {8.3.1}Sentiment}{45}
-\contentsline {subsection}{\numberline {8.3.2}Followership as a Proxy for Loyalty}{45}
-\contentsline {chapter}{\numberline {9}Analysis}{47}
-\contentsline {section}{\numberline {9.1}Dataset}{47}
-\contentsline {section}{\numberline {9.2}Connecting Tweets with Stories}{47}
-\contentsline {subsection}{\numberline {9.2.1}URL Extraction}{47}
-\contentsline {subsection}{\numberline {9.2.2}Mapping Tweets to Stories}{47}
-\contentsline {chapter}{\numberline {10}Future Directions}{49}
-\contentsline {section}{\numberline {10.1}Designing Interventions}{49}
-\contentsline {section}{\numberline {10.2}De-biasing Twitter Analysis}{49}
-\contentsline {chapter}{\numberline {11}Conclusion}{51}
-\contentsline {chapter}{\numberline {12}Tables}{53}
-\contentsline {chapter}{\numberline {13}Figures}{55}
+\contentsline {section}{\numberline {7.2}Trust, Virality, and Controversy}{45}
+\contentsline {chapter}{\numberline {8}Tools for Analysis at Scale}{47}
+\contentsline {section}{\numberline {8.1}The Electome Project}{47}
+\contentsline {section}{\numberline {8.2}For Stories}{47}
+\contentsline {subsection}{\numberline {8.2.1}Structured Parser}{47}
+\contentsline {subsection}{\numberline {8.2.2}Sentiment Analysis}{47}
+\contentsline {subsection}{\numberline {8.2.3}Emotional Content}{47}
+\contentsline {section}{\numberline {8.3}For Tweets}{47}
+\contentsline {subsection}{\numberline {8.3.1}Sentiment}{47}
+\contentsline {subsection}{\numberline {8.3.2}Followership as a Proxy for Loyalty}{47}
+\contentsline {chapter}{\numberline {9}Analysis}{49}
+\contentsline {section}{\numberline {9.1}Dataset}{49}
+\contentsline {section}{\numberline {9.2}Connecting Tweets with Stories}{49}
+\contentsline {subsection}{\numberline {9.2.1}URL Extraction}{49}
+\contentsline {subsection}{\numberline {9.2.2}Mapping Tweets to Stories}{49}
+\contentsline {chapter}{\numberline {10}Future Directions}{51}
+\contentsline {section}{\numberline {10.1}Designing Interventions}{51}
+\contentsline {section}{\numberline {10.2}De-biasing Twitter Analysis}{51}
+\contentsline {chapter}{\numberline {11}Conclusion}{53}
+\contentsline {chapter}{\numberline {12}Tables}{55}
+\contentsline {chapter}{\numberline {13}Figures}{57}
