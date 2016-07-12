@@ -3,16 +3,22 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: cover.aux
 A level-1 auxiliary file: signature.aux
+A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: contents.aux
 A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: part1.aux
 A level-1 auxiliary file: chap2.aux
 A level-1 auxiliary file: chap3.aux
 A level-1 auxiliary file: chap4.aux
 A level-1 auxiliary file: chap5.aux
 A level-1 auxiliary file: chap6.aux
+A level-1 auxiliary file: part2.aux
 A level-1 auxiliary file: chap7.aux
 A level-1 auxiliary file: chap8.aux
 A level-1 auxiliary file: chap9.aux
+A level-1 auxiliary file: chap10.aux
+A level-1 auxiliary file: chap11.aux
+A level-1 auxiliary file: chap12.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
@@ -28,45 +34,45 @@ Warning--to sort, need author or key in beyond-distrust
 Warning--empty author in Pew-bias-2012
 Warning--empty author in beyond-distrust
 Warning--empty journal in sherif1961social
-You've used 28 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            680 strings with 9795 characters,
-and the built_in function-call counts, 7279 in all, are:
-= -- 711
-> -- 290
+            697 strings with 10280 characters,
+and the built_in function-call counts, 7929 in all, are:
+= -- 775
+> -- 326
 < -- 2
-+ -- 124
-- -- 92
-* -- 438
-:= -- 1192
-add.period$ -- 91
-call.type$ -- 28
-change.case$ -- 128
++ -- 138
+- -- 104
+* -- 485
+:= -- 1302
+add.period$ -- 98
+call.type$ -- 30
+change.case$ -- 140
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 275
-empty$ -- 652
-format.name$ -- 92
-if$ -- 1545
+cite$ -- 40
+duplicate$ -- 293
+empty$ -- 701
+format.name$ -- 104
+if$ -- 1678
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 18
-newline$ -- 150
-num.names$ -- 42
-pop$ -- 189
+int.to.str$ -- 30
+missing$ -- 19
+newline$ -- 161
+num.names$ -- 46
+pop$ -- 203
 preamble$ -- 2
-purify$ -- 101
+purify$ -- 111
 quote$ -- 0
-skip$ -- 186
+skip$ -- 200
 stack$ -- 0
-substring$ -- 318
-swap$ -- 36
+substring$ -- 353
+swap$ -- 38
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 116
 warning$ -- 10
-while$ -- 60
-width$ -- 30
-write$ -- 301
+while$ -- 66
+width$ -- 32
+write$ -- 324
 (There were 10 warnings)

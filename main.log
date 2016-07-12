@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 JUL 2016 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2016 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -804,14 +804,14 @@ File: images/party_study2.png Graphic file (type png)
 
 <use images/party_study2.png>
 Package pdftex.def Info: images/party_study2.png used on input line 184.
-(pdftex.def)             Requested size: 303.53267pt x 208.57948pt.
+(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
 <images/voting_for_study2.png, id=159, 750.805pt x 515.9275pt>
 File: images/voting_for_study2.png Graphic file (type png)
 
 <use images/voting_for_study2.png>
 Package pdftex.def Info: images/voting_for_study2.png used on input line 185.
-(pdftex.def)             Requested size: 303.53267pt x 208.57948pt.
+(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
  [35 <./images/party_study2.png> <./images/voting_for_study2.png>] <images/trus
 t.png, id=165, 750.805pt x 515.9275pt>
 File: images/trust.png Graphic file (type png)
@@ -853,13 +853,13 @@ Chapter 6.
 
  (./chap7.tex
 Chapter 7.
-[43
-
-
-
-] (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-))
+) [43
+
+
+
+])
 [44]
 \openout2 = `chap8.aux'.
 
@@ -1055,29 +1055,51 @@ Underfull \hbox (badness 2512) in paragraph at lines 47--54
 se/$\T1/cmr/m/n/12 , jul 2015.  (Ac-
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--62
+[]\T1/cmr/m/n/12 Michael Bartherl, Elisa Shearer, Jef-frey Got-tfried, and Amy
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 56--62
+\T1/cmr/m/n/12 Mitchell.  How do amer-i-cans use twit-ter for news? | pew re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--62
+\T1/cmr/m/n/12 search cen-ter.  $\T1/cmtt/m/n/12 http : / / www . pewresearch .
+ org / fact-[]tank / 2015 / 08 / 19 /
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 56--62
+\T1/cmtt/m/n/12 how-[]do-[]americans-[]use-[]twitter-[]for-[]news/$\T1/cmr/m/n/
+12 , jul 2015.  (Ac-cessed on
+ []
+
 [57
 
 
 
 ] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--146
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 141--146
+Underfull \hbox (badness 5667) in paragraph at lines 154--159
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 165--172
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 178--185
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
@@ -1090,12 +1112,15 @@ level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 13916 strings out of 493089
- 242906 string characters out of 6134842
- 285564 words of memory out of 5000000
- 17037 multiletter control sequences out of 15000+600000
+ 13918 strings out of 493089
+ 242941 string characters out of 6134842
+ 285572 words of memory out of 5000000
+ 17039 multiletter control sequences out of 15000+600000
  15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1113,7 +1138,7 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (64 pages, 1064690 bytes).
+Output written on main.pdf (64 pages, 1068231 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  184 compressed objects within 2 object streams
