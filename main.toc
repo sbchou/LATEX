@@ -1,5 +1,5 @@
 \contentsline {chapter}{\numberline {1}Introduction}{11}
-\contentsline {part}{I\hspace {1em}Reading the News}{14}
+\contentsline {part}{I\hspace {1em}Reading the News}{13}
 \contentsline {chapter}{\numberline {2}In Media We ... Trust?}{15}
 \contentsline {section}{\numberline {2.1}Why Does Media Trust Matter?}{16}
 \contentsline {section}{\numberline {2.2}How is Media Trust Formed?}{17}

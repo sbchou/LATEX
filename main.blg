@@ -24,7 +24,6 @@ A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
-Warning--to sort, need author or key in Trump-advantage
 Warning--to sort, need author or key in Greenwald
 Warning--to sort, need author or key in Pew-bias-2012
 Warning--to sort, need author or key in CrowdFlower-levels
@@ -34,45 +33,45 @@ Warning--to sort, need author or key in beyond-distrust
 Warning--empty author in Pew-bias-2012
 Warning--empty author in beyond-distrust
 Warning--empty journal in sherif1961social
-You've used 31 entries,
+You've used 30 entries,
             2118 wiz_defined-function locations,
-            701 strings with 10393 characters,
-and the built_in function-call counts, 8200 in all, are:
-= -- 806
-> -- 329
+            698 strings with 10286 characters,
+and the built_in function-call counts, 8032 in all, are:
+= -- 789
+> -- 328
 < -- 2
-+ -- 139
++ -- 138
 - -- 104
-* -- 502
-:= -- 1345
-add.period$ -- 101
-call.type$ -- 31
-change.case$ -- 143
+* -- 497
+:= -- 1326
+add.period$ -- 98
+call.type$ -- 30
+change.case$ -- 140
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 304
-empty$ -- 728
+cite$ -- 39
+duplicate$ -- 297
+empty$ -- 705
 format.name$ -- 104
-if$ -- 1736
+if$ -- 1694
 int.to.chr$ -- 0
-int.to.str$ -- 31
+int.to.str$ -- 30
 missing$ -- 20
-newline$ -- 166
+newline$ -- 161
 num.names$ -- 48
-pop$ -- 204
+pop$ -- 194
 preamble$ -- 2
-purify$ -- 113
+purify$ -- 111
 quote$ -- 0
-skip$ -- 209
+skip$ -- 204
 stack$ -- 0
-substring$ -- 383
-swap$ -- 39
+substring$ -- 378
+swap$ -- 38
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
-warning$ -- 10
+type$ -- 116
+warning$ -- 9
 while$ -- 70
-width$ -- 33
-write$ -- 335
-(There were 10 warnings)
+width$ -- 32
+write$ -- 326
+(There were 9 warnings)
