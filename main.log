@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUL 2016 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 JUL 2016 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,22 +870,22 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 ]
 Chapter 8.
-[47]) [48]
+[47] [48]) [49]
 \openout2 = `chap9.aux'.
 
- (./chap9.tex
-Chapter 9.
-) [49
+ (./chap9.tex [50
 
 
 
 ]
+Chapter 9.
+) [51]
 \openout2 = `chap10.aux'.
 
  (./chap10.tex)
 \openout2 = `chap11.aux'.
 
- (./chap11.tex [50
+ (./chap11.tex [52
 
 
 
@@ -893,56 +893,56 @@ Chapter 9.
 
 ]
 Chapter 10.
-) [51]
+) [53]
 \openout2 = `chap12.aux'.
 
- (./chap12.tex [52
+ (./chap12.tex [54
 
 
 
 ]
 Chapter 11.
-) [53]
+) [55]
 \openout2 = `appa.aux'.
 
- (./appa.tex [54
+ (./appa.tex [56
 
 
 
 ]
 Chapter 12.
-[55])
+[57])
 \openout2 = `appb.aux'.
 
- (./appb.tex [56
+ (./appb.tex [58
 
 
 
 
 ]
 Chapter 13.
-[57] <images/trust_18-29.png, id=240, 750.805pt x 515.9275pt>
+[59] <images/trust_18-29.png, id=246, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=241, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=247, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=242, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=248, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=243, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=249, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -955,7 +955,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [58 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
+) [60 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
 64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1038,7 +1038,7 @@ Underfull \hbox (badness 6625) in paragraph at lines 41--47
 12 , jul 2015.  (Ac-cessed on
  []
 
-[59
+[61
 
 
 
@@ -1064,7 +1064,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--86
 ]media . html$\T1/cmr/m/n/12 ,
  []
 
-[60]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 161--166
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
@@ -1082,12 +1082,12 @@ T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 185--192
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 192--199
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [61] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+)) [63] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
@@ -1097,10 +1097,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13919 strings out of 493089
- 242968 string characters out of 6134842
- 285576 words of memory out of 5000000
- 17040 multiletter control sequences out of 15000+600000
+ 13920 strings out of 493089
+ 242987 string characters out of 6134842
+ 285580 words of memory out of 5000000
+ 17041 multiletter control sequences out of 15000+600000
  15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1118,10 +1118,10 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (66 pages, 1075270 bytes).
+Output written on main.pdf (68 pages, 1078374 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 313 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

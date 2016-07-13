@@ -38,15 +38,15 @@
 \contentsline {chapter}{\numberline {8}Metrics for Analysis}{47}
 \contentsline {section}{\numberline {8.1}Independent Variables}{47}
 \contentsline {section}{\numberline {8.2}Emotional Coding}{47}
-\contentsline {section}{\numberline {8.3}Followership as a Proxy for Political Engagement}{47}
-\contentsline {chapter}{\numberline {9}Analysis}{49}
-\contentsline {section}{\numberline {9.1}Dataset}{49}
-\contentsline {section}{\numberline {9.2}Connecting Tweets with Stories}{49}
-\contentsline {subsection}{\numberline {9.2.1}URL Extraction}{49}
-\contentsline {subsection}{\numberline {9.2.2}Mapping Tweets to Stories}{49}
-\contentsline {chapter}{\numberline {10}Future Directions}{51}
-\contentsline {section}{\numberline {10.1}Designing Interventions}{51}
-\contentsline {section}{\numberline {10.2}De-biasing Twitter Analysis}{51}
-\contentsline {chapter}{\numberline {11}Conclusion}{53}
-\contentsline {chapter}{\numberline {12}Tables}{55}
-\contentsline {chapter}{\numberline {13}Figures}{57}
+\contentsline {section}{\numberline {8.3}Followership as a Proxy for Political Engagement}{48}
+\contentsline {chapter}{\numberline {9}Analysis}{51}
+\contentsline {section}{\numberline {9.1}Dataset}{51}
+\contentsline {section}{\numberline {9.2}Connecting Tweets with Stories}{51}
+\contentsline {subsection}{\numberline {9.2.1}URL Extraction}{51}
+\contentsline {subsection}{\numberline {9.2.2}Mapping Tweets to Stories}{51}
+\contentsline {chapter}{\numberline {10}Future Directions}{53}
+\contentsline {section}{\numberline {10.1}Designing Interventions}{53}
+\contentsline {section}{\numberline {10.2}De-biasing Twitter Analysis}{53}
+\contentsline {chapter}{\numberline {11}Conclusion}{55}
+\contentsline {chapter}{\numberline {12}Tables}{57}
+\contentsline {chapter}{\numberline {13}Figures}{59}
