@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUL 2016 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUL 2016 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,12 +520,8 @@ Including all files.
 (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
-(./chap8.aux) (./chap9.aux
-
-LaTeX Warning: Label `fig:data-stack' multiply defined.
-
-) (./chap10.aux) (./chap11.aux) (./chap12.aux) (./appa.aux) (./appb.aux)
-(./biblio.aux))
+(./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
+(./appa.aux) (./appb.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -874,13 +870,13 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 ]
 Chapter 8.
-[47] [48]
-Overfull \hbox (38.88005pt too wide) in paragraph at lines 56--59
-\T1/cmr/m/n/12 lific!!! Bad Man-ners Blocked! Blogs: https://t.co/KraI7CJNlD & 
-https://t.co/WRcDx0bP63
+[47] [48] [49]
+Overfull \hbox (35.40639pt too wide) in paragraph at lines 51--52
+\T1/cmr/m/n/12 Bad Man-ners Blocked! Blogs: https://t.co/KraI7CJNlD & https://t
+.co/WRcDx0bP63
  []
 
-[49]) [50]
+) [50]
 \openout2 = `chap9.aux'.
 
  (./chap9.tex
@@ -899,21 +895,14 @@ Package pdftex.def Info: images/data-stack-transp.png used on input line 16.
 Overfull \vbox (4.69684pt too high) has occurred while \output is active []
 
 
-[52 <./images/data-stack-transp.png>]
-<images/data-stack-purple.png, id=226, 1104.125pt x 729.72626pt>
-File: images/data-stack-purple.png Graphic file (type png)
-
-<use images/data-stack-purple.png>
-Package pdftex.def Info: images/data-stack-purple.png used on input line 23.
-(pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
-) [53 <./images/data-stack-purple.png>]
+[52 <./images/data-stack-transp.png>]) [53]
 \openout2 = `chap10.aux'.
 
-
-(./chap10.tex)
+ (./chap10.tex)
 \openout2 = `chap11.aux'.
 
- (./chap11.tex [54
+ (./chap11.tex
+[54
 
 
 
@@ -949,28 +938,28 @@ Chapter 12.
 
 ]
 Chapter 13.
-[61] <images/trust_18-29.png, id=256, 750.805pt x 515.9275pt>
+[61] <images/trust_18-29.png, id=254, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=257, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=255, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=258, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=256, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=259, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=257, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1123,15 +1112,12 @@ level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 13931 strings out of 493089
- 243307 string characters out of 6134842
- 285630 words of memory out of 5000000
- 17050 multiletter control sequences out of 15000+600000
+ 13926 strings out of 493089
+ 243155 string characters out of 6134842
+ 285591 words of memory out of 5000000
+ 17046 multiletter control sequences out of 15000+600000
  15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1149,10 +1135,10 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (70 pages, 1168517 bytes).
+Output written on main.pdf (70 pages, 1123820 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
+ 321 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
