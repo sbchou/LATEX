@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUL 2016 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUL 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,17 +861,17 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 
 ]
-[44]) [45]
+[44] [45]) [46]
 \openout2 = `chap8.aux'.
 
- (./chap8.tex [46
-
-
-
-]
+ (./chap8.tex
 Chapter 8.
-[47] [48] [49]
-Overfull \hbox (35.40639pt too wide) in paragraph at lines 51--52
+[47
+
+
+
+] [48] [49]
+Overfull \hbox (35.40639pt too wide) in paragraph at lines 50--51
 \T1/cmr/m/n/12 Bad Man-ners Blocked! Blogs: https://t.co/KraI7CJNlD & https://t
 .co/WRcDx0bP63
  []
@@ -1081,31 +1081,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--86
 ]media . html$\T1/cmr/m/n/12 ,
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
+[]\T1/cmr/m/n/12 Jeffrey Got-tfried.  Most amer-i-cans al-ready feel elec-tion 
+cov-er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
+\T1/cmr/m/n/12 age fa-tigue.  $\T1/cmtt/m/n/12 http : / / www . pewresearch . o
+rg / fact-[]tank / 2016 / 07 / 14 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
+\T1/cmtt/m/n/12 most-[]americans-[]already-[]feel-[]election-[]coverage-[]fatig
+ue/$\T1/cmr/m/n/12 , Jul 2016.
+ []
+
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
+Underfull \hbox (badness 10000) in paragraph at lines 174--179
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
+Underfull \hbox (badness 10000) in paragraph at lines 174--179
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 161--166
+Underfull \hbox (badness 5667) in paragraph at lines 174--179
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 192--199
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 210--217
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [65] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
-(./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
+[65])) [66] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux
+) (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
 (./appa.aux) (./appb.aux) (./biblio.aux))
@@ -1114,10 +1132,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13926 strings out of 493089
- 243155 string characters out of 6134842
- 285591 words of memory out of 5000000
- 17046 multiletter control sequences out of 15000+600000
+ 13929 strings out of 493089
+ 243214 string characters out of 6134842
+ 286603 words of memory out of 5000000
+ 17049 multiletter control sequences out of 15000+600000
  15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1135,10 +1153,10 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (70 pages, 1123820 bytes).
+Output written on main.pdf (71 pages, 1127242 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
+ 324 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

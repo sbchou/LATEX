@@ -33,45 +33,45 @@ Warning--to sort, need author or key in beyond-distrust
 Warning--empty author in Pew-bias-2012
 Warning--empty author in beyond-distrust
 Warning--empty journal in sherif1961social
-You've used 32 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            711 strings with 10731 characters,
-and the built_in function-call counts, 8863 in all, are:
-= -- 878
-> -- 359
+            730 strings with 11163 characters,
+and the built_in function-call counts, 9596 in all, are:
+= -- 953
+> -- 380
 < -- 3
-+ -- 151
-- -- 114
-* -- 553
-:= -- 1451
-add.period$ -- 105
-call.type$ -- 32
-change.case$ -- 151
++ -- 162
+- -- 120
+* -- 595
+:= -- 1577
+add.period$ -- 115
+call.type$ -- 35
+change.case$ -- 163
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 331
-empty$ -- 773
-format.name$ -- 114
-if$ -- 1878
+cite$ -- 44
+duplicate$ -- 359
+empty$ -- 840
+format.name$ -- 120
+if$ -- 2030
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 22
-newline$ -- 171
-num.names$ -- 52
-pop$ -- 206
+int.to.str$ -- 35
+missing$ -- 24
+newline$ -- 187
+num.names$ -- 58
+pop$ -- 218
 preamble$ -- 2
-purify$ -- 120
+purify$ -- 129
 quote$ -- 0
-skip$ -- 230
+skip$ -- 251
 stack$ -- 0
-substring$ -- 446
-swap$ -- 50
+substring$ -- 488
+swap$ -- 53
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 124
+type$ -- 136
 warning$ -- 9
-while$ -- 79
-width$ -- 34
-write$ -- 349
+while$ -- 87
+width$ -- 37
+write$ -- 383
 (There were 9 warnings)
