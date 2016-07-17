@@ -37,6 +37,13 @@ Beyond distrust: How americans view their government.
 \newblock {\em Pew Research Center}, nov 2015.
 \newblock (Accessed on 04/07/2016).
 
+\bibitem{March45online}
+March 1 election results 2016 updates | the washington post.
+\newblock
+  \url{https://www.washingtonpost.com/2016-election-results/super-tuesday/},
+  mar 2016.
+\newblock (Accessed on 04/06/2016).
+
 \bibitem{pew-twitter-news}
 Michael Bartherl, Elisa Shearer, Jeffrey Gottfried, and Amy Mitchell.
 \newblock How do americans use twitter for news? | pew research center.
@@ -159,6 +166,12 @@ Winter Mason and Siddharth Suri.
 \newblock Conducting behavioral research on amazon’s mechanical turk.
 \newblock {\em Behavior research methods}, 44(1):1--23, 2012.
 
+\bibitem{PoliticalPolarization}
+Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina~Eva Matsa.
+\newblock Political polarization \& media habits.
+\newblock {\em Pew Research Center}, Oct 2014.
+\newblock (Accessed on 04/02/2016).
+
 \bibitem{nickerson1998confirmation}
 Raymond~S Nickerson.
 \newblock Confirmation bias: A ubiquitous phenomenon in many guises.
@@ -205,6 +218,11 @@ Robert~P Vallone, Lee Ross, and Mark~R Lepper.
 \newblock The hostile media phenomenon: biased perception and perceptions of
   media bias in coverage of the beirut massacre.
 \newblock {\em Journal of personality and social psychology}, 49(3):577, 1985.
+
+\bibitem{vijayaraghavan2016automatic}
+Prashanth Vijayaraghavan, Soroush Vosoughi, and Deb Roy.
+\newblock Automatic detection and categorization of election-related tweets.
+\newblock {\em arXiv preprint arXiv:1605.05150}, 2016.
 
 \bibitem{Globe-language-article}
 Matt Viser.

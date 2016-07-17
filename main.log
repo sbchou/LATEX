@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 JUL 2016 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2016 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,8 +520,12 @@ Including all files.
 (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
-(./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
-(./appa.aux) (./appb.aux) (./biblio.aux))
+(./chap8.aux) (./chap9.aux
+
+LaTeX Warning: Label `fig:data-stack' multiply defined.
+
+) (./chap10.aux) (./chap11.aux) (./chap12.aux) (./appa.aux) (./appb.aux)
+(./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -625,21 +629,21 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
  (./contents.tex [6
 
 
-] (./main.toc<<ot1.cmap>><<oml.cmap>><<omx.cmap>> [7] [8])
+] (./main.toc<<ot1.cmap>><<oml.cmap>><<omx.cmap>> [7] [8] [9])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-) [9] [10
+) [10] [11
 
 ]
 \openout2 = `chap1.aux'.
 
- (./chap1.tex [10
-
-
-]
+ (./chap1.tex
 Chapter 1.
-[11]) [12]
+[11
+
+
+]) [12]
 \openout2 = `part1.aux'.
 
  (./part1.tex [13
@@ -681,18 +685,30 @@ Chapter 3.
 
 ]
 Chapter 4.
-) [25]
+[25]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+
+
+LaTeX Warning: Reference `fig:topics' on page 26 undefined on input line 36.
+
+[26] <images/crowdflower_instructions.png, id=121, 921.4425pt x 514.92375pt>
+File: images/crowdflower_instructions.png Graphic file (type png)
+
+<use images/crowdflower_instructions.png>
+Package pdftex.def Info: images/crowdflower_instructions.png used on input line
+ 58.
+(pdftex.def)             Requested size: 433.62pt x 242.31276pt.
+) [27 <./images/crowdflower_instructions.png>] [28]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [26
+ (./chap5.tex
+Chapter 5.
+[29
 
 
 
 ]
-Chapter 5.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-[27]
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\T1/cmr/bx/n/12 High
  []
@@ -757,70 +773,70 @@ Overfull \hbox (16.4353pt too wide) in paragraph at lines 58--66
 [][] 
  []
 
-[28] [29] <images/study2_qs.png, id=130, 425.59pt x 274.02374pt>
+[30] [31] <images/study2_qs.png, id=138, 425.59pt x 274.02374pt>
 File: images/study2_qs.png Graphic file (type png)
 
 <use images/study2_qs.png>
 Package pdftex.def Info: images/study2_qs.png used on input line 106.
 (pdftex.def)             Requested size: 195.12767pt x 125.6385pt.
- [30 <./images/study2_qs.png>]
-<images/demographic_qs.png, id=135, 550.055pt x 478.78876pt>
+ [32 <./images/study2_qs.png>]
+<images/demographic_qs.png, id=144, 550.055pt x 478.78876pt>
 File: images/demographic_qs.png Graphic file (type png)
 
 <use images/demographic_qs.png>
 Package pdftex.def Info: images/demographic_qs.png used on input line 115.
 (pdftex.def)             Requested size: 195.12767pt x 169.84334pt.
 
-<images/survey_comments.png, id=136, 600.2425pt x 349.305pt>
+<images/survey_comments.png, id=145, 600.2425pt x 349.305pt>
 File: images/survey_comments.png Graphic file (type png)
 
 <use images/survey_comments.png>
 Package pdftex.def Info: images/survey_comments.png used on input line 123.
 (pdftex.def)             Requested size: 195.12767pt x 113.54942pt.
- [31 <./images/demographic_qs.png> <./images/survey_comments.png>] <images/gend
-er_study2.png, id=142, 750.805pt x 515.9275pt>
+ [33 <./images/demographic_qs.png> <./images/survey_comments.png>] <images/gend
+er_study2.png, id=151, 750.805pt x 515.9275pt>
 File: images/gender_study2.png Graphic file (type png)
 
 <use images/gender_study2.png>
 Package pdftex.def Info: images/gender_study2.png used on input line 154.
 (pdftex.def)             Requested size: 195.12767pt x 134.08287pt.
 
-<images/age_study2.png, id=143, 750.805pt x 515.9275pt>
+<images/age_study2.png, id=152, 750.805pt x 515.9275pt>
 File: images/age_study2.png Graphic file (type png)
 
 <use images/age_study2.png>
 Package pdftex.def Info: images/age_study2.png used on input line 155.
 (pdftex.def)             Requested size: 195.12767pt x 134.08287pt.
- [32]
-<images/location_study2.png, id=148, 750.805pt x 515.9275pt>
+ [34]
+<images/location_study2.png, id=156, 750.805pt x 515.9275pt>
 File: images/location_study2.png Graphic file (type png)
 
 <use images/location_study2.png>
 Package pdftex.def Info: images/location_study2.png used on input line 173.
 (pdftex.def)             Requested size: 390.25534pt x 268.17363pt.
- [33 <./images/gender_study2.png> <./images/age_study2.png>] <images/party_stud
-y2.png, id=154, 750.805pt x 515.9275pt>
+ [35 <./images/gender_study2.png> <./images/age_study2.png>] <images/party_stud
+y2.png, id=162, 750.805pt x 515.9275pt>
 File: images/party_study2.png Graphic file (type png)
 
 <use images/party_study2.png>
 Package pdftex.def Info: images/party_study2.png used on input line 184.
 (pdftex.def)             Requested size: 195.12767pt x 134.08287pt.
 
-<images/voting_for_study2.png, id=155, 750.805pt x 515.9275pt>
+<images/voting_for_study2.png, id=163, 750.805pt x 515.9275pt>
 File: images/voting_for_study2.png Graphic file (type png)
 
 <use images/voting_for_study2.png>
 Package pdftex.def Info: images/voting_for_study2.png used on input line 185.
 (pdftex.def)             Requested size: 195.12767pt x 134.08287pt.
- [34 <./images/location_study2.png> <./images/party_study2.png> <./images/votin
+ [36 <./images/location_study2.png> <./images/party_study2.png> <./images/votin
 g_for_study2.png>]
-<images/trust.png, id=162, 750.805pt x 515.9275pt>
+<images/trust.png, id=170, 750.805pt x 515.9275pt>
 File: images/trust.png Graphic file (type png)
  <use images/trust.png>
 Package pdftex.def Info: images/trust.png used on input line 203.
 (pdftex.def)             Requested size: 303.53267pt x 208.57948pt.
 
-[35 <./images/trust.png>] <images/fair.png, id=167, 750.805pt x 515.9275pt>
+[37 <./images/trust.png>] <images/fair.png, id=175, 750.805pt x 515.9275pt>
 File: images/fair.png Graphic file (type png)
 
 <use images/fair.png>
@@ -828,24 +844,24 @@ Package pdftex.def Info: images/fair.png used on input line 227.
 (pdftex.def)             Requested size: 303.53267pt x 208.57948pt.
 
 
-LaTeX Warning: Reference `fig:fair' on page 36 undefined on input line 232.
+LaTeX Warning: Reference `fig:fair' on page 38 undefined on input line 232.
 
 
-LaTeX Warning: Reference `fig:fair' on page 36 undefined on input line 232.
+LaTeX Warning: Reference `fig:fair' on page 38 undefined on input line 232.
 
-[36 <./images/fair.png>]) [37]
+[38 <./images/fair.png>]) [39]
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [38
+ (./chap6.tex [40
 
 
 
 ]
 Chapter 6.
-[39] [40]) [41]
+[41] [42]) [43]
 \openout2 = `part2.aux'.
 
- (./part2.tex [42
+ (./part2.tex [44
 
 
 
@@ -856,110 +872,121 @@ Chapter 6.
 Chapter 7.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [43
+) [45
 
 
 
 ]
-[44] [45]) [46]
+[46] [47]) [48]
 \openout2 = `chap8.aux'.
 
  (./chap8.tex
 Chapter 8.
-[47
+[49
 
 
 
-] [48] [49]
+] [50] [51]
 Overfull \hbox (35.40639pt too wide) in paragraph at lines 50--51
 \T1/cmr/m/n/12 Bad Man-ners Blocked! Blogs: https://t.co/KraI7CJNlD & https://t
 .co/WRcDx0bP63
  []
 
-) [50]
+) [52]
 \openout2 = `chap9.aux'.
 
  (./chap9.tex
 Chapter 9.
-<images/data-stack-transp.png, id=218, 1104.125pt x 729.72626pt>
+[53
+
+
+
+] [54] <news-pipeline.png, id=232, 1104.125pt x 729.72626pt>
+File: news-pipeline.png Graphic file (type png)
+
+<use news-pipeline.png>
+Package pdftex.def Info: news-pipeline.png used on input line 53.
+(pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
+ [55 <./news-pipeline.png>]
+<images/data-stack-transp.png, id=237, 1104.125pt x 729.72626pt>
 File: images/data-stack-transp.png Graphic file (type png)
 
 <use images/data-stack-transp.png>
-Package pdftex.def Info: images/data-stack-transp.png used on input line 16.
+Package pdftex.def Info: images/data-stack-transp.png used on input line 78.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [51
+) [56 <./images/data-stack-transp.png>]
+\openout2 = `chap10.aux'.
+
+
+(./chap10.tex
+Chapter 10.
+) [57
 
 
 
 ]
-Overfull \vbox (4.69684pt too high) has occurred while \output is active []
+Overfull \vbox (47.48624pt too high) has occurred while \output is active []
 
 
-[52 <./images/data-stack-transp.png>]) [53]
-\openout2 = `chap10.aux'.
-
- (./chap10.tex)
+[58]
 \openout2 = `chap11.aux'.
 
  (./chap11.tex
-[54
-
-
+Chapter 11.
+) [59
 
 
 
 ]
-Chapter 10.
-) [55]
 \openout2 = `chap12.aux'.
 
- (./chap12.tex [56
-
-
-
-]
-Chapter 11.
-) [57]
-\openout2 = `appa.aux'.
-
- (./appa.tex [58
+ (./chap12.tex [60
 
 
 
 ]
 Chapter 12.
-[59])
-\openout2 = `appb.aux'.
+) [61]
+\openout2 = `appa.aux'.
 
- (./appb.tex [60
-
+ (./appa.tex [62
 
 
 
 ]
 Chapter 13.
-[61] <images/trust_18-29.png, id=254, 750.805pt x 515.9275pt>
+[63])
+\openout2 = `appb.aux'.
+
+ (./appb.tex [64
+
+
+
+
+]
+Chapter 14.
+[65] <images/trust_18-29.png, id=271, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=255, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=272, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=256, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=273, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=257, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=274, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -972,7 +999,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [62 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
+) [66 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
 64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1034,108 +1061,123 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
+Underfull \hbox (badness 1259) in paragraph at lines 41--46
+[]\T1/cmr/m/n/12 March 1 elec-tion re-sults 2016 up-dates | the wash-ing-ton po
+st.  $\T1/cmtt/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--54
 []\T1/cmr/m/n/12 Michael Bartherl, Elisa Shearer, Jef-frey Got-tfried, and Amy
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 41--47
+Underfull \hbox (badness 5359) in paragraph at lines 48--54
 \T1/cmr/m/n/12 Mitchell.  How do amer-i-cans use twit-ter for news? | pew re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--47
+Underfull \hbox (badness 10000) in paragraph at lines 48--54
 \T1/cmr/m/n/12 search cen-ter.  $\T1/cmtt/m/n/12 http : / / www . pewresearch .
  org / fact-[]tank / 2015 / 08 / 19 /
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 41--47
+Underfull \hbox (badness 6625) in paragraph at lines 48--54
 \T1/cmtt/m/n/12 how-[]do-[]americans-[]use-[]twitter-[]for-[]news/$\T1/cmr/m/n/
 12 , jul 2015.  (Ac-cessed on
  []
 
-[63
+[67
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
 []\T1/cmr/m/n/12 NICHOLAS CON-FES-SORE and KAREN YOUR-ISH.  $2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
 \T1/cmr/m/n/12 bil-lion worth of free me-dia for don-ald trump - the new
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
 \T1/cmr/m/n/12 york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes . com / 2
 016 / 03 / 16 / upshot /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--93
 \T1/cmtt/m/n/12 measuring-[]donald-[]trumps-[]mammoth-[]advantage-[]in-[]free-[
 ]media . html$\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
+Underfull \hbox (badness 10000) in paragraph at lines 116--122
 []\T1/cmr/m/n/12 Jeffrey Got-tfried.  Most amer-i-cans al-ready feel elec-tion 
 cov-er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
+Underfull \hbox (badness 10000) in paragraph at lines 116--122
 \T1/cmr/m/n/12 age fa-tigue.  $\T1/cmtt/m/n/12 http : / / www . pewresearch . o
 rg / fact-[]tank / 2016 / 07 / 14 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
+Underfull \hbox (badness 10000) in paragraph at lines 116--122
 \T1/cmtt/m/n/12 most-[]americans-[]already-[]feel-[]election-[]coverage-[]fatig
 ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--179
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 174--179
+Underfull \hbox (badness 5667) in paragraph at lines 187--192
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
+[69]
+Underfull \hbox (badness 2393) in paragraph at lines 223--226
+\T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
+\T1/cmr/m/it/12 arXiv preprint
+ []
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 210--217
+
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 228--235
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-[65])) [66] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux
-) (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
+)) [70] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+(./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
 (./appa.aux) (./appb.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 13929 strings out of 493089
- 243214 string characters out of 6134842
- 286603 words of memory out of 5000000
- 17049 multiletter control sequences out of 15000+600000
+ 13943 strings out of 493089
+ 243584 string characters out of 6134842
+ 286655 words of memory out of 5000000
+ 17061 multiletter control sequences out of 15000+600000
  15247 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1153,10 +1195,10 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (71 pages, 1127242 bytes).
+Output written on main.pdf (75 pages, 1371660 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 343 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

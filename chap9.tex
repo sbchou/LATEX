@@ -1,15 +1,77 @@
- \chapter{Analysis}
- \section{Dataset}
+ \chapter{Data Collection}
+ Our main dataset is a connected corpus of news articles about the presidential elections and the tweets that share them from January 1, 2016 to May 1, 2016 over 13 news outlets. In this chapter, we detail the collection and creation of our dataset, along with the unique challenges of working with ``big data''.
 
-%% PUT TONS OF THAT FLASHY-ASS DATA VIZ DEB LOVES 
+\section{The Electome Project}
+The backbone of our data collection and classification process lies under the umbrella of the Electome project, a large, collaborative effort with the Laboratory for Social Machines to examine the ``horse-race of ideas'' and competition of narratives during the presidential election year. The goal of the Electome project is to create novel stories for data journalists as well as technically innovative ways to examine the national conversation using machine learning and ``big data'' analysis through both social and traditional media coverage. The first step of both our news and Twitter data processing method uses machine learning classifiers from the Electome project.
 
-%  % why did we choose the range Jan 1st to May 2nd?
-%  % coz right after that, kasich and cruz both dropped out of the race.
+\section{News Dataset}
+
+ \subsection{Duration \& Scope}
+ For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications:
+
+\begin{multicols}{2}
+\begin{itemize}
+
+\item CNN
+\item Fox News
+\item The New York Times
+\item The Wall Street Journal
+\item The Washington Post
+\item The Los Angeles Times 
+\item The Associated Press
+\item Reuters
+\item McClatchy 
+\item Politico 
+\item Buzzfeed
+\item The Huffington Post
+\item NPR 
+\end{itemize}
+\end{multicols}
+
+The choices above span a mix of publications. We include sources that: 
+
+\begin{itemize}
+\item Have mostly conservative audiences and mostly liberal audiences \cite{PoliticalPolarization}
+\item Come from mixed primary media formats (television, paper, online, radio)
+\item Are viewed as ``legacy'' (over a hundred years old) and ``new'' media (founded online within the last 10 years)
+\item Focus solely on political news (Politco, McClatchy)
+\item Are newswire services (the Associated Press, Reuters news)
+\end{itemize}
+ 
+ to capture a variety of types of election coverage and target audiences.
+ 
+ We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
+
+%In addition, for single-candidate Tweeters, we divide users by the candidate they follow. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. We call each group \emph{X}-followers where \emph{X} is the candidate name, although these do not include every person on Twitter who follows \emph{X}.  
+ 
+ 
+ 
+\subsection{Data Pipeline}
+
+\begin{figure}[H]  
+\centering 
+  \includegraphics[width=0.9\textwidth]{news-pipeline}  
+  \caption{Election News Pipeline
+    \label{fig:data-stack}}
+\end{figure}
 
 
-%  % dataset description
+To find 
 
-\section{Connecting Tweets with Stories}
+
+
+
+\section{Tweets Dataset}
+
+Mention our grant I guess
+\subsection{Election Tweets Classification}
+
+\cite{vijayaraghavan2016automatic}
+
+
+\section{Combined Corpus}
+
+\subsection{Connecting Tweets with Stories}
 
 \begin{figure}[H]  
 \centering 
