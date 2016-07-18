@@ -54,31 +54,31 @@
 \contentsline {section}{\numberline {9.2}News Dataset}{54}
 \contentsline {subsection}{\numberline {9.2.1}Duration \& Scope}{54}
 \contentsline {subsection}{\numberline {9.2.2}Data Pipeline}{55}
-\contentsline {section}{\numberline {9.3}Tweets Dataset}{55}
+\contentsline {section}{\numberline {9.3}Tweets Dataset}{56}
 \contentsline {subsection}{\numberline {9.3.1}Election Tweets Classification}{56}
 \contentsline {section}{\numberline {9.4}Combined Corpus}{56}
 \contentsline {subsection}{\numberline {9.4.1}Connecting Tweets with Stories}{56}
-\contentsline {subsection}{\numberline {9.4.2}URL Extraction}{56}
-\contentsline {subsection}{\numberline {9.4.3}Mapping Tweets to Stories}{56}
-\contentsline {chapter}{\numberline {10}Analysis}{57}
-\contentsline {section}{\numberline {10.1}All Data}{58}
-\contentsline {subsection}{\numberline {10.1.1}Descriptives}{58}
-\contentsline {subsection}{\numberline {10.1.2}Story Length}{58}
-\contentsline {subsection}{\numberline {10.1.3}Emotionality}{58}
-\contentsline {subsection}{\numberline {10.1.4}Positivity}{58}
-\contentsline {section}{\numberline {10.2}By Candidate}{58}
-\contentsline {subsection}{\numberline {10.2.1}Descriptives}{58}
-\contentsline {subsection}{\numberline {10.2.2}Story Length}{58}
-\contentsline {subsection}{\numberline {10.2.3}Emotionality}{58}
-\contentsline {subsection}{\numberline {10.2.4}Positivity}{58}
-\contentsline {section}{\numberline {10.3}By Degree of Political Engagement}{58}
-\contentsline {subsection}{\numberline {10.3.1}Descriptives}{58}
-\contentsline {subsection}{\numberline {10.3.2}Story Length}{58}
-\contentsline {subsection}{\numberline {10.3.3}Emotionality}{58}
-\contentsline {subsection}{\numberline {10.3.4}Positivity}{58}
-\contentsline {chapter}{\numberline {11}Conclusion}{59}
-\contentsline {section}{\numberline {11.1}Designing Interventions}{59}
-\contentsline {section}{\numberline {11.2}De-biasing Twitter Analysis}{59}
-\contentsline {chapter}{\numberline {12}Conclusion}{61}
-\contentsline {chapter}{\numberline {13}Tables}{63}
-\contentsline {chapter}{\numberline {14}Figures}{65}
+\contentsline {subsection}{\numberline {9.4.2}URL Extraction}{57}
+\contentsline {subsection}{\numberline {9.4.3}Mapping Tweets to Stories}{57}
+\contentsline {chapter}{\numberline {10}Analysis}{59}
+\contentsline {section}{\numberline {10.1}All Data}{60}
+\contentsline {subsection}{\numberline {10.1.1}Descriptives}{60}
+\contentsline {subsection}{\numberline {10.1.2}Story Length}{60}
+\contentsline {subsection}{\numberline {10.1.3}Emotionality}{60}
+\contentsline {subsection}{\numberline {10.1.4}Positivity}{60}
+\contentsline {section}{\numberline {10.2}By Candidate}{60}
+\contentsline {subsection}{\numberline {10.2.1}Descriptives}{60}
+\contentsline {subsection}{\numberline {10.2.2}Story Length}{60}
+\contentsline {subsection}{\numberline {10.2.3}Emotionality}{60}
+\contentsline {subsection}{\numberline {10.2.4}Positivity}{60}
+\contentsline {section}{\numberline {10.3}By Degree of Political Engagement}{60}
+\contentsline {subsection}{\numberline {10.3.1}Descriptives}{60}
+\contentsline {subsection}{\numberline {10.3.2}Story Length}{60}
+\contentsline {subsection}{\numberline {10.3.3}Emotionality}{60}
+\contentsline {subsection}{\numberline {10.3.4}Positivity}{60}
+\contentsline {chapter}{\numberline {11}Conclusion}{61}
+\contentsline {section}{\numberline {11.1}Designing Interventions}{61}
+\contentsline {section}{\numberline {11.2}De-biasing Twitter Analysis}{61}
+\contentsline {chapter}{\numberline {12}Conclusion}{63}
+\contentsline {chapter}{\numberline {13}Tables}{65}
+\contentsline {chapter}{\numberline {14}Figures}{67}

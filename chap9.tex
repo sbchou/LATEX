@@ -34,7 +34,7 @@ The choices above span a mix of publications. We include sources that:
 \item Have mostly conservative audiences and mostly liberal audiences \cite{PoliticalPolarization}
 \item Come from mixed primary media formats (television, paper, online, radio)
 \item Are viewed as ``legacy'' (over a hundred years old) and ``new'' media (founded online within the last 10 years)
-\item Focus solely on political news (Politco, McClatchy)
+\item Focus solely on political news (Politico, McClatchy)
 \item Are newswire services (the Associated Press, Reuters news)
 \end{itemize}
  
@@ -45,21 +45,20 @@ The choices above span a mix of publications. We include sources that:
 %In addition, for single-candidate Tweeters, we divide users by the candidate they follow. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. We call each group \emph{X}-followers where \emph{X} is the candidate name, although these do not include every person on Twitter who follows \emph{X}.  
  
  
- 
 \subsection{Data Pipeline}
+
+Articles are processed in a 3-step pipeline, pictured below.
 
 \begin{figure}[H]  
 \centering 
-  \includegraphics[width=0.9\textwidth]{news-pipeline}  
+  \includegraphics[width=0.9\textwidth]{election-news-pipeline}  
   \caption{Election News Pipeline
     \label{fig:data-stack}}
 \end{figure}
 
+After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML.
 
-To find 
-
-
-
+The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. This creates our database on the news side.
 
 \section{Tweets Dataset}
 
