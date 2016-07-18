@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2016 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2016 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -524,6 +524,9 @@ Including all files.
 
 LaTeX Warning: Label `fig:data-stack' multiply defined.
 
+
+LaTeX Warning: Label `fig:data-stack' multiply defined.
+
 ) (./chap10.aux) (./chap11.aux) (./chap12.aux) (./appa.aux) (./appb.aux)
 (./biblio.aux))
 \openout1 = `main.aux'.
@@ -909,15 +912,22 @@ File: images/election-news-pipeline.png Graphic file (type png)
 Package pdftex.def Info: images/election-news-pipeline.png used on input line 5
 4.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [55 <./images/election-news-pipeline.png>] <images/data-stack-transp.png, id=2
-40, 1104.125pt x 729.72626pt>
+ [55 <./images/election-news-pipeline.png>] <images/twitter-pipeline.png, id=24
+0, 1104.125pt x 729.72626pt>
+File: images/twitter-pipeline.png Graphic file (type png)
+
+<use images/twitter-pipeline.png>
+Package pdftex.def Info: images/twitter-pipeline.png used on input line 74.
+(pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
+
+<images/data-stack-transp.png, id=241, 1104.125pt x 729.72626pt>
 File: images/data-stack-transp.png Graphic file (type png)
 
 <use images/data-stack-transp.png>
-Package pdftex.def Info: images/data-stack-transp.png used on input line 77.
+Package pdftex.def Info: images/data-stack-transp.png used on input line 86.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
-) [56 <./images/data-stack-transp.png>]
-[57]
+ [56 <./images/twitter-pipeline.png>])
+[57 <./images/data-stack-transp.png>]
 \openout2 = `chap10.aux'.
 
  (./chap10.tex [58
@@ -967,28 +977,28 @@ Chapter 13.
 
 ]
 Chapter 14.
-[67] <images/trust_18-29.png, id=280, 750.805pt x 515.9275pt>
+[67] <images/trust_18-29.png, id=282, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=281, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=283, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=282, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=284, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=283, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=285, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1176,10 +1186,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13966 strings out of 493089
- 243995 string characters out of 6134842
+ 13971 strings out of 493089
+ 244142 string characters out of 6134842
  286655 words of memory out of 5000000
- 17066 multiletter control sequences out of 15000+600000
+ 17070 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1200,10 +1210,10 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (77 pages, 1386017 bytes).
+Output written on main.pdf (77 pages, 1405796 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
+ 363 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

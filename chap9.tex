@@ -58,14 +58,23 @@ Articles are processed in a 3-step pipeline, pictured below.
 
 After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML.
 
-The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. This creates our database on the news side.
+The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. This completes our data collection on the news side.
 
 \section{Tweets Dataset}
 
-Mention our grant I guess
-\subsection{Election Tweets Classification}
+\subsection{Duration \& Scope} 
+The Laboratory for Social Machines was founded on the premise of a research grant with Twitter which allows access to the ``firehose'' of all activity on twitter. We start with the pool of all tweets between January 1, 2016 and May 1, 2016 in our data process.
 
-\cite{vijayaraghavan2016automatic}
+\subsection{Data Pipeline}
+
+Tweets pass through a similiar pipeline as news stories. We sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vijayaraghavan2016automatic}. We then filter by those that share a link (which might potentially be a news story).
+
+\begin{figure}[H]  
+\centering 
+  \includegraphics[width=0.9\textwidth]{twitter-pipeline}  
+  \caption{Election News Pipeline
+    \label{fig:data-stack}}
+\end{figure} 
 
 
 \section{Combined Corpus}

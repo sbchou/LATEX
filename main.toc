@@ -55,9 +55,10 @@
 \contentsline {subsection}{\numberline {9.2.1}Duration \& Scope}{54}
 \contentsline {subsection}{\numberline {9.2.2}Data Pipeline}{55}
 \contentsline {section}{\numberline {9.3}Tweets Dataset}{56}
-\contentsline {subsection}{\numberline {9.3.1}Election Tweets Classification}{56}
-\contentsline {section}{\numberline {9.4}Combined Corpus}{56}
-\contentsline {subsection}{\numberline {9.4.1}Connecting Tweets with Stories}{56}
+\contentsline {subsection}{\numberline {9.3.1}Duration \& Scope}{56}
+\contentsline {subsection}{\numberline {9.3.2}Data Pipeline}{56}
+\contentsline {section}{\numberline {9.4}Combined Corpus}{57}
+\contentsline {subsection}{\numberline {9.4.1}Connecting Tweets with Stories}{57}
 \contentsline {subsection}{\numberline {9.4.2}URL Extraction}{57}
 \contentsline {subsection}{\numberline {9.4.3}Mapping Tweets to Stories}{57}
 \contentsline {chapter}{\numberline {10}Analysis}{59}
