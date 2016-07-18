@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2016 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2016 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -946,15 +946,19 @@ Chapter 11.
 
 
 ]
+Overfull \vbox (47.48624pt too high) has occurred while \output is active []
+
+
+[62]
 \openout2 = `chap12.aux'.
 
- (./chap12.tex [62
+ (./chap12.tex
+Chapter 12.
+) [63
 
 
 
 ]
-Chapter 12.
-) [63]
 \openout2 = `appa.aux'.
 
  (./appa.tex [64
@@ -1206,7 +1210,7 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (77 pages, 1401097 bytes).
+Output written on main.pdf (77 pages, 1400988 bytes).
 PDF statistics:
  363 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams
