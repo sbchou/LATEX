@@ -57,10 +57,9 @@
 \contentsline {section}{\numberline {9.3}Tweets Dataset}{56}
 \contentsline {subsection}{\numberline {9.3.1}Duration \& Scope}{56}
 \contentsline {subsection}{\numberline {9.3.2}Data Pipeline}{56}
-\contentsline {section}{\numberline {9.4}Combined Corpus}{57}
-\contentsline {subsection}{\numberline {9.4.1}Connecting Tweets with Stories}{57}
-\contentsline {subsection}{\numberline {9.4.2}URL Extraction}{57}
-\contentsline {subsection}{\numberline {9.4.3}Mapping Tweets to Stories}{57}
+\contentsline {section}{\numberline {9.4}Combined Dataset}{57}
+\contentsline {subsection}{\numberline {9.4.1}Mapping Tweets to Stories}{58}
+\contentsline {subsection}{\numberline {9.4.2}Final Corpus}{58}
 \contentsline {chapter}{\numberline {10}Analysis}{59}
 \contentsline {section}{\numberline {10.1}All Data}{60}
 \contentsline {subsection}{\numberline {10.1.1}Descriptives}{60}
@@ -77,8 +76,8 @@
 \contentsline {subsection}{\numberline {10.3.2}Story Length}{60}
 \contentsline {subsection}{\numberline {10.3.3}Emotionality}{60}
 \contentsline {subsection}{\numberline {10.3.4}Positivity}{60}
-\contentsline {chapter}{\numberline {11}Conclusion}{61}
-\contentsline {section}{\numberline {11.1}Designing Interventions}{61}
+\contentsline {chapter}{\numberline {11}Limitations}{61}
+\contentsline {section}{\numberline {11.1}Data Collection}{61}
 \contentsline {section}{\numberline {11.2}De-biasing Twitter Analysis}{61}
 \contentsline {chapter}{\numberline {12}Conclusion}{63}
 \contentsline {chapter}{\numberline {13}Tables}{65}

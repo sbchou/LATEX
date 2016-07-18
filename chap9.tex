@@ -41,10 +41,7 @@ The choices above span a mix of publications. We include sources that:
  to capture a variety of types of election coverage and target audiences.
  
  We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
-
-%In addition, for single-candidate Tweeters, we divide users by the candidate they follow. At the time of data collection completion (May 1, 2016), the top two candidates by delegate count in each party were Hillary Clinton (D), Bernie Sanders (D) and Donald Trump (R) and Ted Cruz (R), so we split users into these four groups. We call each group \emph{X}-followers where \emph{X} is the candidate name, although these do not include every person on Twitter who follows \emph{X}.  
- 
- 
+  
 \subsection{Data Pipeline}
 
 Articles are processed in a 3-step pipeline, pictured below.
@@ -58,7 +55,11 @@ Articles are processed in a 3-step pipeline, pictured below.
 
 After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML.
 
-The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. This completes our data collection on the news side.
+The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. 
+
+
+ We collect and classify a total of 22,959 articles as election-related with over 80\% confidence, an average of 5,700 per month and 191 per day.
+
 
 \section{Tweets Dataset}
 
@@ -72,25 +73,44 @@ Tweets pass through a similiar pipeline as news stories. We sort all tweets with
 \begin{figure}[H]  
 \centering 
   \includegraphics[width=0.9\textwidth]{twitter-pipeline}  
-  \caption{Election News Pipeline
-    \label{fig:data-stack}}
+  \caption{Election Tweets Pipeline
+    \label{fig:data-stack-twitter}}
 \end{figure} 
 
+We collect and sort a total of 16,667,685 tweets as election-related and containing at least one URL in the text, an average of 4,000,000 per month and 140,000 per day.
 
-\section{Combined Corpus}
-
-\subsection{Connecting Tweets with Stories}
-
+\section{Combined Dataset}
+The final step of our data collection process is to extract, expand and connect the links shared in our election-related tweets with articles in our database.
+ 
+\subsection{Mapping Tweets to Stories}
 \begin{figure}[H]  
 \centering 
-  \includegraphics[width=0.9\textwidth]{data-stack-transp}  
+  \includegraphics[width=0.9\textwidth]{data-stack}  
   \caption{Data Pipeline
     \label{fig:data-stack}}
 \end{figure}
  
+Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use a regular expression to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. In total, we check the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
 
+In total, we find 137,986 tweets matcshed to 6,911 unique stories.
 
- \subsection{URL Extraction}
- \subsection{Mapping Tweets to Stories}
+\subsection{Final Corpus}
  
+
+% filter GT10 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
