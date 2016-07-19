@@ -64,7 +64,7 @@ The story text is then passed into a machine learning classifier for election ne
 \section{Tweets Dataset}
 
 \subsection{Duration \& Scope} 
-The Laboratory for Social Machines was founded on the premise of a research grant with Twitter which allows access to the ``firehose'' of all activity on twitter. We start with the pool of all tweets between January 1, 2016 and May 1, 2016 in our data process.
+The Laboratory for Social Machines was founded on the premise of a research grant with Twitter which allows access to the ``firehose'' of all activity on Twitter. We start with the pool of all tweets between January 1, 2016 and May 1, 2016 in our data process.
 
 \subsection{Data Pipeline}
 
@@ -72,9 +72,9 @@ Tweets pass through a similiar pipeline as news stories. We sort all tweets with
 
 \begin{figure}[H]  
 \centering 
-  \includegraphics[width=0.9\textwidth]{twitter-pipeline}  
+  \includegraphics[width=0.9\textwidth]{Twitter-pipeline}  
   \caption{Election Tweets Pipeline
-    \label{fig:data-stack-twitter}}
+    \label{fig:data-stack-Twitter}}
 \end{figure} 
 
 We collect and sort a total of 16,667,685 tweets as election-related and containing at least one URL in the text, an average of 4,000,000 per month and 140,000 per day.
@@ -90,8 +90,38 @@ The final step of our data collection process is to extract, expand and connect 
     \label{fig:data-stack}}
 \end{figure}
  
-Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use a regular expression to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. In total, we check the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
+Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use a regular expression to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. We checked the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
 
-In total, we find 137,986 tweets matched to 6,911 unique stories.
+\subsection{Final Corpus}
+
+In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st.
+
+There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960).
+
+Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets.
+
+This left a total of 2,658 distinct articles (38\%) shared in 123,113 (89\%) tweets by 20,956 Twitter users (93\%).
+
  
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
