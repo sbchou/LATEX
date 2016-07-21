@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 JUL 2016 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  21 JUL 2016 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,6 +870,10 @@ Chapter 6.
 
  (./chap7.tex
 Chapter 7.
+
+LaTeX Warning: Citation `pew-Twitter-news' on page 45 undefined on input line 2
+.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [45
@@ -909,12 +913,12 @@ File: images/election-news-pipeline.png Graphic file (type png)
 Package pdftex.def Info: images/election-news-pipeline.png used on input line 5
 1.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [55 <./images/election-news-pipeline.png>] <images/twitter-pipeline.png, id=24
+ [55 <./images/election-news-pipeline.png>] <images/Twitter-pipeline.png, id=24
 0, 1104.125pt x 729.72626pt>
-File: images/twitter-pipeline.png Graphic file (type png)
+File: images/Twitter-pipeline.png Graphic file (type png)
 
-<use images/twitter-pipeline.png>
-Package pdftex.def Info: images/twitter-pipeline.png used on input line 75.
+<use images/Twitter-pipeline.png>
+Package pdftex.def Info: images/Twitter-pipeline.png used on input line 75.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
  [56]
 <images/data-stack.png, id=245, 1104.125pt x 729.72626pt>
@@ -923,7 +927,7 @@ File: images/data-stack.png Graphic file (type png)
 <use images/data-stack.png>
 Package pdftex.def Info: images/data-stack.png used on input line 88.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [57 <./images/twitter-pipeline.png>] [58 <./images/data-stack.png>]) [59]
+ [57 <./images/Twitter-pipeline.png>] [58 <./images/data-stack.png>]) [59]
 \openout2 = `chap10.aux'.
 
  (./chap10.tex [60
@@ -932,73 +936,93 @@ Package pdftex.def Info: images/data-stack.png used on input line 88.
 
 ]
 Chapter 10.
-) [61]
-Overfull \vbox (104.67645pt too high) has occurred while \output is active []
+<images/story-share-dist.png, id=260, 750.805pt x 515.9275pt>
+File: images/story-share-dist.png Graphic file (type png)
 
+<use images/story-share-dist.png>
+Package pdftex.def Info: images/story-share-dist.png used on input line 13.
+(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
+ [61]
+<images/all-stories-by-pub.png, id=264, 750.805pt x 515.9275pt>
+File: images/all-stories-by-pub.png Graphic file (type png)
 
-[62]
+<use images/all-stories-by-pub.png>
+Package pdftex.def Info: images/all-stories-by-pub.png used on input line 25.
+(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
+ [62 <./images/story-share-dist.png>]
+[63 <./images/all-stories-by-pub.png>]
+! Misplaced alignment tab character &.
+l.34 CNN &
+           Politico also lead the top 10 most popular stories.
+? 
+
+Overfull \hbox (11.09273pt too wide) in paragraph at lines 39--58
+[][] 
+ []
+
+) [64]
 \openout2 = `chap11.aux'.
 
  (./chap11.tex
 Chapter 11.
-) [63
+) [65
 
 
 
 ]
-Overfull \vbox (47.48624pt too high) has occurred while \output is active []
+Overfull \vbox (161.30678pt too high) has occurred while \output is active []
 
 
-[64]
+[66]
 \openout2 = `chap12.aux'.
 
  (./chap12.tex
 Chapter 12.
-) [65
+) [67
 
 
 
 ]
 \openout2 = `appa.aux'.
 
- (./appa.tex [66
+ (./appa.tex [68
 
 
 
 ]
 Chapter 13.
-[67])
+[69])
 \openout2 = `appb.aux'.
 
- (./appb.tex [68
+ (./appb.tex [70
 
 
 
 
 ]
 Chapter 14.
-[69] <images/trust_18-29.png, id=289, 750.805pt x 515.9275pt>
+[71] <images/trust_18-29.png, id=299, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=290, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=300, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=291, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=301, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=292, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=302, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1011,7 +1035,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [70 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
+) [72 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
 64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1100,7 +1124,7 @@ Underfull \hbox (badness 6625) in paragraph at lines 48--54
 12 , jul 2015.  (Ac-cessed on
  []
 
-[71
+[73
 
 
 
@@ -1144,7 +1168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--122
 ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
-[72]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 187--192
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
@@ -1161,7 +1185,7 @@ Underfull \hbox (badness 5667) in paragraph at lines 187--192
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-[73]
+[75]
 Underfull \hbox (badness 2393) in paragraph at lines 228--231
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
@@ -1173,7 +1197,7 @@ Overfull \hbox (146.96906pt too wide) in paragraph at lines 233--240
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [74] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+)) [76] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
@@ -1186,13 +1210,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13973 strings out of 493089
- 244145 string characters out of 6134842
- 286670 words of memory out of 5000000
- 17072 multiletter control sequences out of 15000+600000
+ 13987 strings out of 493089
+ 244520 string characters out of 6134842
+ 286706 words of memory out of 5000000
+ 17084 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,10n,39p,10380b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
@@ -1210,10 +1234,10 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (79 pages, 1402336 bytes).
+Output written on main.pdf (81 pages, 1441673 bytes).
 PDF statistics:
- 370 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
+ 380 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
