@@ -1,12 +1,11 @@
  \chapter{Interviewing the Data}
-\emph{We begin our analysis with descriptive findings from our dataset.
-These findings describe the basic behavior and nature of how Twitter users share the news online.}
+We begin our analysis with descriptive findings from our dataset.
+These findings describe the basic behavior and nature of how Twitter users share the news online.
 
 \section{The Big Picture}
-% This left a total of 2,658 distinct articles (38%) shared in 123,113 (89%) tweets by 20,956 Twitter users (93%).
- 
+Of the 2,658 articles shared 123,133 times on Twitter that we track in our studies, the vast majority are shared less than 100 times. 
 
-Of the 2,658 articles shared 123,133 times on Twitter that we track in our studies, the vast majority are shared less than 100 times. Story sharing behavior follows an approximate power law distribution.  
+% REPLACE WITH LINE GRAPH? HARD TO READ...
 
 \begin{figure}[H]  
 \centering 
@@ -15,10 +14,11 @@ Of the 2,658 articles shared 123,133 times on Twitter that we track in our studi
     \label{fig:story-share-dist}}
 \end{figure} 
 
-On average, stories are shared 46 times, however, the median (50th percentile) of shares is just 26. 
+Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times, however, the median (50th percentile) of shares is just 26. 
 
-%%%
-CNN politico and fox lead the most popular publications to be tweeted about... likely due to the political nature of the outlets.
+
+CNN, Politico, and Fox lead in publication popularity with the highest number of stories shared by tweets in our dataset-- likely due to the volume and close association to political content of the companies. Because our data pipeline detailed in the previous chapter looks for election-related news, outlets which track the campaign extensively are more likely to show up in our results.
+
 
 \begin{figure}[H]  
 \centering 
@@ -26,13 +26,12 @@ CNN politico and fox lead the most popular publications to be tweeted about... l
   \caption{Number of story shares by publication
     \label{fig:tweets-by-pub}}
 \end{figure} 
- 
 
 
-\newpage
+\newpage %force table to get on the next page
 
-CNN & Politico also lead the top 10 most popular stories.
-Trump is by far the most tweetable candidate
+Examining the top 10 most shared stories, it comes as no surprise that outsized personality Donald Trump is by far the most ``tweetable'' candidate, dominating the list with 7 out of 10 stories featuring his name in the title.
+
  
 \begin{table}
 %\begin{tabular}{| l || c |} 
@@ -57,6 +56,18 @@ Trump is by far the most tweetable candidate
 \end{tabular}
 \caption{\label{tab:top-10}Top 10 Shared Stories}
 \end{table}
+
+The \emph{extent} to which he is prominent in articles is clear: by coding each story by the most frequently mentioned candidate, Trump has nearly three times as much coverage at nearly 60\% as the runner-ups, Ted Cruz and Hillary Clinton.
+
+The large number of stories with Cruz as the most-mentioned candidate are likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
+
+\begin{figure}[H]  
+\centering 
+  \includegraphics[width=0.8\textwidth]{candidate-mentions}  
+  \caption{Number of story shares by publication
+    \label{fig:tweets-by-pub}}
+\end{figure} 
+
 
 
 

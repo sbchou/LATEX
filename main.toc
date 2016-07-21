@@ -62,28 +62,28 @@
 \contentsline {subsection}{\numberline {9.4.2}Final Corpus}{58}
 \contentsline {chapter}{\numberline {10}Interviewing the Data}{61}
 \contentsline {section}{\numberline {10.1}The Big Picture}{61}
-\contentsline {chapter}{\numberline {11}Analysis}{65}
-\contentsline {section}{\numberline {11.1}Hypotheses}{66}
-\contentsline {section}{\numberline {11.2}All Data}{66}
-\contentsline {subsection}{\numberline {11.2.1}Descriptives}{66}
-\contentsline {subsection}{\numberline {11.2.2}Story Length}{66}
-\contentsline {subsection}{\numberline {11.2.3}Emotionality}{66}
-\contentsline {subsection}{\numberline {11.2.4}Positivity}{66}
-\contentsline {section}{\numberline {11.3}By Candidate}{66}
-\contentsline {subsection}{\numberline {11.3.1}Descriptives}{66}
-\contentsline {subsection}{\numberline {11.3.2}Story Length}{66}
-\contentsline {subsection}{\numberline {11.3.3}Emotionality}{66}
-\contentsline {subsection}{\numberline {11.3.4}Positivity}{66}
-\contentsline {section}{\numberline {11.4}By Degree of Political Engagement}{66}
-\contentsline {subsection}{\numberline {11.4.1}Descriptives}{66}
-\contentsline {subsection}{\numberline {11.4.2}Story Length}{66}
-\contentsline {subsection}{\numberline {11.4.3}Emotionality}{66}
-\contentsline {subsection}{\numberline {11.4.4}Positivity}{66}
-\contentsline {section}{\numberline {11.5}Extra: Any relation with Trust?}{66}
-\contentsline {chapter}{\numberline {12}Conclusion}{67}
-\contentsline {section}{\numberline {12.1}Findings}{67}
-\contentsline {section}{\numberline {12.2}Potential Impact}{67}
-\contentsline {section}{\numberline {12.3}Limitations}{67}
-\contentsline {subsection}{\numberline {12.3.1}Data Collection}{67}
-\contentsline {chapter}{\numberline {13}Tables}{69}
-\contentsline {chapter}{\numberline {14}Figures}{71}
+\contentsline {chapter}{\numberline {11}Analysis}{67}
+\contentsline {section}{\numberline {11.1}Hypotheses}{68}
+\contentsline {section}{\numberline {11.2}All Data}{68}
+\contentsline {subsection}{\numberline {11.2.1}Descriptives}{68}
+\contentsline {subsection}{\numberline {11.2.2}Story Length}{68}
+\contentsline {subsection}{\numberline {11.2.3}Emotionality}{68}
+\contentsline {subsection}{\numberline {11.2.4}Positivity}{68}
+\contentsline {section}{\numberline {11.3}By Candidate}{68}
+\contentsline {subsection}{\numberline {11.3.1}Descriptives}{68}
+\contentsline {subsection}{\numberline {11.3.2}Story Length}{68}
+\contentsline {subsection}{\numberline {11.3.3}Emotionality}{68}
+\contentsline {subsection}{\numberline {11.3.4}Positivity}{68}
+\contentsline {section}{\numberline {11.4}By Degree of Political Engagement}{68}
+\contentsline {subsection}{\numberline {11.4.1}Descriptives}{68}
+\contentsline {subsection}{\numberline {11.4.2}Story Length}{68}
+\contentsline {subsection}{\numberline {11.4.3}Emotionality}{68}
+\contentsline {subsection}{\numberline {11.4.4}Positivity}{68}
+\contentsline {section}{\numberline {11.5}Extra: Any relation with Trust?}{68}
+\contentsline {chapter}{\numberline {12}Conclusion}{69}
+\contentsline {section}{\numberline {12.1}Findings}{69}
+\contentsline {section}{\numberline {12.2}Potential Impact}{69}
+\contentsline {section}{\numberline {12.3}Limitations}{69}
+\contentsline {subsection}{\numberline {12.3.1}Data Collection}{69}
+\contentsline {chapter}{\numberline {13}Tables}{71}
+\contentsline {chapter}{\numberline {14}Figures}{73}
