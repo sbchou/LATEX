@@ -56,36 +56,34 @@
 \contentsline {section}{\numberline {8.4}Combined Dataset}{53}
 \contentsline {subsection}{\numberline {8.4.1}Mapping Tweets to Stories}{54}
 \contentsline {subsection}{\numberline {8.4.2}Final Corpus}{54}
-\contentsline {chapter}{\numberline {9}Descriptive Findings}{57}
-\contentsline {section}{\numberline {9.1}Stories}{57}
-\contentsline {section}{\numberline {9.2}Tweets \& Tweeters}{61}
-\contentsline {chapter}{\numberline {10}Metrics for Political and Emotional Engagement}{63}
-\contentsline {section}{\numberline {10.1}Emotional Coding}{63}
-\contentsline {section}{\numberline {10.2}Followership as a Proxy for Political Engagement}{64}
-\contentsline {subsection}{\numberline {10.2.1}A Look at Candidate Followership}{65}
-\contentsline {subsection}{\numberline {10.2.2}A Look at Levels of Political Engagement}{67}
-\contentsline {chapter}{\numberline {11}Analysis}{69}
-\contentsline {section}{\numberline {11.1}Hypotheses}{70}
-\contentsline {section}{\numberline {11.2}All Data}{70}
-\contentsline {subsection}{\numberline {11.2.1}Descriptives}{70}
-\contentsline {subsection}{\numberline {11.2.2}Story Length}{70}
-\contentsline {subsection}{\numberline {11.2.3}Emotionality}{70}
-\contentsline {subsection}{\numberline {11.2.4}Positivity}{70}
-\contentsline {section}{\numberline {11.3}By Candidate}{70}
-\contentsline {subsection}{\numberline {11.3.1}Descriptives}{70}
-\contentsline {subsection}{\numberline {11.3.2}Story Length}{70}
-\contentsline {subsection}{\numberline {11.3.3}Emotionality}{70}
-\contentsline {subsection}{\numberline {11.3.4}Positivity}{70}
-\contentsline {section}{\numberline {11.4}By Degree of Political Engagement}{70}
-\contentsline {subsection}{\numberline {11.4.1}Descriptives}{70}
-\contentsline {subsection}{\numberline {11.4.2}Story Length}{70}
-\contentsline {subsection}{\numberline {11.4.3}Emotionality}{70}
-\contentsline {subsection}{\numberline {11.4.4}Positivity}{70}
-\contentsline {section}{\numberline {11.5}Extra: Any relation with Trust?}{70}
-\contentsline {chapter}{\numberline {12}Conclusion}{71}
-\contentsline {section}{\numberline {12.1}Findings}{71}
-\contentsline {section}{\numberline {12.2}Potential Impact}{71}
-\contentsline {section}{\numberline {12.3}Limitations}{71}
-\contentsline {subsection}{\numberline {12.3.1}Data Collection}{71}
-\contentsline {chapter}{\numberline {13}Tables}{73}
-\contentsline {chapter}{\numberline {14}Figures}{75}
+\contentsline {subsection}{\numberline {8.4.3}Descriptive Findings}{55}
+\contentsline {chapter}{\numberline {9}Metrics for Political and Emotional Engagement}{59}
+\contentsline {section}{\numberline {9.1}Emotional Coding}{59}
+\contentsline {section}{\numberline {9.2}Followership as a Proxy for Political Engagement}{60}
+\contentsline {subsection}{\numberline {9.2.1}A Look at Candidate Followership}{61}
+\contentsline {subsection}{\numberline {9.2.2}A Look at Levels of Political Engagement}{64}
+\contentsline {chapter}{\numberline {10}Analysis}{65}
+\contentsline {section}{\numberline {10.1}Hypotheses}{66}
+\contentsline {section}{\numberline {10.2}All Data}{66}
+\contentsline {subsection}{\numberline {10.2.1}Descriptives}{66}
+\contentsline {subsection}{\numberline {10.2.2}Story Length}{66}
+\contentsline {subsection}{\numberline {10.2.3}Emotionality}{66}
+\contentsline {subsection}{\numberline {10.2.4}Positivity}{66}
+\contentsline {section}{\numberline {10.3}By Candidate}{66}
+\contentsline {subsection}{\numberline {10.3.1}Descriptives}{66}
+\contentsline {subsection}{\numberline {10.3.2}Story Length}{66}
+\contentsline {subsection}{\numberline {10.3.3}Emotionality}{66}
+\contentsline {subsection}{\numberline {10.3.4}Positivity}{66}
+\contentsline {section}{\numberline {10.4}By Degree of Political Engagement}{66}
+\contentsline {subsection}{\numberline {10.4.1}Descriptives}{66}
+\contentsline {subsection}{\numberline {10.4.2}Story Length}{66}
+\contentsline {subsection}{\numberline {10.4.3}Emotionality}{66}
+\contentsline {subsection}{\numberline {10.4.4}Positivity}{66}
+\contentsline {section}{\numberline {10.5}Extra: Any relation with Trust?}{66}
+\contentsline {chapter}{\numberline {11}Conclusion}{67}
+\contentsline {section}{\numberline {11.1}Findings}{67}
+\contentsline {section}{\numberline {11.2}Potential Impact}{67}
+\contentsline {section}{\numberline {11.3}Limitations}{67}
+\contentsline {subsection}{\numberline {11.3.1}Data Collection}{67}
+\contentsline {chapter}{\numberline {12}Tables}{69}
+\contentsline {chapter}{\numberline {13}Figures}{71}

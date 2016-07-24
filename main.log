@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUL 2016 00:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUL 2016 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -524,12 +524,11 @@ Including all files.
 
 LaTeX Warning: Label `fig:data-stack' multiply defined.
 
-) (./chap9.aux
 
 LaTeX Warning: Label `fig:tweets-by-pub' multiply defined.
 
-) (./chap10.aux) (./chap11.aux) (./chap12.aux) (./appa.aux) (./appb.aux)
-(./biblio.aux))
+) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux) (./appa.aux)
+(./appb.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -916,164 +915,152 @@ File: images/data-stack.png Graphic file (type png)
 <use images/data-stack.png>
 Package pdftex.def Info: images/data-stack.png used on input line 88.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [53 <./images/Twitter-pipeline.png>] [54 <./images/data-stack.png>]) [55]
-\openout2 = `chap9.aux'.
-
- (./chap9.tex [56
-
-
-
-]
-Chapter 9.
-<images/story-share-dist.png, id=248, 750.805pt x 515.9275pt>
+ [53 <./images/Twitter-pipeline.png>] [54 <./images/data-stack.png>] <images/st
+ory-share-dist.png, id=241, 750.805pt x 515.9275pt>
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
-Package pdftex.def Info: images/story-share-dist.png used on input line 12.
+Package pdftex.def Info: images/story-share-dist.png used on input line 111.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [57]
-<images/all-stories-by-pub.png, id=252, 750.805pt x 515.9275pt>
+ [55 <./images/story-share-dist.png>]
+<images/all-stories-by-pub.png, id=246, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
-Package pdftex.def Info: images/all-stories-by-pub.png used on input line 25.
+Package pdftex.def Info: images/all-stories-by-pub.png used on input line 124.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [58 <./images/story-share-dist.png>]
-[59 <./images/all-stories-by-pub.png>]
-Overfull \hbox (11.09273pt too wide) in paragraph at lines 38--57
+ [56 <./images/all-stories-by-pub.png>]
+Overfull \hbox (11.09273pt too wide) in paragraph at lines 137--156
 [][] 
  []
 
-<images/candidate-mentions.png, id=261, 750.805pt x 515.9275pt>
+<images/candidate-mentions.png, id=252, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
-Package pdftex.def Info: images/candidate-mentions.png used on input line 66.
+Package pdftex.def Info: images/candidate-mentions.png used on input line 161.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [60]
-<images/user-share-dist.png, id=265, 750.805pt x 515.9275pt>
-File: images/user-share-dist.png Graphic file (type png)
+ [57 <./images/candidate-mentions.png>])
+[58]
+\openout2 = `chap9.aux'.
 
-<use images/user-share-dist.png>
-Package pdftex.def Info: images/user-share-dist.png used on input line 77.
+ (./chap9.tex
+Chapter 9.
+[59
+
+
+
+] [60] <images/users-by-candid.png, id=266, 750.805pt x 515.9275pt>
+File: images/users-by-candid.png Graphic file (type png)
+
+<use images/users-by-candid.png>
+Package pdftex.def Info: images/users-by-candid.png used on input line 40.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [61 <./images/candidate-mentions.png>])
-[62 <./images/user-share-dist.png>]
+ [61]
+<images/tweets-by-candid.png, id=270, 750.805pt x 515.9275pt>
+File: images/tweets-by-candid.png Graphic file (type png)
+
+<use images/tweets-by-candid.png>
+Package pdftex.def Info: images/tweets-by-candid.png used on input line 51.
+(pdftex.def)             Requested size: 433.62pt x 297.9707pt.
+ [62 <./images/users-by-candid.png>]
+<images/clinton-camp-shares.png, id=276, 750.805pt x 515.9275pt>
+File: images/clinton-camp-shares.png Graphic file (type png)
+
+<use images/clinton-camp-shares.png>
+Package pdftex.def Info: images/clinton-camp-shares.png used on input line 64.
+(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
+
+<images/trump-camp-shares.png, id=277, 750.805pt x 515.9275pt>
+File: images/trump-camp-shares.png Graphic file (type png)
+
+<use images/trump-camp-shares.png>
+Package pdftex.def Info: images/trump-camp-shares.png used on input line 65.
+(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
+
+<images/sanders-camp-shares.png, id=278, 750.805pt x 515.9275pt>
+File: images/sanders-camp-shares.png Graphic file (type png)
+
+<use images/sanders-camp-shares.png>
+Package pdftex.def Info: images/sanders-camp-shares.png used on input line 66.
+(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
+
+<images/cruz-camp-shares.png, id=279, 750.805pt x 515.9275pt>
+File: images/cruz-camp-shares.png Graphic file (type png)
+
+<use images/cruz-camp-shares.png>
+Package pdftex.def Info: images/cruz-camp-shares.png used on input line 67.
+(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
+ [63 <./images/tweets-by-candid.png>])
+[64 <./images/clinton-camp-shares.png> <./images/trump-camp-shares.png> <./imag
+es/sanders-camp-shares.png> <./images/cruz-camp-shares.png>]
 \openout2 = `chap10.aux'.
 
  (./chap10.tex
 Chapter 10.
-[63
-
-
-
-] [64] <images/users-by-candid.png, id=281, 750.805pt x 515.9275pt>
-File: images/users-by-candid.png Graphic file (type png)
-
-<use images/users-by-candid.png>
-Package pdftex.def Info: images/users-by-candid.png used on input line 39.
-(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
- [65 <./images/users-by-candid.png>]
-<images/tweets-by-candid.png, id=286, 750.805pt x 515.9275pt>
-File: images/tweets-by-candid.png Graphic file (type png)
-
-<use images/tweets-by-candid.png>
-Package pdftex.def Info: images/tweets-by-candid.png used on input line 49.
-(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
-
-<images/clinton-camp-shares.png, id=287, 750.805pt x 515.9275pt>
-File: images/clinton-camp-shares.png Graphic file (type png)
-
-<use images/clinton-camp-shares.png>
-Package pdftex.def Info: images/clinton-camp-shares.png used on input line 61.
-(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
-
-<images/trump-camp-shares.png, id=288, 750.805pt x 515.9275pt>
-File: images/trump-camp-shares.png Graphic file (type png)
-
-<use images/trump-camp-shares.png>
-Package pdftex.def Info: images/trump-camp-shares.png used on input line 62.
-(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
-
-<images/sanders-camp-shares.png, id=289, 750.805pt x 515.9275pt>
-File: images/sanders-camp-shares.png Graphic file (type png)
-
-<use images/sanders-camp-shares.png>
-Package pdftex.def Info: images/sanders-camp-shares.png used on input line 63.
-(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
-
-<images/cruz-camp-shares.png, id=290, 750.805pt x 515.9275pt>
-File: images/cruz-camp-shares.png Graphic file (type png)
-
-<use images/cruz-camp-shares.png>
-Package pdftex.def Info: images/cruz-camp-shares.png used on input line 64.
-(pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
- [66 <./images/tweets-by-candid.png>])
-[67 <./images/clinton-camp-shares.png> <./images/trump-camp-shares.png> <./imag
-es/sanders-camp-shares.png> <./images/cruz-camp-shares.png>]
-\openout2 = `chap11.aux'.
-
- (./chap11.tex
-[68
+) [65
 
 
 
 ]
-Chapter 11.
-) [69]
 Overfull \vbox (161.30678pt too high) has occurred while \output is active []
 
 
-[70]
+[66]
+\openout2 = `chap11.aux'.
+
+ (./chap11.tex)
 \openout2 = `chap12.aux'.
 
  (./chap12.tex
-Chapter 12.
-) [71
+Chapter 11.
+) [67
+
+
 
 
 
 ]
 \openout2 = `appa.aux'.
 
- (./appa.tex [72
+ (./appa.tex [68
+
+
+
+]
+Chapter 12.
+[69])
+\openout2 = `appb.aux'.
+
+ (./appb.tex [70
+
 
 
 
 ]
 Chapter 13.
-[73])
-\openout2 = `appb.aux'.
-
- (./appb.tex [74
-
-
-
-
-]
-Chapter 14.
-[75] <images/trust_18-29.png, id=328, 750.805pt x 515.9275pt>
+[71] <images/trust_18-29.png, id=313, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=329, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=314, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=330, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=315, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=331, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=316, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1086,7 +1073,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [76 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
+) [72 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
 64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1175,7 +1162,7 @@ Underfull \hbox (badness 6625) in paragraph at lines 48--54
 12 , jul 2015.  (Ac-cessed on
  []
 
-[77
+[73
 
 
 
@@ -1219,7 +1206,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--122
 ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
-[78]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 187--192
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
@@ -1236,7 +1223,7 @@ Underfull \hbox (badness 5667) in paragraph at lines 187--192
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-[79]
+[75]
 Underfull \hbox (badness 2393) in paragraph at lines 228--231
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
@@ -1248,7 +1235,7 @@ Overfull \hbox (146.96906pt too wide) in paragraph at lines 233--240
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [80] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+)) [76] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
@@ -1261,10 +1248,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14031 strings out of 493089
- 245822 string characters out of 6134842
- 286750 words of memory out of 5000000
- 17120 multiletter control sequences out of 15000+600000
+ 14025 strings out of 493089
+ 245660 string characters out of 6134842
+ 286736 words of memory out of 5000000
+ 17115 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1285,10 +1272,10 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (85 pages, 1682586 bytes).
+Output written on main.pdf (81 pages, 1658603 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 394 PDF objects out of 1000 (max. 8388607)
+ 231 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
