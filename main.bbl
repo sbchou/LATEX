@@ -32,11 +32,6 @@ Introducing contributor performance levels: Crowdflower community.
   mar 2014.
 \newblock (Accessed on 04/21/2016).
 
-\bibitem{beyond-distrust}
-Beyond distrust: How americans view their government.
-\newblock {\em Pew Research Center}, nov 2015.
-\newblock (Accessed on 04/07/2016).
-
 \bibitem{March45online}
 March 1 election results 2016 updates | the washington post.
 \newblock
@@ -44,11 +39,11 @@ March 1 election results 2016 updates | the washington post.
   mar 2016.
 \newblock (Accessed on 04/06/2016).
 
-\bibitem{pew-twitter-news}
+\bibitem{pew-Twitter-news}
 Michael Bartherl, Elisa Shearer, Jeffrey Gottfried, and Amy Mitchell.
 \newblock How do americans use twitter for news? | pew research center.
 \newblock
-  \url{http://www.pewresearch.org/fact-tank/2015/08/19/how-do-americans-use-twitter-for-news/},
+  \url{http://www.pewresearch.org/fact-tank/2015/08/19/how-do-americans-use-Twitter-for-news/},
   jul 2015.
 \newblock (Accessed on 07/12/2016).
 
@@ -177,6 +172,11 @@ Raymond~S Nickerson.
 \newblock Confirmation bias: A ubiquitous phenomenon in many guises.
 \newblock {\em Review of general psychology}, 2(2):175, 1998.
 
+\bibitem{o2010not}
+Robert~B O’hara and D~Johan Kotze.
+\newblock Do not log-transform count data.
+\newblock {\em Methods in Ecology and Evolution}, 1(2):118--122, 2010.
+
 \bibitem{apFAQ}
 Associated Press.
 \newblock Faqs.
@@ -189,6 +189,12 @@ Rebecca Riffkin.
 \newblock
   \url{http://www.gallup.com/poll/185927/americans-trust-media-remains-historical-low.aspx}.
 \newblock (Accessed on 04/20/2016).
+
+\bibitem{scott1997regression}
+J~Scott~Long.
+\newblock Regression models for categorical and limited dependent variables.
+\newblock {\em Advanced quantitative techniques in the social sciences}, 7,
+  1997.
 
 \bibitem{sherif1961social}
 Muzafer Sherif and Carl~I Hovland.

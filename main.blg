@@ -18,7 +18,6 @@ A level-1 auxiliary file: chap8.aux
 A level-1 auxiliary file: chap9.aux
 A level-1 auxiliary file: chap10.aux
 A level-1 auxiliary file: chap11.aux
-A level-1 auxiliary file: chap12.aux
 A level-1 auxiliary file: appa.aux
 A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
@@ -30,49 +29,47 @@ Warning--to sort, need author or key in CrowdFlower-levels
 Warning--to sort, need author or key in March45online
 Warning--to sort, need author or key in Pew-demographics
 Warning--to sort, need author or key in CrowdFlower-guide
-Warning--to sort, need author or key in beyond-distrust
 Warning--empty author in Pew-bias-2012
-Warning--empty author in beyond-distrust
 Warning--empty journal in sherif1961social
-You've used 39 entries,
+You've used 40 entries,
             2118 wiz_defined-function locations,
-            751 strings with 11869 characters,
-and the built_in function-call counts, 10666 in all, are:
-= -- 1058
-> -- 435
+            757 strings with 11972 characters,
+and the built_in function-call counts, 11032 in all, are:
+= -- 1096
+> -- 454
 < -- 3
-+ -- 184
-- -- 138
-* -- 666
-:= -- 1760
-add.period$ -- 128
-call.type$ -- 39
-change.case$ -- 183
++ -- 191
+- -- 144
+* -- 688
+:= -- 1831
+add.period$ -- 131
+call.type$ -- 40
+change.case$ -- 189
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 397
-empty$ -- 922
-format.name$ -- 138
-if$ -- 2250
+cite$ -- 48
+duplicate$ -- 408
+empty$ -- 948
+format.name$ -- 144
+if$ -- 2322
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 27
-newline$ -- 208
-num.names$ -- 64
-pop$ -- 240
+int.to.str$ -- 40
+missing$ -- 28
+newline$ -- 213
+num.names$ -- 68
+pop$ -- 242
 preamble$ -- 2
-purify$ -- 145
+purify$ -- 150
 quote$ -- 0
-skip$ -- 280
+skip$ -- 289
 stack$ -- 0
-substring$ -- 527
-swap$ -- 57
+substring$ -- 557
+swap$ -- 58
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
-warning$ -- 10
-while$ -- 95
-width$ -- 41
-write$ -- 426
-(There were 10 warnings)
+type$ -- 156
+warning$ -- 8
+while$ -- 101
+width$ -- 42
+write$ -- 438
+(There were 8 warnings)

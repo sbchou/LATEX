@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUL 2016 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUL 2016 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,8 +531,11 @@ LaTeX Warning: Label `fig:tweets-by-pub' multiply defined.
 
 LaTeX Warning: Label `fig:candid-ct' multiply defined.
 
-) (./chap10.aux) (./chap11.aux) (./chap12.aux) (./appa.aux) (./appb.aux)
-(./biblio.aux))
+) (./chap10.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+) (./chap11.aux) (./appa.aux) (./appb.aux) (./biblio.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -877,10 +880,6 @@ Chapter 6.
 
  (./chap7.tex
 Chapter 7.
-
-LaTeX Warning: Citation `pew-Twitter-news' on page 45 undefined on input line 2
-.
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [45
@@ -1018,65 +1017,52 @@ Chapter 10.
 
 
 
-]) [68]
-Overfull \vbox (54.04613pt too high) has occurred while \output is active []
-
-
-[69]
+] [68]) [69] [70]
 \openout2 = `chap11.aux'.
 
  (./chap11.tex)
-\openout2 = `chap12.aux'.
-
- (./chap12.tex [70
-
-
-
-
-
-]
-Chapter 11.
-) [71]
 \openout2 = `appa.aux'.
 
- (./appa.tex [72
+ (./appa.tex
+Appendix A.
+[71
 
 
 
-]
-Chapter 12.
-[73])
+
+
+])
 \openout2 = `appb.aux'.
 
- (./appb.tex [74
+ (./appb.tex [72
 
 
 
 
 ]
-Chapter 13.
-[75] <images/trust_18-29.png, id=330, 750.805pt x 515.9275pt>
+Appendix B.
+[73] <images/trust_18-29.png, id=325, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=331, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=326, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=332, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=327, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=333, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=328, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1089,7 +1075,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [76 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
+) [74 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
 64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1151,78 +1137,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 41--46
+Underfull \hbox (badness 1259) in paragraph at lines 36--41
 []\T1/cmr/m/n/12 March 1 elec-tion re-sults 2016 up-dates | the wash-ing-ton po
 st.  $\T1/cmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--54
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
 []\T1/cmr/m/n/12 Michael Bartherl, Elisa Shearer, Jef-frey Got-tfried, and Amy
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 48--54
+Underfull \hbox (badness 5359) in paragraph at lines 43--49
 \T1/cmr/m/n/12 Mitchell.  How do amer-i-cans use twit-ter for news? | pew re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--54
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
 \T1/cmr/m/n/12 search cen-ter.  $\T1/cmtt/m/n/12 http : / / www . pewresearch .
  org / fact-[]tank / 2015 / 08 / 19 /
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 48--54
-\T1/cmtt/m/n/12 how-[]do-[]americans-[]use-[]twitter-[]for-[]news/$\T1/cmr/m/n/
+Underfull \hbox (badness 6625) in paragraph at lines 43--49
+\T1/cmtt/m/n/12 how-[]do-[]americans-[]use-[]Twitter-[]for-[]news/$\T1/cmr/m/n/
 12 , jul 2015.  (Ac-cessed on
  []
 
-[77
+[75
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 []\T1/cmr/m/n/12 NICHOLAS CON-FES-SORE and KAREN YOUR-ISH.  $2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 \T1/cmr/m/n/12 bil-lion worth of free me-dia for don-ald trump - the new
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 \T1/cmr/m/n/12 york times.  $\T1/cmtt/m/n/12 http : / / www . nytimes . com / 2
 016 / 03 / 16 / upshot /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--93
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 \T1/cmtt/m/n/12 measuring-[]donald-[]trumps-[]mammoth-[]advantage-[]in-[]free-[
 ]media . html$\T1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--122
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 []\T1/cmr/m/n/12 Jeffrey Got-tfried.  Most amer-i-cans al-ready feel elec-tion 
 cov-er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--122
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 \T1/cmr/m/n/12 age fa-tigue.  $\T1/cmtt/m/n/12 http : / / www . pewresearch . o
 rg / fact-[]tank / 2016 / 07 / 14 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--122
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 \T1/cmtt/m/n/12 most-[]americans-[]already-[]feel-[]election-[]coverage-[]fatig
 ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
-[78]
+[76]
 Underfull \hbox (badness 10000) in paragraph at lines 187--192
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
@@ -1239,23 +1225,23 @@ Underfull \hbox (badness 5667) in paragraph at lines 187--192
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-[79]
-Underfull \hbox (badness 2393) in paragraph at lines 228--231
+[77]
+Underfull \hbox (badness 2393) in paragraph at lines 234--237
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 233--240
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 239--246
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [80] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+)) [78] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
-(./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
-(./appa.aux) (./appb.aux) (./biblio.aux))
+(./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./appa.aux)
+(./appb.aux) (./biblio.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1264,10 +1250,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14036 strings out of 493089
- 245893 string characters out of 6134842
- 286747 words of memory out of 5000000
- 17124 multiletter control sequences out of 15000+600000
+ 14028 strings out of 493089
+ 245808 string characters out of 6134842
+ 287445 words of memory out of 5000000
+ 17123 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1275,23 +1261,25 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (85 pages, 1707192 bytes).
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (83 pages, 1723617 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 412 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
