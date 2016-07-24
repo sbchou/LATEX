@@ -1,105 +1,84 @@
- \chapter{Data Collection}
- Our main dataset is a connected corpus of news articles about the presidential elections and the tweets that share them from January 1, 2016 to May 1, 2016 over 13 news outlets. In this chapter, we detail the collection and creation of our dataset, along with the unique challenges of working with ``big data''.
+ \chapter{Descriptive Findings}
+We begin our analysis with descriptive findings from our dataset.
+These findings describe the basic behavior and nature of how Twitter users share the news online.
 
-\section{The Electome Project}
-The backbone of our data collection and classification process lies under the umbrella of the Electome project, a large, collaborative effort with the Laboratory for Social Machines to examine the ``horse-race of ideas'' and competition of narratives during the presidential election year. The goal of the Electome project is to create novel stories for data journalists as well as technically innovative ways to examine the national conversation using machine learning and ``big data'' analysis through both social and traditional media coverage. The first step of both our news and Twitter data processing method uses machine learning classifiers from the Electome project.
+\section{Stories}
+Of the 2,658 articles shared 123,133 times on Twitter that we track in our studies, the vast majority are shared less than 100 times. 
 
-\section{News Dataset}
-
- \subsection{Duration \& Scope}
- For our news dataset, we scraped articles from the RSS feeds of news publications every hour over five months and 13 publications:
-
-\begin{multicols}{2}
-\begin{itemize}
-
-\item CNN
-\item Fox News
-\item The New York Times
-\item The Wall Street Journal
-\item The Washington Post
-\item The Los Angeles Times 
-\item The Associated Press
-\item Reuters
-\item McClatchy 
-\item Politico 
-\item Buzzfeed
-\item The Huffington Post
-\item NPR 
-\end{itemize}
-\end{multicols}
-
-The choices above span a mix of publications. We include sources that: 
-
-\begin{itemize}
-\item Have mostly conservative audiences and mostly liberal audiences \cite{PoliticalPolarization}
-\item Come from mixed primary media formats (television, paper, online, radio)
-\item Are viewed as ``legacy'' (over a hundred years old) and ``new'' media (founded online within the last 10 years)
-\item Focus solely on political news (Politico, McClatchy)
-\item Are newswire services (the Associated Press, Reuters news)
-\end{itemize}
- 
- to capture a variety of types of election coverage and target audiences.
- 
- We look at stories from January 1, 2016 (the start of the election year) to May 1, 2016. This time period captures the bulk of the primary election, when coverage of multiple presidential candidate contenders creates greater variety in news stories for our analysis.
-  
-\subsection{Data Pipeline}
-
-Articles are processed in a 3-step pipeline, pictured below.
+% REPLACE WITH LINE GRAPH? HARD TO READ...
 
 \begin{figure}[H]  
 \centering 
-  \includegraphics[width=0.9\textwidth]{election-news-pipeline}  
-  \caption{Election News Pipeline
-    \label{fig:data-stack}}
-\end{figure}
-
-After collecting the links to the full content of the news stories from each publication's RSS feed, we pass each link to a structured content parser that extracts entities and features from the raw HTML.
-
-The story text is then passed into a machine learning classifier for election news from the Electome project \footnote{Designed and implemented by Prashanth Vijayaraghavan.}. 
-
-
- We collect and classify a total of 22,959 articles as election-related with over 80\% confidence, an average of 5,700 per month and 191 per day.
-
-
-\section{Tweets Dataset}
-
-\subsection{Duration \& Scope} 
-The Laboratory for Social Machines was founded on the premise of a research grant with Twitter which allows access to the ``firehose'' of all activity on Twitter. We start with the pool of all tweets between January 1, 2016 and May 1, 2016 in our data process.
-
-\subsection{Data Pipeline}
-
-Tweets pass through a similiar pipeline as news stories. We sort all tweets with an election classifier which has been shown to be able to detect election-related tweets with an F-score of 92\% \cite{vijayaraghavan2016automatic}. We then filter by those that share a link (which might potentially be a news story).
-
-\begin{figure}[H]  
-\centering 
-  \includegraphics[width=0.9\textwidth]{Twitter-pipeline}  
-  \caption{Election Tweets Pipeline
-    \label{fig:data-stack-Twitter}}
+  \includegraphics[width=1.0\textwidth]{story-share-dist}  
+  \caption{Distribution of Story Shares
+    \label{fig:story-share-dist}}
 \end{figure} 
 
-We collect and sort a total of 16,667,685 tweets as election-related and containing at least one URL in the text, an average of 4,000,000 per month and 140,000 per day.
+Story sharing behavior follows an approximate power law distribution. On average, stories are shared 46 times, however, the median (50th percentile) of shares is just 26. 
 
-\section{Combined Dataset}
-The final step of our data collection process is to extract, expand and connect the links shared in our election-related tweets with articles in our database.
- 
-\subsection{Mapping Tweets to Stories}
+
+CNN, Politico, and Fox lead in publication popularity with the highest number of stories shared by tweets in our dataset-- likely due to the volume and close association to political content of the companies. Because our data pipeline detailed in the previous chapter looks for election-related news, outlets which track the campaign extensively are more likely to show up in our results.
+
+
 \begin{figure}[H]  
 \centering 
-  \includegraphics[width=0.9\textwidth]{data-stack}  
-  \caption{Data Pipeline
-    \label{fig:data-stack}}
-\end{figure}
+  \includegraphics[width=1.0\textwidth]{all-stories-by-pub}  
+  \caption{Number of story shares by publication
+    \label{fig:tweets-by-pub}}
+\end{figure} 
+
+
+\newpage %force table to get on the next page
+
+Examining the top 10 most shared stories, it comes as no surprise that outsized personality Donald Trump is by far the most ``tweetable'' candidate, dominating the list with 7 out of 10 stories featuring his name in the title.
+
  
-Twitter automatically formats all links into a shortened ``t.co'' format, so we first expand all links in tweets (16.6 million), then use a regular expression to see if the final destination of the expanded link matches a query-truncated URL of a story in our database. We checked the validity of 382 billion url-story matches in less than a day by running the processes on the Amazon Web Services cloud computing platform in parallel using the Gnu-parallel command line tool \cite{tange2011gnu}.
+\begin{table}
+%\begin{tabular}{| l || c |} 
+\begin{tabular}{ |l c| } 
+    %s\toprule
+    \hline
+    Article &  \# tweets \\
+    \hline
+    %\midrule
+    The One Weird Trait That Predicts Whether You're a Trump Supporter &   1260 \\
+    Donald Trump Is Shocking, Vulgar and Right                         &    901 \\
+    Biden praises Sanders on income inequality                         &    563 \\
+    Why I'm voting for Trump                                           &    554 \\
+    Anne Frank's stepsister compares Donald Trump to Adolf Hitler      &    445 \\
+    Trump basks in his spotlight                                       &    436 \\
+    Rubio: Law-abiding undocumented immigrants could stay              &    413 \\
+    Terrorists use Trump's `Muslim ban' speech in recruitment video    &    398 \\
+    Iowa caucuses: Donald Trump's moment of truth                      &    364 \\
+    GOP senators: If Cruz wins, we lose                                &    357 \\
+    %\bottomrule
+    \hline
+\end{tabular}
+\caption{\label{tab:top-10}Top 10 Shared Stories}
+\end{table}
 
-\subsection{Final Corpus}
+The \emph{extent} to which he is prominent in articles is clear: by coding each story by the most frequently mentioned candidate, Trump has nearly three times as much coverage at nearly 60\% as the runner-ups, Ted Cruz and Hillary Clinton.
 
-In total, we found that 30\% of the election stories we tracked were shared on Twitter during the time period of January 1st through May 1st.
+The large number of stories with Cruz as the most-mentioned candidate are likely due to his association to Trump as a Republican runner-up: 96\% of stories where Cruz is the most-mentioned candidate feature Trump as the second-most frequently occuring.
 
-There were 137,986 tweets that contained a link to 6,911 unique stories (out of 22,960).
+\begin{figure}[H]  
+\centering 
+  \includegraphics[width=1.0\textwidth]{candidate-mentions}  
+  \caption{Most frequently mentioned candidate in stories
+    \label{fig:tweets-by-pub}}
+\end{figure} 
 
-Since we chose the story to be the unit of analysis in this thesis, we then eliminated any stories that were shared by less than 10 tweets.
+\section{Tweets \& Tweeters}
+The average Twitter user in our database tweets about six times. Again, story sharing behavior follows an approximate power law distribution, with the majority (65\%) of users sharing just one story from our database during the five-month time period.
+ 
 
-This left a total of 2,658 distinct articles (38\%) shared in 123,113 (89\%) tweets by 20,956 Twitter users (93\%).
+\begin{figure}[H]  
+\centering 
+  \includegraphics[width=1.0\textwidth]{user-share-dist}  
+  \caption{Twitter Sharing Distribution
+    \label{fig:user-share-dist}}
+\end{figure} 
+ 
 
+%% Round out this section
   
