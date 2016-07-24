@@ -79,5 +79,4 @@
 \contentsline {subsection}{\numberline {10.4.2}Single-Candidate Followers}{73}
 \contentsline {subsection}{\numberline {10.4.3}Political Aficionados}{73}
 \contentsline {chapter}{\numberline {A}Tables}{75}
-\contentsline {subsection}{\numberline {A.0.1}Story Length}{75}
-\contentsline {chapter}{\numberline {B}Figures}{83}
+\contentsline {chapter}{\numberline {B}Figures}{85}
