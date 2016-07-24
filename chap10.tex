@@ -1,15 +1,15 @@
 
 \chapter{Analysis}
-In this chapter, we test for correlations between the metrics defined in Chapter 8 and popularity of a story on Twitter.
+In this chapter, we test for correlations between the metrics defined in Chapter 9 and popularity of a story on Twitter.
 
 \section{Hypotheses}
 Re-iterating from Chapter 7, the focus of Part II of this thesis is to examine how emotionally evocative text in an article relates to the way it is shared on Twitter. In addition, we look at the effects of story length on its popularity as a baseline to confirm theories of attention on the Internet.
 
 For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement).
 
-We hypothesize the following:
+% We hypothesize the following:
 
- FILL IT IN!!!!!! OR DO PER SECTION
+%  FILL IT IN!!!!!! OR DO PER SECTION
 
 
 \section{All Data}
@@ -32,7 +32,7 @@ In each case, we compare our findings to those using plain linear and Poisson re
 \subsection{Story Length} 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 17:29:16
-\begin{table}[!htbp] \centering 
+\begin{table}[H] \centering 
   \caption{Tweet Volume vs. Story Length, All Data} 
   \label{} 
     \begin{tabular}{@{\extracolsep{5pt}}lccc} 
@@ -67,21 +67,118 @@ In each case, we compare our findings to those using plain linear and Poisson re
 \end{table} 
 
 \subsection{Emotionality}
-\subsection{Positivity}
 
-\section{By Candidate}
-\subsection{Descriptives}
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 18:56:10
+\begin{table}[H] \centering 
+  \caption{Tweet Volume vs. Emotionality, All Data} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Emotionality & 305.229$^{**}$ & 6.111$^{***}$ & 6.019$^{***}$ \\ 
+      & (122.427) & (0.276) & (1.777) \\ 
+      & & & \\ 
+     Constant & 40.349$^{***}$ & 3.714$^{***}$ & 3.716$^{***}$ \\ 
+      & (2.685) & (0.006) & (0.039) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,650 & 2,650 & 2,650 \\ 
+    R$^{2}$ & 0.002 &  &  \\ 
+    Adjusted R$^{2}$ & 0.002 &  &  \\ 
+    Log Likelihood &  & $-$65,180.470 & $-$12,779.510 \\ 
+    $\theta$ &  &  & 1.345$^{***}$  (0.034) \\ 
+    Akaike Inf. Crit. &  & 130,364.900 & 25,563.030 \\ 
+    Residual Std. Error & 60.181 (df = 2648) &  &  \\ 
+    F Statistic & 6.216$^{**}$ (df = 1; 2648) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
+\subsection{Positivity}
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 18:58:37
+\begin{table}[H] \centering 
+  \caption{Tweet Volume vs. Positivity, All Data} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Positivity & $-$281.010$^{**}$ & $-$6.029$^{***}$ & $-$5.391$^{***}$ \\ 
+      & (139.546) & (0.338) & (2.029) \\ 
+      & & & \\ 
+     Constant & 47.078$^{***}$ & 3.851$^{***}$ & 3.849$^{***}$ \\ 
+      & (1.221) & (0.003) & (0.018) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,650 & 2,650 & 2,650 \\ 
+    R$^{2}$ & 0.002 &  &  \\ 
+    Adjusted R$^{2}$ & 0.001 &  &  \\ 
+    Log Likelihood &  & $-$65,253.640 & $-$12,781.640 \\ 
+    $\theta$ &  &  & 1.343$^{***}$  (0.034) \\ 
+    Akaike Inf. Crit. &  & 130,511.300 & 25,567.270 \\ 
+    Residual Std. Error & 60.206 (df = 2648) &  &  \\ 
+    F Statistic & 4.055$^{**}$ (df = 1; 2648) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
+
+
+\section{By Candidate} 
 \subsection{Story Length}
 \subsection{Emotionality}
 \subsection{Positivity}
 
 
 \section{By Degree of Political Engagement}
-\subsection{Descriptives}
-\subsection{Story Length}
-\subsection{Emotionality}
-\subsection{Positivity}
 
-\section{Extra: Any relation with Trust?}
-% see jun 10 update
-% because it'd be funny not to check
+
+In the following analyses, we segment levels of political engagement into three groups for the sake of comparison:
+
+\begin{itemize}
+  \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
+  \item \emph{single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
+\end{itemize}.
+
+We repeat the same methods and variables in determining our correlations. For the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A.
+
+\subsection{The Unaffiliated}
+
+
+\subsection{Single-Candidate Followers}
+ 
+
+\subsection{Political Aficionados}
+
+% \section{Extra: Any relation with Trust?}
+% % see jun 10 update
+% % because it'd be funny not to check
+
+
+
+
+
+
+
+
+
+
+

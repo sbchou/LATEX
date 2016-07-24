@@ -1,4 +1,224 @@
 \chapter{Tables}
+ %%%%%%% The unaffiliated %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Story Length}
+\begin{table}[!htbp] \centering 
+  \caption{Tweet Volume vs. Story Length, the Unaffiliated} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Story length & $-$0.008$^{***}$ & $-$0.0004$^{***}$ & $-$0.0003$^{***}$ \\ 
+      & (0.001) & (0.00001) & (0.00002) \\ 
+      & & & \\ 
+     Constant & 35.299$^{***}$ & 3.683$^{***}$ & 3.605$^{***}$ \\ 
+      & (1.168) & (0.006) & (0.031) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,640 & 2,640 & 2,640 \\ 
+    R$^{2}$ & 0.029 &  &  \\ 
+    Adjusted R$^{2}$ & 0.028 &  &  \\ 
+    Log Likelihood &  & $-$49,432.820 & $-$11,415.510 \\ 
+    $\theta$ &  &  & 0.954$^{***}$  (0.024) \\ 
+    Akaike Inf. Crit. &  & 98,869.640 & 22,835.020 \\ 
+    Residual Std. Error & 38.604 (df = 2638) &  &  \\ 
+    F Statistic & 77.414$^{***}$ (df = 1; 2638) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
  
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 19:08:45
+\begin{table}[!htbp] \centering 
+  \caption{Tweet Volume vs. Emotionality, the Unaffiliated} 
+      \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Emotionality & 248.768$^{***}$ & 8.165$^{***}$ & 7.427$^{***}$ \\ 
+      & (79.579) & (0.347) & (2.145) \\ 
+      & & & \\ 
+     Constant & 22.519$^{***}$ & 3.147$^{***}$ & 3.162$^{***}$ \\ 
+      & (1.747) & (0.008) & (0.047) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,640 & 2,640 & 2,640 \\ 
+    R$^{2}$ & 0.004 &  &  \\ 
+    Adjusted R$^{2}$ & 0.003 &  &  \\ 
+    Log Likelihood &  & $-$51,967.750 & $-$11,419.630 \\ 
+    $\theta$ &  &  & 0.928$^{***}$  (0.023) \\ 
+    Akaike Inf. Crit. &  & 103,939.500 & 22,843.260 \\ 
+    Residual Std. Error & 39.094 (df = 2638) &  &  \\ 
+    F Statistic & 9.772$^{***}$ (df = 1; 2638) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table}  
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 19:09:28
+\begin{table}[!htbp] \centering 
+  \caption{Tweet Volume vs. Positivity, the Unaffiliated} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Positivity & $-$145.324 & $-$5.277$^{***}$ & $-$4.036$^{*}$ \\ 
+      & (90.790) & (0.440) & (2.452) \\ 
+      & & & \\ 
+     Constant & 27.797$^{***}$ & 3.324$^{***}$ & 3.321$^{***}$ \\ 
+      & (0.795) & (0.004) & (0.021) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,640 & 2,640 & 2,640 \\ 
+    R$^{2}$ & 0.001 &  &  \\ 
+    Adjusted R$^{2}$ & 0.001 &  &  \\ 
+    Log Likelihood &  & $-$52,150.640 & $-$11,424.900 \\ 
+    $\theta$ &  &  & 0.925$^{***}$  (0.023) \\ 
+    Akaike Inf. Crit. &  & 104,305.300 & 22,853.790 \\ 
+    Residual Std. Error & 39.147 (df = 2638) &  &  \\ 
+    F Statistic & 2.562 (df = 1; 2638) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
+
+
+ %%%%%%%%%%%%%%%%%%% Single Candid %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 19:18:20
+\begin{table}[!htbp] \centering 
+  \caption{Tweet Volume vs. Story Length, Single-Candidate Followers} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Story length & 0.002$^{***}$ & 0.0001$^{***}$ & 0.0002$^{***}$ \\ 
+      & (0.0004) & (0.00001) & (0.00002) \\ 
+      & & & \\ 
+     Constant & 7.979$^{***}$ & 2.135$^{***}$ & 2.080$^{***}$ \\ 
+      & (0.467) & (0.009) & (0.028) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,581 & 2,581 & 2,581 \\ 
+    R$^{2}$ & 0.007 &  &  \\ 
+    Adjusted R$^{2}$ & 0.006 &  &  \\ 
+    Log Likelihood &  & $-$17,969.510 & $-$8,449.973 \\ 
+    $\theta$ &  &  & 1.330$^{***}$  (0.039) \\ 
+    Akaike Inf. Crit. &  & 35,943.020 & 16,903.950 \\ 
+    Residual Std. Error & 15.242 (df = 2579) &  &  \\ 
+    F Statistic & 17.223$^{***}$ (df = 1; 2579) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 19:18:51
+\begin{table}[!htbp] \centering 
+  \caption{Tweet Volume vs. Emotionality, Single-Candidate Followers} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Emotionality & 41.896 & 4.211$^{***}$ & 4.821$^{**}$ \\ 
+      & (31.596) & (0.638) & (1.917) \\ 
+      & & & \\ 
+     Constant & 8.640$^{***}$ & 2.164$^{***}$ & 2.152$^{***}$ \\ 
+      & (0.691) & (0.014) & (0.042) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,581 & 2,581 & 2,581 \\ 
+    R$^{2}$ & 0.001 &  &  \\ 
+    Adjusted R$^{2}$ & 0.0003 &  &  \\ 
+    Log Likelihood &  & $-$18,113.130 & $-$8,470.986 \\ 
+    $\theta$ &  &  & 1.309$^{***}$  (0.038) \\ 
+    Akaike Inf. Crit. &  & 36,230.260 & 16,945.970 \\ 
+    Residual Std. Error & 15.288 (df = 2579) &  &  \\ 
+    F Statistic & 1.758 (df = 1; 2579) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table}  
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Sun, Jul 24, 2016 - 19:20:38
+\begin{table}[!htbp] \centering 
+  \caption{Tweet Volume vs. Positivity, Single-Candidate Followers} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lccc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-4} 
+    \\[-1.8ex] & \multicolumn{3}{c}{Number of Tweets} \\ 
+    \\[-1.8ex] & \textit{OLS} & \textit{Poisson} & \textit{negative} \\ 
+     & \textit{} & \textit{} & \textit{binomial} \\ 
+    \\[-1.8ex] & (1) & (2) & (3)\\ 
+    \hline \\[-1.8ex] 
+     Positivity & $-$70.477$^{*}$ & $-$7.387$^{***}$ & $-$8.385$^{***}$ \\ 
+      & (36.056) & (0.758) & (2.202) \\ 
+      & & & \\ 
+     Constant & 9.643$^{***}$ & 2.264$^{***}$ & 2.267$^{***}$ \\ 
+      & (0.314) & (0.007) & (0.019) \\ 
+      & & & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 2,581 & 2,581 & 2,581 \\ 
+    R$^{2}$ & 0.001 &  &  \\ 
+    Adjusted R$^{2}$ & 0.001 &  &  \\ 
+    Log Likelihood &  & $-$18,087.190 & $-$8,467.366 \\ 
+    $\theta$ &  &  & 1.313$^{***}$  (0.038) \\ 
+    Akaike Inf. Crit. &  & 36,178.390 & 16,938.730 \\ 
+    Residual Std. Error & 15.282 (df = 2579) &  &  \\ 
+    F Statistic & 3.821$^{*}$ (df = 1; 2579) &  &  \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
+
+
+
+
 \clearpage
 \newpage 

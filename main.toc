@@ -69,17 +69,15 @@
 \contentsline {subsection}{\numberline {10.2.2}Methodology}{68}
 \contentsline {subsection}{\numberline {10.2.3}Story Length}{69}
 \contentsline {subsection}{\numberline {10.2.4}Emotionality}{70}
-\contentsline {subsection}{\numberline {10.2.5}Positivity}{70}
-\contentsline {section}{\numberline {10.3}By Candidate}{70}
-\contentsline {subsection}{\numberline {10.3.1}Descriptives}{70}
-\contentsline {subsection}{\numberline {10.3.2}Story Length}{70}
-\contentsline {subsection}{\numberline {10.3.3}Emotionality}{70}
-\contentsline {subsection}{\numberline {10.3.4}Positivity}{70}
-\contentsline {section}{\numberline {10.4}By Degree of Political Engagement}{70}
-\contentsline {subsection}{\numberline {10.4.1}Descriptives}{70}
-\contentsline {subsection}{\numberline {10.4.2}Story Length}{70}
-\contentsline {subsection}{\numberline {10.4.3}Emotionality}{70}
-\contentsline {subsection}{\numberline {10.4.4}Positivity}{70}
-\contentsline {section}{\numberline {10.5}Extra: Any relation with Trust?}{70}
-\contentsline {chapter}{\numberline {A}Tables}{71}
-\contentsline {chapter}{\numberline {B}Figures}{73}
+\contentsline {subsection}{\numberline {10.2.5}Positivity}{71}
+\contentsline {section}{\numberline {10.3}By Candidate}{72}
+\contentsline {subsection}{\numberline {10.3.1}Story Length}{72}
+\contentsline {subsection}{\numberline {10.3.2}Emotionality}{72}
+\contentsline {subsection}{\numberline {10.3.3}Positivity}{72}
+\contentsline {section}{\numberline {10.4}By Degree of Political Engagement}{72}
+\contentsline {subsection}{\numberline {10.4.1}The Unaffiliated}{73}
+\contentsline {subsection}{\numberline {10.4.2}Single-Candidate Followers}{73}
+\contentsline {subsection}{\numberline {10.4.3}Political Aficionados}{73}
+\contentsline {chapter}{\numberline {A}Tables}{75}
+\contentsline {subsection}{\numberline {A.0.1}Story Length}{75}
+\contentsline {chapter}{\numberline {B}Figures}{83}
