@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUL 2016 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUL 2016 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,69 +1014,69 @@ Package pdftex.def Info: tweets-by-candid-ct.png used on input line 92.
 
  (./chap10.tex
 Chapter 10.
-) [67
+[67
 
 
 
-]
-Overfull \vbox (161.30678pt too high) has occurred while \output is active []
+]) [68]
+Overfull \vbox (54.04613pt too high) has occurred while \output is active []
 
 
-[68]
+[69]
 \openout2 = `chap11.aux'.
 
  (./chap11.tex)
 \openout2 = `chap12.aux'.
 
- (./chap12.tex
-Chapter 11.
-) [69
+ (./chap12.tex [70
 
 
 
 
 
 ]
+Chapter 11.
+) [71]
 \openout2 = `appa.aux'.
 
- (./appa.tex [70
+ (./appa.tex [72
 
 
 
 ]
 Chapter 12.
-[71])
+[73])
 \openout2 = `appb.aux'.
 
- (./appb.tex [72
+ (./appb.tex [74
 
 
 
 
 ]
 Chapter 13.
-[73] <images/trust_18-29.png, id=323, 750.805pt x 515.9275pt>
+[75] <images/trust_18-29.png, id=330, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=324, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=331, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=325, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=332, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=326, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=333, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1089,7 +1089,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [74 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
+) [76 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50-
 64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1178,7 +1178,7 @@ Underfull \hbox (badness 6625) in paragraph at lines 48--54
 12 , jul 2015.  (Ac-cessed on
  []
 
-[75
+[77
 
 
 
@@ -1222,7 +1222,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--122
 ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
-[76]
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 187--192
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
@@ -1239,7 +1239,7 @@ Underfull \hbox (badness 5667) in paragraph at lines 187--192
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-[77]
+[79]
 Underfull \hbox (badness 2393) in paragraph at lines 228--231
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
@@ -1251,7 +1251,7 @@ Overfull \hbox (146.96906pt too wide) in paragraph at lines 233--240
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [78] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+)) [80] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./chap1.aux) (./part1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./part2.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./chap12.aux)
@@ -1288,10 +1288,10 @@ ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 5/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (83 pages, 1705144 bytes).
+Output written on main.pdf (85 pages, 1707192 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 411 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
