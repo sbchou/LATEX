@@ -55,6 +55,9 @@
 \contentsline {section}{\numberline {9.1}Hypotheses}{69}
 \contentsline {section}{\numberline {9.2}Methodology}{70}
 \contentsline {section}{\numberline {9.3}All Data}{70}
+\contentsline {subsection}{\numberline {9.3.1}Story Length}{70}
+\contentsline {subsection}{\numberline {9.3.2}Emotionality}{72}
+\contentsline {subsection}{\numberline {9.3.3}Positivity}{73}
 \contentsline {section}{\numberline {9.4}By Degree of Political Engagement}{74}
 \contentsline {section}{\numberline {9.5}By Candidate}{75}
 \contentsline {chapter}{\numberline {10}Conclusion}{77}

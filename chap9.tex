@@ -25,7 +25,10 @@ Since our dependent variable, tweet volume, is a set of discrete counts that are
 In each case, we compare our findings to those using plain linear and Poisson regression models and are able to achieve the same significant results.  
 
 \section{All Data}
- 
+\subsection{Story Length}
+Overall, we find a consistently significant negative correlation between story length and Twitter volume ($\beta=-0.0001$, $p<0.01$). 
+This aligns with our hypothesis \textbf{H1:} that shorter stories are more likely to be shared, due to competing resources in the attention economy.
+
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 17:29:16
 \begin{table}[!htbp] \centering 
@@ -63,6 +66,8 @@ In each case, we compare our findings to those using plain linear and Poisson re
 \end{table} 
 \newpage
  
+\subsection{Emotionality}
+Overall, we find a consistently significant positive correlation between emotionality and Twitter volume ($\beta=6.019$, $p<0.01$). 
 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 18:56:10
@@ -99,7 +104,13 @@ In each case, we compare our findings to those using plain linear and Poisson re
     \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
     \end{tabular} 
 \end{table} 
+
+This confirms \textbf{H2:} that emotionality has a \emph{positive} correlation with Twitter shares, consistent for viral content in general \cite{berger2012makes}.
 \newpage
+
+ 
+\subsection{Positivity}
+Overall, we find a consistently significant negative correlation between positivity and Twitter volume ($\beta=−5.391$, $p<0.01$). 
  
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 18:58:37
@@ -136,13 +147,15 @@ In each case, we compare our findings to those using plain linear and Poisson re
     \textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
     \end{tabular} 
 \end{table} 
+
+This finding supports \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news and contrary to generalized findings \cite{berger2012makes}.
 \newpage
 
 
 
 \section{By Degree of Political Engagement}
 
-In the our analyses, we segment levels of political engagement into three groups for the sake of comparison:
+Next, we segment levels of political engagement into three groups for the sake of comparison:
 
 \begin{itemize}
   \item \emph{The unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
