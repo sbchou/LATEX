@@ -80,4 +80,4 @@
 \contentsline {subsection}{\numberline {10.4.2}Single-Candidate Followers}{73}
 \contentsline {subsection}{\numberline {10.4.3}Political Aficionados}{73}
 \contentsline {chapter}{\numberline {A}Tables}{75}
-\contentsline {chapter}{\numberline {B}Figures}{85}
+\contentsline {chapter}{\numberline {B}Figures}{97}
