@@ -11,7 +11,7 @@ We hypothesize the following behavior in our dataset of stories and tweets:
 \begin{itemize} 
     \item \textbf{H1:} Story length has a \emph{negative} correlation with Twitter shares, due to the effects of the Internet attention economy and overexposure to political media \cite{goldhaber1997attention}.
     \item \textbf{H2:} Emotionality has a \emph{positive} correlation with Twitter shares, consistent for viral content in general \cite{berger2012makes}.
-    \item \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news and contrary to generalized findings \cite{berger2012makes}.
+    \item \textbf{H3:} Positivity has a \emph{negative} correlation with Twitter shares, due to the nature of political news and contrary to generalized findings \cite{berger2012makes}
 
 \end{itemize}
 
@@ -25,7 +25,7 @@ Since our dependent variable, tweet volume, is a set of discrete counts that are
 In each case, we compare our findings to those using plain linear and Poisson regression models and are able to achieve the same significant results.  
 
 \section{All Data}
-\subsection{Story Length} 
+ 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 17:29:16
 \begin{table}[!htbp] \centering 
@@ -62,8 +62,7 @@ In each case, we compare our findings to those using plain linear and Poisson re
     \end{tabular} 
 \end{table} 
 \newpage
-
-\subsection{Emotionality}
+ 
 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 18:56:10
@@ -101,8 +100,7 @@ In each case, we compare our findings to those using plain linear and Poisson re
     \end{tabular} 
 \end{table} 
 \newpage
-
-\subsection{Positivity}
+ 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 18:58:37
 \begin{table}[!htbp] \centering 
@@ -144,25 +142,23 @@ In each case, we compare our findings to those using plain linear and Poisson re
 
 \section{By Degree of Political Engagement}
 
-
-In the following analyses, we segment levels of political engagement into three groups for the sake of comparison:
+In the our analyses, we segment levels of political engagement into three groups for the sake of comparison:
 
 \begin{itemize}
-  \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
-  \item \emph{single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
-  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
-\end{itemize}.
+  \item \emph{The unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
+  \item \emph{Single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{Political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
+\end{itemize}
 
 We repeat the same methods and variables in determining our correlations. For the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A, tables A.1 - A.9.
 
-\subsection{The Unaffiliated}
+Overall, we find that: 
 
+\emph{Unaffiliated tweeters} show the same patterns as the general dataset with a negative correlation between story length and Twitter shares ($\beta=-0.003$, $p<0.01$), positive correlation between emotionality and Twitter shares ($\beta=7.427$, $p<0.01$), and a negative correlation between positivity and Twitter shares ($\beta=-4.036$, $p<0.01$).
 
-\subsection{Single-Candidate Followers}
- 
+\emph{Single-candidate followers}, on the other hand, show a slight positive correlation between story length and number of Twitter shares ($\beta=0.0002$, $p<0.01$). We hypothesize that if following a single candidate can serve as a proxy for candidate loyalty, then perhaps the correlation signifies a willingness to read and share more complex content on behalf of the candidate and a deeper degree of political involvement.
 
-\subsection{Political Aficionados}
-
+We see the same effects for the \emph{political aficionados} group, again, a small but significant positive correlation between story length and number of tweets ($\beta=0.0003$, $p<0.01$). Again, this suggests a potential difference in levels of engagement with political news.
 
 
 \section{By Candidate} 
