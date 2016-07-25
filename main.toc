@@ -13,12 +13,12 @@
 \contentsline {section}{\numberline {3.2}Crowdsourcing Science}{26}
 \contentsline {subsection}{\numberline {3.2.1}CrowdFlower}{27}
 \contentsline {chapter}{\numberline {4}Study}{29}
-\contentsline {section}{\numberline {4.1}Motivations}{29}
-\contentsline {section}{\numberline {4.2}Experimental Design}{29}
+\contentsline {section}{\numberline {4.1}Hypotheses}{29}
+\contentsline {section}{\numberline {4.2}Experimental Design}{30}
 \contentsline {subsection}{\numberline {4.2.1}Dataset}{31}
 \contentsline {subsection}{\numberline {4.2.2}Survey Design}{32}
-\contentsline {subsection}{\numberline {4.2.3}Quality Control}{33}
-\contentsline {section}{\numberline {4.3}Survey Results}{34}
+\contentsline {subsection}{\numberline {4.2.3}Quality Control}{34}
+\contentsline {section}{\numberline {4.3}Survey Results}{35}
 \contentsline {subsection}{\numberline {4.3.1}Demographics}{35}
 \contentsline {subsection}{\numberline {4.3.2}Location}{36}
 \contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{36}
