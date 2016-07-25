@@ -69,8 +69,7 @@
 \contentsline {subsection}{\numberline {9.5.4}Cruz-Only Followers}{75}
 \contentsline {chapter}{\numberline {10}Conclusion}{77}
 \contentsline {section}{\numberline {10.1}Findings}{77}
-\contentsline {section}{\numberline {10.2}Potential Impact}{77}
-\contentsline {section}{\numberline {10.3}Limitations}{77}
-\contentsline {subsection}{\numberline {10.3.1}Data Collection}{77}
+\contentsline {section}{\numberline {10.2}Limitations}{77}
+\contentsline {subsection}{\numberline {10.2.1}Data Collection}{77}
 \contentsline {chapter}{\numberline {A}Tables}{79}
 \contentsline {chapter}{\numberline {B}Figures}{101}
