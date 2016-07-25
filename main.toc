@@ -25,10 +25,11 @@
 \contentsline {subsection}{\numberline {4.3.4}Trust}{38}
 \contentsline {chapter}{\numberline {5}Analysis}{41}
 \contentsline {section}{\numberline {5.1}Reading Level Effects}{41}
-\contentsline {section}{\numberline {5.2}Media Brand Effects}{42}
-\contentsline {section}{\numberline {5.3}Conclusions}{42}
-\contentsline {section}{\numberline {5.4}Limitations}{42}
-\contentsline {part}{II\hspace {1em}Sharing the News}{44}
+\contentsline {section}{\numberline {5.2}Media Brand Effects}{41}
+\contentsline {section}{\numberline {5.3}Hostile Media Effectss}{41}
+\contentsline {section}{\numberline {5.4}Conclusions}{41}
+\contentsline {section}{\numberline {5.5}Limitations}{42}
+\contentsline {part}{II\hspace {1em}Sharing the News}{43}
 \contentsline {chapter}{\numberline {6}Taking Media Analysis to Another Dimension of Data}{45}
 \contentsline {section}{\numberline {6.1}The Social Media Megaphone}{46}
 \contentsline {section}{\numberline {6.2}The (Short) Attention Economy}{47}
