@@ -85,16 +85,22 @@ In this study, reading level of articles and candidates featured in the articles
 
 Each participant reads eight stories, two each of high and low reading level per candidate. However, to examine effects of media brands and reader bias, we manipulate the source attributed to the story, building off Baum's research in media brands and television reporting \cite{baum2008eye}.
 
-All eight stories in Study 2 were in fact written by the Associated Press, however, readers are divided into four groups receiving different labels. In group A, readers were shown the headline and text of the story with no other context. In group B, readers were additionally shown that the story was from the Associated Press (true label). In groups C and D, readers were shown that the story was from CNN and Fox News, respectively.
+All eight stories in this study were in fact written by the Associated Press, however, readers are divided into four groups receiving different labels. In group A, readers were shown the headline and text of the story with no other context. In group B, readers were additionally shown that the story was from the Associated Press (true label). In groups C and D, readers were shown that the story was from CNN and Fox News, respectively.
 
 This setup was created to eliminate some of the confounding effects from using stories from different sources (writing style, focus of content, slant, etc.), while directly observing the effect of revealing a specific source to the reader. The Associated Press was chosen as the source of the stories as it is the highest circulation newswire service in the United States, and has 14,000 members that use its content \cite{apFAQ}. Notably, both CNN and Fox News publish content in full or part from the Associated Press, although the specific stories chosen had not been published in full by either to avoid bias.
 
 After each article, we ask the reader to rank the fairness of the story on a 5-point Likert scale as well as its truthworthiness.
 
 \subsection{Dataset} 
-Eight stories were chosen for this study: two (high and low reading level) per candidate. All eight stories were written by reporters from the Associated Press (although they may have been republished elsewhere).
 
-Reading level cutoffs were made by taking the bottom and top 25\% percentile of Flesch-Kincaid scores for each candidate. From stories written by the Associated Press that made the cutoff, we formed pairs of high and low reading level stories from each topic. The topic with the highest distance between reading level in the pair was chosen for each candidate.
+Eight stories were chosen for this study: two (high and low reading level) for four presidential candidates. All eight stories were written by reporters from the Associated Press (although they may have been republished elsewhere).
+
+To form the initial pool of articles, we programatically collected stories from the RSS feeds of the Associated Press online every hour over a 3-month period: from January 1, 2016 of the election year to March 1, 2016 (Super Tuesday). 
+Based on the results of Super Tuesday, we then selected four candidates for this study by delegate count: Hillary Clinton (1,279), Bernie Sanders (1,027), Donald Trump (743), and Ted Cruz (517) \cite{March45online}.
+
+News articles were then separated into single-candidate stories (i.e. articles featuring primarily one candidate in the headline) to be able to measure more clearly the perceived bias per candidate. This was done programatically using regular expressions to determine if a headline contained one candidate and one candidate only. A dictionary of related names was created to make sure that stories were correctly categorized (i.e. ``Hillary'', ``Clinton'', and ``Hillary Clinton'' were to be categorized as pertaining to ``Hillary Clinton'' but not if preceded by ``Bill'').
+
+Reading level cutoffs were then made by taking the bottom and top 25\% percentile of Flesch-Kincaid scores for each candidate. From the set of stories that made the cutoff, we formed pairs of high and low reading level stories from each topic. The topic with the highest distance between reading level in the pair was chosen for each candidate.
 
 % put histograms of reading level with cutoff lines
  
@@ -161,8 +167,7 @@ Users were also only allowed to answer the set of questions once.
 Gender of participants were majority male. We had 758 male participants, 496 female participants and 24 signed up as ``other'' (it is possible that those who did not wish to identify chose the ``other'' category). 
 
 Majority of participants were also in age group 18-29.
- 
-In our analyses, we balance for gender and age disparaties. %%%%% DO THIS !!!!!!!!!!!!!!!!!!!!!!
+  
 
 \subsection{Location}
 
