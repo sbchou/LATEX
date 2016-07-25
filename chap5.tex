@@ -37,62 +37,92 @@ This answers our first reading question \textbf{Q1:} Reading level does not have
 \newpage
 
 \section{Media Brand Effects}
+Next, we examine the effects of perceived media brand on the reader. Again, we use OLS regression for our analysis. Recall that in our study, all articles come from the newswire service the Associated Press but are labeled either truthfully or coming from Fox News, CNN, or an unmarked source. 
+
+Interestingly, we find significant brand effects on reports of trust in stories although the content is identical. Overall, showing a media brand on an article has a positive correlation to reported trust ($\beta = 0.20439$, $p=0.00097$), regardless of the brand shown.
+
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Jul 25, 2016 - 18:39:42
+\begin{table}[!htbp] \centering 
+  \caption{Media Brand Effects: Show Source} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & trust \\ 
+\hline \\[-1.8ex] 
+ Show Brand & 0.204$^{***}$ \\ 
+  & (0.062) \\ 
+  & \\ 
+ Constant & 0.403$^{***}$ \\ 
+  & (0.054) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 1,278 \\ 
+R$^{2}$ & 0.008 \\ 
+Adjusted R$^{2}$ & 0.008 \\ 
+Residual Std. Error & 0.957 (df = 1276) \\ 
+F Statistic & 10.934$^{***}$ (df = 1; 1276) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+%\newpage
+
+Broken down by brand shown, we still find positive effects overall.
+% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Jul 25, 2016 - 18:34:46
+\begin{table}[!htbp] \centering 
+  \caption{Media Brand Effects: Individual Source} 
+  \label{} 
+    \begin{tabular}{@{\extracolsep{5pt}}lc} 
+    \\[-1.8ex]\hline 
+    \hline \\[-1.8ex] 
+     & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+    \cline{2-2} 
+    \\[-1.8ex] & trust \\ 
+    \hline \\[-1.8ex] 
+     source: Fox & 0.238$^{***}$ \\ 
+      & (0.075) \\ 
+      & \\ 
+     source: None & $-$0.012 \\ 
+      & (0.075) \\ 
+      & \\ 
+     source: AP & 0.338$^{***}$ \\ 
+      & (0.075) \\ 
+      & \\ 
+     Constant & 0.415$^{***}$ \\ 
+      & (0.053) \\ 
+      & \\ 
+    \hline \\[-1.8ex] 
+    Observations & 1,278 \\ 
+    R$^{2}$ & 0.025 \\ 
+    Adjusted R$^{2}$ & 0.022 \\ 
+    Residual Std. Error & 0.950 (df = 1274) \\ 
+    F Statistic & 10.798$^{***}$ (df = 3; 1274) \\ 
+    \hline 
+    \hline \\[-1.8ex] 
+    \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+    \end{tabular} 
+\end{table} 
+\newpage
+
+
+
+
+
+
 
 \section{Hostile Media Effectss}
  
-
-
-
-
-% % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% % Date and time: Thu, Apr 28, 2016 - 14:27:36
-% \begin{table}[!htbp] \centering 
-%   \caption{Factors Affecting Trust in News Articles} 
-%   \label{} 
-% \begin{tabular}{@{\extracolsep{5pt}}lccccc} 
-% \\[-1.8ex]\hline 
-% \hline \\[-1.8ex] 
-% Independent Variables & \multicolumn{1}{c}{$\beta$}\\ 
-% \hline \\[-1.8ex] 
-% Reading Level & 1,278 \\ 
-% Source (Fox News) & -0.45* \\ 
-% Reader Party (Unaffiliated) & -0.54.\\ 
-% %trust & 1,278 & 0.556 & 0.961 & $-$2 & 2 \\ 
-% \hline \\[-1.8ex] 
-% \emph{Note: N = 1,280. .p < 0.1. *p < .05. **p < .01. ***p < .001.}
-% \end{tabular} 
-% \end{table} 
- 
-
- 
-% \section{Reading Level Effects}
-
-
-
-
-
-
-% Note: this part is still brewing. I am working with one of Iyad's students to verify my statistical analysis and also trying to meet with Iyad next week just to make sure my experiment is correctly interpreted.
-
-% As of now, H1 and H2 are both not proved (looks like reading level has no significant effect). That also defaults H3 + H4 to be true.
-
-
-% \section{Media Brand Effects}
-
-% Preliminary results:
-
-% Using factorial ANOVA, when we model fairness as a function of story reading level $\times$ source of story $\times$ party of the candidate, we see that the source of the story has a high effect on the level of fairness perceived (F value 6.598, Pr (>F) 0.000201). Reading level has no significant effect. The same holds true for trust scores (F values 10.978, Pr(>F) 4.06e-07).
-
-% One interesting observation is that showing \emph{no source at all} has a negative effect on both trust and fairness. I am still analyzing that effect to see what it is.
- 
-% Confirming hostile media effects, we see a significant effect of the reader's political affiliation aligning with the sources. We also so a significant effect if your candidate is being written about. 
-
-% I'm working to try to see those two effects in comparison, which would have interesting implications for this election cycle. Would be neat to see that party loyalty is officially (significantly) broken.
-% % COMPARE THE TWO
+%%% this one is an interaction!
  
 
 \section{Conclusions}
-In summary, we find that the \emph{perceived} media brand of an article has the strongest effect on a reader's perception of a news story as trustworthy, \emph{even when} the underlying sources and content of the stories are identical. This confirms \textbf{H1:} that media brand effects are more important than actual source of an article. 
+In summary, we find that the \emph{perceived} media brand of an article has a significant effect on a reader's perception of a news story as trustworthy, \emph{even when} the underlying sources and content of the stories are identical. This confirms \textbf{H1:} that media brand effects are more important than actual source of an article. 
 
 As expected, we find evidence for hostile media effects as we observe negative interactions between the party of the reader and media brand of the article (\textbf{H2}).
 
@@ -101,7 +131,7 @@ We were unable to find significant effects from reading level in correlation wit
 
 \section{Limitations}
 
-Our study shows significant effects that open potential new areas of experimentation while confirming past theories of how media bias is formed. In the interest of focus, our study centered around four candidates and a narrowed dataset of eight stories, but in the future could be replicated on a larger set of more diverse stories and outlets. 
+Our study presents findings that open potential new areas of experimentation while confirming past theories of how media bias is formed. In the interest of focus, our study centered around four candidates and a narrowed dataset of eight stories, but in the future could be replicated on a larger set of more diverse stories and outlets. 
 
 Furthermore, although the contributor market on CrowdFlower is not representative of any specific region or demographic, it is also not representative of the nation at large. Our dataset is skewed in terms of both demographics and political affiliation.
 
