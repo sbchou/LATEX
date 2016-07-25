@@ -18,18 +18,17 @@
 \contentsline {subsection}{\numberline {4.2.1}Dataset}{32}
 \contentsline {subsection}{\numberline {4.2.2}Survey Design}{33}
 \contentsline {subsection}{\numberline {4.2.3}Quality Control}{34}
-\contentsline {section}{\numberline {4.3}Basic Analysis}{36}
+\contentsline {section}{\numberline {4.3}Survey Results}{35}
 \contentsline {subsection}{\numberline {4.3.1}Demographics}{36}
 \contentsline {subsection}{\numberline {4.3.2}Location}{37}
 \contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{37}
 \contentsline {subsection}{\numberline {4.3.4}Trust}{39}
 \contentsline {subsection}{\numberline {4.3.5}Fairness}{40}
-\contentsline {chapter}{\numberline {5}Findings}{43}
+\contentsline {chapter}{\numberline {5}Analysis}{43}
 \contentsline {section}{\numberline {5.1}Reading Level Effects}{43}
 \contentsline {section}{\numberline {5.2}Media Brand Effects}{44}
-\contentsline {section}{\numberline {5.3}Qualitative}{44}
-\contentsline {section}{\numberline {5.4}Conclusions}{45}
-\contentsline {section}{\numberline {5.5}Limitations}{45}
+\contentsline {section}{\numberline {5.3}Conclusions}{44}
+\contentsline {section}{\numberline {5.4}Limitations}{44}
 \contentsline {part}{II\hspace {1em}Sharing the News}{46}
 \contentsline {chapter}{\numberline {6}Taking Media Analysis to Another Dimension of Data}{47}
 \contentsline {section}{\numberline {6.1}The Social Media Megaphone}{48}
