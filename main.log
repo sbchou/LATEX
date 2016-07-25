@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,6 +537,9 @@ LaTeX Warning: Label `' multiply defined.
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
 ) (./chap10.aux) (./chap11.aux) (./appa.aux
 
 LaTeX Warning: Label `' multiply defined.
@@ -912,25 +915,25 @@ Package pdftex.def Info: images/trust.png used on input line 218.
 
 ]
 Chapter 5.
-[41]) [42]
+[41] [42]) [43]
 \openout2 = `part2.aux'.
 
- (./part2.tex [43
+ (./part2.tex [44
 
 
 
 ])
 \openout2 = `chap6.aux'.
 
- (./chap6.tex [44
+ (./chap6.tex
+Chapter 6.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) [45
 
 
 
 ]
-Chapter 6.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [45]
 [46] [47]) [48]
 \openout2 = `chap7.aux'.
 
@@ -941,7 +944,7 @@ Chapter 7.
 
 
 ] [50]
-<images/election-news-pipeline.png, id=216, 1104.125pt x 729.72626pt>
+<images/election-news-pipeline.png, id=218, 1104.125pt x 729.72626pt>
 File: images/election-news-pipeline.png Graphic file (type png)
 
 <use images/election-news-pipeline.png>
@@ -949,28 +952,28 @@ Package pdftex.def Info: images/election-news-pipeline.png used on input line 5
 1.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
  [51 <./images/election-news-pipeline.png>] <images/Twitter-pipeline.png, id=22
-4, 1104.125pt x 729.72626pt>
+6, 1104.125pt x 729.72626pt>
 File: images/Twitter-pipeline.png Graphic file (type png)
 
 <use images/Twitter-pipeline.png>
 Package pdftex.def Info: images/Twitter-pipeline.png used on input line 75.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
  [52]
-<images/data-stack.png, id=228, 1104.125pt x 729.72626pt>
+<images/data-stack.png, id=230, 1104.125pt x 729.72626pt>
 File: images/data-stack.png Graphic file (type png)
 
 <use images/data-stack.png>
 Package pdftex.def Info: images/data-stack.png used on input line 88.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
  [53 <./images/Twitter-pipeline.png>] [54 <./images/data-stack.png>] <images/st
-ory-share-dist.png, id=237, 750.805pt x 515.9275pt>
+ory-share-dist.png, id=239, 750.805pt x 515.9275pt>
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
 Package pdftex.def Info: images/story-share-dist.png used on input line 111.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
  [55 <./images/story-share-dist.png>]
-<images/all-stories-by-pub.png, id=242, 750.805pt x 515.9275pt>
+<images/all-stories-by-pub.png, id=244, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
@@ -981,7 +984,7 @@ Overfull \hbox (11.09273pt too wide) in paragraph at lines 137--156
 [][] 
  []
 
-<images/candidate-mentions.png, id=248, 750.805pt x 515.9275pt>
+<images/candidate-mentions.png, id=250, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
@@ -997,56 +1000,56 @@ Chapter 8.
 
 
 
-] [60] <images/users-by-candid.png, id=262, 750.805pt x 515.9275pt>
+] [60] <images/users-by-candid.png, id=264, 750.805pt x 515.9275pt>
 File: images/users-by-candid.png Graphic file (type png)
 
 <use images/users-by-candid.png>
 Package pdftex.def Info: images/users-by-candid.png used on input line 34.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
 
-<images/tweets-by-candid.png, id=263, 750.805pt x 515.9275pt>
+<images/tweets-by-candid.png, id=265, 750.805pt x 515.9275pt>
 File: images/tweets-by-candid.png Graphic file (type png)
 
 <use images/tweets-by-candid.png>
 Package pdftex.def Info: images/tweets-by-candid.png used on input line 45.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
  [61 <./images/users-by-candid.png>]
-<images/clinton-camp-shares.png, id=268, 750.805pt x 515.9275pt>
+<images/clinton-camp-shares.png, id=270, 750.805pt x 515.9275pt>
 File: images/clinton-camp-shares.png Graphic file (type png)
 
 <use images/clinton-camp-shares.png>
 Package pdftex.def Info: images/clinton-camp-shares.png used on input line 58.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
 
-<images/trump-camp-shares.png, id=269, 750.805pt x 515.9275pt>
+<images/trump-camp-shares.png, id=271, 750.805pt x 515.9275pt>
 File: images/trump-camp-shares.png Graphic file (type png)
 
 <use images/trump-camp-shares.png>
 Package pdftex.def Info: images/trump-camp-shares.png used on input line 59.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
 
-<images/sanders-camp-shares.png, id=270, 750.805pt x 515.9275pt>
+<images/sanders-camp-shares.png, id=272, 750.805pt x 515.9275pt>
 File: images/sanders-camp-shares.png Graphic file (type png)
 
 <use images/sanders-camp-shares.png>
 Package pdftex.def Info: images/sanders-camp-shares.png used on input line 60.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
 
-<images/cruz-camp-shares.png, id=271, 750.805pt x 515.9275pt>
+<images/cruz-camp-shares.png, id=273, 750.805pt x 515.9275pt>
 File: images/cruz-camp-shares.png Graphic file (type png)
 
 <use images/cruz-camp-shares.png>
 Package pdftex.def Info: images/cruz-camp-shares.png used on input line 61.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
  [62 <./images/tweets-by-candid.png>]
-<candid-ct.png, id=277, 750.805pt x 515.9275pt>
+<candid-ct.png, id=279, 750.805pt x 515.9275pt>
 File: candid-ct.png Graphic file (type png)
  <use candid-ct.png>
 Package pdftex.def Info: candid-ct.png used on input line 82.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
  [63 <./images/clinton-camp-shares.png> <./images/trump-camp-shares.png> <./ima
 ges/sanders-camp-shares.png> <./images/cruz-camp-shares.png>]
-<tweets-by-candid-ct.png, id=285, 750.805pt x 515.9275pt>
+<tweets-by-candid-ct.png, id=287, 750.805pt x 515.9275pt>
 File: tweets-by-candid-ct.png Graphic file (type png)
 
 <use tweets-by-candid-ct.png>
@@ -1345,7 +1348,7 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (113 pages, 1510534 bytes).
+Output written on main.pdf (113 pages, 1511435 bytes).
 PDF statistics:
  505 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
