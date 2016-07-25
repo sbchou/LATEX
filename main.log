@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,9 +718,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [11] [12] (./main.lot [13
+ [11] [12
 
-])
+] (./main.lot [13])
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
@@ -775,9 +775,7 @@ Chapter 3.
 
 ]
 Chapter 4.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-[29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\T1/cmr/bx/n/12 High
  []
@@ -842,96 +840,83 @@ Overfull \hbox (16.4353pt too wide) in paragraph at lines 58--66
 [][] 
  []
 
-[30] [31] [32] <images/study2_qs.png, id=140, 425.59pt x 274.02374pt>
+[29] [30] [31] <images/study2_qs.png, id=136, 615.29875pt x 287.0725pt>
 File: images/study2_qs.png Graphic file (type png)
 
 <use images/study2_qs.png>
 Package pdftex.def Info: images/study2_qs.png used on input line 112.
-(pdftex.def)             Requested size: 195.12767pt x 125.6385pt.
+(pdftex.def)             Requested size: 195.12767pt x 91.03719pt.
 
-<images/demographic_qs.png, id=141, 550.055pt x 478.78876pt>
+<images/demographic_qs.png, id=137, 550.055pt x 478.78876pt>
 File: images/demographic_qs.png Graphic file (type png)
 
 <use images/demographic_qs.png>
 Package pdftex.def Info: images/demographic_qs.png used on input line 121.
 (pdftex.def)             Requested size: 195.12767pt x 169.84334pt.
 
-<images/survey_comments.png, id=142, 600.2425pt x 349.305pt>
+<images/survey_comments.png, id=138, 600.2425pt x 349.305pt>
 File: images/survey_comments.png Graphic file (type png)
 
 <use images/survey_comments.png>
 Package pdftex.def Info: images/survey_comments.png used on input line 129.
 (pdftex.def)             Requested size: 195.12767pt x 113.54942pt.
- [33 <./images/study2_qs.png> <./images/demographic_qs.png>] [34 <./images/surv
+ [32 <./images/study2_qs.png> <./images/demographic_qs.png>] [33 <./images/surv
 ey_comments.png>]
-<images/gender_study2.png, id=152, 750.805pt x 515.9275pt>
+<images/gender_study2.png, id=149, 750.805pt x 515.9275pt>
 File: images/gender_study2.png Graphic file (type png)
 
 <use images/gender_study2.png>
 Package pdftex.def Info: images/gender_study2.png used on input line 160.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/age_study2.png, id=153, 750.805pt x 515.9275pt>
+<images/age_study2.png, id=150, 750.805pt x 515.9275pt>
 File: images/age_study2.png Graphic file (type png)
 
 <use images/age_study2.png>
 Package pdftex.def Info: images/age_study2.png used on input line 161.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
- [35] [36 <./images/gender_study2.png> <./images/age_study2.png>] <images/locat
-ion_study2.png, id=162, 750.805pt x 515.9275pt>
+ [34] [35 <./images/gender_study2.png> <./images/age_study2.png>] <images/locat
+ion_study2.png, id=159, 750.805pt x 515.9275pt>
 File: images/location_study2.png Graphic file (type png)
 
 <use images/location_study2.png>
 Package pdftex.def Info: images/location_study2.png used on input line 178.
 (pdftex.def)             Requested size: 390.25534pt x 268.17363pt.
 
-<images/party_study2.png, id=163, 750.805pt x 515.9275pt>
+<images/party_study2.png, id=160, 750.805pt x 515.9275pt>
 File: images/party_study2.png Graphic file (type png)
 
 <use images/party_study2.png>
 Package pdftex.def Info: images/party_study2.png used on input line 189.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/voting_for_study2.png, id=164, 750.805pt x 515.9275pt>
+<images/voting_for_study2.png, id=161, 750.805pt x 515.9275pt>
 File: images/voting_for_study2.png Graphic file (type png)
 
 <use images/voting_for_study2.png>
 Package pdftex.def Info: images/voting_for_study2.png used on input line 190.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
- [37 <./images/location_study2.png>] [38 <./images/party_study2.png> <./images/
+ [36 <./images/location_study2.png>] [37 <./images/party_study2.png> <./images/
 voting_for_study2.png>]
-<images/trust.png, id=175, 750.805pt x 515.9275pt>
+<images/trust.png, id=171, 750.805pt x 515.9275pt>
 File: images/trust.png Graphic file (type png)
  <use images/trust.png>
 Package pdftex.def Info: images/trust.png used on input line 208.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-[39 <./images/trust.png>] <images/fair.png, id=180, 750.805pt x 515.9275pt>
-File: images/fair.png Graphic file (type png)
-
-<use images/fair.png>
-Package pdftex.def Info: images/fair.png used on input line 229.
-(pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
-
-
-LaTeX Warning: Reference `fig:fair' on page 40 undefined on input line 234.
-
-
-LaTeX Warning: Reference `fig:fair' on page 40 undefined on input line 234.
-
-[40 <./images/fair.png>]) [41]
+[38 <./images/trust.png>]) [39]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [42
+ (./chap5.tex [40
 
 
 
 ]
 Chapter 5.
-[43] [44]) [45]
+[41] [42]) [43]
 \openout2 = `part2.aux'.
 
- (./part2.tex [46
+ (./part2.tex [44
 
 
 
@@ -942,158 +927,161 @@ Chapter 5.
 Chapter 6.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [47
+) [45
 
 
 
 ]
-[48] [49]) [50]
+[46] [47]) [48]
 \openout2 = `chap7.aux'.
 
  (./chap7.tex
 Chapter 7.
-[51
+[49
 
 
 
-] [52]
-<images/election-news-pipeline.png, id=224, 1104.125pt x 729.72626pt>
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [50]
+<images/election-news-pipeline.png, id=216, 1104.125pt x 729.72626pt>
 File: images/election-news-pipeline.png Graphic file (type png)
 
 <use images/election-news-pipeline.png>
 Package pdftex.def Info: images/election-news-pipeline.png used on input line 5
 1.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [53 <./images/election-news-pipeline.png>] <images/Twitter-pipeline.png, id=23
-2, 1104.125pt x 729.72626pt>
+ [51 <./images/election-news-pipeline.png>] <images/Twitter-pipeline.png, id=22
+4, 1104.125pt x 729.72626pt>
 File: images/Twitter-pipeline.png Graphic file (type png)
 
 <use images/Twitter-pipeline.png>
 Package pdftex.def Info: images/Twitter-pipeline.png used on input line 75.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [54]
-<images/data-stack.png, id=236, 1104.125pt x 729.72626pt>
+ [52]
+<images/data-stack.png, id=228, 1104.125pt x 729.72626pt>
 File: images/data-stack.png Graphic file (type png)
 
 <use images/data-stack.png>
 Package pdftex.def Info: images/data-stack.png used on input line 88.
 (pdftex.def)             Requested size: 390.25534pt x 257.92447pt.
- [55 <./images/Twitter-pipeline.png>] [56 <./images/data-stack.png>] <images/st
-ory-share-dist.png, id=246, 750.805pt x 515.9275pt>
+ [53 <./images/Twitter-pipeline.png>] [54 <./images/data-stack.png>] <images/st
+ory-share-dist.png, id=237, 750.805pt x 515.9275pt>
 File: images/story-share-dist.png Graphic file (type png)
 
 <use images/story-share-dist.png>
 Package pdftex.def Info: images/story-share-dist.png used on input line 111.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [57 <./images/story-share-dist.png>]
-<images/all-stories-by-pub.png, id=251, 750.805pt x 515.9275pt>
+ [55 <./images/story-share-dist.png>]
+<images/all-stories-by-pub.png, id=242, 750.805pt x 515.9275pt>
 File: images/all-stories-by-pub.png Graphic file (type png)
 
 <use images/all-stories-by-pub.png>
 Package pdftex.def Info: images/all-stories-by-pub.png used on input line 124.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [58 <./images/all-stories-by-pub.png>]
+ [56 <./images/all-stories-by-pub.png>]
 Overfull \hbox (11.09273pt too wide) in paragraph at lines 137--156
 [][] 
  []
 
-<images/candidate-mentions.png, id=256, 750.805pt x 515.9275pt>
+<images/candidate-mentions.png, id=248, 750.805pt x 515.9275pt>
 File: images/candidate-mentions.png Graphic file (type png)
 
 <use images/candidate-mentions.png>
 Package pdftex.def Info: images/candidate-mentions.png used on input line 161.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [59 <./images/candidate-mentions.png>])
-[60]
+ [57 <./images/candidate-mentions.png>])
+[58]
 \openout2 = `chap8.aux'.
 
  (./chap8.tex
 Chapter 8.
-[61
+[59
 
 
 
-] [62] <images/users-by-candid.png, id=271, 750.805pt x 515.9275pt>
+] [60] <images/users-by-candid.png, id=262, 750.805pt x 515.9275pt>
 File: images/users-by-candid.png Graphic file (type png)
 
 <use images/users-by-candid.png>
 Package pdftex.def Info: images/users-by-candid.png used on input line 34.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
 
-<images/tweets-by-candid.png, id=272, 750.805pt x 515.9275pt>
+<images/tweets-by-candid.png, id=263, 750.805pt x 515.9275pt>
 File: images/tweets-by-candid.png Graphic file (type png)
 
 <use images/tweets-by-candid.png>
 Package pdftex.def Info: images/tweets-by-candid.png used on input line 45.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [63 <./images/users-by-candid.png>]
-<images/clinton-camp-shares.png, id=277, 750.805pt x 515.9275pt>
+ [61 <./images/users-by-candid.png>]
+<images/clinton-camp-shares.png, id=268, 750.805pt x 515.9275pt>
 File: images/clinton-camp-shares.png Graphic file (type png)
 
 <use images/clinton-camp-shares.png>
 Package pdftex.def Info: images/clinton-camp-shares.png used on input line 58.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
 
-<images/trump-camp-shares.png, id=278, 750.805pt x 515.9275pt>
+<images/trump-camp-shares.png, id=269, 750.805pt x 515.9275pt>
 File: images/trump-camp-shares.png Graphic file (type png)
 
 <use images/trump-camp-shares.png>
 Package pdftex.def Info: images/trump-camp-shares.png used on input line 59.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
 
-<images/sanders-camp-shares.png, id=279, 750.805pt x 515.9275pt>
+<images/sanders-camp-shares.png, id=270, 750.805pt x 515.9275pt>
 File: images/sanders-camp-shares.png Graphic file (type png)
 
 <use images/sanders-camp-shares.png>
 Package pdftex.def Info: images/sanders-camp-shares.png used on input line 60.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
 
-<images/cruz-camp-shares.png, id=280, 750.805pt x 515.9275pt>
+<images/cruz-camp-shares.png, id=271, 750.805pt x 515.9275pt>
 File: images/cruz-camp-shares.png Graphic file (type png)
 
 <use images/cruz-camp-shares.png>
 Package pdftex.def Info: images/cruz-camp-shares.png used on input line 61.
 (pdftex.def)             Requested size: 212.47617pt x 146.00171pt.
- [64 <./images/tweets-by-candid.png>]
-<candid-ct.png, id=285, 750.805pt x 515.9275pt>
+ [62 <./images/tweets-by-candid.png>]
+<candid-ct.png, id=277, 750.805pt x 515.9275pt>
 File: candid-ct.png Graphic file (type png)
  <use candid-ct.png>
 Package pdftex.def Info: candid-ct.png used on input line 82.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [65 <./images/clinton-camp-shares.png> <./images/trump-camp-shares.png> <./ima
+ [63 <./images/clinton-camp-shares.png> <./images/trump-camp-shares.png> <./ima
 ges/sanders-camp-shares.png> <./images/cruz-camp-shares.png>]
-<tweets-by-candid-ct.png, id=293, 750.805pt x 515.9275pt>
+<tweets-by-candid-ct.png, id=285, 750.805pt x 515.9275pt>
 File: tweets-by-candid-ct.png Graphic file (type png)
 
 <use tweets-by-candid-ct.png>
 Package pdftex.def Info: tweets-by-candid-ct.png used on input line 92.
 (pdftex.def)             Requested size: 433.62pt x 297.9707pt.
- [66 <./candid-ct.png>]) [67 <./tweets-by-candid-ct.png>] [68]
+ [64 <./candid-ct.png>]) [65 <./tweets-by-candid-ct.png>] [66]
 \openout2 = `chap9.aux'.
 
  (./chap9.tex
 Chapter 9.
-[69
+[67
 
 
 
-] [70] [71] [72]
+] [68] [69] [70]
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-) [73]
-[74]) [75]
+) [71]
+[72]) [73]
 \openout2 = `chap10.aux'.
 
- (./chap10.tex [76
+ (./chap10.tex [74
 
 
 
 ]
 Chapter 10.
-[77] [78]) [79]
+[75] [76]) [77]
 \openout2 = `chap11.aux'.
 
- (./chap11.tex [80
+ (./chap11.tex [78
 
 
 
@@ -1103,51 +1091,51 @@ Chapter 11.
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
 
-LaTeX Warning: Citation `habermas1991structural' on page 81 undefined on input 
+LaTeX Warning: Citation `habermas1991structural' on page 79 undefined on input 
 line 2.
 
-) [81] [82]
+) [79] [80]
 \openout2 = `appa.aux'.
 
  (./appa.tex
 Appendix A.
-[83
+[81
 
 
 
-] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97]
-[98] [99] [100] [101] [102] [103])
+] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101])
 \openout2 = `appb.aux'.
 
- (./appb.tex [104
+ (./appb.tex [102
 
 
 
 
 ]
 Appendix B.
-[105] <images/trust_18-29.png, id=426, 750.805pt x 515.9275pt>
+[103] <images/trust_18-29.png, id=417, 750.805pt x 515.9275pt>
 File: images/trust_18-29.png Graphic file (type png)
 
 <use images/trust_18-29.png>
 Package pdftex.def Info: images/trust_18-29.png used on input line 16.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_30-49.png, id=427, 750.805pt x 515.9275pt>
+<images/trust_30-49.png, id=418, 750.805pt x 515.9275pt>
 File: images/trust_30-49.png Graphic file (type png)
 
 <use images/trust_30-49.png>
 Package pdftex.def Info: images/trust_30-49.png used on input line 17.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_50-64.png, id=428, 750.805pt x 515.9275pt>
+<images/trust_50-64.png, id=419, 750.805pt x 515.9275pt>
 File: images/trust_50-64.png Graphic file (type png)
 
 <use images/trust_50-64.png>
 Package pdftex.def Info: images/trust_50-64.png used on input line 18.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/trust_64+.png, id=429, 750.805pt x 515.9275pt>
+<images/trust_64+.png, id=420, 750.805pt x 515.9275pt>
 File: images/trust_64+.png Graphic file (type png)
 
 <use images/trust_64+.png>
@@ -1160,7 +1148,7 @@ LaTeX Warning: Float too large for page by 332.909pt on input line 23.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [106 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50
+) [104 <./images/trust_18-29.png> <./images/trust_30-49.png> <./images/trust_50
 -64.png> <./images/trust_64+.png>]
 \openout2 = `biblio.aux'.
 
@@ -1249,7 +1237,7 @@ Underfull \hbox (badness 6625) in paragraph at lines 43--49
 12 , jul 2015.  (Ac-cessed on
  []
 
-[107
+[105
 
 
 
@@ -1293,7 +1281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--117
 ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
-[108]
+[106]
 Underfull \hbox (badness 10000) in paragraph at lines 187--192
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
@@ -1310,7 +1298,7 @@ Underfull \hbox (badness 5667) in paragraph at lines 187--192
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
-[109]
+[107]
 Underfull \hbox (badness 2393) in paragraph at lines 234--237
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
@@ -1322,7 +1310,7 @@ Overfull \hbox (146.96906pt too wide) in paragraph at lines 239--246
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
 
-)) [110] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
+)) [108] (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./part1.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./part2.aux) (./chap6.aux) (./chap7.aux)
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./appa.aux)
@@ -1335,10 +1323,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15158 strings out of 493089
- 257600 string characters out of 6134842
- 289221 words of memory out of 5000000
- 18242 multiletter control sequences out of 15000+600000
+ 15151 strings out of 493089
+ 257489 string characters out of 6134842
+ 289158 words of memory out of 5000000
+ 18236 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1361,10 +1349,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (115 pages, 1550838 bytes).
+Output written on main.pdf (113 pages, 1512251 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
+ 505 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
