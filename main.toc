@@ -12,71 +12,66 @@
 \contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{26}
 \contentsline {section}{\numberline {3.2}Crowdsourcing Science}{26}
 \contentsline {subsection}{\numberline {3.2.1}CrowdFlower}{27}
-\contentsline {chapter}{\numberline {4}Preliminary Study}{29}
-\contentsline {section}{\numberline {4.1}Data Selection}{29}
-\contentsline {subsection}{\numberline {4.1.1}Publication Selection}{30}
-\contentsline {subsection}{\numberline {4.1.2}Topic Selection}{31}
-\contentsline {subsection}{\numberline {4.1.3}Flesch Kincaid Cutoffs}{31}
-\contentsline {subsection}{\numberline {4.1.4}Redaction of Stories}{31}
-\contentsline {section}{\numberline {4.2}CrowdFlower}{31}
-\contentsline {section}{\numberline {4.3}Demographic Survey}{32}
-\contentsline {section}{\numberline {4.4}Political Affiliation Survey}{32}
-\contentsline {section}{\numberline {4.5}Quality Assurance}{32}
-\contentsline {chapter}{\numberline {5}Study}{33}
-\contentsline {section}{\numberline {5.1}Motivations}{33}
-\contentsline {section}{\numberline {5.2}Experimental Design}{34}
-\contentsline {subsection}{\numberline {5.2.1}Dataset}{36}
-\contentsline {subsection}{\numberline {5.2.2}Survey Design}{36}
-\contentsline {subsection}{\numberline {5.2.3}Quality Control}{37}
-\contentsline {section}{\numberline {5.3}Basic Analysis}{39}
-\contentsline {subsection}{\numberline {5.3.1}Demographics}{39}
-\contentsline {subsection}{\numberline {5.3.2}Location}{40}
-\contentsline {subsection}{\numberline {5.3.3}Political Affiliation}{41}
-\contentsline {subsection}{\numberline {5.3.4}Trust}{42}
-\contentsline {subsection}{\numberline {5.3.5}Fairness}{43}
-\contentsline {chapter}{\numberline {6}Findings}{45}
-\contentsline {section}{\numberline {6.1}Reading Level Effects}{45}
-\contentsline {section}{\numberline {6.2}Media Brand Effects}{46}
-\contentsline {section}{\numberline {6.3}Qualitative}{46}
-\contentsline {section}{\numberline {6.4}Conclusions}{47}
-\contentsline {section}{\numberline {6.5}Limitations}{47}
-\contentsline {part}{II\hspace {1em}Sharing the News}{48}
-\contentsline {chapter}{\numberline {7}Taking Media Analysis to Another Dimension of Data}{49}
-\contentsline {section}{\numberline {7.1}The Social Media Megaphone}{50}
-\contentsline {section}{\numberline {7.2}The (Short) Attention Economy}{51}
-\contentsline {section}{\numberline {7.3}Negativity in Politics and the Internet}{51}
-\contentsline {chapter}{\numberline {8}Data Collection}{53}
-\contentsline {section}{\numberline {8.1}The Electome Project}{53}
-\contentsline {section}{\numberline {8.2}News Dataset}{54}
-\contentsline {subsection}{\numberline {8.2.1}Duration \& Scope}{54}
-\contentsline {subsection}{\numberline {8.2.2}Data Pipeline}{55}
-\contentsline {section}{\numberline {8.3}Tweets Dataset}{56}
-\contentsline {subsection}{\numberline {8.3.1}Duration \& Scope}{56}
-\contentsline {subsection}{\numberline {8.3.2}Data Pipeline}{56}
-\contentsline {section}{\numberline {8.4}Combined Dataset}{57}
-\contentsline {subsection}{\numberline {8.4.1}Mapping Tweets to Stories}{58}
-\contentsline {subsection}{\numberline {8.4.2}Final Corpus}{58}
-\contentsline {subsection}{\numberline {8.4.3}Descriptive Findings}{59}
-\contentsline {chapter}{\numberline {9}Metrics for Political and Emotional Engagement}{63}
-\contentsline {section}{\numberline {9.1}Emotional Coding}{63}
-\contentsline {section}{\numberline {9.2}Followership as a Proxy for Political Engagement}{64}
-\contentsline {subsection}{\numberline {9.2.1}A Look at Candidate Followership}{65}
-\contentsline {subsection}{\numberline {9.2.2}A Look at Levels of Political Engagement}{68}
-\contentsline {chapter}{\numberline {10}Analysis}{71}
-\contentsline {section}{\numberline {10.1}Hypotheses}{71}
-\contentsline {section}{\numberline {10.2}Methodology}{72}
-\contentsline {section}{\numberline {10.3}All Data}{72}
-\contentsline {subsection}{\numberline {10.3.1}Story Length}{72}
-\contentsline {subsection}{\numberline {10.3.2}Emotionality}{74}
-\contentsline {subsection}{\numberline {10.3.3}Positivity}{75}
-\contentsline {section}{\numberline {10.4}By Degree of Political Engagement}{76}
-\contentsline {subsection}{\numberline {10.4.1}The Unaffiliated}{77}
-\contentsline {subsection}{\numberline {10.4.2}Single-Candidate Followers}{77}
-\contentsline {subsection}{\numberline {10.4.3}Political Aficionados}{77}
-\contentsline {section}{\numberline {10.5}By Candidate}{77}
-\contentsline {subsection}{\numberline {10.5.1}Trump-Only Followers}{77}
-\contentsline {subsection}{\numberline {10.5.2}Clinton-Only Followers}{77}
-\contentsline {subsection}{\numberline {10.5.3}Sanders-Only Followers}{77}
-\contentsline {subsection}{\numberline {10.5.4}Cruz-Only Followers}{77}
-\contentsline {chapter}{\numberline {A}Tables}{79}
-\contentsline {chapter}{\numberline {B}Figures}{101}
+\contentsline {chapter}{\numberline {4}Study}{29}
+\contentsline {section}{\numberline {4.1}Motivations}{29}
+\contentsline {section}{\numberline {4.2}Experimental Design}{30}
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{32}
+\contentsline {subsection}{\numberline {4.2.2}Survey Design}{32}
+\contentsline {subsection}{\numberline {4.2.3}Quality Control}{33}
+\contentsline {section}{\numberline {4.3}Basic Analysis}{35}
+\contentsline {subsection}{\numberline {4.3.1}Demographics}{35}
+\contentsline {subsection}{\numberline {4.3.2}Location}{36}
+\contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{37}
+\contentsline {subsection}{\numberline {4.3.4}Trust}{38}
+\contentsline {subsection}{\numberline {4.3.5}Fairness}{39}
+\contentsline {chapter}{\numberline {5}Findings}{41}
+\contentsline {section}{\numberline {5.1}Reading Level Effects}{41}
+\contentsline {section}{\numberline {5.2}Media Brand Effects}{42}
+\contentsline {section}{\numberline {5.3}Qualitative}{42}
+\contentsline {section}{\numberline {5.4}Conclusions}{43}
+\contentsline {section}{\numberline {5.5}Limitations}{43}
+\contentsline {part}{II\hspace {1em}Sharing the News}{44}
+\contentsline {chapter}{\numberline {6}Taking Media Analysis to Another Dimension of Data}{45}
+\contentsline {section}{\numberline {6.1}The Social Media Megaphone}{46}
+\contentsline {section}{\numberline {6.2}The (Short) Attention Economy}{47}
+\contentsline {section}{\numberline {6.3}Negativity in Politics and the Internet}{47}
+\contentsline {chapter}{\numberline {7}Data Collection}{49}
+\contentsline {section}{\numberline {7.1}The Electome Project}{49}
+\contentsline {section}{\numberline {7.2}News Dataset}{50}
+\contentsline {subsection}{\numberline {7.2.1}Duration \& Scope}{50}
+\contentsline {subsection}{\numberline {7.2.2}Data Pipeline}{51}
+\contentsline {section}{\numberline {7.3}Tweets Dataset}{52}
+\contentsline {subsection}{\numberline {7.3.1}Duration \& Scope}{52}
+\contentsline {subsection}{\numberline {7.3.2}Data Pipeline}{52}
+\contentsline {section}{\numberline {7.4}Combined Dataset}{53}
+\contentsline {subsection}{\numberline {7.4.1}Mapping Tweets to Stories}{54}
+\contentsline {subsection}{\numberline {7.4.2}Final Corpus}{54}
+\contentsline {subsection}{\numberline {7.4.3}Descriptive Findings}{55}
+\contentsline {chapter}{\numberline {8}Metrics for Political and Emotional Engagement}{59}
+\contentsline {section}{\numberline {8.1}Emotional Coding}{59}
+\contentsline {section}{\numberline {8.2}Followership as a Proxy for Political Engagement}{60}
+\contentsline {subsection}{\numberline {8.2.1}A Look at Candidate Followership}{61}
+\contentsline {subsection}{\numberline {8.2.2}A Look at Levels of Political Engagement}{64}
+\contentsline {chapter}{\numberline {9}Analysis}{67}
+\contentsline {section}{\numberline {9.1}Hypotheses}{67}
+\contentsline {section}{\numberline {9.2}Methodology}{68}
+\contentsline {section}{\numberline {9.3}All Data}{68}
+\contentsline {subsection}{\numberline {9.3.1}Story Length}{68}
+\contentsline {subsection}{\numberline {9.3.2}Emotionality}{70}
+\contentsline {subsection}{\numberline {9.3.3}Positivity}{71}
+\contentsline {section}{\numberline {9.4}By Degree of Political Engagement}{72}
+\contentsline {subsection}{\numberline {9.4.1}The Unaffiliated}{73}
+\contentsline {subsection}{\numberline {9.4.2}Single-Candidate Followers}{73}
+\contentsline {subsection}{\numberline {9.4.3}Political Aficionados}{73}
+\contentsline {section}{\numberline {9.5}By Candidate}{73}
+\contentsline {subsection}{\numberline {9.5.1}Trump-Only Followers}{73}
+\contentsline {subsection}{\numberline {9.5.2}Clinton-Only Followers}{73}
+\contentsline {subsection}{\numberline {9.5.3}Sanders-Only Followers}{73}
+\contentsline {subsection}{\numberline {9.5.4}Cruz-Only Followers}{73}
+\contentsline {chapter}{\numberline {10}Conclusion}{75}
+\contentsline {section}{\numberline {10.1}Findings}{75}
+\contentsline {section}{\numberline {10.2}Potential Impact}{75}
+\contentsline {section}{\numberline {10.3}Limitations}{75}
+\contentsline {subsection}{\numberline {10.3.1}Data Collection}{75}
+\contentsline {chapter}{\numberline {A}Tables}{77}
+\contentsline {chapter}{\numberline {B}Figures}{99}
