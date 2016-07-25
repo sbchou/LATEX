@@ -57,10 +57,6 @@
 \contentsline {section}{\numberline {9.3}All Data}{70}
 \contentsline {section}{\numberline {9.4}By Degree of Political Engagement}{74}
 \contentsline {section}{\numberline {9.5}By Candidate}{75}
-\contentsline {subsection}{\numberline {9.5.1}Trump-Only Followers}{75}
-\contentsline {subsection}{\numberline {9.5.2}Clinton-Only Followers}{75}
-\contentsline {subsection}{\numberline {9.5.3}Sanders-Only Followers}{75}
-\contentsline {subsection}{\numberline {9.5.4}Cruz-Only Followers}{75}
 \contentsline {chapter}{\numberline {10}Conclusion}{77}
 \contentsline {section}{\numberline {10.1}Summary of Findings}{77}
 \contentsline {section}{\numberline {10.2}Limitations \& Future Work}{78}
