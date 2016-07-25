@@ -5,15 +5,7 @@ In this chapter, we test for correlations between the metrics defined in Chapter
 \section{Hypotheses}
 Re-iterating from Chapter 7, the focus of Part II of this thesis is to examine how emotionally evocative text in an article relates to the way it is shared on Twitter. In addition, we look at the effects of story length on its popularity as a baseline to confirm theories of attention on the Internet.
 
-For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement).
-
-% We hypothesize the following:
-
-%  FILL IT IN!!!!!! OR DO PER SECTION
-
-
-\section{All Data}
-\subsection{Hypotheses}
+ 
 We hypothesize the following behavior in our dataset of stories and tweets:
 
 \begin{itemize} 
@@ -23,12 +15,16 @@ We hypothesize the following behavior in our dataset of stories and tweets:
 
 \end{itemize}
 
-\subsection{Methodology}
+For each of these three independent variables (story length, emotionality, positivity) we repeat analyses across three views of the data: first, the entire dataset; then, by political candidate followed amongst users who follow only one candidate; and finally, by the number of political candidates followed (degree of political engagement), to look for differences amongst different populations of political tweeters.
+
+
+\section{Methodology}
 
 Since our dependent variable, tweet volume, is a set of discrete counts that are positively truncated, we use negative binomial regression models for our analysis \cite{scott1997regression}. The distribution of tweet volume is not a normal distribution, and it is not recommended to perform a log transformation on count data to fit it to an OLS regression unless there is little dispersion in the data \cite{o2010not}. Poisson models are a subset of negative binomial models without the dispersion parameter. Below, we see that the negative binomial model provides the best fit and that our data is overdispersed, as the dispersion parameter $\theta$ is greater than 1.   
 
 In each case, we compare our findings to those using plain linear and Poisson regression models and are able to achieve the same significant results.  
 
+\section{All Data}
 \subsection{Story Length} 
 % Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
 % Date and time: Sun, Jul 24, 2016 - 17:29:16
@@ -145,6 +141,30 @@ In each case, we compare our findings to those using plain linear and Poisson re
 \newpage
 
 
+
+\section{By Degree of Political Engagement}
+
+
+In the following analyses, we segment levels of political engagement into three groups for the sake of comparison:
+
+\begin{itemize}
+  \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
+  \item \emph{single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
+  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
+\end{itemize}.
+
+We repeat the same methods and variables in determining our correlations. For the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A, tables A.1 - A.9.
+
+\subsection{The Unaffiliated}
+
+
+\subsection{Single-Candidate Followers}
+ 
+
+\subsection{Political Aficionados}
+
+
+
 \section{By Candidate} 
 
 \subsection{Trump-Only Followers}
@@ -159,28 +179,6 @@ In each case, we compare our findings to those using plain linear and Poisson re
 \subsection{Cruz-Only Followers}
 
 
-
-
-\section{By Degree of Political Engagement}
-
-
-In the following analyses, we segment levels of political engagement into three groups for the sake of comparison:
-
-\begin{itemize}
-  \item \emph{the unaffiliated} (those who follow no presidential candidates, but do tweet about political news)
-  \item \emph{single-candidate} followers (those who follow one and only one presidential candidate, and tweet about political news)
-  \item \emph{political aficionados} (those who follow all 4 (or more) candidates, and tweet about political news)
-\end{itemize}.
-
-We repeat the same methods and variables in determining our correlations. For the sake of brevity, all tables and comparisons of all three models (OLS, Poisson, NB model) can be found in Appendix A.
-
-\subsection{The Unaffiliated}
-
-
-\subsection{Single-Candidate Followers}
- 
-
-\subsection{Political Aficionados}
 
 % \section{Extra: Any relation with Trust?}
 % % see jun 10 update
