@@ -23,7 +23,6 @@ A level-1 auxiliary file: appb.aux
 A level-1 auxiliary file: biblio.aux
 The style file: plain.bst
 Database file #1: main.bib
-Warning--I didn't find a database entry for "habermas1991structural"
 Warning--to sort, need author or key in Greenwald
 Warning--to sort, need author or key in Pew-bias-2012
 Warning--to sort, need author or key in CrowdFlower-levels
@@ -32,45 +31,45 @@ Warning--to sort, need author or key in Pew-demographics
 Warning--to sort, need author or key in CrowdFlower-guide
 Warning--empty author in Pew-bias-2012
 Warning--empty journal in sherif1961social
-You've used 40 entries,
+You've used 41 entries,
             2118 wiz_defined-function locations,
-            758 strings with 11994 characters,
-and the built_in function-call counts, 11032 in all, are:
-= -- 1096
-> -- 454
+            762 strings with 12126 characters,
+and the built_in function-call counts, 11249 in all, are:
+= -- 1115
+> -- 461
 < -- 3
-+ -- 191
-- -- 144
-* -- 688
-:= -- 1831
-add.period$ -- 131
-call.type$ -- 40
-change.case$ -- 189
++ -- 195
+- -- 146
+* -- 696
+:= -- 1869
+add.period$ -- 134
+call.type$ -- 41
+change.case$ -- 192
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 408
-empty$ -- 948
-format.name$ -- 144
-if$ -- 2322
+cite$ -- 49
+duplicate$ -- 420
+empty$ -- 970
+format.name$ -- 146
+if$ -- 2368
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 28
-newline$ -- 213
-num.names$ -- 68
-pop$ -- 242
+int.to.str$ -- 41
+missing$ -- 30
+newline$ -- 218
+num.names$ -- 70
+pop$ -- 250
 preamble$ -- 2
-purify$ -- 150
+purify$ -- 153
 quote$ -- 0
-skip$ -- 289
+skip$ -- 295
 stack$ -- 0
-substring$ -- 557
-swap$ -- 58
+substring$ -- 563
+swap$ -- 59
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 156
+type$ -- 158
 warning$ -- 8
-while$ -- 101
-width$ -- 42
-write$ -- 438
-(There were 9 warnings)
+while$ -- 103
+width$ -- 43
+write$ -- 448
+(There were 8 warnings)

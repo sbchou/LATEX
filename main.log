@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUL 2016 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUL 2016 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,12 +1098,8 @@ Chapter 10.
 Chapter 11.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-
-LaTeX Warning: Citation `habermas1991structural' on page 81 undefined on input 
-line 2.
-
-) [81] [82]
+)) [81]
+[82]
 \openout2 = `appa.aux'.
 
  (./appa.tex
@@ -1291,30 +1287,30 @@ ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
 [108]
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 187--192
+Underfull \hbox (badness 5667) in paragraph at lines 193--198
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 [109]
-Underfull \hbox (badness 2393) in paragraph at lines 234--237
+Underfull \hbox (badness 2393) in paragraph at lines 240--243
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 239--246
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 245--252
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
@@ -1325,16 +1321,13 @@ level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
 (./chap8.aux) (./chap9.aux) (./chap10.aux) (./chap11.aux) (./appa.aux)
 (./appb.aux) (./biblio.aux))
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  15151 strings out of 493089
  257489 string characters out of 6134842
- 291158 words of memory out of 5000000
+ 291164 words of memory out of 5000000
  18236 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1358,7 +1351,7 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (115 pages, 1515215 bytes).
+Output written on main.pdf (115 pages, 1515341 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
