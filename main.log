@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUL 2016 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 JUL 2016 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,80 +854,80 @@ Overfull \hbox (16.4353pt too wide) in paragraph at lines 68--76
 [][] 
  []
 
-[30] [31] <images/study2_qs.png, id=140, 615.29875pt x 287.0725pt>
+[30] [31] [32] <images/study2_qs.png, id=143, 615.29875pt x 287.0725pt>
 File: images/study2_qs.png Graphic file (type png)
 
 <use images/study2_qs.png>
-Package pdftex.def Info: images/study2_qs.png used on input line 122.
+Package pdftex.def Info: images/study2_qs.png used on input line 125.
 (pdftex.def)             Requested size: 195.12767pt x 91.03719pt.
- [32]
+
 <images/demographic_qs.png, id=144, 550.055pt x 478.78876pt>
 File: images/demographic_qs.png Graphic file (type png)
 
 <use images/demographic_qs.png>
-Package pdftex.def Info: images/demographic_qs.png used on input line 131.
+Package pdftex.def Info: images/demographic_qs.png used on input line 134.
 (pdftex.def)             Requested size: 195.12767pt x 169.84334pt.
 
 <images/survey_comments.png, id=145, 600.2425pt x 349.305pt>
 File: images/survey_comments.png Graphic file (type png)
 
 <use images/survey_comments.png>
-Package pdftex.def Info: images/survey_comments.png used on input line 139.
+Package pdftex.def Info: images/survey_comments.png used on input line 142.
 (pdftex.def)             Requested size: 195.12767pt x 113.54942pt.
- [33 <./images/study2_qs.png> <./images/demographic_qs.png> <./images/survey_co
-mments.png>] [34]
+ [33 <./images/study2_qs.png> <./images/demographic_qs.png>] [34 <./images/surv
+ey_comments.png>]
 <images/gender_study2.png, id=155, 750.805pt x 515.9275pt>
 File: images/gender_study2.png Graphic file (type png)
 
 <use images/gender_study2.png>
-Package pdftex.def Info: images/gender_study2.png used on input line 170.
+Package pdftex.def Info: images/gender_study2.png used on input line 173.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
 <images/age_study2.png, id=156, 750.805pt x 515.9275pt>
 File: images/age_study2.png Graphic file (type png)
 
 <use images/age_study2.png>
-Package pdftex.def Info: images/age_study2.png used on input line 171.
+Package pdftex.def Info: images/age_study2.png used on input line 174.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
- [35 <./images/gender_study2.png> <./images/age_study2.png>] <images/location_s
-tudy2.png, id=162, 750.805pt x 515.9275pt>
+ [35] [36 <./images/gender_study2.png> <./images/age_study2.png>] <images/locat
+ion_study2.png, id=165, 750.805pt x 515.9275pt>
 File: images/location_study2.png Graphic file (type png)
 
 <use images/location_study2.png>
-Package pdftex.def Info: images/location_study2.png used on input line 188.
+Package pdftex.def Info: images/location_study2.png used on input line 191.
 (pdftex.def)             Requested size: 390.25534pt x 268.17363pt.
 
-<images/party_study2.png, id=163, 750.805pt x 515.9275pt>
+<images/party_study2.png, id=166, 750.805pt x 515.9275pt>
 File: images/party_study2.png Graphic file (type png)
 
 <use images/party_study2.png>
-Package pdftex.def Info: images/party_study2.png used on input line 199.
+Package pdftex.def Info: images/party_study2.png used on input line 202.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-<images/voting_for_study2.png, id=164, 750.805pt x 515.9275pt>
+<images/voting_for_study2.png, id=167, 750.805pt x 515.9275pt>
 File: images/voting_for_study2.png Graphic file (type png)
 
 <use images/voting_for_study2.png>
-Package pdftex.def Info: images/voting_for_study2.png used on input line 200.
+Package pdftex.def Info: images/voting_for_study2.png used on input line 203.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
- [36 <./images/location_study2.png>] [37 <./images/party_study2.png> <./images/
+ [37 <./images/location_study2.png>] [38 <./images/party_study2.png> <./images/
 voting_for_study2.png>]
-<images/trust.png, id=175, 750.805pt x 515.9275pt>
+<images/trust.png, id=178, 750.805pt x 515.9275pt>
 File: images/trust.png Graphic file (type png)
  <use images/trust.png>
-Package pdftex.def Info: images/trust.png used on input line 218.
+Package pdftex.def Info: images/trust.png used on input line 221.
 (pdftex.def)             Requested size: 346.89731pt x 238.37656pt.
 
-[38 <./images/trust.png>]) [39]
+[39 <./images/trust.png>]) [40]
 \openout2 = `chap5.aux'.
 
- (./chap5.tex [40
-
-
-
-]
+ (./chap5.tex
 Chapter 5.
-[41] [42] [43] [44]) [45]
+[41
+
+
+
+] [42] [43] [44]) [45]
 \openout2 = `part2.aux'.
 
  (./part2.tex [46
@@ -1289,30 +1289,48 @@ ue/$\T1/cmr/m/n/12 , Jul 2016.
  []
 
 [108]
-Underfull \hbox (badness 10000) in paragraph at lines 193--198
+Underfull \hbox (badness 6220) in paragraph at lines 171--178
+\T1/cmr/m/n/12 Me-dia sources: Dis-tinct fa-vorites emerge on the left and righ
+t |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--178
+\T1/cmr/m/n/12 pew re-search cen-ter.  $\T1/cmtt/m/n/12 http : / / www . journa
+lism . org / 2014 / 10 / 21 /
+ []
+
+
+Overfull \hbox (43.78276pt too wide) in paragraph at lines 171--178
+\T1/cmtt/m/n/12 section-[]1-[]media-[]sources-[]distinct-[]favorites-[]emerge-[
+]on-[]the-[]left-[]and-[]right/$\T1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--207
 []\T1/cmr/m/n/12 Rebecca Rif-fkin.  Amer-i-cans' trust in me-dia re-mains
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--198
+Underfull \hbox (badness 10000) in paragraph at lines 202--207
 \T1/cmr/m/n/12 at his-tor-i-cal low.  $\T1/cmtt/m/n/12 http : / / www . gallup 
 . com / poll / 185927 /
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 193--198
+Underfull \hbox (badness 5667) in paragraph at lines 202--207
 \T1/cmtt/m/n/12 americans-[]trust-[]media-[]remains-[]historical-[]low . aspx$\
 T1/cmr/m/n/12 .  (Ac-cessed on
  []
 
 [109]
-Underfull \hbox (badness 2393) in paragraph at lines 240--243
+Underfull \hbox (badness 2393) in paragraph at lines 249--252
 \T1/cmr/m/n/12 de-tec-tion and cat-e-go-riza-tion of election-related tweets.  
 \T1/cmr/m/it/12 arXiv preprint
  []
 
 
-Overfull \hbox (146.96906pt too wide) in paragraph at lines 245--252
+Overfull \hbox (146.96906pt too wide) in paragraph at lines 254--261
 \T1/cmtt/m/n/12 donald-[]trump-[]and-[]ben-[]carson-[]speak-[]grade-[]school-[]
 level-[]that-[]today-[]voters-[]can-[]quickly-[]grasp /
  []
@@ -1327,10 +1345,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15151 strings out of 493089
- 257489 string characters out of 6134842
- 291164 words of memory out of 5000000
- 18236 multiletter control sequences out of 15000+600000
+ 15152 strings out of 493089
+ 257504 string characters out of 6134842
+ 291168 words of memory out of 5000000
+ 18237 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,10n,39p,10380b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1353,7 +1371,7 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (116 pages, 1515486 bytes).
+Output written on main.pdf (116 pages, 1516508 bytes).
 PDF statistics:
  515 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

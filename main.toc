@@ -15,14 +15,14 @@
 \contentsline {chapter}{\numberline {4}Study}{29}
 \contentsline {section}{\numberline {4.1}Hypotheses}{29}
 \contentsline {section}{\numberline {4.2}Experimental Design}{30}
-\contentsline {subsection}{\numberline {4.2.1}Dataset}{31}
-\contentsline {subsection}{\numberline {4.2.2}Survey Design}{32}
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{32}
+\contentsline {subsection}{\numberline {4.2.2}Survey Design}{33}
 \contentsline {subsection}{\numberline {4.2.3}Quality Control}{34}
 \contentsline {section}{\numberline {4.3}Survey Results}{35}
-\contentsline {subsection}{\numberline {4.3.1}Demographics}{35}
-\contentsline {subsection}{\numberline {4.3.2}Location}{36}
-\contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{36}
-\contentsline {subsection}{\numberline {4.3.4}Trust}{38}
+\contentsline {subsection}{\numberline {4.3.1}Demographics}{36}
+\contentsline {subsection}{\numberline {4.3.2}Location}{37}
+\contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{37}
+\contentsline {subsection}{\numberline {4.3.4}Trust}{39}
 \contentsline {chapter}{\numberline {5}Analysis}{41}
 \contentsline {section}{\numberline {5.1}Reading Level Effects}{41}
 \contentsline {section}{\numberline {5.2}Media Brand Effects}{42}
