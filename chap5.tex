@@ -1,7 +1,7 @@
 \chapter{Analysis}
 
 \section{Reading Level Effects}
-Performing an OLS regression, we are unable to find any significant effects of article having either high or low reading level on reported trust.
+Performing an OLS regression, we are unable to find any significant effects of article having either high or low reading level on reported trust.  
 
 This answers our first reading question \textbf{Q1:} Reading level does not have an effect on the perceived trustworthiness of stories in our observed samples.
 
@@ -35,6 +35,8 @@ This answers our first reading question \textbf{Q1:} Reading level does not have
     \end{tabular} 
 \end{table} 
 \newpage
+
+We also used a linear mixed-effects model to look for interactions between reading level and other attributes of the story and reader, including article source and reader party affiliation, but found no significant interactions.
 
 \section{Media Brand Effects}
 Next, we examine the effects of perceived media brand on the reader. Again, we use OLS regression for our analysis. Recall that in our study, all articles come from the newswire service the Associated Press but are labeled either truthfully or coming from Fox News, CNN, or an unmarked source. 
@@ -118,41 +120,7 @@ Broken down by brand shown, we still find positive effects overall.
  We then code readers' stance as either disagreeing, neutral, or agreeing with the media brand's stance. CNN is coded as Democratic and Fox News as Republican; no source and the Associated Press both neutral.
 
 Although we do not find a significant \emph{positive} effect for readers whose political party matches the source, we do find a weak \emph{negative} effect for those whose stance disagrees ($\beta=0.169$, $p=0.0499$), which affirms hostility towards news sources from partisans on the brand level.  
-
-% Table created by stargazer v.5.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Mon, Jul 25, 2016 - 19:20:00
-\begin{table}[!htbp] \centering 
-  \caption{Hostile Media Brand Effects}
-  \label{} 
-\begin{tabular}{@{\extracolsep{5pt}}lc} 
-\\[-1.8ex]\hline 
-\hline \\[-1.8ex] 
- & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
-\cline{2-2} 
-\\[-1.8ex] & trust \\ 
-\hline \\[-1.8ex] 
- Stance: Disagree & $-$0.169$^{**}$ \\ 
-  & (0.086) \\ 
-  & \\ 
- Stance: Agree & 0.032 \\ 
-  & (0.087) \\ 
-  & \\ 
- Constant & 0.669$^{***}$ \\ 
-  & (0.048) \\ 
-  & \\ 
-\hline \\[-1.8ex] 
-Observations & 808 \\ 
-R$^{2}$ & 0.006 \\ 
-Adjusted R$^{2}$ & 0.004 \\ 
-Residual Std. Error & 0.992 (df = 805) \\ 
-F Statistic & 2.439$^{*}$ (df = 2; 805) \\ 
-\hline 
-\hline \\[-1.8ex] 
-\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
-\end{tabular} 
-\end{table} 
-\newpage
-
+ 
 
 \section{Conclusions}
 In summary, we find that the \emph{perceived} media brand of an article has a significant effect on a reader's perception of a news story as trustworthy, \emph{even when} the underlying sources and content of the stories are identical. This confirms \textbf{H1:} that media brand effects are more important than actual source of an article. 
@@ -162,10 +130,10 @@ We find evidence for hostile media effects from partisans intensified by media b
 We were unable to find significant effects from reading level in correlation with media trust (\textbf{Q1}).
 
 
-\section{Limitations}
+\section{Limitations \& Future Work}
 
 Our study presents findings that open potential new areas of experimentation while confirming past theories of how media bias is formed. In the interest of focus, our study centered around four candidates and a narrowed dataset of eight stories, but in the future could be replicated on a larger set of more diverse stories and outlets. 
 
 Furthermore, although the contributor market on CrowdFlower is not representative of any specific region or demographic, it is also not representative of the nation at large. Our dataset is skewed in terms of both demographics and political affiliation.
 
-
+For future research, we hope to expand on the interactions between political affiliation, political content, and media brand through more complex statistical models.

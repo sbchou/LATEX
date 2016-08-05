@@ -27,8 +27,8 @@
 \contentsline {section}{\numberline {5.1}Reading Level Effects}{41}
 \contentsline {section}{\numberline {5.2}Media Brand Effects}{42}
 \contentsline {section}{\numberline {5.3}Hostile Media Brand Effects}{44}
-\contentsline {section}{\numberline {5.4}Conclusions}{45}
-\contentsline {section}{\numberline {5.5}Limitations}{45}
+\contentsline {section}{\numberline {5.4}Conclusions}{44}
+\contentsline {section}{\numberline {5.5}Limitations \& Future Work}{45}
 \contentsline {part}{II\hspace {1em}Sharing the News}{46}
 \contentsline {chapter}{\numberline {6}Taking Media Analysis to Another Dimension of Data}{47}
 \contentsline {section}{\numberline {6.1}The Social Media Megaphone}{48}

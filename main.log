@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 AUG 2016 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 AUG 2016 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -520,9 +520,6 @@ Including all files.
 (./main.aux (./cover.aux) (./signature.aux) (./acknowledgements.aux)
 (./contents.aux) (./part1.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux
-
-LaTeX Warning: Label `' multiply defined.
-
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -1347,7 +1344,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  15152 strings out of 493089
  257504 string characters out of 6134842
- 291168 words of memory out of 5000000
+ 292168 words of memory out of 5000000
  18237 multiletter control sequences out of 15000+600000
  17996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1371,7 +1368,7 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (116 pages, 1516492 bytes).
+Output written on main.pdf (116 pages, 1516127 bytes).
 PDF statistics:
  515 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams
