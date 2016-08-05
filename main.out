@@ -1,0 +1,68 @@
+\BOOKMARK [-1][-]{part.1}{I Reading the News}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 2
+\BOOKMARK [0][-]{chapter.2}{In Media We ... Trust?}{part.1}% 3
+\BOOKMARK [1][-]{section.2.1}{Why Does Media Trust Matter?}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{How is Media Trust Formed?}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{The Role of the Reader}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{The Role of Media Brands}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.3}{The Role of Language}{section.2.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Tools for Dissecting Trust}{part.1}% 9
+\BOOKMARK [1][-]{section.3.1}{Computing Reading Level}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.1.1}{Flesch-Kincaid Readability Tests}{section.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.1.2}{Comparison to Other Reading Tests}{section.3.1}% 12
+\BOOKMARK [1][-]{section.3.2}{Crowdsourcing Science}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{CrowdFlower}{section.3.2}% 14
+\BOOKMARK [0][-]{chapter.4}{Study}{part.1}% 15
+\BOOKMARK [1][-]{section.4.1}{Hypotheses}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Experimental Design}{chapter.4}% 17
+\BOOKMARK [2][-]{subsection.4.2.1}{Dataset}{section.4.2}% 18
+\BOOKMARK [2][-]{subsection.4.2.2}{Survey Design}{section.4.2}% 19
+\BOOKMARK [2][-]{subsection.4.2.3}{Quality Control}{section.4.2}% 20
+\BOOKMARK [1][-]{section.4.3}{Survey Results}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.3.1}{Demographics}{section.4.3}% 22
+\BOOKMARK [2][-]{subsection.4.3.2}{Location}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.3}{Political Affiliation}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.4}{Trust}{section.4.3}% 25
+\BOOKMARK [0][-]{chapter.5}{Analysis}{part.1}% 26
+\BOOKMARK [1][-]{section.5.1}{Reading Level Effects}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.2}{Media Brand Effects}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.3}{Hostile Media Brand Effects}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.4}{Conclusions}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.5}{Limitations \046 Future Work}{chapter.5}% 31
+\BOOKMARK [-1][-]{part.2}{II Sharing the News}{}% 32
+\BOOKMARK [0][-]{chapter.6}{Taking Media Analysis to Another Dimension of Data}{part.2}% 33
+\BOOKMARK [1][-]{section.6.1}{The Social Media Megaphone}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.2}{The \(Short\) Attention Economy}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.3}{Negativity in Politics and the Internet}{chapter.6}% 36
+\BOOKMARK [0][-]{chapter.7}{Data Collection}{part.2}% 37
+\BOOKMARK [1][-]{section.7.1}{The Electome Project}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.2}{News Dataset}{chapter.7}% 39
+\BOOKMARK [2][-]{subsection.7.2.1}{Duration \046 Scope}{section.7.2}% 40
+\BOOKMARK [2][-]{subsection.7.2.2}{Data Pipeline}{section.7.2}% 41
+\BOOKMARK [1][-]{section.7.3}{Tweets Dataset}{chapter.7}% 42
+\BOOKMARK [2][-]{subsection.7.3.1}{Duration \046 Scope}{section.7.3}% 43
+\BOOKMARK [2][-]{subsection.7.3.2}{Data Pipeline}{section.7.3}% 44
+\BOOKMARK [1][-]{section.7.4}{Combined Dataset}{chapter.7}% 45
+\BOOKMARK [2][-]{subsection.7.4.1}{Mapping Tweets to Stories}{section.7.4}% 46
+\BOOKMARK [2][-]{subsection.7.4.2}{Final Corpus}{section.7.4}% 47
+\BOOKMARK [2][-]{subsection.7.4.3}{Descriptive Findings}{section.7.4}% 48
+\BOOKMARK [0][-]{chapter.8}{Metrics for Political and Emotional Engagement}{part.2}% 49
+\BOOKMARK [1][-]{section.8.1}{Emotional Coding}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.2}{Followership as a Proxy for Political Engagement}{chapter.8}% 51
+\BOOKMARK [2][-]{subsection.8.2.1}{A Look at Candidate Followership}{section.8.2}% 52
+\BOOKMARK [2][-]{subsection.8.2.2}{A Look at Levels of Political Engagement}{section.8.2}% 53
+\BOOKMARK [0][-]{chapter.9}{Analysis}{part.2}% 54
+\BOOKMARK [1][-]{section.9.1}{Hypotheses}{chapter.9}% 55
+\BOOKMARK [1][-]{section.9.2}{Methodology}{chapter.9}% 56
+\BOOKMARK [1][-]{section.9.3}{All Data}{chapter.9}% 57
+\BOOKMARK [2][-]{subsection.9.3.1}{Story Length}{section.9.3}% 58
+\BOOKMARK [2][-]{subsection.9.3.2}{Emotionality}{section.9.3}% 59
+\BOOKMARK [2][-]{subsection.9.3.3}{Positivity}{section.9.3}% 60
+\BOOKMARK [1][-]{section.9.4}{By Degree of Political Engagement}{chapter.9}% 61
+\BOOKMARK [1][-]{section.9.5}{By Candidate}{chapter.9}% 62
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{part.2}% 63
+\BOOKMARK [1][-]{section.10.1}{Summary of Findings}{chapter.10}% 64
+\BOOKMARK [1][-]{section.10.2}{Limitations \046 Future Work}{chapter.10}% 65
+\BOOKMARK [0][-]{chapter.11}{Final Remarks}{part.2}% 66
+\BOOKMARK [0][-]{appendix.A}{Tables}{part.2}% 67
+\BOOKMARK [0][-]{appendix.B}{Figures}{part.2}% 68

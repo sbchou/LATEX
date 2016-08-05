@@ -1,68 +1,68 @@
-\contentsline {part}{I\hspace {1em}Reading the News}{15}
-\contentsline {chapter}{\numberline {1}Introduction}{17}
-\contentsline {chapter}{\numberline {2}In Media We ... Trust?}{19}
-\contentsline {section}{\numberline {2.1}Why Does Media Trust Matter?}{20}
-\contentsline {section}{\numberline {2.2}How is Media Trust Formed?}{21}
-\contentsline {subsection}{\numberline {2.2.1}The Role of the Reader}{21}
-\contentsline {subsection}{\numberline {2.2.2}The Role of Media Brands}{22}
-\contentsline {subsection}{\numberline {2.2.3}The Role of Language}{22}
-\contentsline {chapter}{\numberline {3}Tools for Dissecting Trust}{25}
-\contentsline {section}{\numberline {3.1}Computing Reading Level}{25}
-\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{25}
-\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{26}
-\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{26}
-\contentsline {subsection}{\numberline {3.2.1}CrowdFlower}{27}
-\contentsline {chapter}{\numberline {4}Study}{29}
-\contentsline {section}{\numberline {4.1}Hypotheses}{29}
-\contentsline {section}{\numberline {4.2}Experimental Design}{30}
-\contentsline {subsection}{\numberline {4.2.1}Dataset}{32}
-\contentsline {subsection}{\numberline {4.2.2}Survey Design}{33}
-\contentsline {subsection}{\numberline {4.2.3}Quality Control}{34}
-\contentsline {section}{\numberline {4.3}Survey Results}{35}
-\contentsline {subsection}{\numberline {4.3.1}Demographics}{36}
-\contentsline {subsection}{\numberline {4.3.2}Location}{37}
-\contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{37}
-\contentsline {subsection}{\numberline {4.3.4}Trust}{39}
-\contentsline {chapter}{\numberline {5}Analysis}{41}
-\contentsline {section}{\numberline {5.1}Reading Level Effects}{41}
-\contentsline {section}{\numberline {5.2}Media Brand Effects}{42}
-\contentsline {section}{\numberline {5.3}Hostile Media Brand Effects}{44}
-\contentsline {section}{\numberline {5.4}Conclusions}{44}
-\contentsline {section}{\numberline {5.5}Limitations \& Future Work}{45}
-\contentsline {part}{II\hspace {1em}Sharing the News}{46}
-\contentsline {chapter}{\numberline {6}Taking Media Analysis to Another Dimension of Data}{47}
-\contentsline {section}{\numberline {6.1}The Social Media Megaphone}{48}
-\contentsline {section}{\numberline {6.2}The (Short) Attention Economy}{49}
-\contentsline {section}{\numberline {6.3}Negativity in Politics and the Internet}{49}
-\contentsline {chapter}{\numberline {7}Data Collection}{51}
-\contentsline {section}{\numberline {7.1}The Electome Project}{51}
-\contentsline {section}{\numberline {7.2}News Dataset}{52}
-\contentsline {subsection}{\numberline {7.2.1}Duration \& Scope}{52}
-\contentsline {subsection}{\numberline {7.2.2}Data Pipeline}{53}
-\contentsline {section}{\numberline {7.3}Tweets Dataset}{54}
-\contentsline {subsection}{\numberline {7.3.1}Duration \& Scope}{54}
-\contentsline {subsection}{\numberline {7.3.2}Data Pipeline}{54}
-\contentsline {section}{\numberline {7.4}Combined Dataset}{55}
-\contentsline {subsection}{\numberline {7.4.1}Mapping Tweets to Stories}{56}
-\contentsline {subsection}{\numberline {7.4.2}Final Corpus}{56}
-\contentsline {subsection}{\numberline {7.4.3}Descriptive Findings}{57}
-\contentsline {chapter}{\numberline {8}Metrics for Political and Emotional Engagement}{61}
-\contentsline {section}{\numberline {8.1}Emotional Coding}{61}
-\contentsline {section}{\numberline {8.2}Followership as a Proxy for Political Engagement}{62}
-\contentsline {subsection}{\numberline {8.2.1}A Look at Candidate Followership}{63}
-\contentsline {subsection}{\numberline {8.2.2}A Look at Levels of Political Engagement}{66}
-\contentsline {chapter}{\numberline {9}Analysis}{69}
-\contentsline {section}{\numberline {9.1}Hypotheses}{69}
-\contentsline {section}{\numberline {9.2}Methodology}{70}
-\contentsline {section}{\numberline {9.3}All Data}{70}
-\contentsline {subsection}{\numberline {9.3.1}Story Length}{70}
-\contentsline {subsection}{\numberline {9.3.2}Emotionality}{72}
-\contentsline {subsection}{\numberline {9.3.3}Positivity}{73}
-\contentsline {section}{\numberline {9.4}By Degree of Political Engagement}{74}
-\contentsline {section}{\numberline {9.5}By Candidate}{75}
-\contentsline {chapter}{\numberline {10}Conclusion}{77}
-\contentsline {section}{\numberline {10.1}Summary of Findings}{77}
-\contentsline {section}{\numberline {10.2}Limitations \& Future Work}{78}
-\contentsline {chapter}{\numberline {11}Final Remarks}{81}
-\contentsline {chapter}{\numberline {A}Tables}{83}
-\contentsline {chapter}{\numberline {B}Figures}{105}
+\contentsline {part}{I\hspace {1em}Reading the News}{15}{part.1}
+\contentsline {chapter}{\numberline {1}Introduction}{17}{chapter.1}
+\contentsline {chapter}{\numberline {2}In Media We ... Trust?}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Why Does Media Trust Matter?}{20}{section.2.1}
+\contentsline {section}{\numberline {2.2}How is Media Trust Formed?}{21}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Role of the Reader}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}The Role of Media Brands}{22}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The Role of Language}{22}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Tools for Dissecting Trust}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Computing Reading Level}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Flesch-Kincaid Readability Tests}{25}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Comparison to Other Reading Tests}{26}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Crowdsourcing Science}{26}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}CrowdFlower}{27}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}Study}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Hypotheses}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Experimental Design}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Survey Design}{33}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Quality Control}{34}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Survey Results}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Demographics}{36}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Location}{37}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Political Affiliation}{37}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Trust}{39}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Analysis}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Reading Level Effects}{41}{section.5.1}
+\contentsline {section}{\numberline {5.2}Media Brand Effects}{42}{section.5.2}
+\contentsline {section}{\numberline {5.3}Hostile Media Brand Effects}{44}{section.5.3}
+\contentsline {section}{\numberline {5.4}Conclusions}{44}{section.5.4}
+\contentsline {section}{\numberline {5.5}Limitations \& Future Work}{45}{section.5.5}
+\contentsline {part}{II\hspace {1em}Sharing the News}{46}{part.2}
+\contentsline {chapter}{\numberline {6}Taking Media Analysis to Another Dimension of Data}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}The Social Media Megaphone}{48}{section.6.1}
+\contentsline {section}{\numberline {6.2}The (Short) Attention Economy}{49}{section.6.2}
+\contentsline {section}{\numberline {6.3}Negativity in Politics and the Internet}{49}{section.6.3}
+\contentsline {chapter}{\numberline {7}Data Collection}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}The Electome Project}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}News Dataset}{52}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Duration \& Scope}{52}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Data Pipeline}{53}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Tweets Dataset}{54}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Duration \& Scope}{54}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Data Pipeline}{54}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Combined Dataset}{55}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Mapping Tweets to Stories}{56}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Final Corpus}{56}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Descriptive Findings}{57}{subsection.7.4.3}
+\contentsline {chapter}{\numberline {8}Metrics for Political and Emotional Engagement}{61}{chapter.8}
+\contentsline {section}{\numberline {8.1}Emotional Coding}{61}{section.8.1}
+\contentsline {section}{\numberline {8.2}Followership as a Proxy for Political Engagement}{62}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}A Look at Candidate Followership}{63}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}A Look at Levels of Political Engagement}{66}{subsection.8.2.2}
+\contentsline {chapter}{\numberline {9}Analysis}{69}{chapter.9}
+\contentsline {section}{\numberline {9.1}Hypotheses}{69}{section.9.1}
+\contentsline {section}{\numberline {9.2}Methodology}{70}{section.9.2}
+\contentsline {section}{\numberline {9.3}All Data}{70}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Story Length}{70}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Emotionality}{72}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Positivity}{73}{subsection.9.3.3}
+\contentsline {section}{\numberline {9.4}By Degree of Political Engagement}{74}{section.9.4}
+\contentsline {section}{\numberline {9.5}By Candidate}{75}{section.9.5}
+\contentsline {chapter}{\numberline {10}Conclusion}{77}{chapter.10}
+\contentsline {section}{\numberline {10.1}Summary of Findings}{77}{section.10.1}
+\contentsline {section}{\numberline {10.2}Limitations \& Future Work}{78}{section.10.2}
+\contentsline {chapter}{\numberline {11}Final Remarks}{81}{chapter.11}
+\contentsline {chapter}{\numberline {A}Tables}{83}{appendix.A}
+\contentsline {chapter}{\numberline {B}Figures}{105}{appendix.B}

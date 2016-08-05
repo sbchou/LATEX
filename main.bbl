@@ -4,33 +4,29 @@
 
 \bibitem{CrowdFlower-guide}
 Guide to running surveys: Crowdflower success center.
-\newblock
-  \url{https://success.crowdflower.com/hc/en-us/articles/201855969-Survey-Guide-To-Running-Surveys}.
+\newblock Retrieved from \url{http://www.crowdflower.com}.
 \newblock (Accessed on 04/21/2016).
-
-\bibitem{Greenwald}
-Is glenn greenwald the future of news? -- the new york times.
-\newblock
-  \url{http://www.nytimes.com/2013/10/28/opinion/a-conversation-in-lieu-of-a-column.html?mtrref=www.google.com&gwh=450466A4B52C2124639CE220312812D5&gwt=pay&assetType=opinion}.
-\newblock (Accessed on 04/20/2016).
-
-\bibitem{Pew-demographics}
-Pew demographic survey questions.
-\newblock
-  \url{http://www.pewresearch.org/files/2015/03/Demographic-Questions-Phone-English-3-20-2015.pdf}.
-\newblock (Accessed on 04/22/2016).
 
 \bibitem{Pew-bias-2012}
 Perceptions of bias, news knowledge.
 \newblock {\em Pew Research Center}, feb 2012.
 \newblock (Accessed on 04/06/2016).
 
+\bibitem{Greenwald}
+Is glenn greenwald the future of news?
+\newblock Retrieved from \url{http://www.nytimes.com}, oct 2013.
+\newblock (Accessed on 04/20/2016).
+
 \bibitem{CrowdFlower-levels}
 Introducing contributor performance levels: Crowdflower community.
-\newblock
-  \url{http://crowdflowercommunity.tumblr.com/post/80598014542/introducing-contributor-performance-levels},
-  mar 2014.
+\newblock Retrieved from \url{http://www.crowdflowercommunity.tumblr.com}, mar
+  2014.
 \newblock (Accessed on 04/21/2016).
+
+\bibitem{Pew-demographics}
+Pew demographic survey questions.
+\newblock Retrieved from \url{http://www.pewresearch.org}, mar 2015.
+\newblock (Accessed on 04/22/2016).
 
 \bibitem{March45online}
 March 1 election results 2016 updates | the washington post.
@@ -41,10 +37,8 @@ March 1 election results 2016 updates | the washington post.
 
 \bibitem{pew-Twitter-news}
 Michael Bartherl, Elisa Shearer, Jeffrey Gottfried, and Amy Mitchell.
-\newblock How do americans use twitter for news? | pew research center.
-\newblock
-  \url{http://www.pewresearch.org/fact-tank/2015/08/19/how-do-americans-use-Twitter-for-news/},
-  jul 2015.
+\newblock How do americans use twitter for news?
+\newblock Retrieved from \url{http://www.pewresearch.org}, jul 2015.
 \newblock (Accessed on 07/12/2016).
 
 \bibitem{baum2008eye}
@@ -78,12 +72,9 @@ Elanor Colleoni, Alessandro Rozza, and Adam Arvidsson.
 \newblock {\em Journal of Communication}, 64(2):317--332, 2014.
 
 \bibitem{nyt-trump-free-media}
-NICHOLAS CONFESSORE and KAREN YOURISH.
-\newblock \$2 billion worth of free media for donald trump - the new york
-  times.
-\newblock
-  \url{http://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html},
-  mar 2016.
+Nicholas Confessore and Karen Yourish.
+\newblock \$2 billion worth of free media for donald trump.
+\newblock Retrieved from \url{http://www.nytimes.com}, mar 2016.
 \newblock (Accessed on 07/12/2016).
 
 \bibitem{finin2010annotating}
@@ -97,9 +88,7 @@ Tim Finin, Will Murnane, Anand Karandikar, Nicholas Keller, Justin Martineau,
 \bibitem{Vocativ-speech}
 EJ~Fox, Mike Spies, and Matan Gilat.
 \newblock Analysis: Presidents' speeches getting dumb \& dumber.
-\newblock
-  \url{http://www.vocativ.com/interactive/usa/us-politics/presidential-readability/},
-  oct 2014.
+\newblock Retrieved from \url{http://www.vocativ.com}, oct 2014.
 \newblock (Accessed on 04/22/2016).
 
 \bibitem{goldhaber1997attention}
@@ -110,9 +99,7 @@ Michael~H Goldhaber.
 \bibitem{election-fatigue}
 Jeffrey Gottfried.
 \newblock Most americans already feel election coverage fatigue.
-\newblock
-  \url{http://www.pewresearch.org/fact-tank/2016/07/14/most-americans-already-feel-election-coverage-fatigue/},
-  Jul 2016.
+\newblock Retrieved from \url{http://www.pewresearch.org}, Jul 2016.
 \newblock (Accessed on 07/16/2016).
 
 \bibitem{gunther1988attitude}
@@ -171,9 +158,7 @@ Winter Mason and Siddharth Suri.
 Amy Mitchell, Jeffrey Gottfried, Jocelyn Kiley, and Katerina Eva~Matsa.
 \newblock Media sources: Distinct favorites emerge on the left and right | pew
   research center.
-\newblock
-  \url{http://www.journalism.org/2014/10/21/section-1-media-sources-distinct-favorites-emerge-on-the-left-and-right/},
-  Oct 2014.
+\newblock Retrieved from \url{http://www.journalism.org}, Oct 2014.
 \newblock (Accessed on 07/30/2016).
 
 \bibitem{PoliticalPolarization}
@@ -201,8 +186,7 @@ Associated Press.
 \bibitem{Gallup-trust-2015}
 Rebecca Riffkin.
 \newblock Americans' trust in media remains at historical low.
-\newblock
-  \url{http://www.gallup.com/poll/185927/americans-trust-media-remains-historical-low.aspx}.
+\newblock Retrieved from \url{http://www.gallup.com}, sep 2015.
 \newblock (Accessed on 04/20/2016).
 
 \bibitem{scott1997regression}
@@ -252,11 +236,8 @@ Prashanth Vijayaraghavan, Soroush Vosoughi, and Deb Roy.
 
 \bibitem{Globe-language-article}
 Matt Viser.
-\newblock For presidential hopefuls, simpler language resonates - the boston
-  globe.
-\newblock
-  \url{https://www.bostonglobe.com/news/politics/2015/10/20/donald-trump-and-ben-carson-speak-grade-school-level-that-today-voters-can-quickly-grasp/LUCBY6uwQAxiLvvXbVTSUN/story.html},
-  oct 2015.
+\newblock For presidential hopefuls, simpler language resonates.
+\newblock Retrieved from \url{http://www.bostonglobe.com}, oct 2015.
 \newblock (Accessed on 04/22/2016).
 
 \bibitem{weisberg2008seductive}

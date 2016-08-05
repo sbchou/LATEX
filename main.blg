@@ -33,15 +33,15 @@ Warning--empty author in Pew-bias-2012
 Warning--empty journal in sherif1961social
 You've used 42 entries,
             2118 wiz_defined-function locations,
-            768 strings with 12454 characters,
-and the built_in function-call counts, 11566 in all, are:
-= -- 1144
+            768 strings with 11430 characters,
+and the built_in function-call counts, 11584 in all, are:
+= -- 1147
 > -- 484
 < -- 3
 + -- 204
 - -- 154
-* -- 717
-:= -- 1924
+* -- 726
+:= -- 1927
 add.period$ -- 138
 call.type$ -- 42
 change.case$ -- 199
@@ -50,17 +50,17 @@ cite$ -- 50
 duplicate$ -- 427
 empty$ -- 992
 format.name$ -- 154
-if$ -- 2433
+if$ -- 2436
 int.to.chr$ -- 0
 int.to.str$ -- 42
 missing$ -- 30
 newline$ -- 224
 num.names$ -- 72
-pop$ -- 261
+pop$ -- 255
 preamble$ -- 2
 purify$ -- 159
 quote$ -- 0
-skip$ -- 301
+skip$ -- 304
 stack$ -- 0
 substring$ -- 568
 swap$ -- 60
@@ -71,5 +71,5 @@ type$ -- 162
 warning$ -- 8
 while$ -- 105
 width$ -- 44
-write$ -- 460
+write$ -- 463
 (There were 8 warnings)
